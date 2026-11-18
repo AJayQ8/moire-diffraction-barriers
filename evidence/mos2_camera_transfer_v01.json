@@ -1,0 +1,2111 @@
+{
+  "development_map_coefficients": {
+    "DS11": {
+      "compression_only": [
+        0.6878425046865966,
+        0.17479620661131542
+      ],
+      "empirical_first_harmonic": [
+        0.9045931902415283,
+        -0.06729859069174174
+      ],
+      "empirical_three_harmonics": [
+        0.9247912582987868,
+        -0.08055926633485498
+      ],
+      "energy_scaled_first_order": [
+        0.916266536264734,
+        -0.034411089020857315
+      ],
+      "full": [
+        0.9427049042665,
+        -0.06130807709993873
+      ],
+      "rigid": [
+        0.679329297710625,
+        0.18029968623571513
+      ],
+      "rotation_only": [
+        0.9304458937326388,
+        -0.043106674200340464
+      ],
+      "soliton_effective_adhesion": [
+        0.8965784006212086,
+        -0.002759742454715323
+      ],
+      "soliton_first_star": [
+        0.8051285097566722,
+        0.09511414252751413
+      ]
+    },
+    "DS5": {
+      "compression_only": [
+        0.5946289440959479,
+        0.27216259076377247
+      ],
+      "empirical_first_harmonic": [
+        0.9363429103463365,
+        -0.03377607354139288
+      ],
+      "empirical_three_harmonics": [
+        0.9451779623336666,
+        -0.041096747294145454
+      ],
+      "energy_scaled_first_order": [
+        0.9282654741030765,
+        -0.020900077262133304
+      ],
+      "full": [
+        0.9700790890029025,
+        -0.06345709423834187
+      ],
+      "rigid": [
+        0.5936671648430966,
+        0.2727377256171392
+      ],
+      "rotation_only": [
+        0.9673156003494203,
+        -0.05973836565893822
+      ],
+      "soliton_effective_adhesion": [
+        0.9302795178953022,
+        -0.000983889931849208
+      ],
+      "soliton_first_star": [
+        0.8100950980211513,
+        0.12977952023348796
+      ]
+    },
+    "DS7": {
+      "compression_only": [
+        0.30858008983053253,
+        0.46414893011404873
+      ],
+      "empirical_first_harmonic": [
+        0.7540916484012539,
+        0.15264843918022356
+      ],
+      "empirical_three_harmonics": [
+        0.7728957833054523,
+        0.13898364947700317
+      ],
+      "energy_scaled_first_order": [
+        0.7646498281103116,
+        0.12136983497559227
+      ],
+      "full": [
+        0.8492420238842507,
+        0.017487632085077417
+      ],
+      "rigid": [
+        0.3085336719762482,
+        0.46420186767783644
+      ],
+      "rotation_only": [
+        0.8494796381674854,
+        0.019363642415981683
+      ],
+      "soliton_effective_adhesion": [
+        0.8185786167071794,
+        0.05698901293017916
+      ],
+      "soliton_first_star": [
+        0.7213785920330269,
+        0.18494202823647252
+      ]
+    },
+    "DS8": {
+      "compression_only": [
+        0.5212730485649805,
+        0.3013606926561953
+      ],
+      "empirical_first_harmonic": [
+        0.9145267599368173,
+        -0.02175807765989641
+      ],
+      "empirical_three_harmonics": [
+        0.9335146927487072,
+        -0.03537607036393373
+      ],
+      "energy_scaled_first_order": [
+        0.9210857784649136,
+        -0.012552883986196264
+      ],
+      "full": [
+        0.9634925744763081,
+        -0.06586054864742766
+      ],
+      "rigid": [
+        0.5237648721206914,
+        0.3003724871195694
+      ],
+      "rotation_only": [
+        0.9615990198882537,
+        -0.05922485541680121
+      ],
+      "soliton_effective_adhesion": [
+        0.8914728721820605,
+        0.011161264698611376
+      ],
+      "soliton_first_star": [
+        0.7658056714780184,
+        0.14435401605038695
+      ]
+    }
+  },
+  "frozen_common_coefficients": [
+    0.9095599750891727,
+    -0.016726480624164784
+  ],
+  "frozen_model_coefficients": {
+    "compression_only": [
+      0.5579509963304642,
+      0.28676164170998386
+    ],
+    "empirical_first_harmonic": [
+      0.9095599750891727,
+      -0.027767075600644644
+    ],
+    "empirical_three_harmonics": [
+      0.9291529755237471,
+      -0.03823640882903959
+    ],
+    "energy_scaled_first_order": [
+      0.9186761573648238,
+      -0.016726480624164784
+    ],
+    "full": [
+      0.9530987393714041,
+      -0.0623825856691403
+    ],
+    "rigid": [
+      0.558716018481894,
+      0.2865551063683543
+    ],
+    "rotation_only": [
+      0.9460224568104463,
+      -0.05116576480857084
+    ],
+    "soliton_effective_adhesion": [
+      0.8940256364016346,
+      0.0050886873833810835
+    ],
+    "soliton_first_star": [
+      0.7854670906173453,
+      0.13706676814193747
+    ]
+  },
+  "input_sha256": {
+    "moire_common_intensity_replay_v01.json": "4060ad3de694ff33719d921ced00b28727d03300aea298fdcbd5101fdf7614df",
+    "moire_regime_benchmark_v02.json": "660ad736b10aeeea12875974445607ae0bcc9a5d58608bcf840b603b5d6c5f9b",
+    "mos2_intensity_only_development_v01.json": "d0d96674fd8b16a0e4f44de0f7a8fd9fd6287676d41921d8f26bf654641909eb",
+    "mos2_intensity_only_replay_v01.json": "68119904913a1612116f135cb3adea1ecf7904cf0470ee21d133de65897c0da1",
+    "mos2_template_replay_v01.json": "b07d5d9e82af11316facbd146e9b38ee329ff0033e8b5638fdf626451853f7ab",
+    "registry_protocol_v01.json": "40a1a5e5101dbb51c63d5b67e0d0f9d300d094ef313bf621538f63d4f7785c95",
+    "run_mos2_camera_transfer.py": "b73f71ad1110cecb4eb586ff5f801aed563ec3c8ff917b82865405d7c6c6abd6"
+  },
+  "limits": "Retrospective after the target maps were examined. The development and target map identities do not establish independent specimens. Detector normalization still uses training pixels from each target map.",
+  "scans": {
+    "DS1": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4986358377855809,
+          "model_specific_from_development": 0.37519653614534626,
+          "same_for_all_from_development": 0.5151331892535572
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.38010185419383086,
+          "model_specific_from_development": 0.4015564491570375,
+          "same_for_all_from_development": 0.3952760987453853
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.37406761404715044,
+          "model_specific_from_development": 0.3980226087776665,
+          "same_for_all_from_development": 0.38910060853059275
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3652778467679557,
+          "model_specific_from_development": 0.38433190863169875,
+          "same_for_all_from_development": 0.38607019017301764
+        },
+        "full": {
+          "ideal_even_response": 0.25948581552000116,
+          "model_specific_from_development": 0.22706315636499735,
+          "same_for_all_from_development": 0.22491862921181247
+        },
+        "rigid": {
+          "ideal_even_response": 0.5000569637645126,
+          "model_specific_from_development": 0.3751074609976096,
+          "same_for_all_from_development": 0.517107032090554
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.25791036198330686,
+          "model_specific_from_development": 0.24354858564729456,
+          "same_for_all_from_development": 0.24046853119836253
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2739555916855525,
+          "model_specific_from_development": 0.2380916067361401,
+          "same_for_all_from_development": 0.2379091681216024
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.26406317669211193,
+          "model_specific_from_development": 0.23264067438682343,
+          "same_for_all_from_development": 0.24043459666972938
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.509237010182558,
+          "model_specific_from_development": 0.40057376002487627,
+          "same_for_all_from_development": 0.5171347508939151
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3940610484948183,
+          "model_specific_from_development": 0.4047527732931674,
+          "same_for_all_from_development": 0.400107699154711
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3827686706078025,
+          "model_specific_from_development": 0.39871871005127807,
+          "same_for_all_from_development": 0.39117516560433074
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.4051513254166832,
+          "model_specific_from_development": 0.4142543501536742,
+          "same_for_all_from_development": 0.41511487532449126
+        },
+        "full": {
+          "ideal_even_response": 0.3379586584647576,
+          "model_specific_from_development": 0.2994650950427556,
+          "same_for_all_from_development": 0.2989431430658415
+        },
+        "rigid": {
+          "ideal_even_response": 0.5204851208814563,
+          "model_specific_from_development": 0.4084118782111865,
+          "same_for_all_from_development": 0.527532644126115
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.31451079586303216,
+          "model_specific_from_development": 0.2881667077210192,
+          "same_for_all_from_development": 0.2869019091055238
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.3438135198040912,
+          "model_specific_from_development": 0.304368831534082,
+          "same_for_all_from_development": 0.30280076115780463
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.3274883097217239,
+          "model_specific_from_development": 0.2999323154715124,
+          "same_for_all_from_development": 0.2967768861806511
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.47615808489936673,
+          "model_specific_from_development": 0.3780412063742205,
+          "same_for_all_from_development": 0.4830008464288168
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3613357406846404,
+          "model_specific_from_development": 0.3685855207409827,
+          "same_for_all_from_development": 0.36444422160294637
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.35242149451672183,
+          "model_specific_from_development": 0.3630784501496631,
+          "same_for_all_from_development": 0.3564920790144246
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.34538866159730747,
+          "model_specific_from_development": 0.3536173021171148,
+          "same_for_all_from_development": 0.35462326025926294
+        },
+        "full": {
+          "ideal_even_response": 0.3662605146741153,
+          "model_specific_from_development": 0.31874694373625795,
+          "same_for_all_from_development": 0.3192867818007632
+        },
+        "rigid": {
+          "ideal_even_response": 0.4874759227026456,
+          "model_specific_from_development": 0.3847274895820105,
+          "same_for_all_from_development": 0.49511881204001335
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.35251849789577516,
+          "model_specific_from_development": 0.32211446608603345,
+          "same_for_all_from_development": 0.320617463796266
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.37432000105797925,
+          "model_specific_from_development": 0.3277517905623011,
+          "same_for_all_from_development": 0.32533329666713917
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.34386452434057074,
+          "model_specific_from_development": 0.31430417786404985,
+          "same_for_all_from_development": 0.30341078179701475
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.5218169187008755,
+          "model_specific_from_development": 0.388595150441123,
+          "same_for_all_from_development": 0.5375764439661307
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.40762100711708893,
+          "model_specific_from_development": 0.43106986589100604,
+          "same_for_all_from_development": 0.4244203732069499
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.40085927177068903,
+          "model_specific_from_development": 0.42876524468108124,
+          "same_for_all_from_development": 0.4189003744387076
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.40988011362229165,
+          "model_specific_from_development": 0.42690982246436165,
+          "same_for_all_from_development": 0.42835076844575554
+        },
+        "full": {
+          "ideal_even_response": 0.22021699037496978,
+          "model_specific_from_development": 0.19894849474163417,
+          "same_for_all_from_development": 0.19454740469736667
+        },
+        "rigid": {
+          "ideal_even_response": 0.5198790213035371,
+          "model_specific_from_development": 0.38804385936646607,
+          "same_for_all_from_development": 0.5346227078941926
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2049131661117147,
+          "model_specific_from_development": 0.19589821263111754,
+          "same_for_all_from_development": 0.19227050877128382
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2317493267567661,
+          "model_specific_from_development": 0.204665872235015,
+          "same_for_all_from_development": 0.20627449575715226
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.24237601753219484,
+          "model_specific_from_development": 0.20988858599283486,
+          "same_for_all_from_development": 0.2311501797982644
+        }
+      }
+    ],
+    "DS10": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.37121746776860376,
+          "model_specific_from_development": 0.32196772327409007,
+          "same_for_all_from_development": 0.37749691963974097
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.26820344937326346,
+          "model_specific_from_development": 0.25694026013462307,
+          "same_for_all_from_development": 0.25610465393248527
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2604379690982779,
+          "model_specific_from_development": 0.24993608635071463,
+          "same_for_all_from_development": 0.2484810650276702
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.26648525366715536,
+          "model_specific_from_development": 0.2568614102137599,
+          "same_for_all_from_development": 0.2567990983066576
+        },
+        "full": {
+          "ideal_even_response": 0.26846104635479284,
+          "model_specific_from_development": 0.25379736535797087,
+          "same_for_all_from_development": 0.25172802503290753
+        },
+        "rigid": {
+          "ideal_even_response": 0.37088111113093936,
+          "model_specific_from_development": 0.3218854594887707,
+          "same_for_all_from_development": 0.37725629637900193
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.26593451206561974,
+          "model_specific_from_development": 0.25379912489791373,
+          "same_for_all_from_development": 0.25187818746488627
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2763940209869482,
+          "model_specific_from_development": 0.2650563147173827,
+          "same_for_all_from_development": 0.2665655593671198
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.30244603272946596,
+          "model_specific_from_development": 0.28520558831697257,
+          "same_for_all_from_development": 0.30651709062453736
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3159352790844678,
+          "model_specific_from_development": 0.2868138896627897,
+          "same_for_all_from_development": 0.32242370125749437
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.20596185075716544,
+          "model_specific_from_development": 0.1833131986134709,
+          "same_for_all_from_development": 0.1841286915026705
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.20481039173850837,
+          "model_specific_from_development": 0.18172495496233892,
+          "same_for_all_from_development": 0.18281935879360112
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.20311364645028027,
+          "model_specific_from_development": 0.1849453119825091,
+          "same_for_all_from_development": 0.1846092996984752
+        },
+        "full": {
+          "ideal_even_response": 0.2126986674188817,
+          "model_specific_from_development": 0.18091515085314142,
+          "same_for_all_from_development": 0.18467588547727845
+        },
+        "rigid": {
+          "ideal_even_response": 0.3165098872261242,
+          "model_specific_from_development": 0.28713689970496503,
+          "same_for_all_from_development": 0.32306550688902247
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.20955762666333813,
+          "model_specific_from_development": 0.18267930858365775,
+          "same_for_all_from_development": 0.18489785125030575
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2033644857572515,
+          "model_specific_from_development": 0.1870554489813487,
+          "same_for_all_from_development": 0.18562298047192025
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.22593913291544163,
+          "model_specific_from_development": 0.22285792507997698,
+          "same_for_all_from_development": 0.22968552495820022
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3583674823168522,
+          "model_specific_from_development": 0.3169108927632967,
+          "same_for_all_from_development": 0.3637333700770369
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2504348536262527,
+          "model_specific_from_development": 0.23627323617898874,
+          "same_for_all_from_development": 0.2359626524257437
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.24648860183300894,
+          "model_specific_from_development": 0.23252214222381248,
+          "same_for_all_from_development": 0.231904055455612
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2495473383095962,
+          "model_specific_from_development": 0.2376475946158983,
+          "same_for_all_from_development": 0.23750105197320398
+        },
+        "full": {
+          "ideal_even_response": 0.2531264983523789,
+          "model_specific_from_development": 0.23391585814728072,
+          "same_for_all_from_development": 0.2336931931185947
+        },
+        "rigid": {
+          "ideal_even_response": 0.3595260997442771,
+          "model_specific_from_development": 0.3176970134660199,
+          "same_for_all_from_development": 0.3648430715378805
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2512881289259704,
+          "model_specific_from_development": 0.2353058208502404,
+          "same_for_all_from_development": 0.23469545476679105
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2563531423482835,
+          "model_specific_from_development": 0.24418046155574802,
+          "same_for_all_from_development": 0.2447640240562277
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.28296685191313153,
+          "model_specific_from_development": 0.2707328577033872,
+          "same_for_all_from_development": 0.28647041255641176
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3341169338425549,
+          "model_specific_from_development": 0.29432697213958414,
+          "same_for_all_from_development": 0.341465121892768
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.22776013314618254,
+          "model_specific_from_development": 0.20890908177738962,
+          "same_for_all_from_development": 0.20907803572274797
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.22209173532258492,
+          "model_specific_from_development": 0.20354017847009187,
+          "same_for_all_from_development": 0.2035187760909897
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.22543502052381895,
+          "model_specific_from_development": 0.2101387410180846,
+          "same_for_all_from_development": 0.20985582403620348
+        },
+        "full": {
+          "ideal_even_response": 0.23310364661892258,
+          "model_specific_from_development": 0.20758979339923403,
+          "same_for_all_from_development": 0.20873303309927055
+        },
+        "rigid": {
+          "ideal_even_response": 0.3340449456681097,
+          "model_specific_from_development": 0.2941843783208244,
+          "same_for_all_from_development": 0.34156610745854027
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.22968791979613454,
+          "model_specific_from_development": 0.2080716152635643,
+          "same_for_all_from_development": 0.20841192362951133
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2303858452276437,
+          "model_specific_from_development": 0.21550397109987537,
+          "same_for_all_from_development": 0.21540366473323827
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2528236647856111,
+          "model_specific_from_development": 0.24273124392404988,
+          "same_for_all_from_development": 0.25693509623246624
+        }
+      }
+    ],
+    "DS12": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.42087530697906445,
+          "model_specific_from_development": 0.3418318169644853,
+          "same_for_all_from_development": 0.43044539560002726
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.255031137013325,
+          "model_specific_from_development": 0.2646719737505895,
+          "same_for_all_from_development": 0.26077970921446936
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.24963205711576225,
+          "model_specific_from_development": 0.26051642644036194,
+          "same_for_all_from_development": 0.255854591454861
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.24742234643369854,
+          "model_specific_from_development": 0.24833948720906143,
+          "same_for_all_from_development": 0.24924816810144132
+        },
+        "full": {
+          "ideal_even_response": 0.23561097834519515,
+          "model_specific_from_development": 0.2216724565587417,
+          "same_for_all_from_development": 0.21936190329807903
+        },
+        "rigid": {
+          "ideal_even_response": 0.42151758302734793,
+          "model_specific_from_development": 0.3421741440815994,
+          "same_for_all_from_development": 0.43111254729564247
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23404307467206167,
+          "model_specific_from_development": 0.22336134736797422,
+          "same_for_all_from_development": 0.2214161545484632
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.24301160903257008,
+          "model_specific_from_development": 0.22974142673545536,
+          "same_for_all_from_development": 0.23104945203431776
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2670640665277424,
+          "model_specific_from_development": 0.25044384204162207,
+          "same_for_all_from_development": 0.27439948250995594
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3861474845445651,
+          "model_specific_from_development": 0.3166172281226348,
+          "same_for_all_from_development": 0.3909627139006421
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.21453184991193472,
+          "model_specific_from_development": 0.2102259085582311,
+          "same_for_all_from_development": 0.20789095610862718
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.20878602814751146,
+          "model_specific_from_development": 0.20638235414994513,
+          "same_for_all_from_development": 0.2032432454607878
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.21611356467510826,
+          "model_specific_from_development": 0.2038027476992851,
+          "same_for_all_from_development": 0.20380727983533287
+        },
+        "full": {
+          "ideal_even_response": 0.2263021870029459,
+          "model_specific_from_development": 0.18884643629347492,
+          "same_for_all_from_development": 0.19110060290071038
+        },
+        "rigid": {
+          "ideal_even_response": 0.38779289682808993,
+          "model_specific_from_development": 0.31756285101161363,
+          "same_for_all_from_development": 0.3925809184590068
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.22311486995645494,
+          "model_specific_from_development": 0.19121258562131127,
+          "same_for_all_from_development": 0.19205737671515224
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.22639446958916412,
+          "model_specific_from_development": 0.19794178387875874,
+          "same_for_all_from_development": 0.1961625268374653
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.23067099067544922,
+          "model_specific_from_development": 0.2189723922326607,
+          "same_for_all_from_development": 0.2262917256763174
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3952747128536714,
+          "model_specific_from_development": 0.3239836745526124,
+          "same_for_all_from_development": 0.4018921426521132
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2414973364586073,
+          "model_specific_from_development": 0.24138860129422487,
+          "same_for_all_from_development": 0.23862283364002995
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2372070956866343,
+          "model_specific_from_development": 0.23857319275626615,
+          "same_for_all_from_development": 0.23487555143450228
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2404568260310892,
+          "model_specific_from_development": 0.23253374132858268,
+          "same_for_all_from_development": 0.23275276838704093
+        },
+        "full": {
+          "ideal_even_response": 0.24287579692016523,
+          "model_specific_from_development": 0.2153372799057499,
+          "same_for_all_from_development": 0.21519470953798578
+        },
+        "rigid": {
+          "ideal_even_response": 0.39810478000570926,
+          "model_specific_from_development": 0.3255966634965567,
+          "same_for_all_from_development": 0.40472908378307704
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2394467224906186,
+          "model_specific_from_development": 0.21668856729770475,
+          "same_for_all_from_development": 0.2159560075572597
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.24578956840895957,
+          "model_specific_from_development": 0.22264584837071505,
+          "same_for_all_from_development": 0.22219746067148657
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2526379955103848,
+          "model_specific_from_development": 0.23807575729344208,
+          "same_for_all_from_development": 0.2516595687246781
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4113744476679151,
+          "model_specific_from_development": 0.33288130947601036,
+          "same_for_all_from_development": 0.41985533387286555
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.23310126714747953,
+          "model_specific_from_development": 0.24054804510671224,
+          "same_for_all_from_development": 0.2368514826439997
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2292327355089323,
+          "model_specific_from_development": 0.2378603555750362,
+          "same_for_all_from_development": 0.23349555299932892
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2286557532498827,
+          "model_specific_from_development": 0.22700304213698544,
+          "same_for_all_from_development": 0.2278000448345315
+        },
+        "full": {
+          "ideal_even_response": 0.22254902246854646,
+          "model_specific_from_development": 0.20106108166136255,
+          "same_for_all_from_development": 0.2003374692854622
+        },
+        "rigid": {
+          "ideal_even_response": 0.41118191805604004,
+          "model_specific_from_development": 0.33285178021186174,
+          "same_for_all_from_development": 0.4196935270463102
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.22034113181123988,
+          "model_specific_from_development": 0.20292756931700173,
+          "same_for_all_from_development": 0.2020101087779419
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.22485999524110176,
+          "model_specific_from_development": 0.20758693736210654,
+          "same_for_all_from_development": 0.20799370046834295
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.24829747357886503,
+          "model_specific_from_development": 0.2332864410894004,
+          "same_for_all_from_development": 0.2536303186291168
+        }
+      }
+    ],
+    "DS13": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4215880027612164,
+          "model_specific_from_development": 0.3391743987737981,
+          "same_for_all_from_development": 0.42331381730658074
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3096742693963079,
+          "model_specific_from_development": 0.30433899317558555,
+          "same_for_all_from_development": 0.3019252127966058
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3052103218830037,
+          "model_specific_from_development": 0.3023293091642729,
+          "same_for_all_from_development": 0.29776401407222974
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3128362465990988,
+          "model_specific_from_development": 0.3033512449842161,
+          "same_for_all_from_development": 0.30304193475964186
+        },
+        "full": {
+          "ideal_even_response": 0.3167841849044137,
+          "model_specific_from_development": 0.2870220723290999,
+          "same_for_all_from_development": 0.28446379323566784
+        },
+        "rigid": {
+          "ideal_even_response": 0.44023628126304853,
+          "model_specific_from_development": 0.35119353482020427,
+          "same_for_all_from_development": 0.4411737146526326
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.32085823964644766,
+          "model_specific_from_development": 0.30991535055376573,
+          "same_for_all_from_development": 0.3048559593669972
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.3242811335019479,
+          "model_specific_from_development": 0.2816698818582722,
+          "same_for_all_from_development": 0.27915986485173583
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2985949609667518,
+          "model_specific_from_development": 0.27568966483194174,
+          "same_for_all_from_development": 0.26959388069073054
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4142655197914294,
+          "model_specific_from_development": 0.33086604289398674,
+          "same_for_all_from_development": 0.41514360906793885
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3085034239461067,
+          "model_specific_from_development": 0.30041618313702434,
+          "same_for_all_from_development": 0.2982260976974863
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3049260038622396,
+          "model_specific_from_development": 0.29971997016634855,
+          "same_for_all_from_development": 0.29507129034322466
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3113348635265439,
+          "model_specific_from_development": 0.2991258692273063,
+          "same_for_all_from_development": 0.29855969996239373
+        },
+        "full": {
+          "ideal_even_response": 0.3180520970983988,
+          "model_specific_from_development": 0.28469874911474125,
+          "same_for_all_from_development": 0.28226602165967224
+        },
+        "rigid": {
+          "ideal_even_response": 0.4313642437435564,
+          "model_specific_from_development": 0.34193894393033797,
+          "same_for_all_from_development": 0.4317650389418072
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.3214624152136484,
+          "model_specific_from_development": 0.3069236892880084,
+          "same_for_all_from_development": 0.301904912825389
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.32511256063913113,
+          "model_specific_from_development": 0.27960546468984704,
+          "same_for_all_from_development": 0.276821073121201
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2987824855088347,
+          "model_specific_from_development": 0.27398796909835266,
+          "same_for_all_from_development": 0.26668603624583054
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.42569166939787795,
+          "model_specific_from_development": 0.34026187120415635,
+          "same_for_all_from_development": 0.4322941224716152
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2983639637765478,
+          "model_specific_from_development": 0.30295609381570454,
+          "same_for_all_from_development": 0.29929559354758517
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.29252781101500347,
+          "model_specific_from_development": 0.2995242943963884,
+          "same_for_all_from_development": 0.2939984695663724
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3035862873589671,
+          "model_specific_from_development": 0.30146200307069143,
+          "same_for_all_from_development": 0.3017944116758303
+        },
+        "full": {
+          "ideal_even_response": 0.2935561339601422,
+          "model_specific_from_development": 0.2730510735159931,
+          "same_for_all_from_development": 0.2691844772476165
+        },
+        "rigid": {
+          "ideal_even_response": 0.4435871985954616,
+          "model_specific_from_development": 0.3520205368282729,
+          "same_for_all_from_development": 0.449215520480711
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.30866220928300364,
+          "model_specific_from_development": 0.3060376153456842,
+          "same_for_all_from_development": 0.3001336273152523
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.29220691974005003,
+          "model_specific_from_development": 0.25591059563033314,
+          "same_for_all_from_development": 0.2541416361746287
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.27272463260114455,
+          "model_specific_from_development": 0.2526406955499757,
+          "same_for_all_from_development": 0.25280223850020284
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4096245257896799,
+          "model_specific_from_development": 0.3305287171289294,
+          "same_for_all_from_development": 0.4065332275199504
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3211481713943585,
+          "model_specific_from_development": 0.3045894814078866,
+          "same_for_all_from_development": 0.30353530703783627
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3190968248894985,
+          "model_specific_from_development": 0.30558391918087147,
+          "same_for_all_from_development": 0.3018321765804481
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3205099185644345,
+          "model_specific_from_development": 0.3016224875090301,
+          "same_for_all_from_development": 0.3004690634370444
+        },
+        "full": {
+          "ideal_even_response": 0.33969826031700795,
+          "model_specific_from_development": 0.29881863038596607,
+          "same_for_all_from_development": 0.2976225402917129
+        },
+        "rigid": {
+          "ideal_even_response": 0.42562081811166574,
+          "model_specific_from_development": 0.34057402691464955,
+          "same_for_all_from_development": 0.42229850824059834
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.33341448059329676,
+          "model_specific_from_development": 0.31129551020688584,
+          "same_for_all_from_development": 0.3072255588359659
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.3574259094751647,
+          "model_specific_from_development": 0.30750381153946765,
+          "same_for_all_from_development": 0.30426589858840886
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.32619495770159795,
+          "model_specific_from_development": 0.29902983207388806,
+          "same_for_all_from_development": 0.28722665814930326
+        }
+      }
+    ],
+    "DS14": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4234875348667709,
+          "model_specific_from_development": 0.33665203363389673,
+          "same_for_all_from_development": 0.42837264068083686
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3123629049054541,
+          "model_specific_from_development": 0.31405067918434276,
+          "same_for_all_from_development": 0.31060621372391356
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3079160484880241,
+          "model_specific_from_development": 0.3123698486542842,
+          "same_for_all_from_development": 0.3066315654704965
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3264199968140271,
+          "model_specific_from_development": 0.3174677386591673,
+          "same_for_all_from_development": 0.3171505370175131
+        },
+        "full": {
+          "ideal_even_response": 0.3230648859129713,
+          "model_specific_from_development": 0.29655446627235327,
+          "same_for_all_from_development": 0.29272630176740017
+        },
+        "rigid": {
+          "ideal_even_response": 0.44537102839811427,
+          "model_specific_from_development": 0.3510042921107709,
+          "same_for_all_from_development": 0.449168522338358
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.33240748220372646,
+          "model_specific_from_development": 0.3230205245561509,
+          "same_for_all_from_development": 0.31723076157384944
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.32048764575357536,
+          "model_specific_from_development": 0.27961564827851054,
+          "same_for_all_from_development": 0.2777240884721048
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2969544690006103,
+          "model_specific_from_development": 0.2717647850057682,
+          "same_for_all_from_development": 0.26944503177765206
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.41941707623605506,
+          "model_specific_from_development": 0.3334620161653895,
+          "same_for_all_from_development": 0.4211166845005221
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3116517693644576,
+          "model_specific_from_development": 0.30576419478313804,
+          "same_for_all_from_development": 0.3032555668682939
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.309175655691653,
+          "model_specific_from_development": 0.30603104799293473,
+          "same_for_all_from_development": 0.30107524464256236
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3099757092393698,
+          "model_specific_from_development": 0.2955215683855292,
+          "same_for_all_from_development": 0.2948157411229591
+        },
+        "full": {
+          "ideal_even_response": 0.3200159986414834,
+          "model_specific_from_development": 0.283327920471076,
+          "same_for_all_from_development": 0.2815574124911485
+        },
+        "rigid": {
+          "ideal_even_response": 0.4380844591743539,
+          "model_specific_from_development": 0.3452944975688537,
+          "same_for_all_from_development": 0.43943183703991684
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.3174415160727789,
+          "model_specific_from_development": 0.30048820098330525,
+          "same_for_all_from_development": 0.29601221854134
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.3397487304741861,
+          "model_specific_from_development": 0.29208123980960543,
+          "same_for_all_from_development": 0.28922846377124906
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.3081098454304494,
+          "model_specific_from_development": 0.2814073856789475,
+          "same_for_all_from_development": 0.27170367012755026
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4110730762892302,
+          "model_specific_from_development": 0.32421068372538464,
+          "same_for_all_from_development": 0.41550663660100895
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2811136435078003,
+          "model_specific_from_development": 0.28118115932958965,
+          "same_for_all_from_development": 0.27786544816692604
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.274499789562381,
+          "model_specific_from_development": 0.2768730529983602,
+          "same_for_all_from_development": 0.27151055508702443
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2874592596236956,
+          "model_specific_from_development": 0.2766796029614175,
+          "same_for_all_from_development": 0.2763681705615131
+        },
+        "full": {
+          "ideal_even_response": 0.28987161698478575,
+          "model_specific_from_development": 0.25565774659713864,
+          "same_for_all_from_development": 0.25372348674588846
+        },
+        "rigid": {
+          "ideal_even_response": 0.43290915245471207,
+          "model_specific_from_development": 0.33849893870202313,
+          "same_for_all_from_development": 0.43655621599836125
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.29989956408227203,
+          "model_specific_from_development": 0.28675566597298113,
+          "same_for_all_from_development": 0.2818611220284846
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.29752692529692426,
+          "model_specific_from_development": 0.25058617303465996,
+          "same_for_all_from_development": 0.24739336708224616
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2663007858223975,
+          "model_specific_from_development": 0.24315078642048793,
+          "same_for_all_from_development": 0.2321566315818108
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4247158449758285,
+          "model_specific_from_development": 0.3394798146296534,
+          "same_for_all_from_development": 0.42775600494298843
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.332166916183313,
+          "model_specific_from_development": 0.3279535467126499,
+          "same_for_all_from_development": 0.32526529397769527
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3319532962056069,
+          "model_specific_from_development": 0.3308061584937612,
+          "same_for_all_from_development": 0.325518564899117
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.33794326453833556,
+          "model_specific_from_development": 0.3249655376374561,
+          "same_for_all_from_development": 0.3242928258017341
+        },
+        "full": {
+          "ideal_even_response": 0.344023360067764,
+          "model_specific_from_development": 0.3129505472305347,
+          "same_for_all_from_development": 0.3096998033579645
+        },
+        "rigid": {
+          "ideal_even_response": 0.4436533885335269,
+          "model_specific_from_development": 0.3514163416825166,
+          "same_for_all_from_development": 0.4462731784533585
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.3410714819603945,
+          "model_specific_from_development": 0.3272145749569303,
+          "same_for_all_from_development": 0.32202342933630945
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.35628260642479237,
+          "model_specific_from_development": 0.3125303039341454,
+          "same_for_all_from_development": 0.3106202222976644
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.3305253268469671,
+          "model_specific_from_development": 0.3017684111041797,
+          "same_for_all_from_development": 0.2983177475284027
+        }
+      }
+    ],
+    "DS2": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.48071093067859105,
+          "model_specific_from_development": 0.36198056005894486,
+          "same_for_all_from_development": 0.49122318318739755
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.35689085596405434,
+          "model_specific_from_development": 0.36918913371039636,
+          "same_for_all_from_development": 0.3640279852016371
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3518988467432671,
+          "model_specific_from_development": 0.36800898633581447,
+          "same_for_all_from_development": 0.35987017028810275
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3208689912085865,
+          "model_specific_from_development": 0.3210908020809552,
+          "same_for_all_from_development": 0.3215498314365581
+        },
+        "full": {
+          "ideal_even_response": 0.3048875182642137,
+          "model_specific_from_development": 0.26554580043056736,
+          "same_for_all_from_development": 0.2634097495371715
+        },
+        "rigid": {
+          "ideal_even_response": 0.4818696493170832,
+          "model_specific_from_development": 0.36280100308542934,
+          "same_for_all_from_development": 0.49234010766463776
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.30192082809614385,
+          "model_specific_from_development": 0.26509539714103336,
+          "same_for_all_from_development": 0.2626230698876235
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.31040533528132963,
+          "model_specific_from_development": 0.2698389295318128,
+          "same_for_all_from_development": 0.269286741636802
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.296093261417928,
+          "model_specific_from_development": 0.2616757431062637,
+          "same_for_all_from_development": 0.26787789114977634
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.48044097267858055,
+          "model_specific_from_development": 0.37133694135310447,
+          "same_for_all_from_development": 0.4897546444202288
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3322492358968121,
+          "model_specific_from_development": 0.3478767883465884,
+          "same_for_all_from_development": 0.34254743671700677
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3203466332164523,
+          "model_specific_from_development": 0.3410995498389406,
+          "same_for_all_from_development": 0.33322363907268215
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2978474937888494,
+          "model_specific_from_development": 0.3024942858196463,
+          "same_for_all_from_development": 0.30343824225221
+        },
+        "full": {
+          "ideal_even_response": 0.2741115370651287,
+          "model_specific_from_development": 0.23366185770036904,
+          "same_for_all_from_development": 0.23374614135856148
+        },
+        "rigid": {
+          "ideal_even_response": 0.481895878779348,
+          "model_specific_from_development": 0.37227167301903064,
+          "same_for_all_from_development": 0.49121361746237807
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2709100443499819,
+          "model_specific_from_development": 0.2336190617898866,
+          "same_for_all_from_development": 0.23296535272696606
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2751500762132375,
+          "model_specific_from_development": 0.2363458150191067,
+          "same_for_all_from_development": 0.23475784822200735
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2555171389746714,
+          "model_specific_from_development": 0.23079244055826403,
+          "same_for_all_from_development": 0.2293128621262182
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.46839676293293586,
+          "model_specific_from_development": 0.35473340821861565,
+          "same_for_all_from_development": 0.476116132258143
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.3383275896003084,
+          "model_specific_from_development": 0.34553426089055167,
+          "same_for_all_from_development": 0.3410132098526441
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3312359076740561,
+          "model_specific_from_development": 0.3429242184485844,
+          "same_for_all_from_development": 0.3354047438379439
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.31181178208732496,
+          "model_specific_from_development": 0.30633936050293187,
+          "same_for_all_from_development": 0.3063728520093987
+        },
+        "full": {
+          "ideal_even_response": 0.3170042675027989,
+          "model_specific_from_development": 0.2689535694538475,
+          "same_for_all_from_development": 0.268318788889769
+        },
+        "rigid": {
+          "ideal_even_response": 0.46836689619638205,
+          "model_specific_from_development": 0.35481512437440055,
+          "same_for_all_from_development": 0.47619878912134916
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.3151927165539443,
+          "model_specific_from_development": 0.2701131680591427,
+          "same_for_all_from_development": 0.2684781016681714
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.3192167602759914,
+          "model_specific_from_development": 0.27260431706682636,
+          "same_for_all_from_development": 0.2709306697148003
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.29807632056290484,
+          "model_specific_from_development": 0.26376391882147293,
+          "same_for_all_from_development": 0.261776870034062
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.4928982669649717,
+          "model_specific_from_development": 0.37899829915876404,
+          "same_for_all_from_development": 0.5060494702435058
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.34944877333978963,
+          "model_specific_from_development": 0.37116941346795823,
+          "same_for_all_from_development": 0.3651101619685642
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.3401859716921662,
+          "model_specific_from_development": 0.3657551505918863,
+          "same_for_all_from_development": 0.3572909975274177
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.3078562926263697,
+          "model_specific_from_development": 0.3185597096571121,
+          "same_for_all_from_development": 0.31994374124536
+        },
+        "full": {
+          "ideal_even_response": 0.26627641797294305,
+          "model_specific_from_development": 0.23703922115221235,
+          "same_for_all_from_development": 0.23524292190217672
+        },
+        "rigid": {
+          "ideal_even_response": 0.49506585918955137,
+          "model_specific_from_development": 0.38065181427358225,
+          "same_for_all_from_development": 0.5081871052864546
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2621040950077289,
+          "model_specific_from_development": 0.23562701626191038,
+          "same_for_all_from_development": 0.2338762166919886
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.27010052339784485,
+          "model_specific_from_development": 0.23912190411536596,
+          "same_for_all_from_development": 0.23892407546946587
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.25720913449471894,
+          "model_specific_from_development": 0.23269821021174905,
+          "same_for_all_from_development": 0.24092592756003384
+        }
+      }
+    ],
+    "DS3": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.31979534391991504,
+          "model_specific_from_development": 0.2920944421763707,
+          "same_for_all_from_development": 0.33379326800439413
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.21489071482771796,
+          "model_specific_from_development": 0.20242370689001918,
+          "same_for_all_from_development": 0.20210856628510773
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.21590064889166372,
+          "model_specific_from_development": 0.20289331563030488,
+          "same_for_all_from_development": 0.2031629880261502
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2126532994988193,
+          "model_specific_from_development": 0.20472851290452856,
+          "same_for_all_from_development": 0.20522035345742262
+        },
+        "full": {
+          "ideal_even_response": 0.2132657407485193,
+          "model_specific_from_development": 0.20203712630218856,
+          "same_for_all_from_development": 0.20213143436011566
+        },
+        "rigid": {
+          "ideal_even_response": 0.3195708887805378,
+          "model_specific_from_development": 0.29190633004027144,
+          "same_for_all_from_development": 0.33362765233423075
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.21261489165165037,
+          "model_specific_from_development": 0.20162535972061826,
+          "same_for_all_from_development": 0.20205999313822018
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.21556370970505248,
+          "model_specific_from_development": 0.21539190351195536,
+          "same_for_all_from_development": 0.21712490050289643
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.256224306392954,
+          "model_specific_from_development": 0.24897351032388176,
+          "same_for_all_from_development": 0.2700551048085211
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.340079555175936,
+          "model_specific_from_development": 0.30454273006172256,
+          "same_for_all_from_development": 0.3521716408936781
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.23122747635984767,
+          "model_specific_from_development": 0.2214509187082779,
+          "same_for_all_from_development": 0.22072734740867692
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2320711116432695,
+          "model_specific_from_development": 0.22217997417628257,
+          "same_for_all_from_development": 0.22164655414440979
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.23258212655824145,
+          "model_specific_from_development": 0.22632776028727258,
+          "same_for_all_from_development": 0.22678192917839796
+        },
+        "full": {
+          "ideal_even_response": 0.23225491806880405,
+          "model_specific_from_development": 0.22472163926311484,
+          "same_for_all_from_development": 0.2230953899890613
+        },
+        "rigid": {
+          "ideal_even_response": 0.339976233653792,
+          "model_specific_from_development": 0.30446192131669414,
+          "same_for_all_from_development": 0.35212722124832
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23203054925381383,
+          "model_specific_from_development": 0.22437593515269255,
+          "same_for_all_from_development": 0.22345667882258222
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.24010328382033833,
+          "model_specific_from_development": 0.2393056188370721,
+          "same_for_all_from_development": 0.24169079008875266
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2810579739588988,
+          "model_specific_from_development": 0.26875209480401685,
+          "same_for_all_from_development": 0.293064288570002
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3177667841050997,
+          "model_specific_from_development": 0.2918002174272689,
+          "same_for_all_from_development": 0.3309020651530427
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2130163879094972,
+          "model_specific_from_development": 0.1990755537611698,
+          "same_for_all_from_development": 0.19897864862599318
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.21330008497322142,
+          "model_specific_from_development": 0.19849031138182452,
+          "same_for_all_from_development": 0.19906732336268723
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.21175616020603502,
+          "model_specific_from_development": 0.2026556979393794,
+          "same_for_all_from_development": 0.20305568901636553
+        },
+        "full": {
+          "ideal_even_response": 0.21291597798635495,
+          "model_specific_from_development": 0.19980473873547094,
+          "same_for_all_from_development": 0.20037334795029946
+        },
+        "rigid": {
+          "ideal_even_response": 0.31752400893924115,
+          "model_specific_from_development": 0.2915937250689288,
+          "same_for_all_from_development": 0.33073331345057755
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.21234591824614774,
+          "model_specific_from_development": 0.19966026636554096,
+          "same_for_all_from_development": 0.20040682974049812
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.21427948470160485,
+          "model_specific_from_development": 0.21306344295241764,
+          "same_for_all_from_development": 0.2145266172596249
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.25440181521571287,
+          "model_specific_from_development": 0.2477629816318164,
+          "same_for_all_from_development": 0.26721793231718377
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3391356605460339,
+          "model_specific_from_development": 0.3038149248054159,
+          "same_for_all_from_development": 0.3511220730199035
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.23524401378633467,
+          "model_specific_from_development": 0.22468601653377096,
+          "same_for_all_from_development": 0.22404490590335036
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2364667054861662,
+          "model_specific_from_development": 0.22586142673054352,
+          "same_for_all_from_development": 0.22532548173344205
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.23577676382545634,
+          "model_specific_from_development": 0.22886010670944457,
+          "same_for_all_from_development": 0.229242802289236
+        },
+        "full": {
+          "ideal_even_response": 0.23508446152077653,
+          "model_specific_from_development": 0.22702699626755268,
+          "same_for_all_from_development": 0.225371760310406
+        },
+        "rigid": {
+          "ideal_even_response": 0.33885653250289016,
+          "model_specific_from_development": 0.30364312865906756,
+          "same_for_all_from_development": 0.35086996312755003
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23476239634276702,
+          "model_specific_from_development": 0.22642566694851704,
+          "same_for_all_from_development": 0.2254903312886143
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2416832674510494,
+          "model_specific_from_development": 0.24050629183164787,
+          "same_for_all_from_development": 0.24288608614246068
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2807839224195309,
+          "model_specific_from_development": 0.2685098545844109,
+          "same_for_all_from_development": 0.29257041047881666
+        }
+      }
+    ],
+    "DS4": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.32733508437791936,
+          "model_specific_from_development": 0.29403573193906096,
+          "same_for_all_from_development": 0.3357223809614709
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2431168377221041,
+          "model_specific_from_development": 0.22339071461443985,
+          "same_for_all_from_development": 0.22379896128011476
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.24716523087504907,
+          "model_specific_from_development": 0.2277065941906983,
+          "same_for_all_from_development": 0.22766472256676962
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.23996489523052017,
+          "model_specific_from_development": 0.22347771717344272,
+          "same_for_all_from_development": 0.22302815434827125
+        },
+        "full": {
+          "ideal_even_response": 0.2418222069053565,
+          "model_specific_from_development": 0.22115090669598916,
+          "same_for_all_from_development": 0.22135626432625327
+        },
+        "rigid": {
+          "ideal_even_response": 0.327242041600588,
+          "model_specific_from_development": 0.29395395781868283,
+          "same_for_all_from_development": 0.3356606570831286
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.24141235973735198,
+          "model_specific_from_development": 0.22106760437145942,
+          "same_for_all_from_development": 0.22122640195720272
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.23726456880001354,
+          "model_specific_from_development": 0.2277336687283248,
+          "same_for_all_from_development": 0.22864669678665717
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.26589183509864406,
+          "model_specific_from_development": 0.255029848425756,
+          "same_for_all_from_development": 0.2720558449408779
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.32031921082028036,
+          "model_specific_from_development": 0.2954500897672568,
+          "same_for_all_from_development": 0.32901210188927277
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.22437824206194912,
+          "model_specific_from_development": 0.2057121319491469,
+          "same_for_all_from_development": 0.20621611833242925
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.22131080890675617,
+          "model_specific_from_development": 0.2024438972154437,
+          "same_for_all_from_development": 0.20327326041289367
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.22401799760615132,
+          "model_specific_from_development": 0.20842010110106352,
+          "same_for_all_from_development": 0.2081724052630653
+        },
+        "full": {
+          "ideal_even_response": 0.22647074077460635,
+          "model_specific_from_development": 0.20508151139820557,
+          "same_for_all_from_development": 0.20682199844600851
+        },
+        "rigid": {
+          "ideal_even_response": 0.32053092224832685,
+          "model_specific_from_development": 0.29555748105967594,
+          "same_for_all_from_development": 0.32921600361125025
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.22627955009912276,
+          "model_specific_from_development": 0.20550242057929202,
+          "same_for_all_from_development": 0.20690940138536698
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2200678750346248,
+          "model_specific_from_development": 0.21266679707439937,
+          "same_for_all_from_development": 0.21303702461314372
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.252654673477197,
+          "model_specific_from_development": 0.24704359327527453,
+          "same_for_all_from_development": 0.2603612450430653
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3164858785987355,
+          "model_specific_from_development": 0.28918499792601104,
+          "same_for_all_from_development": 0.3243010928020205
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.22923423454408046,
+          "model_specific_from_development": 0.20686870549302777,
+          "same_for_all_from_development": 0.20771440640611627
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.22866159314964568,
+          "model_specific_from_development": 0.20620420130790848,
+          "same_for_all_from_development": 0.20698337009974152
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2296142163855818,
+          "model_specific_from_development": 0.21104573252194792,
+          "same_for_all_from_development": 0.21048744846745726
+        },
+        "full": {
+          "ideal_even_response": 0.23218044934933266,
+          "model_specific_from_development": 0.20770142236061817,
+          "same_for_all_from_development": 0.20926949876005413
+        },
+        "rigid": {
+          "ideal_even_response": 0.3165850067634582,
+          "model_specific_from_development": 0.28923175838903886,
+          "same_for_all_from_development": 0.32440871812086
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23201782526936582,
+          "model_specific_from_development": 0.20824740974140957,
+          "same_for_all_from_development": 0.20938891925997735
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2250602104770335,
+          "model_specific_from_development": 0.2144369466576073,
+          "same_for_all_from_development": 0.21469324730674114
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.25307164710995067,
+          "model_specific_from_development": 0.24534969986319344,
+          "same_for_all_from_development": 0.2585577334174352
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.32499644138458045,
+          "model_specific_from_development": 0.29629481479165215,
+          "same_for_all_from_development": 0.33490073717288565
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.23109233071995425,
+          "model_specific_from_development": 0.2146148621778348,
+          "same_for_all_from_development": 0.2147692035141298
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.23269933259724257,
+          "model_specific_from_development": 0.2160773607188301,
+          "same_for_all_from_development": 0.21630105821618134
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.22727178622057537,
+          "model_specific_from_development": 0.21361757012196916,
+          "same_for_all_from_development": 0.21350539071252894
+        },
+        "full": {
+          "ideal_even_response": 0.23013832295240044,
+          "model_specific_from_development": 0.21180148994584475,
+          "same_for_all_from_development": 0.21257935648355633
+        },
+        "rigid": {
+          "ideal_even_response": 0.32506159627795905,
+          "model_specific_from_development": 0.29633590403199406,
+          "same_for_all_from_development": 0.33496352564006365
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23002687292054502,
+          "model_specific_from_development": 0.21197737590752327,
+          "same_for_all_from_development": 0.21270446204352172
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.223885748831542,
+          "model_specific_from_development": 0.21799023789983019,
+          "same_for_all_from_development": 0.21887599804107946
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2571867081889939,
+          "model_specific_from_development": 0.24988274896573728,
+          "same_for_all_from_development": 0.26640423071865893
+        }
+      }
+    ],
+    "DS6": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.35064269087498057,
+          "model_specific_from_development": 0.3112138666024739,
+          "same_for_all_from_development": 0.35910385976426257
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2515853364751766,
+          "model_specific_from_development": 0.2394993211151966,
+          "same_for_all_from_development": 0.23895400441154763
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.24926482071026573,
+          "model_specific_from_development": 0.23744588712097128,
+          "same_for_all_from_development": 0.23665762394706163
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2499432002074138,
+          "model_specific_from_development": 0.24130172205773132,
+          "same_for_all_from_development": 0.24143497244395
+        },
+        "full": {
+          "ideal_even_response": 0.25012608484586674,
+          "model_specific_from_development": 0.2381544356675365,
+          "same_for_all_from_development": 0.23657182348884423
+        },
+        "rigid": {
+          "ideal_even_response": 0.35168814845327095,
+          "model_specific_from_development": 0.31171302424981295,
+          "same_for_all_from_development": 0.36020496040315086
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.24944478568679457,
+          "model_specific_from_development": 0.23974888333281202,
+          "same_for_all_from_development": 0.23832642839909635
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.25732563668913017,
+          "model_specific_from_development": 0.2503390702021215,
+          "same_for_all_from_development": 0.2520061986301667
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2886437365784822,
+          "model_specific_from_development": 0.27500819203214993,
+          "same_for_all_from_development": 0.29596153100652406
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.342882478189666,
+          "model_specific_from_development": 0.30831141153483865,
+          "same_for_all_from_development": 0.34754518734609813
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2743469003725129,
+          "model_specific_from_development": 0.2536867275276523,
+          "same_for_all_from_development": 0.25420629946075124
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.27439779133476,
+          "model_specific_from_development": 0.2546520485620255,
+          "same_for_all_from_development": 0.2543126139227859
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.26976979455885386,
+          "model_specific_from_development": 0.2538956532018254,
+          "same_for_all_from_development": 0.25331694830585894
+        },
+        "full": {
+          "ideal_even_response": 0.27100034608504125,
+          "model_specific_from_development": 0.2502595805869326,
+          "same_for_all_from_development": 0.24980038808911076
+        },
+        "rigid": {
+          "ideal_even_response": 0.34325327347020146,
+          "model_specific_from_development": 0.30843723804751,
+          "same_for_all_from_development": 0.3480524869311331
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2693832032801927,
+          "model_specific_from_development": 0.25120580122756125,
+          "same_for_all_from_development": 0.2504012410555986
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2701643855953212,
+          "model_specific_from_development": 0.2566916297575358,
+          "same_for_all_from_development": 0.2573300171958117
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.28909406144487726,
+          "model_specific_from_development": 0.27633114673086284,
+          "same_for_all_from_development": 0.2905148227913956
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.34392643191292527,
+          "model_specific_from_development": 0.3058313711456416,
+          "same_for_all_from_development": 0.35151707108464936
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.25643926074498763,
+          "model_specific_from_development": 0.2403281194620874,
+          "same_for_all_from_development": 0.24023313302373542
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2539717757648792,
+          "model_specific_from_development": 0.23859933571314607,
+          "same_for_all_from_development": 0.23798705422397662
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2548435945915628,
+          "model_specific_from_development": 0.24289432982397127,
+          "same_for_all_from_development": 0.24271568130533047
+        },
+        "full": {
+          "ideal_even_response": 0.25599750035647695,
+          "model_specific_from_development": 0.2400232699081364,
+          "same_for_all_from_development": 0.23879946553220904
+        },
+        "rigid": {
+          "ideal_even_response": 0.3451798683534113,
+          "model_specific_from_development": 0.30638663664091703,
+          "same_for_all_from_development": 0.3528563693949327
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2549592682984701,
+          "model_specific_from_development": 0.241442474121745,
+          "same_for_all_from_development": 0.24017616872160188
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2584590093682087,
+          "model_specific_from_development": 0.24858460625185272,
+          "same_for_all_from_development": 0.24984400452970348
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.28463648498266153,
+          "model_specific_from_development": 0.2711608493906904,
+          "same_for_all_from_development": 0.2899618700776362
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.3522683813296262,
+          "model_specific_from_development": 0.31416456919573643,
+          "same_for_all_from_development": 0.35870313948367144
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.26818033086263826,
+          "model_specific_from_development": 0.25301266320447313,
+          "same_for_all_from_development": 0.25286185957937873
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.26814410207572087,
+          "model_specific_from_development": 0.2535016197302173,
+          "same_for_all_from_development": 0.25277801852854337
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.26433032101723447,
+          "model_specific_from_development": 0.2530522745608822,
+          "same_for_all_from_development": 0.2528913032570798
+        },
+        "full": {
+          "ideal_even_response": 0.2641482153581692,
+          "model_specific_from_development": 0.2492615637273498,
+          "same_for_all_from_development": 0.24795996639598353
+        },
+        "rigid": {
+          "ideal_even_response": 0.3523141048017208,
+          "model_specific_from_development": 0.3141148018880584,
+          "same_for_all_from_development": 0.3588632646472454
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2625898770336243,
+          "model_specific_from_development": 0.24992027706021014,
+          "same_for_all_from_development": 0.24865262847595096
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.2681703619374025,
+          "model_specific_from_development": 0.2588674591356017,
+          "same_for_all_from_development": 0.260230528138892
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2944762860471513,
+          "model_specific_from_development": 0.2806601053499994,
+          "same_for_all_from_development": 0.2992540976478991
+        }
+      }
+    ],
+    "DS9": [
+      {
+        "compression_only": {
+          "ideal_even_response": 0.36645659567312744,
+          "model_specific_from_development": 0.3086787916309243,
+          "same_for_all_from_development": 0.3724243752315206
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2248170004597752,
+          "model_specific_from_development": 0.21428015626214453,
+          "same_for_all_from_development": 0.21305501226702828
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2270155799190733,
+          "model_specific_from_development": 0.21635254492918096,
+          "same_for_all_from_development": 0.21465185152212465
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.22837296258517692,
+          "model_specific_from_development": 0.2129941286873193,
+          "same_for_all_from_development": 0.21268295939033113
+        },
+        "full": {
+          "ideal_even_response": 0.23969785647741543,
+          "model_specific_from_development": 0.2085288331433472,
+          "same_for_all_from_development": 0.20991587585227156
+        },
+        "rigid": {
+          "ideal_even_response": 0.36599072092641094,
+          "model_specific_from_development": 0.30833252916252035,
+          "same_for_all_from_development": 0.372073783427338
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23718311878217288,
+          "model_specific_from_development": 0.20921089324891126,
+          "same_for_all_from_development": 0.209724949418993
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.23413321692776262,
+          "model_specific_from_development": 0.21288441222600796,
+          "same_for_all_from_development": 0.21213631815301442
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.2480364657984576,
+          "model_specific_from_development": 0.23592609515006985,
+          "same_for_all_from_development": 0.24887664101697082
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.40721110245888925,
+          "model_specific_from_development": 0.3381426688765099,
+          "same_for_all_from_development": 0.4186903856782555
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.23750376737215345,
+          "model_specific_from_development": 0.2475499436775072,
+          "same_for_all_from_development": 0.2438912615723112
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2327085824210689,
+          "model_specific_from_development": 0.24433361220299307,
+          "same_for_all_from_development": 0.24038901099294863
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.23460162053027944,
+          "model_specific_from_development": 0.23670475000513197,
+          "same_for_all_from_development": 0.23779788114185138
+        },
+        "full": {
+          "ideal_even_response": 0.22800755252849766,
+          "model_specific_from_development": 0.22245775232945456,
+          "same_for_all_from_development": 0.2194956561945005
+        },
+        "rigid": {
+          "ideal_even_response": 0.40787756619452925,
+          "model_specific_from_development": 0.3384390805594454,
+          "same_for_all_from_development": 0.41939999632994085
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.2261535710412846,
+          "model_specific_from_development": 0.22215948536903513,
+          "same_for_all_from_development": 0.22008740443966718
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.24196798257532473,
+          "model_specific_from_development": 0.23708365207233018,
+          "same_for_all_from_development": 0.23943829501522068
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.28166486391339424,
+          "model_specific_from_development": 0.2651822273939758,
+          "same_for_all_from_development": 0.294480316069768
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.37487761317611074,
+          "model_specific_from_development": 0.3160024193505566,
+          "same_for_all_from_development": 0.38368285217887105
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.21225645469698753,
+          "model_specific_from_development": 0.20946937986272296,
+          "same_for_all_from_development": 0.2073825806422084
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.21107468640338317,
+          "model_specific_from_development": 0.2083290637607382,
+          "same_for_all_from_development": 0.20628809300299691
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.21604934367293044,
+          "model_specific_from_development": 0.20655275298519016,
+          "same_for_all_from_development": 0.2068674331344664
+        },
+        "full": {
+          "ideal_even_response": 0.22430152615093896,
+          "model_specific_from_development": 0.19921019952588243,
+          "same_for_all_from_development": 0.20042013659427874
+        },
+        "rigid": {
+          "ideal_even_response": 0.3745342611196928,
+          "model_specific_from_development": 0.31576117771630124,
+          "same_for_all_from_development": 0.3834813096668061
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.22223039237156478,
+          "model_specific_from_development": 0.20028749232318838,
+          "same_for_all_from_development": 0.20089590811843488
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.22574349661034687,
+          "model_specific_from_development": 0.21000102242276994,
+          "same_for_all_from_development": 0.20984642039109502
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.24808303041595747,
+          "model_specific_from_development": 0.23749397110183765,
+          "same_for_all_from_development": 0.25405031812516604
+        }
+      },
+      {
+        "compression_only": {
+          "ideal_even_response": 0.395422422479349,
+          "model_specific_from_development": 0.3264551665263708,
+          "same_for_all_from_development": 0.40457962833680794
+        },
+        "empirical_first_harmonic": {
+          "ideal_even_response": 0.2417741174801694,
+          "model_specific_from_development": 0.2460588067769803,
+          "same_for_all_from_development": 0.24290748474663929
+        },
+        "empirical_three_harmonics": {
+          "ideal_even_response": 0.2389209994453364,
+          "model_specific_from_development": 0.24425918982875353,
+          "same_for_all_from_development": 0.2404585394266145
+        },
+        "energy_scaled_first_order": {
+          "ideal_even_response": 0.2443758872138884,
+          "model_specific_from_development": 0.2413819323734367,
+          "same_for_all_from_development": 0.24196131762421386
+        },
+        "full": {
+          "ideal_even_response": 0.23869571244763246,
+          "model_specific_from_development": 0.22737663080060838,
+          "same_for_all_from_development": 0.22430750085049456
+        },
+        "rigid": {
+          "ideal_even_response": 0.39613427132846024,
+          "model_specific_from_development": 0.32686029969148,
+          "same_for_all_from_development": 0.40531380937435446
+        },
+        "rotation_only": {
+          "ideal_even_response": 0.23758377057168284,
+          "model_specific_from_development": 0.22782320843658183,
+          "same_for_all_from_development": 0.22543773971312567
+        },
+        "soliton_effective_adhesion": {
+          "ideal_even_response": 0.24149980199290277,
+          "model_specific_from_development": 0.23200693457831167,
+          "same_for_all_from_development": 0.23405242994867817
+        },
+        "soliton_first_star": {
+          "ideal_even_response": 0.27615595909517493,
+          "model_specific_from_development": 0.2575433851285439,
+          "same_for_all_from_development": 0.28534803337490583
+        }
+      }
+    ]
+  },
+  "scope": "Estimate a single even gain and offset across all channels of each of four development maps after training-range normalization. Use medians to transfer those parameters to ten other maps. Include one median response for all models and the ideal response. The ten targets supply geometry and training-pixel intensity quantiles; the gain and offset receive no target-model fit."
+}

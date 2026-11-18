@@ -1,0 +1,7 @@
+{
+  "parent": "graphene_wall_signal_aperture_recovery_v01.json",
+  "scope": "Exploratory acquisition recovery for the June 2020 graphene specimen. Keep the February result, candidate rectangles, model and scoring rules fixed.",
+  "diagnosis": "The s2-25 calibration yields repeat covariance on two axes, but a forced sixfold lattice leaves the first-ring signal weak on the other axis. A few pixels of image shift, tilt or ellipticity matter when the central overlap aperture is small.",
+  "instrument_rule": "Use the same nine calibration frames. For each opposite first-ring pair consider detector centers within 9 pixels of both hexagonal predictions, with their midpoint within 4.5 pixels of the beam center. Choose the pair with maximum count-normalized temporal covariance and use the fixed counts apertures around those centers. Transfer a single affine detector correction to all six second-ring positions without examining their wall signal.",
+  "score": "Retain the recovered extraction and the wider-aperture sensitivity. Apply the same first-ring geometry and coherence gates, and keep the original requirement for confirmation on both high-twist scans. Label this result separately since this correction was developed after the first high-twist result."
+}

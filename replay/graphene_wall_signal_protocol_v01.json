@@ -1,0 +1,50 @@
+{
+  "question": "Can the periodic graphene relaxation with published constants predict the signed first-ring minus second-ring apparent width and the other ring's wall profile on fresh Bragg-interferometry data?",
+  "source": "Kazmierczak et al. (2021), https://doi.org/10.1038/s41563-021-00973-w",
+  "scope": "A different material and independent acquisitions from a group that shares authors and instrument with the primary Van Winkle MoS2 anchor. The scan rectangles are fixed before wall extraction. Diffraction frames at nine positions are averaged only to locate apertures on the detector.",
+  "scans": {
+    "s1-4": {
+      "record": 4459671,
+      "file": "MV_02262020_4.h5",
+      "published_twist_degrees": 1.2276,
+      "probe_fwhm_nm": 1.3,
+      "region_rc": [[69, 131], [69, 131]],
+      "nominal_center_rc": [204.0, 186.0],
+      "first_ring_radius_px": 68.0,
+      "first_ring_orientation_degrees": 48.0,
+      "aperture_radii_px": [2.5, 3.5]
+    },
+    "s2-25": {
+      "record": 4459687,
+      "file": "MV_20200616_25.h5",
+      "published_twist_degrees": 1.3468,
+      "probe_fwhm_nm": 0.8,
+      "region_rc": [[20, 80], [20, 80]],
+      "aperture_family": "fit two hexagonal rings to average diffraction, using the same rules as s2-8",
+      "aperture_radii_px": [4.0, 5.5]
+    },
+    "s2-8": {
+      "record": 4459678,
+      "file": "MV_20200616_8.h5",
+      "published_twist_degrees": 0.663,
+      "probe_fwhm_nm": 0.8,
+      "region_rc": [[9, 91], [9, 91]],
+      "nominal_center_rc": [207.0, 191.0],
+      "first_ring_radius_px": 68.0,
+      "first_ring_orientation_degrees": 37.5,
+      "aperture_radii_px": [4.0, 5.5]
+    }
+  },
+  "inputs": {
+    "lattice_nm": 0.2459512147,
+    "raster_pixel_nm": 0.5,
+    "single_layer_bulk_shear_eV_per_cell": [69.518, 47.352],
+    "adhesion_even_coefficients_meV_per_cell": [6.832, 4.064, -0.374, -0.095],
+    "calibration": "Positive even cos-squared response, normalized by local profile shape. Measure first-ring AA-center geometry independently of second-ring wall intensities. Fit no adhesion, elastic or probe parameter from the new data. Gaussian real-space probe unless otherwise labeled."
+  },
+  "score": {
+    "walls": "Interior AA-to-AA chords and fixed-slip isolated-wall shape from the MoS2 benchmark. Select a balanced set of midpoint wall families from the first-ring geometry only. Record width fits at their bounds and use qualified paired fits for the median-width score. Report the candidate counts and any partial scan.",
+    "primary": "The reconstructed width difference is first ring minus second ring, summarized by scan. Compare errors from the full periodic and exact isolated mechanical models. Also position each model from one ring, keep the shape fixed and score the other ring in both directions. Compare additionally with the source-ring-fitted isolated wall.",
+    "confirmation": "For a quantitative transfer require at least six paired interior walls per scan, positive readout separation and an advantage over the isolated profile in both directions on both high-twist scans, and a larger median separation at high twist than at lower twist in the same specimen, if lower-twist geometry qualifies. Require the gap error to lie within half a nanometre or the opposite-disk discrepancy when larger. Report each scan independently, along with both instrument apertures."
+  }
+}

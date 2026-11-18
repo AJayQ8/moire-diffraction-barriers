@@ -1,0 +1,9 @@
+energy_family,intensity_fit,registry_frame,omitted_maps,retained_maps,nominal_probe_fwhm_nm,best_grid_barrier_mev_per_cell,minimum_map_mean_width_error_nm,reselected_minimum_error_p05_nm,reselected_minimum_error_p95_nm,reselected_best_barrier_p05_mev_per_cell,reselected_best_barrier_p95_mev_per_cell,archived_rotated_equal
+fixed_AA_curvature,separate_disjoint,archived,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.16499867555580403,0.14961213319584468,0.22143358768417654,12.5,14.0,True
+fixed_AA_curvature,separate_disjoint,rotate_ds13_ds14,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.16499867555580403,0.14961213319584468,0.22143358768417654,12.5,14.0,True
+fixed_AA_curvature,transferred_even,archived,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.16035123643389235,0.14481234154852593,0.21747622519084758,12.5,14.0,True
+fixed_AA_curvature,transferred_even,rotate_ds13_ds14,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.16035123643389235,0.14481234154852593,0.21747622519084758,12.5,14.0,True
+fixed_AA_energy,separate_disjoint,archived,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.16290971763209453,0.14835888821498985,0.2199852985296798,12.5,14.0,True
+fixed_AA_energy,separate_disjoint,rotate_ds13_ds14,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.16290971763209453,0.14835888821498985,0.2199852985296798,12.5,14.0,True
+fixed_AA_energy,transferred_even,archived,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.15831737302661736,0.14367724004907034,0.21565382952245474,12.5,14.0,True
+fixed_AA_energy,transferred_even,rotate_ds13_ds14,DS13;DS14,DS10;DS1;DS2;DS12;DS9;DS6;DS4;DS3,1.25,14.0,0.15831737302661736,0.14367724004907034,0.21565382952245474,12.5,14.0,True

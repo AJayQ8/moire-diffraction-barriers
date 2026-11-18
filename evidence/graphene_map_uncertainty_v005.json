@@ -1,0 +1,3178 @@
+{
+  "coordinate_transforms": {
+    "s1-10": {
+      "global_nm_coordinate": "0.5 \u00d7 (midpoint_rc + [9,9]); row/column order is a rigid coordinate rotation for the square-block geometry.",
+      "raster_pixel_nm": 0.5,
+      "region_origin_rc": [
+        9.0,
+        9.0
+      ],
+      "stored_coordinate": "crop-relative midpoint_rc"
+    },
+    "s1-5": {
+      "global_nm_coordinate": "0.5 \u00d7 (midpoint_rc + [40,40]); row/column order is a rigid coordinate rotation for the square-block geometry.",
+      "raster_pixel_nm": 0.5,
+      "region_origin_rc": [
+        40.0,
+        40.0
+      ],
+      "stored_coordinate": "crop-relative midpoint_rc"
+    },
+    "s1-6": {
+      "pixel_origin_offset_nm": [
+        0.0,
+        0.0
+      ],
+      "stored_coordinate": "midpoint_nm"
+    }
+  },
+  "data_status": {
+    "s1-10": "Previously examined central crop; only two qualifying width pairs were available there. The present full-field series is an extension of that same acquisition and does not constitute an independent scan.",
+    "s1-5": "The warning protocol applies a threshold developed on MoS2 to this fresh graphene scan. The aperture and geometry gates were applied before inspecting the scan-level warning outcome; it is a retrospective within-study check with shared team and instrument.",
+    "s1-6": "The v004 protocol describes this as a fresh acquisition in the February series with the observer and aperture fixed before scoring; it remains in the same publication, instrument and collaboration, and the full scan was opened for geometry and width extraction."
+  },
+  "estimand": {
+    "cohorts": "s1-6 and s1-10 use the frozen all-model-qualified paired width sets. s1-5 primary repeats the prior opposite-triplet matched subsets for its warning diagnostic; all-qualified s1-5 medians are included as sensitivity cohorts.",
+    "measured_gap_nm": "Per selected wall, first-order apparent width minus second-order apparent width. Report median over the qualified wall cohort.",
+    "model_gap_nm": "Same signed difference from saved periodic or isolated model width fits on the same wall cohort.",
+    "model_minus_experiment_median_gap_nm": "Median of model-predicted wall gaps minus median measured wall gap, calculated on each paired spatial-block resample.",
+    "resampling_unit": "Occupied spatial blocks within each fixed scan; each sampled block carries paired measured and model width records."
+  },
+  "limits": [
+    "The three acquisitions are separate scans but share publication, instrument and research group; no independent specimen crosswalk is available in the saved records.",
+    "Spatial-block intervals condition on saved wall selection, aperture, fitted widths, and model predictions. They do not include aperture, probe, image registration, model or between-acquisition uncertainty.",
+    "Block-size factors and origin phases expose sensitivity to spatial dependence assumptions; the saved records do not empirically identify a correlation length.",
+    "s1-10 uses a full-field extension after a small crop was viewed. s1-5 is an additional retrospective warning test. These do not constitute blinded external validation."
+  ],
+  "resampling": {
+    "block_factors": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "block_side": "factor \u00d7 sqrt(2/sqrt(3)) \u00d7 median same-family wall spacing on the resampled qualified cohort; triangular-cell-area approximation.",
+    "bootstrap_draws_per_origin": 1000,
+    "cluster_rule": "Sample the occupied blocks of the width-qualified cohort with replacement, drawing the same number of occupied blocks. Include every qualified wall in each selected block, preserving case pairing and duplicate block draws.",
+    "interval": "P5\u2013P95 percentile ranges, conditional spatial sensitivity within the fixed scan geometry.",
+    "seed": 20261115,
+    "spatial_origin": "Minimum saved wall midpoint coordinates over all geometry-selected cases; crop-relative row/column coordinates are translated by the frozen region origin and converted using the published 0.5 nm raster spacing. Four half-block origin phases are pooled."
+  },
+  "s1-5_common_eight_section_window_comparison": {
+    "definition": "Intersect per-window width qualification and paired opposite-triplet readout availability across adaptive and fixed half-windows; use the same eight saved wall chords at both windows.",
+    "mean_point_checks_against_v004": {
+      "adaptive_measured_gap_nm": 2.4832228805096204,
+      "adaptive_periodic_gap_nm": 4.4010886386184795,
+      "fixed_measured_gap_nm": -0.10526117568812776,
+      "fixed_periodic_gap_nm": 3.043557053647832
+    },
+    "paired_window_spatial_sensitivity": {
+      "0.5": {
+        "block_percentiles": {
+          "mean_measured_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -3.5037545012540865,
+            "p50": -2.578504184527981,
+            "p95": -1.7095627016027188
+          },
+          "mean_periodic_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -1.5459452320346028,
+            "p50": -1.3539197903947628,
+            "p95": -1.1759993469796877
+          },
+          "mean_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": {
+            "p05": 0.3480028013159176,
+            "p50": 1.2112546781718168,
+            "p95": 2.177877393799382
+          },
+          "median_measured_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -4.119830677253346,
+            "p50": -2.669576541701933,
+            "p95": -1.531171376901923
+          },
+          "median_periodic_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -1.7613137905836513,
+            "p50": -1.505663397187373,
+            "p95": -1.040229768110775
+          },
+          "median_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": {
+            "p05": 0.14282596020326022,
+            "p50": 1.1463698440277756,
+            "p95": 2.7059049333791236
+          }
+        },
+        "block_side_nm": 5.383463537232775,
+        "block_spacing_reference_walls": 8,
+        "cohort_walls": 8,
+        "draws_per_origin": 1000,
+        "geometry_candidate_walls_for_origin": 30,
+        "median_spacing_nm": 10.019754653095593,
+        "occupied_blocks_by_origin": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "origins": 4,
+        "point": {
+          "mean_measured_gap_nm_fixed_minus_adaptive_nm": -2.588484056197748,
+          "mean_periodic_gap_nm_fixed_minus_adaptive_nm": -1.3575315849706477,
+          "mean_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": 1.2309524712271003,
+          "median_measured_gap_nm_fixed_minus_adaptive_nm": -2.6189220103069215,
+          "median_periodic_gap_nm_fixed_minus_adaptive_nm": -1.540657122528498,
+          "median_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": 1.0782648877784236
+        },
+        "statistic": "Fixed-window minus adaptive-window; both windows are resampled with the same sampled wall blocks."
+      },
+      "1.0": {
+        "block_percentiles": {
+          "mean_measured_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -3.485668355841121,
+            "p50": -2.6054760035940987,
+            "p95": -1.740325898146035
+          },
+          "mean_periodic_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -1.5206480898945838,
+            "p50": -1.3563615857981182,
+            "p95": -1.204885518820205
+          },
+          "mean_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": {
+            "p05": 0.3818693215258482,
+            "p50": 1.233506923016675,
+            "p95": 2.138755784377547
+          },
+          "median_measured_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -4.1266230814384475,
+            "p50": -2.669576541701933,
+            "p95": -1.6349507634914366
+          },
+          "median_periodic_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -1.6078669350689005,
+            "p50": -1.5232066976741572,
+            "p95": -1.0670020541118745
+          },
+          "median_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": {
+            "p05": 0.1529635247391521,
+            "p50": 1.1463698440277756,
+            "p95": 2.6358331697127837
+          }
+        },
+        "block_side_nm": 10.76692707446555,
+        "block_spacing_reference_walls": 8,
+        "cohort_walls": 8,
+        "draws_per_origin": 1000,
+        "geometry_candidate_walls_for_origin": 30,
+        "median_spacing_nm": 10.019754653095593,
+        "occupied_blocks_by_origin": [
+          6,
+          6,
+          8,
+          7
+        ],
+        "origins": 4,
+        "point": {
+          "mean_measured_gap_nm_fixed_minus_adaptive_nm": -2.588484056197748,
+          "mean_periodic_gap_nm_fixed_minus_adaptive_nm": -1.3575315849706477,
+          "mean_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": 1.2309524712271003,
+          "median_measured_gap_nm_fixed_minus_adaptive_nm": -2.6189220103069215,
+          "median_periodic_gap_nm_fixed_minus_adaptive_nm": -1.540657122528498,
+          "median_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": 1.0782648877784236
+        },
+        "statistic": "Fixed-window minus adaptive-window; both windows are resampled with the same sampled wall blocks."
+      },
+      "1.5": {
+        "block_percentiles": {
+          "mean_measured_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -3.6001966623981945,
+            "p50": -2.580654155139391,
+            "p95": -1.7808561867088333
+          },
+          "mean_periodic_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -1.5284151124479513,
+            "p50": -1.357531584970647,
+            "p95": -1.1996797921983116
+          },
+          "mean_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": {
+            "p05": 0.42658287050012156,
+            "p50": 1.2127539715397644,
+            "p95": 2.201252679705234
+          },
+          "median_measured_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -4.160281899267035,
+            "p50": -2.652580828135509,
+            "p95": -1.8154894240248656
+          },
+          "median_periodic_gap_nm_fixed_minus_adaptive_nm": {
+            "p05": -1.6078669350689005,
+            "p50": -1.5232066976741572,
+            "p95": -1.0670020541118745
+          },
+          "median_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": {
+            "p05": 0.3017854345977189,
+            "p50": 1.097535155564532,
+            "p95": 2.6450958568501672
+          }
+        },
+        "block_side_nm": 16.15039061169832,
+        "block_spacing_reference_walls": 8,
+        "cohort_walls": 8,
+        "draws_per_origin": 1000,
+        "geometry_candidate_walls_for_origin": 30,
+        "median_spacing_nm": 10.019754653095593,
+        "occupied_blocks_by_origin": [
+          5,
+          7,
+          5,
+          6
+        ],
+        "origins": 4,
+        "point": {
+          "mean_measured_gap_nm_fixed_minus_adaptive_nm": -2.588484056197748,
+          "mean_periodic_gap_nm_fixed_minus_adaptive_nm": -1.3575315849706477,
+          "mean_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": 1.2309524712271003,
+          "median_measured_gap_nm_fixed_minus_adaptive_nm": -2.6189220103069215,
+          "median_periodic_gap_nm_fixed_minus_adaptive_nm": -1.540657122528498,
+          "median_periodic_minus_experiment_residual_fixed_minus_adaptive_nm": 1.0782648877784236
+        },
+        "statistic": "Fixed-window minus adaptive-window; both windows are resampled with the same sampled wall blocks."
+      }
+    },
+    "walls": 8
+  },
+  "scan_conditions": [
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.04500946213580814,
+              "p50": 0.05327167865201465,
+              "p95": 0.06085056467800953
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -4.055737788059202,
+              "p50": -3.8207841473953073,
+              "p95": -3.3093705742381028
+            },
+            "isolated_width1_nm": {
+              "p05": 7.4744829314766505,
+              "p50": 7.491414787984392,
+              "p95": 7.51775309589126
+            },
+            "isolated_width2_nm": {
+              "p05": 7.411379959803119,
+              "p50": 7.432935292559231,
+              "p95": 7.477424372799769
+            },
+            "measured_gap_nm": {
+              "p05": 3.367918019323726,
+              "p50": 3.874377122204198,
+              "p95": 4.110647911628644
+            },
+            "measured_width1_nm": {
+              "p05": 5.530965765188438,
+              "p50": 5.878637713503322,
+              "p95": 6.591467577257124
+            },
+            "measured_width2_nm": {
+              "p05": 2.013653028388478,
+              "p50": 2.173598240182346,
+              "p95": 2.2490272644212856
+            },
+            "periodic_gap_nm": {
+              "p05": 4.403272917793962,
+              "p50": 4.5814049030270905,
+              "p95": 4.701097012359032
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.4901964237446811,
+              "p50": 0.7339621903255731,
+              "p95": 1.1584324796300964
+            },
+            "periodic_width1_nm": {
+              "p05": 6.5197585833631,
+              "p50": 6.612548252709029,
+              "p95": 6.7723624978028045
+            },
+            "periodic_width2_nm": {
+              "p05": 2.025059027809186,
+              "p50": 2.1198017172502412,
+              "p95": 2.200350157804829
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.280164867416802,
+            "block_spacing_reference_walls": 52,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 74,
+            "median_spacing_nm": 9.827494164956537,
+            "minimum_occupied_blocks": 49,
+            "occupied_blocks_by_origin": [
+              52,
+              49,
+              52,
+              50
+            ],
+            "origins": 4,
+            "paired_width_walls": 52,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.04500946213580814,
+              "p50": 0.05327167865201465,
+              "p95": 0.06085056467800953
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -4.0530398600980595,
+              "p50": -3.821105443552183,
+              "p95": -3.3178074053808335
+            },
+            "isolated_width1_nm": {
+              "p05": 7.474614664760818,
+              "p50": 7.491414787984392,
+              "p95": 7.51353386812996
+            },
+            "isolated_width2_nm": {
+              "p05": 7.411938690816115,
+              "p50": 7.432935292559231,
+              "p95": 7.467147340404065
+            },
+            "measured_gap_nm": {
+              "p05": 3.367918019323726,
+              "p50": 3.874377122204198,
+              "p95": 4.104881111380883
+            },
+            "measured_width1_nm": {
+              "p05": 5.532542521117178,
+              "p50": 5.878637713503322,
+              "p95": 6.591467577257124
+            },
+            "measured_width2_nm": {
+              "p05": 2.013653028388478,
+              "p50": 2.173598240182346,
+              "p95": 2.2490272644212856
+            },
+            "periodic_gap_nm": {
+              "p05": 4.403272917793962,
+              "p50": 4.5814049030270905,
+              "p95": 4.692819074806312
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.4923960572023889,
+              "p50": 0.7277780137248562,
+              "p95": 1.1414822870099057
+            },
+            "periodic_width1_nm": {
+              "p05": 6.519513866097117,
+              "p50": 6.612548252709029,
+              "p95": 6.79039742020047
+            },
+            "periodic_width2_nm": {
+              "p05": 2.023235851485724,
+              "p50": 2.1198017172502412,
+              "p95": 2.2676622280952055
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.560329734833603,
+            "block_spacing_reference_walls": 52,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 74,
+            "median_spacing_nm": 9.827494164956537,
+            "minimum_occupied_blocks": 32,
+            "occupied_blocks_by_origin": [
+              36,
+              32,
+              41,
+              36
+            ],
+            "origins": 4,
+            "paired_width_walls": 52,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.04500946213580814,
+              "p50": 0.05327167865201465,
+              "p95": 0.0609832087809159
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -4.007167246839895,
+              "p50": -3.8207841473953073,
+              "p95": -3.31268290154244
+            },
+            "isolated_width1_nm": {
+              "p05": 7.474614664760818,
+              "p50": 7.491414787984392,
+              "p95": 7.512058106632637
+            },
+            "isolated_width2_nm": {
+              "p05": 7.415158324167939,
+              "p50": 7.432935292559231,
+              "p95": 7.467147340404065
+            },
+            "measured_gap_nm": {
+              "p05": 3.367918019323726,
+              "p50": 3.874377122204198,
+              "p95": 4.060422961176057
+            },
+            "measured_width1_nm": {
+              "p05": 5.530965765188438,
+              "p50": 5.878637713503322,
+              "p95": 6.591467577257124
+            },
+            "measured_width2_nm": {
+              "p05": 2.013653028388478,
+              "p50": 2.173598240182346,
+              "p95": 2.2506550533803487
+            },
+            "periodic_gap_nm": {
+              "p05": 4.403272917793962,
+              "p50": 4.5814049030270905,
+              "p95": 4.692819074806312
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.513225510024613,
+              "p50": 0.7339621903255731,
+              "p95": 1.1496781374912601
+            },
+            "periodic_width1_nm": {
+              "p05": 6.51152510183141,
+              "p50": 6.612548252709029,
+              "p95": 6.79039742020047
+            },
+            "periodic_width2_nm": {
+              "p05": 2.017927994777242,
+              "p50": 2.1234846997971655,
+              "p95": 2.2676622280952055
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 15.840494602250404,
+            "block_spacing_reference_walls": 52,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 74,
+            "median_spacing_nm": 9.827494164956537,
+            "minimum_occupied_blocks": 24,
+            "occupied_blocks_by_origin": [
+              25,
+              26,
+              24,
+              27
+            ],
+            "origins": 4,
+            "paired_width_walls": 52,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 74,
+      "description": "Published mean twist 1.2592\u00b0. Local wall twists span 0.999\u20131.7399\u00b0. Full-scan primary aperture and frozen paired width/model cohort.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-6 author aperture 2.662 px, all matched widths",
+      "point": {
+        "isolated_gap_nm": 0.05327167865201465,
+        "isolated_minus_experiment_median_gap_nm": -3.821105443552183,
+        "isolated_width1_nm": 7.491414787984392,
+        "isolated_width2_nm": 7.432935292559231,
+        "measured_gap_nm": 3.874377122204198,
+        "measured_width1_nm": 5.878637713503322,
+        "measured_width2_nm": 2.173598240182346,
+        "periodic_gap_nm": 4.5814049030270905,
+        "periodic_minus_experiment_median_gap_nm": 0.7070277808228926,
+        "periodic_width1_nm": 6.612548252709029,
+        "periodic_width2_nm": 2.1198017172502412
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.04500946213580814,
+            "p50": 0.05327167865201465,
+            "p95": 0.06085056467800953
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -4.0530398600980595,
+            "p50": -3.821105443552183,
+            "p95": -3.3178074053808335
+          },
+          "isolated_width1_nm": {
+            "p05": 7.474614664760818,
+            "p50": 7.491414787984392,
+            "p95": 7.51353386812996
+          },
+          "isolated_width2_nm": {
+            "p05": 7.411938690816115,
+            "p50": 7.432935292559231,
+            "p95": 7.467147340404065
+          },
+          "measured_gap_nm": {
+            "p05": 3.367918019323726,
+            "p50": 3.874377122204198,
+            "p95": 4.104881111380883
+          },
+          "measured_width1_nm": {
+            "p05": 5.532542521117178,
+            "p50": 5.878637713503322,
+            "p95": 6.591467577257124
+          },
+          "measured_width2_nm": {
+            "p05": 2.013653028388478,
+            "p50": 2.173598240182346,
+            "p95": 2.2490272644212856
+          },
+          "periodic_gap_nm": {
+            "p05": 4.403272917793962,
+            "p50": 4.5814049030270905,
+            "p95": 4.692819074806312
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": 0.4923960572023889,
+            "p50": 0.7277780137248562,
+            "p95": 1.1414822870099057
+          },
+          "periodic_width1_nm": {
+            "p05": 6.519513866097117,
+            "p50": 6.612548252709029,
+            "p95": 6.79039742020047
+          },
+          "periodic_width2_nm": {
+            "p05": 2.023235851485724,
+            "p50": 2.1198017172502412,
+            "p95": 2.2676622280952055
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.05327167865201465,
+          "isolated_minus_experiment_median_gap_nm": -3.821105443552183,
+          "isolated_width1_nm": 7.491414787984392,
+          "isolated_width2_nm": 7.432935292559231,
+          "measured_gap_nm": 3.874377122204198,
+          "measured_width1_nm": 5.878637713503322,
+          "measured_width2_nm": 2.173598240182346,
+          "periodic_gap_nm": 4.5814049030270905,
+          "periodic_minus_experiment_median_gap_nm": 0.7070277808228926,
+          "periodic_width1_nm": 6.612548252709029,
+          "periodic_width2_nm": 2.1198017172502412
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 40,
+          "median_absolute_opposite_gap_disagreement_nm": 1.6664371373436841
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.560329734833603,
+          "block_spacing_reference_walls": 52,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 74,
+          "median_spacing_nm": 9.827494164956537,
+          "minimum_occupied_blocks": 32,
+          "occupied_blocks_by_origin": [
+            36,
+            32,
+            41,
+            36
+          ],
+          "origins": 4,
+          "paired_width_walls": 52,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 52
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.025256199753203035,
+              "p50": 0.026642078824456128,
+              "p95": 0.02788666827092534
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.104918134829566,
+              "p50": -1.778253524956917,
+              "p95": -0.5454440928332156
+            },
+            "isolated_width1_nm": {
+              "p05": 7.42521764438694,
+              "p50": 7.468956283588785,
+              "p95": 7.514349602376864
+            },
+            "isolated_width2_nm": {
+              "p05": 7.411407081077023,
+              "p50": 7.455925414586481,
+              "p95": 7.500126807674041
+            },
+            "measured_gap_nm": {
+              "p05": 0.5733762892548349,
+              "p50": 1.8047603239488095,
+              "p95": 3.132804803100491
+            },
+            "measured_width1_nm": {
+              "p05": 6.317196086492595,
+              "p50": 7.281743607694436,
+              "p95": 7.972028456345841
+            },
+            "measured_width2_nm": {
+              "p05": 4.946537553002101,
+              "p50": 5.56351623059365,
+              "p95": 5.839636502725655
+            },
+            "periodic_gap_nm": {
+              "p05": 2.2415919223664504,
+              "p50": 2.4874162529056316,
+              "p95": 2.5479398714574586
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": -0.639377891366558,
+              "p50": 0.6543715513853976,
+              "p95": 1.9191781983380087
+            },
+            "periodic_width1_nm": {
+              "p05": 7.091673034693228,
+              "p50": 7.573152435593703,
+              "p95": 7.822709431835617
+            },
+            "periodic_width2_nm": {
+              "p05": 4.764882754817705,
+              "p50": 5.028890332352383,
+              "p95": 5.510866388511834
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 9.026733325621606,
+            "block_spacing_reference_walls": 14,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 22,
+            "median_spacing_nm": 16.800643789284642,
+            "minimum_occupied_blocks": 12,
+            "occupied_blocks_by_origin": [
+              13,
+              13,
+              12,
+              13
+            ],
+            "origins": 4,
+            "paired_width_walls": 14,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.025256199753203035,
+              "p50": 0.026642078824456128,
+              "p95": 0.027383251529120134
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.0725651357885466,
+              "p50": -1.7794202037263256,
+              "p95": -0.5467342104303787
+            },
+            "isolated_width1_nm": {
+              "p05": 7.438213542040075,
+              "p50": 7.468956283588785,
+              "p95": 7.510890255515729
+            },
+            "isolated_width2_nm": {
+              "p05": 7.413330302421618,
+              "p50": 7.455925414586481,
+              "p95": 7.49552788635491
+            },
+            "measured_gap_nm": {
+              "p05": 0.5733762892548349,
+              "p50": 1.8047603239488095,
+              "p95": 3.0753636238165525
+            },
+            "measured_width1_nm": {
+              "p05": 6.319687391283941,
+              "p50": 7.281743607694436,
+              "p95": 7.986858315369032
+            },
+            "measured_width2_nm": {
+              "p05": 4.946537553002101,
+              "p50": 5.56351623059365,
+              "p95": 5.837586024987856
+            },
+            "periodic_gap_nm": {
+              "p05": 2.4202531667843177,
+              "p50": 2.4874162529056316,
+              "p95": 2.5624403564292697
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": -0.6373727690282633,
+              "p50": 0.6198454393383335,
+              "p95": 1.9089017289635848
+            },
+            "periodic_width1_nm": {
+              "p05": 7.121495214999727,
+              "p50": 7.573152435593703,
+              "p95": 7.822709431835617
+            },
+            "periodic_width2_nm": {
+              "p05": 4.744398278052869,
+              "p50": 5.028890332352383,
+              "p95": 5.49837690642578
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 18.053466651243212,
+            "block_spacing_reference_walls": 14,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 22,
+            "median_spacing_nm": 16.800643789284642,
+            "minimum_occupied_blocks": 7,
+            "occupied_blocks_by_origin": [
+              9,
+              10,
+              7,
+              9
+            ],
+            "origins": 4,
+            "paired_width_walls": 14,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.025424040691764738,
+              "p50": 0.026642078824456128,
+              "p95": 0.027311525796160238
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.0501074240633494,
+              "p50": -1.7781182451243533,
+              "p95": -0.5465989305978152
+            },
+            "isolated_width1_nm": {
+              "p05": 7.438213542040075,
+              "p50": 7.468956283588785,
+              "p95": 7.504608314949323
+            },
+            "isolated_width2_nm": {
+              "p05": 7.413330302421618,
+              "p50": 7.455925414586481,
+              "p95": 7.49552788635491
+            },
+            "measured_gap_nm": {
+              "p05": 0.5733762892548349,
+              "p50": 1.8047603239488095,
+              "p95": 3.0753636238165525
+            },
+            "measured_width1_nm": {
+              "p05": 6.0025881256684706,
+              "p50": 7.281743607694436,
+              "p95": 7.972028456345841
+            },
+            "measured_width2_nm": {
+              "p05": 4.946537553002101,
+              "p50": 5.56351623059365,
+              "p95": 5.7307281837776705
+            },
+            "periodic_gap_nm": {
+              "p05": 2.4202531667843177,
+              "p50": 2.4874162529056316,
+              "p95": 2.495432034072228
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": -0.5930856055981328,
+              "p50": 0.6826559289568221,
+              "p95": 1.9089017289635848
+            },
+            "periodic_width1_nm": {
+              "p05": 7.116433464061394,
+              "p50": 7.573152435593703,
+              "p95": 7.822709431835617
+            },
+            "periodic_width2_nm": {
+              "p05": 4.764882754817705,
+              "p50": 5.028890332352383,
+              "p95": 5.281107577031753
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 27.080199976864815,
+            "block_spacing_reference_walls": 14,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 22,
+            "median_spacing_nm": 16.800643789284642,
+            "minimum_occupied_blocks": 4,
+            "occupied_blocks_by_origin": [
+              4,
+              5,
+              6,
+              6
+            ],
+            "origins": 4,
+            "paired_width_walls": 14,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 22,
+      "description": "Published mean twist 0.6272\u00b0. This is the full-field extension of a previously examined central crop that yielded two width pairs.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-10 author aperture 2.466 px, all matched widths",
+      "point": {
+        "isolated_gap_nm": 0.026642078824456128,
+        "isolated_minus_experiment_median_gap_nm": -1.7781182451243533,
+        "isolated_width1_nm": 7.468956283588785,
+        "isolated_width2_nm": 7.455925414586481,
+        "measured_gap_nm": 1.8047603239488095,
+        "measured_width1_nm": 7.281743607694436,
+        "measured_width2_nm": 5.56351623059365,
+        "periodic_gap_nm": 2.4874162529056316,
+        "periodic_minus_experiment_median_gap_nm": 0.6826559289568221,
+        "periodic_width1_nm": 7.573152435593703,
+        "periodic_width2_nm": 5.028890332352383
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.025256199753203035,
+            "p50": 0.026642078824456128,
+            "p95": 0.027383251529120134
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -3.0725651357885466,
+            "p50": -1.7794202037263256,
+            "p95": -0.5467342104303787
+          },
+          "isolated_width1_nm": {
+            "p05": 7.438213542040075,
+            "p50": 7.468956283588785,
+            "p95": 7.510890255515729
+          },
+          "isolated_width2_nm": {
+            "p05": 7.413330302421618,
+            "p50": 7.455925414586481,
+            "p95": 7.49552788635491
+          },
+          "measured_gap_nm": {
+            "p05": 0.5733762892548349,
+            "p50": 1.8047603239488095,
+            "p95": 3.0753636238165525
+          },
+          "measured_width1_nm": {
+            "p05": 6.319687391283941,
+            "p50": 7.281743607694436,
+            "p95": 7.986858315369032
+          },
+          "measured_width2_nm": {
+            "p05": 4.946537553002101,
+            "p50": 5.56351623059365,
+            "p95": 5.837586024987856
+          },
+          "periodic_gap_nm": {
+            "p05": 2.4202531667843177,
+            "p50": 2.4874162529056316,
+            "p95": 2.5624403564292697
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": -0.6373727690282633,
+            "p50": 0.6198454393383335,
+            "p95": 1.9089017289635848
+          },
+          "periodic_width1_nm": {
+            "p05": 7.121495214999727,
+            "p50": 7.573152435593703,
+            "p95": 7.822709431835617
+          },
+          "periodic_width2_nm": {
+            "p05": 4.744398278052869,
+            "p50": 5.028890332352383,
+            "p95": 5.49837690642578
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.026642078824456128,
+          "isolated_minus_experiment_median_gap_nm": -1.7781182451243533,
+          "isolated_width1_nm": 7.468956283588785,
+          "isolated_width2_nm": 7.455925414586481,
+          "measured_gap_nm": 1.8047603239488095,
+          "measured_width1_nm": 7.281743607694436,
+          "measured_width2_nm": 5.56351623059365,
+          "periodic_gap_nm": 2.4874162529056316,
+          "periodic_minus_experiment_median_gap_nm": 0.6826559289568221,
+          "periodic_width1_nm": 7.573152435593703,
+          "periodic_width2_nm": 5.028890332352383
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 6,
+          "median_absolute_opposite_gap_disagreement_nm": 2.064167375764496
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 18.053466651243212,
+          "block_spacing_reference_walls": 14,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 22,
+          "median_spacing_nm": 16.800643789284642,
+          "minimum_occupied_blocks": 7,
+          "occupied_blocks_by_origin": [
+            9,
+            10,
+            7,
+            9
+          ],
+          "origins": 4,
+          "paired_width_walls": 14,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 14
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.03831229601499153,
+              "p50": 0.05976402272572123,
+              "p95": 0.06230762181165517
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.8480446779979367,
+              "p50": -3.556273819818116,
+              "p95": -1.737994957465887
+            },
+            "isolated_width1_nm": {
+              "p05": 7.472143508915885,
+              "p50": 7.490921891934533,
+              "p95": 7.525885943954123
+            },
+            "isolated_width2_nm": {
+              "p05": 7.40983588710423,
+              "p50": 7.438492294634772,
+              "p95": 7.4765913529268495
+            },
+            "measured_gap_nm": {
+              "p05": 1.7981608344623798,
+              "p50": 3.616439696814609,
+              "p95": 3.907808700723658
+            },
+            "measured_width1_nm": {
+              "p05": 4.173965804623895,
+              "p50": 5.679624425107915,
+              "p95": 6.081082912547105
+            },
+            "measured_width2_nm": {
+              "p05": 1.9408251992089818,
+              "p50": 2.187479078878008,
+              "p95": 2.464643215732496
+            },
+            "periodic_gap_nm": {
+              "p05": 4.007437017851745,
+              "p50": 4.560160343895175,
+              "p95": 4.81505667783005
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.5297840050767926,
+              "p50": 0.9437206470805664,
+              "p95": 2.8092981200390694
+            },
+            "periodic_width1_nm": {
+              "p05": 6.172014952655219,
+              "p50": 6.632692008229271,
+              "p95": 7.0187055920257215
+            },
+            "periodic_width2_nm": {
+              "p05": 2.0589607778961816,
+              "p50": 2.1479891501335775,
+              "p95": 2.188251615397349
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.389888043096861,
+            "block_spacing_reference_walls": 13,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.031712005844492,
+            "minimum_occupied_blocks": 13,
+            "occupied_blocks_by_origin": [
+              13,
+              13,
+              13,
+              13
+            ],
+            "origins": 4,
+            "paired_width_walls": 13,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.03831229601499153,
+              "p50": 0.05976402272572123,
+              "p95": 0.06131268688955416
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.836760132113942,
+              "p50": -3.556273819818116,
+              "p95": -1.8373036605218316
+            },
+            "isolated_width1_nm": {
+              "p05": 7.472143508915885,
+              "p50": 7.490921891934533,
+              "p95": 7.525885943954123
+            },
+            "isolated_width2_nm": {
+              "p05": 7.40983588710423,
+              "p50": 7.438492294634772,
+              "p95": 7.4765913529268495
+            },
+            "measured_gap_nm": {
+              "p05": 1.8923237801041337,
+              "p50": 3.616439696814609,
+              "p95": 3.885798018474464
+            },
+            "measured_width1_nm": {
+              "p05": 4.177766998029807,
+              "p50": 5.679624425107915,
+              "p95": 5.950294353798032
+            },
+            "measured_width2_nm": {
+              "p05": 1.9785973108390342,
+              "p50": 2.187479078878008,
+              "p95": 2.464643215732496
+            },
+            "periodic_gap_nm": {
+              "p05": 4.241468562176088,
+              "p50": 4.560160343895175,
+              "p95": 4.795784845784957
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.6284161693216408,
+              "p50": 1.052573562512276,
+              "p95": 2.7619995094327954
+            },
+            "periodic_width1_nm": {
+              "p05": 6.366304783398454,
+              "p50": 6.632692008229271,
+              "p95": 6.8907551257328805
+            },
+            "periodic_width2_nm": {
+              "p05": 2.0589607778961816,
+              "p50": 2.1479891501335775,
+              "p95": 2.1820490400474783
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.779776086193722,
+            "block_spacing_reference_walls": 13,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.031712005844492,
+            "minimum_occupied_blocks": 9,
+            "occupied_blocks_by_origin": [
+              9,
+              9,
+              11,
+              11
+            ],
+            "origins": 4,
+            "paired_width_walls": 13,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.05295364061554242,
+              "p50": 0.05976402272572123,
+              "p95": 0.06230762181165517
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.826033995748743,
+              "p50": -3.556273819818116,
+              "p95": -1.8347307818147363
+            },
+            "isolated_width1_nm": {
+              "p05": 7.472143508915885,
+              "p50": 7.490921891934533,
+              "p95": 7.525885943954123
+            },
+            "isolated_width2_nm": {
+              "p05": 7.40983588710423,
+              "p50": 7.438492294634772,
+              "p95": 7.470349195084018
+            },
+            "measured_gap_nm": {
+              "p05": 1.8923237801041337,
+              "p50": 3.616439696814609,
+              "p95": 3.885798018474464
+            },
+            "measured_width1_nm": {
+              "p05": 4.173965804623895,
+              "p50": 5.679624425107915,
+              "p95": 6.081082912547105
+            },
+            "measured_width2_nm": {
+              "p05": 1.9785973108390342,
+              "p50": 2.187479078878008,
+              "p95": 2.464643215732496
+            },
+            "periodic_gap_nm": {
+              "p05": 4.241468562176088,
+              "p50": 4.560160343895175,
+              "p95": 4.805420761807504
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.6523516431715173,
+              "p50": 1.0961701264481745,
+              "p95": 2.7619995094327954
+            },
+            "periodic_width1_nm": {
+              "p05": 6.366304783398454,
+              "p50": 6.632692008229271,
+              "p95": 6.954730358879301
+            },
+            "periodic_width2_nm": {
+              "p05": 2.051055031512881,
+              "p50": 2.1479891501335775,
+              "p95": 2.1725274917971733
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 16.169664129290584,
+            "block_spacing_reference_walls": 13,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.031712005844492,
+            "minimum_occupied_blocks": 7,
+            "occupied_blocks_by_origin": [
+              7,
+              9,
+              7,
+              8
+            ],
+            "origins": 4,
+            "paired_width_walls": 13,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 30,
+      "description": "Published twist 1.2343\u00b0. Uses the 13 rows with qualified primary width and both opposite-triplet gap readouts; this reproduces the saved repeatability-warning cohort.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-5 aperture 3.5 px, adaptive window, opposite-spot matched",
+      "point": {
+        "isolated_gap_nm": 0.05976402272572123,
+        "isolated_minus_experiment_median_gap_nm": -3.5566756740888876,
+        "isolated_width1_nm": 7.490921891934533,
+        "isolated_width2_nm": 7.438492294634772,
+        "measured_gap_nm": 3.616439696814609,
+        "measured_width1_nm": 5.679624425107915,
+        "measured_width2_nm": 2.187479078878008,
+        "periodic_gap_nm": 4.560160343895175,
+        "periodic_minus_experiment_median_gap_nm": 0.9437206470805664,
+        "periodic_width1_nm": 6.632692008229271,
+        "periodic_width2_nm": 2.1479891501335775
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.03831229601499153,
+            "p50": 0.05976402272572123,
+            "p95": 0.06131268688955416
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -3.836760132113942,
+            "p50": -3.556273819818116,
+            "p95": -1.8373036605218316
+          },
+          "isolated_width1_nm": {
+            "p05": 7.472143508915885,
+            "p50": 7.490921891934533,
+            "p95": 7.525885943954123
+          },
+          "isolated_width2_nm": {
+            "p05": 7.40983588710423,
+            "p50": 7.438492294634772,
+            "p95": 7.4765913529268495
+          },
+          "measured_gap_nm": {
+            "p05": 1.8923237801041337,
+            "p50": 3.616439696814609,
+            "p95": 3.885798018474464
+          },
+          "measured_width1_nm": {
+            "p05": 4.177766998029807,
+            "p50": 5.679624425107915,
+            "p95": 5.950294353798032
+          },
+          "measured_width2_nm": {
+            "p05": 1.9785973108390342,
+            "p50": 2.187479078878008,
+            "p95": 2.464643215732496
+          },
+          "periodic_gap_nm": {
+            "p05": 4.241468562176088,
+            "p50": 4.560160343895175,
+            "p95": 4.795784845784957
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": 0.6284161693216408,
+            "p50": 1.052573562512276,
+            "p95": 2.7619995094327954
+          },
+          "periodic_width1_nm": {
+            "p05": 6.366304783398454,
+            "p50": 6.632692008229271,
+            "p95": 6.8907551257328805
+          },
+          "periodic_width2_nm": {
+            "p05": 2.0589607778961816,
+            "p50": 2.1479891501335775,
+            "p95": 2.1820490400474783
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.05976402272572123,
+          "isolated_minus_experiment_median_gap_nm": -3.5566756740888876,
+          "isolated_width1_nm": 7.490921891934533,
+          "isolated_width2_nm": 7.438492294634772,
+          "measured_gap_nm": 3.616439696814609,
+          "measured_width1_nm": 5.679624425107915,
+          "measured_width2_nm": 2.187479078878008,
+          "periodic_gap_nm": 4.560160343895175,
+          "periodic_minus_experiment_median_gap_nm": 0.9437206470805664,
+          "periodic_width1_nm": 6.632692008229271,
+          "periodic_width2_nm": 2.1479891501335775
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 13,
+          "median_absolute_opposite_gap_disagreement_nm": 1.8016400755922577
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.779776086193722,
+          "block_spacing_reference_walls": 13,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 30,
+          "median_spacing_nm": 10.031712005844492,
+          "minimum_occupied_blocks": 9,
+          "occupied_blocks_by_origin": [
+            9,
+            9,
+            11,
+            11
+          ],
+          "origins": 4,
+          "paired_width_walls": 13,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 13
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.060047000557300834,
+              "p50": 0.07286991944880361,
+              "p95": 0.08761215774663089
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -0.7699571717920446,
+              "p50": -0.3191888823118494,
+              "p95": 0.3737441741185954
+            },
+            "isolated_width1_nm": {
+              "p05": 7.580745027833767,
+              "p50": 7.641387701024941,
+              "p95": 7.672472183372703
+            },
+            "isolated_width2_nm": {
+              "p05": 7.4982103891657506,
+              "p50": 7.56314545545842,
+              "p95": 7.613901765533002
+            },
+            "measured_gap_nm": {
+              "p05": -0.2861320163719645,
+              "p50": 0.3936267666772295,
+              "p95": 0.8331623720216357
+            },
+            "measured_width1_nm": {
+              "p05": 3.193680073868634,
+              "p50": 3.6509225222302906,
+              "p95": 4.17777789640313
+            },
+            "measured_width2_nm": {
+              "p05": 3.0522404294021372,
+              "p50": 3.3247508351610464,
+              "p95": 3.522349952742937
+            },
+            "periodic_gap_nm": {
+              "p05": 2.940434963739871,
+              "p50": 2.976792971287101,
+              "p95": 3.1297996946529767
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 2.154217637778208,
+              "p50": 2.5844905559852305,
+              "p95": 3.316982621685378
+            },
+            "periodic_width1_nm": {
+              "p05": 6.199891375807299,
+              "p50": 6.44507934832194,
+              "p95": 6.684513828231832
+            },
+            "periodic_width2_nm": {
+              "p05": 3.2542601038309655,
+              "p50": 3.3972303425953356,
+              "p95": 3.5599671547515745
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.383463537232775,
+            "block_spacing_reference_walls": 12,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 12,
+            "occupied_blocks_by_origin": [
+              12,
+              12,
+              12,
+              12
+            ],
+            "origins": 4,
+            "paired_width_walls": 12,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.060047000557300834,
+              "p50": 0.07286991944880361,
+              "p95": 0.08761215774663089
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -0.7462873261898959,
+              "p50": -0.30952416309263686,
+              "p95": 0.42091167871380364
+            },
+            "isolated_width1_nm": {
+              "p05": 7.580745027833767,
+              "p50": 7.641387701024941,
+              "p95": 7.669270849999987
+            },
+            "isolated_width2_nm": {
+              "p05": 7.4982103891657506,
+              "p50": 7.56314545545842,
+              "p95": 7.606759275388745
+            },
+            "measured_gap_nm": {
+              "p05": -0.35770647848421255,
+              "p50": 0.3936267666772295,
+              "p95": 0.8331623720216357
+            },
+            "measured_width1_nm": {
+              "p05": 3.193680073868634,
+              "p50": 3.6509225222302906,
+              "p95": 4.151516966320587
+            },
+            "measured_width2_nm": {
+              "p05": 3.0522404294021372,
+              "p50": 3.3247508351610464,
+              "p95": 3.522349952742937
+            },
+            "periodic_gap_nm": {
+              "p05": 2.940434963739871,
+              "p50": 2.976792971287101,
+              "p95": 3.1297996946529767
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 2.153731714973478,
+              "p50": 2.587797548178563,
+              "p95": 3.3514182951134517
+            },
+            "periodic_width1_nm": {
+              "p05": 6.199891375807299,
+              "p50": 6.44507934832194,
+              "p95": 6.684513828231832
+            },
+            "periodic_width2_nm": {
+              "p05": 3.2542601038309655,
+              "p50": 3.3972303425953356,
+              "p95": 3.479688466752611
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.76692707446555,
+            "block_spacing_reference_walls": 12,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 9,
+            "occupied_blocks_by_origin": [
+              9,
+              10,
+              12,
+              10
+            ],
+            "origins": 4,
+            "paired_width_walls": 12,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.060047000557300834,
+              "p50": 0.07286991944880361,
+              "p95": 0.08761215774663089
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -0.6733750461452783,
+              "p50": -0.3191888823118494,
+              "p95": 0.37180258487313367
+            },
+            "isolated_width1_nm": {
+              "p05": 7.592209204829271,
+              "p50": 7.641387701024941,
+              "p95": 7.665350500139122
+            },
+            "isolated_width2_nm": {
+              "p05": 7.502923117180053,
+              "p50": 7.56314545545842,
+              "p95": 7.605303499581821
+            },
+            "measured_gap_nm": {
+              "p05": -0.2861320163719645,
+              "p50": 0.3936267666772295,
+              "p95": 0.7358866207565202
+            },
+            "measured_width1_nm": {
+              "p05": 3.193680073868634,
+              "p50": 3.6509225222302906,
+              "p95": 4.062926440180822
+            },
+            "measured_width2_nm": {
+              "p05": 3.0522404294021372,
+              "p50": 3.3247508351610464,
+              "p95": 3.4674222036631805
+            },
+            "periodic_gap_nm": {
+              "p05": 2.9463641862830725,
+              "p50": 2.976792971287101,
+              "p95": 3.05858985222641
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 2.228334092994918,
+              "p50": 2.5831662046098716,
+              "p95": 3.272772889372508
+            },
+            "periodic_width1_nm": {
+              "p05": 6.199891375807299,
+              "p50": 6.44507934832194,
+              "p95": 6.667471930108878
+            },
+            "periodic_width2_nm": {
+              "p05": 3.2542601038309655,
+              "p50": 3.3972303425953356,
+              "p95": 3.4630138612115537
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 16.15039061169832,
+            "block_spacing_reference_walls": 12,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 7,
+            "occupied_blocks_by_origin": [
+              7,
+              8,
+              7,
+              7
+            ],
+            "origins": 4,
+            "paired_width_walls": 12,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 30,
+      "description": "Same scan and geometry; uses the 12 rows with qualified primary width and both opposite-triplet gap readouts.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-5 aperture 3.5 px, fixed 4.25 nm window, opposite-spot matched",
+      "point": {
+        "isolated_gap_nm": 0.07286991944880361,
+        "isolated_minus_experiment_median_gap_nm": -0.3207568472284259,
+        "isolated_width1_nm": 7.641387701024941,
+        "isolated_width2_nm": 7.56314545545842,
+        "measured_gap_nm": 0.3936267666772295,
+        "measured_width1_nm": 3.6509225222302906,
+        "measured_width2_nm": 3.3247508351610464,
+        "periodic_gap_nm": 2.976792971287101,
+        "periodic_minus_experiment_median_gap_nm": 2.5831662046098716,
+        "periodic_width1_nm": 6.44507934832194,
+        "periodic_width2_nm": 3.3972303425953356
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.060047000557300834,
+            "p50": 0.07286991944880361,
+            "p95": 0.08761215774663089
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -0.7462873261898959,
+            "p50": -0.30952416309263686,
+            "p95": 0.42091167871380364
+          },
+          "isolated_width1_nm": {
+            "p05": 7.580745027833767,
+            "p50": 7.641387701024941,
+            "p95": 7.669270849999987
+          },
+          "isolated_width2_nm": {
+            "p05": 7.4982103891657506,
+            "p50": 7.56314545545842,
+            "p95": 7.606759275388745
+          },
+          "measured_gap_nm": {
+            "p05": -0.35770647848421255,
+            "p50": 0.3936267666772295,
+            "p95": 0.8331623720216357
+          },
+          "measured_width1_nm": {
+            "p05": 3.193680073868634,
+            "p50": 3.6509225222302906,
+            "p95": 4.151516966320587
+          },
+          "measured_width2_nm": {
+            "p05": 3.0522404294021372,
+            "p50": 3.3247508351610464,
+            "p95": 3.522349952742937
+          },
+          "periodic_gap_nm": {
+            "p05": 2.940434963739871,
+            "p50": 2.976792971287101,
+            "p95": 3.1297996946529767
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": 2.153731714973478,
+            "p50": 2.587797548178563,
+            "p95": 3.3514182951134517
+          },
+          "periodic_width1_nm": {
+            "p05": 6.199891375807299,
+            "p50": 6.44507934832194,
+            "p95": 6.684513828231832
+          },
+          "periodic_width2_nm": {
+            "p05": 3.2542601038309655,
+            "p50": 3.3972303425953356,
+            "p95": 3.479688466752611
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.07286991944880361,
+          "isolated_minus_experiment_median_gap_nm": -0.3207568472284259,
+          "isolated_width1_nm": 7.641387701024941,
+          "isolated_width2_nm": 7.56314545545842,
+          "measured_gap_nm": 0.3936267666772295,
+          "measured_width1_nm": 3.6509225222302906,
+          "measured_width2_nm": 3.3247508351610464,
+          "periodic_gap_nm": 2.976792971287101,
+          "periodic_minus_experiment_median_gap_nm": 2.5831662046098716,
+          "periodic_width1_nm": 6.44507934832194,
+          "periodic_width2_nm": 3.3972303425953356
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 12,
+          "median_absolute_opposite_gap_disagreement_nm": 1.145398529578794
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.76692707446555,
+          "block_spacing_reference_walls": 12,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 30,
+          "median_spacing_nm": 10.019754653095593,
+          "minimum_occupied_blocks": 9,
+          "occupied_blocks_by_origin": [
+            9,
+            10,
+            12,
+            10
+          ],
+          "origins": 4,
+          "paired_width_walls": 12,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 12
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.03831229601499153,
+              "p50": 0.05865410990884268,
+              "p95": 0.06230762181165517
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -4.944274458162721,
+              "p50": -4.128679606133193,
+              "p95": -3.732661635155782
+            },
+            "isolated_width1_nm": {
+              "p05": 7.474088111468024,
+              "p50": 7.499805843084397,
+              "p95": 7.529544993542392
+            },
+            "isolated_width2_nm": {
+              "p05": 7.411487349191292,
+              "p50": 7.452883570281074,
+              "p95": 7.483677761373138
+            },
+            "measured_gap_nm": {
+              "p05": 3.792425657881503,
+              "p50": 4.188443628858915,
+              "p95": 4.997881544471998
+            },
+            "measured_width1_nm": {
+              "p05": 5.81950579504896,
+              "p50": 6.144452879230846,
+              "p95": 6.896089011695551
+            },
+            "measured_width2_nm": {
+              "p05": 1.8664849121047142,
+              "p50": 2.016369422469087,
+              "p95": 2.2231008007329645
+            },
+            "periodic_gap_nm": {
+              "p05": 4.480784795555521,
+              "p50": 4.560160343895175,
+              "p95": 4.72913813191405
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": -0.350173317974793,
+              "p50": 0.3717167150362606,
+              "p95": 0.8643912493829795
+            },
+            "periodic_width1_nm": {
+              "p05": 6.5605946141416895,
+              "p50": 6.701284826453464,
+              "p95": 6.805322614803611
+            },
+            "periodic_width2_nm": {
+              "p05": 2.0431492851295805,
+              "p50": 2.1018921494149834,
+              "p95": 2.1479891501335775
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.355215741026087,
+            "block_spacing_reference_walls": 27,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 9.967179580277854,
+            "minimum_occupied_blocks": 26,
+            "occupied_blocks_by_origin": [
+              27,
+              27,
+              26,
+              27
+            ],
+            "origins": 4,
+            "paired_width_walls": 27,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.03831229601499153,
+              "p50": 0.05865410990884268,
+              "p95": 0.06101364890221438
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -4.9381175217462765,
+              "p50": -4.129789518950072,
+              "p95": -3.732661635155782
+            },
+            "isolated_width1_nm": {
+              "p05": 7.474088111468024,
+              "p50": 7.499805843084397,
+              "p95": 7.529544993542392
+            },
+            "isolated_width2_nm": {
+              "p05": 7.411487349191292,
+              "p50": 7.452883570281074,
+              "p95": 7.483677761373138
+            },
+            "measured_gap_nm": {
+              "p05": 3.792425657881503,
+              "p50": 4.188443628858915,
+              "p95": 4.997881544471998
+            },
+            "measured_width1_nm": {
+              "p05": 5.81950579504896,
+              "p50": 6.144452879230846,
+              "p95": 6.896089011695551
+            },
+            "measured_width2_nm": {
+              "p05": 1.8664849121047142,
+              "p50": 2.016369422469087,
+              "p95": 2.2231008007329645
+            },
+            "periodic_gap_nm": {
+              "p05": 4.475500106500432,
+              "p50": 4.560160343895175,
+              "p95": 4.746667297393751
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": -0.29933013903600525,
+              "p50": 0.38198313072252166,
+              "p95": 0.8528977995703677
+            },
+            "periodic_width1_nm": {
+              "p05": 6.5605946141416895,
+              "p50": 6.701284826453464,
+              "p95": 6.805322614803611
+            },
+            "periodic_width2_nm": {
+              "p05": 2.039202373040693,
+              "p50": 2.1018921494149834,
+              "p95": 2.1479891501335775
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.710431482052174,
+            "block_spacing_reference_walls": 27,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 9.967179580277854,
+            "minimum_occupied_blocks": 15,
+            "occupied_blocks_by_origin": [
+              15,
+              16,
+              17,
+              17
+            ],
+            "origins": 4,
+            "paired_width_walls": 27,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.05295364061554242,
+              "p50": 0.05865410990884268,
+              "p95": 0.061012481882926295
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -4.700404085550588,
+              "p50": -4.131051557704903,
+              "p95": -3.737405538299201
+            },
+            "isolated_width1_nm": {
+              "p05": 7.479092603388098,
+              "p50": 7.499805843084397,
+              "p95": 7.528701706943121
+            },
+            "isolated_width2_nm": {
+              "p05": 7.411983720681318,
+              "p50": 7.452883570281074,
+              "p95": 7.48299394742609
+            },
+            "measured_gap_nm": {
+              "p05": 3.792425657881503,
+              "p50": 4.188443628858915,
+              "p95": 4.753318415397984
+            },
+            "measured_width1_nm": {
+              "p05": 5.81950579504896,
+              "p50": 6.144452879230846,
+              "p95": 6.691227486179168
+            },
+            "measured_width2_nm": {
+              "p05": 1.8649889918560154,
+              "p50": 2.016369422469087,
+              "p95": 2.2066150735542216
+            },
+            "periodic_gap_nm": {
+              "p05": 4.478142451027976,
+              "p50": 4.560160343895175,
+              "p95": 4.795784845784957
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": -0.14171176017413512,
+              "p50": 0.4074225579474877,
+              "p95": 0.8096476841420142
+            },
+            "periodic_width1_nm": {
+              "p05": 6.503238539083398,
+              "p50": 6.701284826453464,
+              "p95": 6.806803028040254
+            },
+            "periodic_width2_nm": {
+              "p05": 2.0352554609518054,
+              "p50": 2.1018921494149834,
+              "p95": 2.1645779348034733
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 16.06564722307826,
+            "block_spacing_reference_walls": 27,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 9.967179580277854,
+            "minimum_occupied_blocks": 9,
+            "occupied_blocks_by_origin": [
+              9,
+              11,
+              10,
+              12
+            ],
+            "origins": 4,
+            "paired_width_walls": 27,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 30,
+      "description": "Sensitivity cohort retaining every row with qualified measured, periodic and isolated width pairs; 27 rows. The published warning statistic uses the stricter opposite-spot matched subset.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-5 aperture 3.5 px, adaptive window, all qualified widths",
+      "point": {
+        "isolated_gap_nm": 0.05865410990884268,
+        "isolated_minus_experiment_median_gap_nm": -4.129789518950072,
+        "isolated_width1_nm": 7.499805843084397,
+        "isolated_width2_nm": 7.452883570281074,
+        "measured_gap_nm": 4.188443628858915,
+        "measured_width1_nm": 6.144452879230846,
+        "measured_width2_nm": 2.016369422469087,
+        "periodic_gap_nm": 4.560160343895175,
+        "periodic_minus_experiment_median_gap_nm": 0.3717167150362606,
+        "periodic_width1_nm": 6.701284826453464,
+        "periodic_width2_nm": 2.1018921494149834
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.03831229601499153,
+            "p50": 0.05865410990884268,
+            "p95": 0.06101364890221438
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -4.9381175217462765,
+            "p50": -4.129789518950072,
+            "p95": -3.732661635155782
+          },
+          "isolated_width1_nm": {
+            "p05": 7.474088111468024,
+            "p50": 7.499805843084397,
+            "p95": 7.529544993542392
+          },
+          "isolated_width2_nm": {
+            "p05": 7.411487349191292,
+            "p50": 7.452883570281074,
+            "p95": 7.483677761373138
+          },
+          "measured_gap_nm": {
+            "p05": 3.792425657881503,
+            "p50": 4.188443628858915,
+            "p95": 4.997881544471998
+          },
+          "measured_width1_nm": {
+            "p05": 5.81950579504896,
+            "p50": 6.144452879230846,
+            "p95": 6.896089011695551
+          },
+          "measured_width2_nm": {
+            "p05": 1.8664849121047142,
+            "p50": 2.016369422469087,
+            "p95": 2.2231008007329645
+          },
+          "periodic_gap_nm": {
+            "p05": 4.475500106500432,
+            "p50": 4.560160343895175,
+            "p95": 4.746667297393751
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": -0.29933013903600525,
+            "p50": 0.38198313072252166,
+            "p95": 0.8528977995703677
+          },
+          "periodic_width1_nm": {
+            "p05": 6.5605946141416895,
+            "p50": 6.701284826453464,
+            "p95": 6.805322614803611
+          },
+          "periodic_width2_nm": {
+            "p05": 2.039202373040693,
+            "p50": 2.1018921494149834,
+            "p95": 2.1479891501335775
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.05865410990884268,
+          "isolated_minus_experiment_median_gap_nm": -4.129789518950072,
+          "isolated_width1_nm": 7.499805843084397,
+          "isolated_width2_nm": 7.452883570281074,
+          "measured_gap_nm": 4.188443628858915,
+          "measured_width1_nm": 6.144452879230846,
+          "measured_width2_nm": 2.016369422469087,
+          "periodic_gap_nm": 4.560160343895175,
+          "periodic_minus_experiment_median_gap_nm": 0.3717167150362606,
+          "periodic_width1_nm": 6.701284826453464,
+          "periodic_width2_nm": 2.1018921494149834
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 13,
+          "median_absolute_opposite_gap_disagreement_nm": 1.8016400755922577
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.710431482052174,
+          "block_spacing_reference_walls": 27,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 30,
+          "median_spacing_nm": 9.967179580277854,
+          "minimum_occupied_blocks": 15,
+          "occupied_blocks_by_origin": [
+            15,
+            16,
+            17,
+            17
+          ],
+          "origins": 4,
+          "paired_width_walls": 27,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 27
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.0615941440012886,
+              "p50": 0.08333447910694192,
+              "p95": 0.08761215774663089
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -1.5029605158353552,
+              "p50": -0.62789111498375,
+              "p95": 0.19031939864751735
+            },
+            "isolated_width1_nm": {
+              "p05": 7.6062630787735825,
+              "p50": 7.64594101488283,
+              "p95": 7.663342021083967
+            },
+            "isolated_width2_nm": {
+              "p05": 7.516639080718578,
+              "p50": 7.555359242371329,
+              "p95": 7.601560803870711
+            },
+            "measured_gap_nm": {
+              "p05": -0.10464883014634818,
+              "p50": 0.711225594090692,
+              "p95": 1.5894903879640032
+            },
+            "measured_width1_nm": {
+              "p05": 3.5825577434930636,
+              "p50": 4.035976429251738,
+              "p95": 4.876559087004599
+            },
+            "measured_width2_nm": {
+              "p05": 3.0902309610782597,
+              "p50": 3.3825008587445273,
+              "p95": 3.727928268079234
+            },
+            "periodic_gap_nm": {
+              "p05": 2.940434963739871,
+              "p50": 2.982748666231152,
+              "p95": 3.135408134144347
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 1.5081980596506992,
+              "p50": 2.3139435693072246,
+              "p95": 3.168678459932463
+            },
+            "periodic_width1_nm": {
+              "p05": 6.310951760920429,
+              "p50": 6.59194784651456,
+              "p95": 6.722900839467377
+            },
+            "periodic_width2_nm": {
+              "p05": 3.267741044287714,
+              "p50": 3.4403750554287296,
+              "p95": 3.584676261491188
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.354784376480865,
+            "block_spacing_reference_walls": 18,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 9.966376720394198,
+            "minimum_occupied_blocks": 18,
+            "occupied_blocks_by_origin": [
+              18,
+              18,
+              18,
+              18
+            ],
+            "origins": 4,
+            "paired_width_walls": 18,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.06162610039344596,
+              "p50": 0.08333447910694192,
+              "p95": 0.08664136312390003
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -1.5053560684181355,
+              "p50": -0.6278976913603254,
+              "p95": 0.3044849492159587
+            },
+            "isolated_width1_nm": {
+              "p05": 7.603673381824776,
+              "p50": 7.64594101488283,
+              "p95": 7.665350500139122
+            },
+            "isolated_width2_nm": {
+              "p05": 7.507635845194357,
+              "p50": 7.555359242371329,
+              "p95": 7.605303499581821
+            },
+            "measured_gap_nm": {
+              "p05": -0.21881438071478954,
+              "p50": 0.711225594090692,
+              "p95": 1.5894903879640032
+            },
+            "measured_width1_nm": {
+              "p05": 3.5825577434930636,
+              "p50": 4.035976429251738,
+              "p95": 4.876559087004599
+            },
+            "measured_width2_nm": {
+              "p05": 3.0522404294021372,
+              "p50": 3.3825008587445273,
+              "p95": 3.6405921072242258
+            },
+            "periodic_gap_nm": {
+              "p05": 2.9463641862830725,
+              "p50": 2.982748666231152,
+              "p95": 3.132603914398662
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 1.4698612760412717,
+              "p50": 2.2753479988936505,
+              "p95": 3.2265669801118353
+            },
+            "periodic_width1_nm": {
+              "p05": 6.285392315909747,
+              "p50": 6.59194784651456,
+              "p95": 6.710945466272454
+            },
+            "periodic_width2_nm": {
+              "p05": 3.2542601038309655,
+              "p50": 3.4403750554287296,
+              "p95": 3.6749614120741825
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.70956875296173,
+            "block_spacing_reference_walls": 18,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 9.966376720394198,
+            "minimum_occupied_blocks": 11,
+            "occupied_blocks_by_origin": [
+              13,
+              11,
+              14,
+              13
+            ],
+            "origins": 4,
+            "paired_width_walls": 18,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.06205285930626525,
+              "p50": 0.08333447910694192,
+              "p95": 0.08652987212864804
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -1.4295529110829384,
+              "p50": -0.6278845386071747,
+              "p95": 0.14353045959784835
+            },
+            "isolated_width1_nm": {
+              "p05": 7.6210922759728374,
+              "p50": 7.64594101488283,
+              "p95": 7.6574131921679465
+            },
+            "isolated_width2_nm": {
+              "p05": 7.530538027111466,
+              "p50": 7.555359242371329,
+              "p95": 7.596362332352679
+            },
+            "measured_gap_nm": {
+              "p05": -0.0709900123177607,
+              "p50": 0.711225594090692,
+              "p95": 1.5128873901898803
+            },
+            "measured_width1_nm": {
+              "p05": 3.610200827790469,
+              "p50": 4.035976429251738,
+              "p95": 4.876559087004599
+            },
+            "measured_width2_nm": {
+              "p05": 3.0522404294021372,
+              "p50": 3.3825008587445273,
+              "p95": 3.8314855729704345
+            },
+            "periodic_gap_nm": {
+              "p05": 2.9522934088262747,
+              "p50": 2.9873800097998435,
+              "p95": 3.135408134144347
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 1.5403093066889735,
+              "p50": 2.276557624116902,
+              "p95": 3.04920261905268
+            },
+            "periodic_width1_nm": {
+              "p05": 6.285392315909747,
+              "p50": 6.59194784651456,
+              "p95": 6.710798202834049
+            },
+            "periodic_width2_nm": {
+              "p05": 3.281221984744462,
+              "p50": 3.4357772134284934,
+              "p95": 3.6749614120741825
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 16.064353129442594,
+            "block_spacing_reference_walls": 18,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 9.966376720394198,
+            "minimum_occupied_blocks": 8,
+            "occupied_blocks_by_origin": [
+              8,
+              9,
+              8,
+              8
+            ],
+            "origins": 4,
+            "paired_width_walls": 18,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 30,
+      "description": "Sensitivity cohort retaining every row with qualified measured, periodic and isolated width pairs; 18 rows. The published warning statistic uses the stricter opposite-spot matched subset.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-5 aperture 3.5 px, fixed 4.25 nm window, all qualified widths",
+      "point": {
+        "isolated_gap_nm": 0.08333447910694192,
+        "isolated_minus_experiment_median_gap_nm": -0.62789111498375,
+        "isolated_width1_nm": 7.64594101488283,
+        "isolated_width2_nm": 7.555359242371329,
+        "measured_gap_nm": 0.711225594090692,
+        "measured_width1_nm": 4.035976429251738,
+        "measured_width2_nm": 3.3825008587445273,
+        "periodic_gap_nm": 2.982748666231152,
+        "periodic_minus_experiment_median_gap_nm": 2.27152307214046,
+        "periodic_width1_nm": 6.59194784651456,
+        "periodic_width2_nm": 3.4403750554287296
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.06162610039344596,
+            "p50": 0.08333447910694192,
+            "p95": 0.08664136312390003
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -1.5053560684181355,
+            "p50": -0.6278976913603254,
+            "p95": 0.3044849492159587
+          },
+          "isolated_width1_nm": {
+            "p05": 7.603673381824776,
+            "p50": 7.64594101488283,
+            "p95": 7.665350500139122
+          },
+          "isolated_width2_nm": {
+            "p05": 7.507635845194357,
+            "p50": 7.555359242371329,
+            "p95": 7.605303499581821
+          },
+          "measured_gap_nm": {
+            "p05": -0.21881438071478954,
+            "p50": 0.711225594090692,
+            "p95": 1.5894903879640032
+          },
+          "measured_width1_nm": {
+            "p05": 3.5825577434930636,
+            "p50": 4.035976429251738,
+            "p95": 4.876559087004599
+          },
+          "measured_width2_nm": {
+            "p05": 3.0522404294021372,
+            "p50": 3.3825008587445273,
+            "p95": 3.6405921072242258
+          },
+          "periodic_gap_nm": {
+            "p05": 2.9463641862830725,
+            "p50": 2.982748666231152,
+            "p95": 3.132603914398662
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": 1.4698612760412717,
+            "p50": 2.2753479988936505,
+            "p95": 3.2265669801118353
+          },
+          "periodic_width1_nm": {
+            "p05": 6.285392315909747,
+            "p50": 6.59194784651456,
+            "p95": 6.710945466272454
+          },
+          "periodic_width2_nm": {
+            "p05": 3.2542601038309655,
+            "p50": 3.4403750554287296,
+            "p95": 3.6749614120741825
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.08333447910694192,
+          "isolated_minus_experiment_median_gap_nm": -0.62789111498375,
+          "isolated_width1_nm": 7.64594101488283,
+          "isolated_width2_nm": 7.555359242371329,
+          "measured_gap_nm": 0.711225594090692,
+          "measured_width1_nm": 4.035976429251738,
+          "measured_width2_nm": 3.3825008587445273,
+          "periodic_gap_nm": 2.982748666231152,
+          "periodic_minus_experiment_median_gap_nm": 2.27152307214046,
+          "periodic_width1_nm": 6.59194784651456,
+          "periodic_width2_nm": 3.4403750554287296
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 12,
+          "median_absolute_opposite_gap_disagreement_nm": 1.145398529578794
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.70956875296173,
+          "block_spacing_reference_walls": 18,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 30,
+          "median_spacing_nm": 9.966376720394198,
+          "minimum_occupied_blocks": 11,
+          "occupied_blocks_by_origin": [
+            13,
+            11,
+            14,
+            13
+          ],
+          "origins": 4,
+          "paired_width_walls": 18,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 18
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.032667156469732284,
+              "p50": 0.05996494986110701,
+              "p95": 0.06579885929817797
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.7023601760434124,
+              "p50": -2.317410652393188,
+              "p95": -1.49053092843416
+            },
+            "isolated_width1_nm": {
+              "p05": 7.463553072842176,
+              "p50": 7.499352141677003,
+              "p95": 7.529713086042778
+            },
+            "isolated_width2_nm": {
+              "p05": 7.402316323438102,
+              "p50": 7.445687932457923,
+              "p95": 7.488433703145489
+            },
+            "measured_gap_nm": {
+              "p05": 1.5552589153247567,
+              "p50": 2.3664488117635445,
+              "p95": 3.7621241987691336
+            },
+            "measured_width1_nm": {
+              "p05": 3.6495067707489612,
+              "p50": 4.468373062437092,
+              "p95": 5.88035366882751
+            },
+            "measured_width2_nm": {
+              "p05": 1.9414271672869006,
+              "p50": 2.2427007053409382,
+              "p95": 2.393327007238095
+            },
+            "periodic_gap_nm": {
+              "p05": 3.931159980039909,
+              "p50": 4.505862488272865,
+              "p95": 4.738486893252957
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.5980537875492073,
+              "p50": 1.992075995471756,
+              "p95": 2.952457596648071
+            },
+            "periodic_width1_nm": {
+              "p05": 6.097769585524453,
+              "p50": 6.577890131041585,
+              "p95": 6.885432584373351
+            },
+            "periodic_width2_nm": {
+              "p05": 2.051055031512881,
+              "p50": 2.0934933285281203,
+              "p95": 2.1780742615506288
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.383463537232775,
+            "block_spacing_reference_walls": 8,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 8,
+            "occupied_blocks_by_origin": [
+              8,
+              8,
+              8,
+              8
+            ],
+            "origins": 4,
+            "paired_width_walls": 8,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.032667156469732284,
+              "p50": 0.05996494986110701,
+              "p95": 0.06472798689059678
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.8480446779979367,
+              "p50": -2.3172097252578023,
+              "p95": -1.49053092843416
+            },
+            "isolated_width1_nm": {
+              "p05": 7.463553072842176,
+              "p50": 7.499352141677003,
+              "p95": 7.533540228131434
+            },
+            "isolated_width2_nm": {
+              "p05": 7.402316323438102,
+              "p50": 7.445687932457923,
+              "p95": 7.506518211206961
+            },
+            "measured_gap_nm": {
+              "p05": 1.5552589153247567,
+              "p50": 2.3664488117635445,
+              "p95": 3.907808700723658
+            },
+            "measured_width1_nm": {
+              "p05": 3.663888797776188,
+              "p50": 4.468373062437092,
+              "p95": 5.88035366882751
+            },
+            "measured_width2_nm": {
+              "p05": 1.9796474016311323,
+              "p50": 2.2427007053409382,
+              "p95": 2.393327007238095
+            },
+            "periodic_gap_nm": {
+              "p05": 4.007437017851745,
+              "p50": 4.505862488272865,
+              "p95": 4.696156774555585
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.5676914057767739,
+              "p50": 2.0209502921058577,
+              "p95": 2.940326058790577
+            },
+            "periodic_width1_nm": {
+              "p05": 6.172014952655219,
+              "p50": 6.577890131041585,
+              "p95": 6.789650103083705
+            },
+            "periodic_width2_nm": {
+              "p05": 2.0431492851295805,
+              "p50": 2.0934933285281203,
+              "p95": 2.1780742615506288
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.76692707446555,
+            "block_spacing_reference_walls": 8,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 6,
+            "occupied_blocks_by_origin": [
+              6,
+              6,
+              8,
+              7
+            ],
+            "origins": 4,
+            "paired_width_walls": 8,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.03831229601499153,
+              "p50": 0.05996494986110701,
+              "p95": 0.06230762181165517
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -3.8480446779979367,
+              "p50": -2.317410652393188,
+              "p95": -1.7358532126507247
+            },
+            "isolated_width1_nm": {
+              "p05": 7.454962636768466,
+              "p50": 7.499352141677003,
+              "p95": 7.525885943954123
+            },
+            "isolated_width2_nm": {
+              "p05": 7.394796759771973,
+              "p50": 7.445687932457923,
+              "p95": 7.470349195084018
+            },
+            "measured_gap_nm": {
+              "p05": 1.7981608344623798,
+              "p50": 2.3664488117635445,
+              "p95": 3.907808700723658
+            },
+            "measured_width1_nm": {
+              "p05": 3.664645746567094,
+              "p50": 4.468373062437092,
+              "p95": 6.081082912547105
+            },
+            "measured_width2_nm": {
+              "p05": 1.9414271672869006,
+              "p50": 2.2427007053409382,
+              "p95": 2.393327007238095
+            },
+            "periodic_gap_nm": {
+              "p05": 4.007437017851745,
+              "p50": 4.505862488272865,
+              "p95": 4.560160343895175
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 0.5676914057767739,
+              "p50": 2.0209502921058577,
+              "p95": 2.7619995094327954
+            },
+            "periodic_width1_nm": {
+              "p05": 6.172014952655219,
+              "p50": 6.577890131041585,
+              "p95": 6.752159576720982
+            },
+            "periodic_width2_nm": {
+              "p05": 2.0431492851295805,
+              "p50": 2.0934933285281203,
+              "p95": 2.1645779348034733
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 16.15039061169832,
+            "block_spacing_reference_walls": 8,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 5,
+            "occupied_blocks_by_origin": [
+              5,
+              7,
+              5,
+              6
+            ],
+            "origins": 4,
+            "paired_width_walls": 8,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 30,
+      "description": "The exact eight sections shared with the fixed-window comparison: measured widths and both opposite-triplet gap readouts qualify in both windows.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-5 aperture 3.5 px, adaptive window, common eight",
+      "point": {
+        "isolated_gap_nm": 0.05996494986110701,
+        "isolated_minus_experiment_median_gap_nm": -2.3064838619024375,
+        "isolated_width1_nm": 7.499352141677003,
+        "isolated_width2_nm": 7.445687932457923,
+        "measured_gap_nm": 2.3664488117635445,
+        "measured_width1_nm": 4.468373062437092,
+        "measured_width2_nm": 2.2427007053409382,
+        "periodic_gap_nm": 4.505862488272865,
+        "periodic_minus_experiment_median_gap_nm": 2.139413676509321,
+        "periodic_width1_nm": 6.577890131041585,
+        "periodic_width2_nm": 2.0934933285281203
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.032667156469732284,
+            "p50": 0.05996494986110701,
+            "p95": 0.06472798689059678
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -3.8480446779979367,
+            "p50": -2.3172097252578023,
+            "p95": -1.49053092843416
+          },
+          "isolated_width1_nm": {
+            "p05": 7.463553072842176,
+            "p50": 7.499352141677003,
+            "p95": 7.533540228131434
+          },
+          "isolated_width2_nm": {
+            "p05": 7.402316323438102,
+            "p50": 7.445687932457923,
+            "p95": 7.506518211206961
+          },
+          "measured_gap_nm": {
+            "p05": 1.5552589153247567,
+            "p50": 2.3664488117635445,
+            "p95": 3.907808700723658
+          },
+          "measured_width1_nm": {
+            "p05": 3.663888797776188,
+            "p50": 4.468373062437092,
+            "p95": 5.88035366882751
+          },
+          "measured_width2_nm": {
+            "p05": 1.9796474016311323,
+            "p50": 2.2427007053409382,
+            "p95": 2.393327007238095
+          },
+          "periodic_gap_nm": {
+            "p05": 4.007437017851745,
+            "p50": 4.505862488272865,
+            "p95": 4.696156774555585
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": 0.5676914057767739,
+            "p50": 2.0209502921058577,
+            "p95": 2.940326058790577
+          },
+          "periodic_width1_nm": {
+            "p05": 6.172014952655219,
+            "p50": 6.577890131041585,
+            "p95": 6.789650103083705
+          },
+          "periodic_width2_nm": {
+            "p05": 2.0431492851295805,
+            "p50": 2.0934933285281203,
+            "p95": 2.1780742615506288
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.05996494986110701,
+          "isolated_minus_experiment_median_gap_nm": -2.3064838619024375,
+          "isolated_width1_nm": 7.499352141677003,
+          "isolated_width2_nm": 7.445687932457923,
+          "measured_gap_nm": 2.3664488117635445,
+          "measured_width1_nm": 4.468373062437092,
+          "measured_width2_nm": 2.2427007053409382,
+          "periodic_gap_nm": 4.505862488272865,
+          "periodic_minus_experiment_median_gap_nm": 2.139413676509321,
+          "periodic_width1_nm": 6.577890131041585,
+          "periodic_width2_nm": 2.0934933285281203
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 8,
+          "median_absolute_opposite_gap_disagreement_nm": 2.064328587726119
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.76692707446555,
+          "block_spacing_reference_walls": 8,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 30,
+          "median_spacing_nm": 10.019754653095593,
+          "minimum_occupied_blocks": 6,
+          "occupied_blocks_by_origin": [
+            6,
+            6,
+            8,
+            7
+          ],
+          "origins": 4,
+          "paired_width_walls": 8,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 8
+    },
+    {
+      "block_scale_sensitivity": {
+        "0.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.0628583874204165,
+              "p50": 0.08410260358459265,
+              "p95": 0.09182484718852502
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -0.321563264043927,
+              "p50": 0.33657580212796967,
+              "p95": 0.9892684087230843
+            },
+            "isolated_width1_nm": {
+              "p05": 7.574421706181452,
+              "p50": 7.617727255769087,
+              "p95": 7.681610472204454
+            },
+            "isolated_width2_nm": {
+              "p05": 7.490319102596859,
+              "p50": 7.521351808732881,
+              "p95": 7.621669833904658
+            },
+            "measured_gap_nm": {
+              "p05": -0.9035978402219151,
+              "p50": -0.252473198543377,
+              "p95": 0.3944331834927306
+            },
+            "measured_width1_nm": {
+              "p05": 2.733901432439753,
+              "p50": 3.3881189086808488,
+              "p95": 3.8365137753476812
+            },
+            "measured_width2_nm": {
+              "p05": 3.1746174184092997,
+              "p50": 3.4674222036631805,
+              "p95": 3.727928268079234
+            },
+            "periodic_gap_nm": {
+              "p05": 2.890930211929134,
+              "p50": 2.9652053657443673,
+              "p95": 3.208816867100355
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 2.557860225333544,
+              "p50": 3.230590521205837,
+              "p95": 3.8499620265049876
+            },
+            "periodic_width1_nm": {
+              "p05": 6.1578059981962685,
+              "p50": 6.44507934832194,
+              "p95": 6.722753576028971
+            },
+            "periodic_width2_nm": {
+              "p05": 3.267741044287714,
+              "p50": 3.3972303425953356,
+              "p95": 3.4630138612115537
+            }
+          },
+          "support": {
+            "block_factor": 0.5,
+            "block_side_nm": 5.383463537232775,
+            "block_spacing_reference_walls": 8,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 8,
+            "occupied_blocks_by_origin": [
+              8,
+              8,
+              8,
+              8
+            ],
+            "origins": 4,
+            "paired_width_walls": 8,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.0": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.06320520022959109,
+              "p50": 0.08410260358459265,
+              "p95": 0.08761215774663089
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -0.3219100768531016,
+              "p50": 0.33657580212796967,
+              "p95": 0.9877004438065078
+            },
+            "isolated_width1_nm": {
+              "p05": 7.574421706181452,
+              "p50": 7.617727255769087,
+              "p95": 7.693950094408922
+            },
+            "isolated_width2_nm": {
+              "p05": 7.490319102596859,
+              "p50": 7.521351808732881,
+              "p95": 7.63658039242057
+            },
+            "measured_gap_nm": {
+              "p05": -0.9035978402219151,
+              "p50": -0.252473198543377,
+              "p95": 0.3944331834927306
+            },
+            "measured_width1_nm": {
+              "p05": 2.733901432439753,
+              "p50": 3.3881189086808488,
+              "p95": 3.8365137753476812
+            },
+            "measured_width2_nm": {
+              "p05": 3.1746174184092997,
+              "p50": 3.4674222036631805,
+              "p95": 3.727928268079234
+            },
+            "periodic_gap_nm": {
+              "p05": 2.940434963739871,
+              "p50": 2.9652053657443673,
+              "p95": 3.208816867100355
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 2.5707721822516367,
+              "p50": 3.235221864774529,
+              "p95": 3.8595346649973274
+            },
+            "periodic_width1_nm": {
+              "p05": 6.178329894649944,
+              "p50": 6.44507934832194,
+              "p95": 6.684513828231832
+            },
+            "periodic_width2_nm": {
+              "p05": 3.2542601038309655,
+              "p50": 3.3972303425953356,
+              "p95": 3.462330682090789
+            }
+          },
+          "support": {
+            "block_factor": 1.0,
+            "block_side_nm": 10.76692707446555,
+            "block_spacing_reference_walls": 8,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 6,
+            "occupied_blocks_by_origin": [
+              6,
+              6,
+              8,
+              7
+            ],
+            "origins": 4,
+            "paired_width_walls": 8,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        },
+        "1.5": {
+          "block_percentiles": {
+            "isolated_gap_nm": {
+              "p05": 0.06320520022959109,
+              "p50": 0.08410260358459265,
+              "p95": 0.08761215774663089
+            },
+            "isolated_minus_experiment_median_gap_nm": {
+              "p05": -0.3315747960723141,
+              "p50": 0.33657580212796967,
+              "p95": 0.9764677596707187
+            },
+            "isolated_width1_nm": {
+              "p05": 7.573293465070312,
+              "p50": 7.617727255769087,
+              "p95": 7.669270849999987
+            },
+            "isolated_width2_nm": {
+              "p05": 7.488220066862988,
+              "p50": 7.521351808732881,
+              "p95": 7.606759275388745
+            },
+            "measured_gap_nm": {
+              "p05": -0.9035978402219151,
+              "p50": -0.252473198543377,
+              "p95": 0.3944331834927306
+            },
+            "measured_width1_nm": {
+              "p05": 2.844843376073829,
+              "p50": 3.3881189086808488,
+              "p95": 3.8365137753476812
+            },
+            "measured_width2_nm": {
+              "p05": 3.1746174184092997,
+              "p50": 3.4674222036631805,
+              "p95": 3.868689759865028
+            },
+            "periodic_gap_nm": {
+              "p05": 2.940434963739871,
+              "p50": 2.9652053657443673,
+              "p95": 2.9873800097998435
+            },
+            "periodic_minus_experiment_median_gap_nm": {
+              "p05": 2.557860225333544,
+              "p50": 3.2265669801118353,
+              "p95": 3.8595346649973274
+            },
+            "periodic_width1_nm": {
+              "p05": 6.178329894649944,
+              "p50": 6.44507934832194,
+              "p95": 6.684513828231832
+            },
+            "periodic_width2_nm": {
+              "p05": 3.2542601038309655,
+              "p50": 3.3972303425953356,
+              "p95": 3.462330682090789
+            }
+          },
+          "support": {
+            "block_factor": 1.5,
+            "block_side_nm": 16.15039061169832,
+            "block_spacing_reference_walls": 8,
+            "bootstrap_draws_per_origin": 1000,
+            "geometry_candidate_walls_for_origin": 30,
+            "median_spacing_nm": 10.019754653095593,
+            "minimum_occupied_blocks": 5,
+            "occupied_blocks_by_origin": [
+              5,
+              7,
+              5,
+              6
+            ],
+            "origins": 4,
+            "paired_width_walls": 8,
+            "single_block_origins": 0,
+            "zero_block_origins": 0
+          }
+        }
+      },
+      "candidate_geometry_walls": 30,
+      "description": "The same eight sections as the adaptive-window common cohort; paired windows preserve identical wall identities.",
+      "limits": [
+        "Percentile ranges are conditional within-scan spatial resampling sensitivity for these fixed saved walls, with per-wall measured and model widths paired inside each sampled block.",
+        "No acquisition-level or independent-specimen uncertainty is estimated; the public records do not provide an independent-device crosswalk.",
+        "The block length and origin phase are plausible spatial-clustering sensitivity choices, not empirically measured correlation lengths."
+      ],
+      "name": "s1-5 aperture 3.5 px, fixed 4.25 nm window, common eight",
+      "point": {
+        "isolated_gap_nm": 0.08410260358459265,
+        "isolated_minus_experiment_median_gap_nm": 0.33657580212796967,
+        "isolated_width1_nm": 7.617727255769087,
+        "isolated_width2_nm": 7.521351808732881,
+        "measured_gap_nm": -0.252473198543377,
+        "measured_width1_nm": 3.3881189086808488,
+        "measured_width2_nm": 3.4674222036631805,
+        "periodic_gap_nm": 2.9652053657443673,
+        "periodic_minus_experiment_median_gap_nm": 3.2176785642877443,
+        "periodic_width1_nm": 6.44507934832194,
+        "periodic_width2_nm": 3.3972303425953356
+      },
+      "primary_block_scale": {
+        "block_percentiles": {
+          "isolated_gap_nm": {
+            "p05": 0.06320520022959109,
+            "p50": 0.08410260358459265,
+            "p95": 0.08761215774663089
+          },
+          "isolated_minus_experiment_median_gap_nm": {
+            "p05": -0.3219100768531016,
+            "p50": 0.33657580212796967,
+            "p95": 0.9877004438065078
+          },
+          "isolated_width1_nm": {
+            "p05": 7.574421706181452,
+            "p50": 7.617727255769087,
+            "p95": 7.693950094408922
+          },
+          "isolated_width2_nm": {
+            "p05": 7.490319102596859,
+            "p50": 7.521351808732881,
+            "p95": 7.63658039242057
+          },
+          "measured_gap_nm": {
+            "p05": -0.9035978402219151,
+            "p50": -0.252473198543377,
+            "p95": 0.3944331834927306
+          },
+          "measured_width1_nm": {
+            "p05": 2.733901432439753,
+            "p50": 3.3881189086808488,
+            "p95": 3.8365137753476812
+          },
+          "measured_width2_nm": {
+            "p05": 3.1746174184092997,
+            "p50": 3.4674222036631805,
+            "p95": 3.727928268079234
+          },
+          "periodic_gap_nm": {
+            "p05": 2.940434963739871,
+            "p50": 2.9652053657443673,
+            "p95": 3.208816867100355
+          },
+          "periodic_minus_experiment_median_gap_nm": {
+            "p05": 2.5707721822516367,
+            "p50": 3.235221864774529,
+            "p95": 3.8595346649973274
+          },
+          "periodic_width1_nm": {
+            "p05": 6.178329894649944,
+            "p50": 6.44507934832194,
+            "p95": 6.684513828231832
+          },
+          "periodic_width2_nm": {
+            "p05": 3.2542601038309655,
+            "p50": 3.3972303425953356,
+            "p95": 3.462330682090789
+          }
+        },
+        "point": {
+          "isolated_gap_nm": 0.08410260358459265,
+          "isolated_minus_experiment_median_gap_nm": 0.33657580212796967,
+          "isolated_width1_nm": 7.617727255769087,
+          "isolated_width2_nm": 7.521351808732881,
+          "measured_gap_nm": -0.252473198543377,
+          "measured_width1_nm": 3.3881189086808488,
+          "measured_width2_nm": 3.4674222036631805,
+          "periodic_gap_nm": 2.9652053657443673,
+          "periodic_minus_experiment_median_gap_nm": 3.2176785642877443,
+          "periodic_width1_nm": 6.44507934832194,
+          "periodic_width2_nm": 3.3972303425953356
+        },
+        "repeatability_yardstick": {
+          "interpretation": "Median absolute per-wall disagreement between two opposite-spot gap readouts. This is a within-wall repeatability scale, not a confidence interval for the scan median.",
+          "matched_opposite_spot_pairs": 8,
+          "median_absolute_opposite_gap_disagreement_nm": 1.4028945301941564
+        },
+        "support": {
+          "block_factor": 1.0,
+          "block_side_nm": 10.76692707446555,
+          "block_spacing_reference_walls": 8,
+          "bootstrap_draws_per_origin": 1000,
+          "geometry_candidate_walls_for_origin": 30,
+          "median_spacing_nm": 10.019754653095593,
+          "minimum_occupied_blocks": 6,
+          "occupied_blocks_by_origin": [
+            6,
+            6,
+            8,
+            7
+          ],
+          "origins": 4,
+          "paired_width_walls": 8,
+          "single_block_origins": 0,
+          "zero_block_origins": 0
+        }
+      },
+      "qualified_paired_width_walls": 8
+    }
+  ],
+  "schema": "graphene_map_uncertainty_v005",
+  "source": {
+    "analysis_script_sha256": "cfe61e8b21f24030b15517e5a086a71334c1c705cbdc3cacdeb261e289343471",
+    "bundle": "moire_v004_sources.zip",
+    "bundle_sha256": "501b193851dd70308ef8484bd321149ed6cbdbf83c8d91d9666acfee4a731987",
+    "input_members_sha256": {
+      "evidence/graphene_wall_signal_low_twist_coverage_v01.json": "f523aff236b58d3e5516fdb047ca77b8ad349b95cbbf8e5f0cd48f2101256c1a",
+      "evidence/graphene_wall_signal_repeat_v01.json": "6e55096c89ef1e946d45e394925374826b0b0e8552c151a6c6072ecde4e56a9c",
+      "evidence/graphene_wall_warning_s1-5_v01.json": "8ae6ed784baae15e70e0e6171418f4a5eb7047225eaff414f41dd968e78f6d83"
+    }
+  },
+  "summary_validation": {
+    "s1-10_primary": {
+      "case_pairs": {
+        "actual": 14,
+        "expected": 14,
+        "passed": true
+      },
+      "measured_gap_median_nm": {
+        "cases": 1.8047603239488095,
+        "saved": 1.8047603239488095
+      },
+      "opposite_spot_count": {
+        "cases": 6,
+        "saved": 6
+      },
+      "periodic_gap_median_nm": {
+        "cases": 2.4874162529056316,
+        "saved": 2.4874162529056316
+      }
+    },
+    "s1-5_existing_warning_summary": {
+      "adaptive": {
+        "matched_opposite_readouts": {
+          "actual": 13,
+          "expected": 13,
+          "passed": true
+        },
+        "mean_gap_nm": {
+          "cases": 2.975735242828248,
+          "saved": 2.975735242828248
+        },
+        "median_opposite_disagreement_nm": {
+          "cases": 1.8016400755922577,
+          "saved": 1.8016400755922577
+        }
+      },
+      "fixed": {
+        "matched_opposite_readouts": {
+          "actual": 12,
+          "expected": 12,
+          "passed": true
+        },
+        "mean_gap_nm": {
+          "cases": 0.5253350674740576,
+          "saved": 0.5253350674740576
+        },
+        "median_opposite_disagreement_nm": {
+          "cases": 1.145398529578794,
+          "saved": 1.145398529578794
+        }
+      }
+    },
+    "s1-6_primary": {
+      "case_pairs": {
+        "actual": 52,
+        "expected": 52,
+        "passed": true
+      },
+      "measured_gap_median_nm": {
+        "cases": 3.874377122204198,
+        "saved": 3.874377122204198
+      },
+      "opposite_spot_count": {
+        "cases": 40,
+        "saved": 40
+      },
+      "periodic_gap_median_nm": {
+        "cases": 4.5814049030270905,
+        "saved": 4.5814049030270905
+      }
+    }
+  },
+  "yardstick_interpretation": {
+    "existing_opposite_spot_metric": "Median absolute per-wall disagreement between two independent opposite-spot gap readouts on the matched walls.",
+    "is_median_uncertainty": false,
+    "recommendation": "Retain opposite-spot disagreement as an empirical within-wall repeatability scale; report it with its own paired-wall denominator. Use the spatial-block P5\u2013P95 ranges for conditional uncertainty of scan-level medians. Neither quantity is a device-level or specimen-level confidence interval."
+  }
+}

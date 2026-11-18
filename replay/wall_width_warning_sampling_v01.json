@@ -1,0 +1,12 @@
+{
+  "s1-1": {
+    "raster_pixel_nm": 1.0,
+    "registration_code_url": "https://raw.githubusercontent.com/bediakolab/StrainFieldsInTwistedBilayerGraphene/c0159420903babfc2cd4be73315828a6b197ebee/GeometryStatistics/ChiralFixedDataScripts05312020/register_geometry_DS1_chiralfixed.m",
+    "registration_code_sha256": "6ac7c10391703ef4afa419bd381a932f9bee9f6c8c5f900d722de73dced010dd"
+  },
+  "s1-5": {
+    "raster_pixel_nm": 0.5,
+    "registration_code_url": "https://raw.githubusercontent.com/bediakolab/StrainFieldsInTwistedBilayerGraphene/c0159420903babfc2cd4be73315828a6b197ebee/GeometryStatistics/DataScriptsApr12/register_geometry_DS5.m",
+    "registration_code_sha256": "9e9758f3201641d73741ef9dc52636a22e19a65ff234f589335bd999f600b478"
+  }
+}

@@ -1,0 +1,4183 @@
+{
+  "cases": [
+    "nominal",
+    "archived_residual",
+    "guarded_residual",
+    "guarded_physical"
+  ],
+  "input_sha256": "065b663ef523932b1098dd70615c84641dcfc2d6545da838b217e71b369f1677",
+  "scans": {
+    "DS10": {
+      "detectors": {
+        "separate_disjoint": {
+          "second_order_profile_spatial_blocks": {
+            "occupied_blocks": [
+              11,
+              11,
+              12,
+              14
+            ],
+            "side_nm": 10.448204721849484
+          },
+          "second_order_profiles": {
+            "archived_residual": {
+              "error": 0.3475073375694349,
+              "paired_change": [
+                -0.016638413101731808,
+                -0.004369104335279455
+              ]
+            },
+            "guarded_physical": {
+              "error": 0.35363843094390135,
+              "paired_change": [
+                -0.011306241321917846,
+                0.0026978112853910177
+              ]
+            },
+            "guarded_residual": {
+              "error": 0.3512991122989812,
+              "paired_change": [
+                -0.014040403842473875,
+                0.0008462710464985659
+              ]
+            },
+            "nominal": {
+              "error": 0.35779962804109916,
+              "paired_change": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "second_order_widths_inside_geometry_support": {
+            "candidate_counts": {
+              "archived_residual": 28,
+              "guarded_physical": 28,
+              "guarded_residual": 28,
+              "nominal": 28
+            },
+            "constant_width_centered_error_nm": 0.5292106325891551,
+            "matched_walls": 28,
+            "opposite_spot_mean_absolute_difference_nm": 0.17387696847437037,
+            "results": {
+              "archived_residual": {
+                "centered_error_nm": 0.32600589326351576,
+                "mean_absolute_error_nm": 0.2615811503385637,
+                "mean_measured_minus_predicted_nm": -0.08711518568782503,
+                "paired_absolute_error_change_nm": [
+                  -0.05376952437175739,
+                  0.021188348402278845
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.03872320152979216,
+                  0.03692829077108237
+                ],
+                "width_change_vs_nominal_rms_nm": 0.1509009202524718
+              },
+              "guarded_physical": {
+                "centered_error_nm": 0.3702317729176485,
+                "mean_absolute_error_nm": 0.3036371567562735,
+                "mean_measured_minus_predicted_nm": -0.09229965114039275,
+                "paired_absolute_error_change_nm": [
+                  -0.01976459457930298,
+                  0.0732922982591207
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.006204605116455991,
+                  0.09100224426023373
+                ],
+                "width_change_vs_nominal_rms_nm": 0.19361269768027606
+              },
+              "guarded_residual": {
+                "centered_error_nm": 0.34302203434258205,
+                "mean_absolute_error_nm": 0.28120764282196886,
+                "mean_measured_minus_predicted_nm": -0.09561617115026398,
+                "paired_absolute_error_change_nm": [
+                  -0.039200477722531164,
+                  0.04748384620875051
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.02922825682278094,
+                  0.059894986102186715
+                ],
+                "width_change_vs_nominal_rms_nm": 0.17326737465568465
+              },
+              "nominal": {
+                "centered_error_nm": 0.32472120233283375,
+                "mean_absolute_error_nm": 0.27724240675217376,
+                "mean_measured_minus_predicted_nm": -0.11528668934885375,
+                "paired_absolute_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "paired_centered_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "width_change_vs_nominal_rms_nm": 0.0
+              }
+            },
+            "spatial_blocks": {
+              "occupied_blocks": [
+                11,
+                10,
+                12,
+                14
+              ],
+              "side_nm": 10.448204721849484
+            },
+            "wall_centers": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                4,
+                10
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                7,
+                13
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                10,
+                14
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                12,
+                17
+              ],
+              [
+                13,
+                17
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                15,
+                20
+              ]
+            ]
+          },
+          "widths": [
+            {
+              "candidate_counts": {
+                "archived_residual": 29,
+                "guarded_physical": 29,
+                "guarded_residual": 29,
+                "nominal": 29
+              },
+              "constant_width_centered_error_nm": 1.100635293777217,
+              "matched_walls": 29,
+              "opposite_spot_mean_absolute_difference_nm": 1.0134629250842315,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 0.9404300604520778,
+                  "mean_absolute_error_nm": 0.6707910619661703,
+                  "mean_measured_minus_predicted_nm": 0.2496240721920727,
+                  "paired_absolute_error_change_nm": [
+                    -0.06073844741254799,
+                    0.026023677611859558
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04898866957111137,
+                    0.018720052063944975
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.15813479313609308
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 0.9610328636005702,
+                  "mean_absolute_error_nm": 0.6904591271399241,
+                  "mean_measured_minus_predicted_nm": 0.26792736191717187,
+                  "paired_absolute_error_change_nm": [
+                    -0.051379300297905606,
+                    0.056156829116006377
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.034163725834169344,
+                    0.05098254211525666
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.20991547158556292
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 0.9535001878746666,
+                  "mean_absolute_error_nm": 0.6766600999773282,
+                  "mean_measured_minus_predicted_nm": 0.2458335198265804,
+                  "paired_absolute_error_change_nm": [
+                    -0.05628002555082066,
+                    0.031066318860206287
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.03544420237129621,
+                    0.03367670723473509
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.17610609662366394
+                },
+                "nominal": {
+                  "centered_error_nm": 0.9565972748422269,
+                  "mean_absolute_error_nm": 0.69141732385557,
+                  "mean_measured_minus_predicted_nm": 0.24098850369891353,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            },
+            {
+              "candidate_counts": {
+                "archived_residual": 29,
+                "guarded_physical": 29,
+                "guarded_residual": 29,
+                "nominal": 29
+              },
+              "constant_width_centered_error_nm": 0.5320315515004637,
+              "matched_walls": 29,
+              "opposite_spot_mean_absolute_difference_nm": 0.16910072175679206,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 0.3716464845722118,
+                  "mean_absolute_error_nm": 0.2850728469099934,
+                  "mean_measured_minus_predicted_nm": -0.051599477529278466,
+                  "paired_absolute_error_change_nm": [
+                    -0.05949800574998704,
+                    0.01367723618496018
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.06345202163158421,
+                    0.02255477693832434
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.15388203415882898
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 0.41866469364841447,
+                  "mean_absolute_error_nm": 0.3290594095527747,
+                  "mean_measured_minus_predicted_nm": -0.05322440496814449,
+                  "paired_absolute_error_change_nm": [
+                    -0.021561944793384153,
+                    0.06624210731509374
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.02048329671202198,
+                    0.07418285272143474
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.19162470996159264
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 0.40047044620060046,
+                  "mean_absolute_error_nm": 0.3090038222456996,
+                  "mean_measured_minus_predicted_nm": -0.05482606710680112,
+                  "paired_absolute_error_change_nm": [
+                    -0.04002567942241851,
+                    0.04220429415973431
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.0329858395894969,
+                    0.04555872298249357
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.17085615431427997
+                },
+                "nominal": {
+                  "centered_error_nm": 0.3956374796787542,
+                  "mean_absolute_error_nm": 0.3078363899967092,
+                  "mean_measured_minus_predicted_nm": -0.07115722003186908,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            }
+          ]
+        },
+        "transferred_even": {
+          "second_order_profile_spatial_blocks": {
+            "occupied_blocks": [
+              11,
+              11,
+              12,
+              14
+            ],
+            "side_nm": 10.448204721849484
+          },
+          "second_order_profiles": {
+            "archived_residual": {
+              "error": 0.4748040939651381,
+              "paired_change": [
+                -0.010698153284021265,
+                0.002304658394649316
+              ]
+            },
+            "guarded_physical": {
+              "error": 0.47767750799828496,
+              "paired_change": [
+                -0.007726541378251243,
+                0.005674324180230691
+              ]
+            },
+            "guarded_residual": {
+              "error": 0.47583061470668114,
+              "paired_change": [
+                -0.009914727573131051,
+                0.003892025378333486
+              ]
+            },
+            "nominal": {
+              "error": 0.47881279932090043,
+              "paired_change": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "second_order_widths_inside_geometry_support": {
+            "candidate_counts": {
+              "archived_residual": 28,
+              "guarded_physical": 28,
+              "guarded_residual": 28,
+              "nominal": 28
+            },
+            "constant_width_centered_error_nm": 0.5292106325891551,
+            "matched_walls": 28,
+            "opposite_spot_mean_absolute_difference_nm": 0.17387696847437037,
+            "results": {
+              "archived_residual": {
+                "centered_error_nm": 0.32698836156621386,
+                "mean_absolute_error_nm": 0.26552636866503615,
+                "mean_measured_minus_predicted_nm": -0.09026074557091358,
+                "paired_absolute_error_change_nm": [
+                  -0.05082541021452948,
+                  0.025349814315841372
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.0358550750489057,
+                  0.04010719482666754
+                ],
+                "width_change_vs_nominal_rms_nm": 0.1526828723695399
+              },
+              "guarded_physical": {
+                "centered_error_nm": 0.3703061305738127,
+                "mean_absolute_error_nm": 0.307699536463031,
+                "mean_measured_minus_predicted_nm": -0.09575888181426324,
+                "paired_absolute_error_change_nm": [
+                  -0.015183449785328831,
+                  0.07494880716000574
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.003867553215548336,
+                  0.09195578716315024
+                ],
+                "width_change_vs_nominal_rms_nm": 0.19523055513287754
+              },
+              "guarded_residual": {
+                "centered_error_nm": 0.34310196794649866,
+                "mean_absolute_error_nm": 0.28375554258428537,
+                "mean_measured_minus_predicted_nm": -0.09910303693572033,
+                "paired_absolute_error_change_nm": [
+                  -0.03712829342368834,
+                  0.048951628247050086
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.025865372745443378,
+                  0.062251808930679824
+                ],
+                "width_change_vs_nominal_rms_nm": 0.17440781840958489
+              },
+              "nominal": {
+                "centered_error_nm": 0.3226432064277902,
+                "mean_absolute_error_nm": 0.2779877622261106,
+                "mean_measured_minus_predicted_nm": -0.11768946355595654,
+                "paired_absolute_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "paired_centered_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "width_change_vs_nominal_rms_nm": 0.0
+              }
+            },
+            "spatial_blocks": {
+              "occupied_blocks": [
+                11,
+                10,
+                12,
+                14
+              ],
+              "side_nm": 10.448204721849484
+            },
+            "wall_centers": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                4,
+                10
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                7,
+                13
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                10,
+                14
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                12,
+                17
+              ],
+              [
+                13,
+                17
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                15,
+                20
+              ]
+            ]
+          },
+          "widths": [
+            {
+              "candidate_counts": {
+                "archived_residual": 29,
+                "guarded_physical": 29,
+                "guarded_residual": 29,
+                "nominal": 29
+              },
+              "constant_width_centered_error_nm": 1.100635293777217,
+              "matched_walls": 29,
+              "opposite_spot_mean_absolute_difference_nm": 1.0134629250842315,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 0.9547792521842067,
+                  "mean_absolute_error_nm": 0.7119050991946119,
+                  "mean_measured_minus_predicted_nm": 0.3007190958801397,
+                  "paired_absolute_error_change_nm": [
+                    -0.04705100745458744,
+                    0.047414887635269735
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04753432099039295,
+                    0.02338303271295291
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.16585470665491014
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 0.9751070010674927,
+                  "mean_absolute_error_nm": 0.7307360858041982,
+                  "mean_measured_minus_predicted_nm": 0.31705251287216946,
+                  "paired_absolute_error_change_nm": [
+                    -0.03605054897232938,
+                    0.07237499302728276
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.03462016535823989,
+                    0.05314240648016226
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.21351746221698442
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 0.968297423339375,
+                  "mean_absolute_error_nm": 0.7169575891241683,
+                  "mean_measured_minus_predicted_nm": 0.2950771421396194,
+                  "paired_absolute_error_change_nm": [
+                    -0.04205711554211578,
+                    0.04896106163632869
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.03325730893221998,
+                    0.037231494359961044
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.18065445118851303
+                },
+                "nominal": {
+                  "centered_error_nm": 0.9693587299947807,
+                  "mean_absolute_error_nm": 0.7141437280635614,
+                  "mean_measured_minus_predicted_nm": 0.28847016879258147,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            },
+            {
+              "candidate_counts": {
+                "archived_residual": 29,
+                "guarded_physical": 29,
+                "guarded_residual": 29,
+                "nominal": 29
+              },
+              "constant_width_centered_error_nm": 0.5320315515004637,
+              "matched_walls": 29,
+              "opposite_spot_mean_absolute_difference_nm": 0.16910072175679206,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 0.3731135349991059,
+                  "mean_absolute_error_nm": 0.28904335518644425,
+                  "mean_measured_minus_predicted_nm": -0.054475237868955556,
+                  "paired_absolute_error_change_nm": [
+                    -0.05677750231118573,
+                    0.017271631134401864
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.0628222075632783,
+                    0.02538642862122059
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.15570458311413357
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 0.4195239434706509,
+                  "mean_absolute_error_nm": 0.33319340369005035,
+                  "mean_measured_minus_predicted_nm": -0.05635265533630276,
+                  "paired_absolute_error_change_nm": [
+                    -0.019215418637643093,
+                    0.06920243393486558
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.02032037632473765,
+                    0.07630043524518414
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.19323093845233685
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 0.4013899847432031,
+                  "mean_absolute_error_nm": 0.3116682748314749,
+                  "mean_measured_minus_predicted_nm": -0.057988284705082285,
+                  "paired_absolute_error_change_nm": [
+                    -0.037858464779072794,
+                    0.04368350204809711
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.03219897589623659,
+                    0.047257324855800496
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.17199562993381082
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39496597442887066,
+                  "mean_absolute_error_nm": 0.30881148373083556,
+                  "mean_measured_minus_predicted_nm": -0.07322169978288438,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "domain_intensity_fits": {
+        "archived": {
+          "coefficient_bound_fraction": 0.28125,
+          "control_nodes": 32,
+          "coordinate_jacobian_min": 0.8895116375380033,
+          "cut_pixels_in_source": 162,
+          "displacement_rms_px": 0.6867327778747456,
+          "guard_px": 3,
+          "source_pixels": 1280,
+          "wall_intensity": [
+            {
+              "calibration_pixels": 556,
+              "nominal": 0.14911353467901667,
+              "score_pixels": 519,
+              "warped": 0.12143129757831915
+            },
+            {
+              "calibration_pixels": 614,
+              "nominal": 0.11320419015804499,
+              "score_pixels": 520,
+              "warped": 0.09524280744703875
+            },
+            {
+              "calibration_pixels": 544,
+              "nominal": 0.1255787451448256,
+              "score_pixels": 527,
+              "warped": 0.10620289346413786
+            },
+            {
+              "calibration_pixels": 621,
+              "nominal": 0.11840584012117089,
+              "score_pixels": 515,
+              "warped": 0.10328904752273034
+            }
+          ]
+        },
+        "guarded": {
+          "coefficient_bound_fraction": 0.265625,
+          "control_nodes": 32,
+          "coordinate_jacobian_min": 0.8513237916518158,
+          "cut_pixels_in_source": 0,
+          "displacement_rms_px": 0.7181543529017012,
+          "guard_px": 3,
+          "source_pixels": 657,
+          "wall_intensity": [
+            {
+              "calibration_pixels": 292,
+              "nominal": 0.16216332628430993,
+              "score_pixels": 519,
+              "warped": 0.13653677683122145
+            },
+            {
+              "calibration_pixels": 340,
+              "nominal": 0.12513876567420423,
+              "score_pixels": 520,
+              "warped": 0.10987790370002695
+            },
+            {
+              "calibration_pixels": 274,
+              "nominal": 0.12428462651335723,
+              "score_pixels": 527,
+              "warped": 0.11219221916239758
+            },
+            {
+              "calibration_pixels": 327,
+              "nominal": 0.13430654928915106,
+              "score_pixels": 515,
+              "warped": 0.12137892141512222
+            }
+          ]
+        }
+      },
+      "wall_count": 29,
+      "within_geometry_support": 28
+    },
+    "DS13": {
+      "detectors": {
+        "separate_disjoint": {
+          "second_order_profile_spatial_blocks": {
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ],
+            "side_nm": 17.83508927193864
+          },
+          "second_order_profiles": {
+            "archived_residual": {
+              "error": 0.2083900594086126,
+              "paired_change": [
+                -0.0046874951720510104,
+                0.0013426990680870832
+              ]
+            },
+            "guarded_physical": {
+              "error": 0.2103098145723576,
+              "paired_change": [
+                -0.0036188749289938478,
+                0.003931463250076404
+              ]
+            },
+            "guarded_residual": {
+              "error": 0.2089413124048279,
+              "paired_change": [
+                -0.004245350110642242,
+                0.0018981594753740623
+              ]
+            },
+            "nominal": {
+              "error": 0.21024957993634946,
+              "paired_change": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "second_order_widths_inside_geometry_support": {
+            "candidate_counts": {
+              "archived_residual": 31,
+              "guarded_physical": 31,
+              "guarded_residual": 31,
+              "nominal": 31
+            },
+            "constant_width_centered_error_nm": 0.5863647861527286,
+            "matched_walls": 31,
+            "opposite_spot_mean_absolute_difference_nm": 0.4438694734962913,
+            "results": {
+              "archived_residual": {
+                "centered_error_nm": 0.7434929066840655,
+                "mean_absolute_error_nm": 0.678622503533787,
+                "mean_measured_minus_predicted_nm": -0.39204443522832605,
+                "paired_absolute_error_change_nm": [
+                  -0.09946327171186231,
+                  0.009313507368427027
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.0806857901020423,
+                  0.028083046659442522
+                ],
+                "width_change_vs_nominal_rms_nm": 0.2553544938420371
+              },
+              "guarded_physical": {
+                "centered_error_nm": 0.7827953924897263,
+                "mean_absolute_error_nm": 0.7182280255046224,
+                "mean_measured_minus_predicted_nm": -0.42485398606347846,
+                "paired_absolute_error_change_nm": [
+                  -0.08396948257169773,
+                  0.06856569872760444
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.06079808900677219,
+                  0.08180344402951364
+                ],
+                "width_change_vs_nominal_rms_nm": 0.33244382515237014
+              },
+              "guarded_residual": {
+                "centered_error_nm": 0.7489333451515913,
+                "mean_absolute_error_nm": 0.6823256059420675,
+                "mean_measured_minus_predicted_nm": -0.39886115751642975,
+                "paired_absolute_error_change_nm": [
+                  -0.09801126669288399,
+                  0.014614950837990122
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.07892070042890649,
+                  0.03660276703690132
+                ],
+                "width_change_vs_nominal_rms_nm": 0.2543525731896933
+              },
+              "nominal": {
+                "centered_error_nm": 0.7679907163850563,
+                "mean_absolute_error_nm": 0.7266860861501414,
+                "mean_measured_minus_predicted_nm": -0.4131894512916941,
+                "paired_absolute_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "paired_centered_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "width_change_vs_nominal_rms_nm": 0.0
+              }
+            },
+            "spatial_blocks": {
+              "occupied_blocks": [
+                15,
+                14,
+                16,
+                14
+              ],
+              "side_nm": 17.83508927193864
+            },
+            "wall_centers": [
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                10
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                8,
+                12
+              ],
+              [
+                9,
+                12
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                12,
+                17
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                19
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                15,
+                20
+              ],
+              [
+                16,
+                17
+              ],
+              [
+                16,
+                20
+              ],
+              [
+                16,
+                21
+              ],
+              [
+                19,
+                20
+              ]
+            ]
+          },
+          "widths": [
+            {
+              "candidate_counts": {
+                "archived_residual": 35,
+                "guarded_physical": 35,
+                "guarded_residual": 35,
+                "nominal": 35
+              },
+              "constant_width_centered_error_nm": 1.0774748619072458,
+              "matched_walls": 35,
+              "opposite_spot_mean_absolute_difference_nm": 0.9543274943854319,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 1.3151529836308937,
+                  "mean_absolute_error_nm": 1.1344909923828153,
+                  "mean_measured_minus_predicted_nm": -0.4026199826620482,
+                  "paired_absolute_error_change_nm": [
+                    -0.06245970287271926,
+                    0.043228167049000746
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.048578774290507915,
+                    0.05993713870563116
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.233907571690709
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 1.3161470187209607,
+                  "mean_absolute_error_nm": 1.1486631806189296,
+                  "mean_measured_minus_predicted_nm": -0.4313919889608401,
+                  "paired_absolute_error_change_nm": [
+                    -0.07410437112239254,
+                    0.08237413226046139
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.06213097486342246,
+                    0.07698591820295489
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.3456869425553166
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 1.3137015874026796,
+                  "mean_absolute_error_nm": 1.1348615562552868,
+                  "mean_measured_minus_predicted_nm": -0.4174400809321885,
+                  "paired_absolute_error_change_nm": [
+                    -0.0654391696828979,
+                    0.046840872322034405
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.05196141963692671,
+                    0.06088554383481494
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.24591653414446665
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3093880041648824,
+                  "mean_absolute_error_nm": 1.143517246110413,
+                  "mean_measured_minus_predicted_nm": -0.4234699303317643,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  16,
+                  15,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            },
+            {
+              "candidate_counts": {
+                "archived_residual": 36,
+                "guarded_physical": 36,
+                "guarded_residual": 36,
+                "nominal": 36
+              },
+              "constant_width_centered_error_nm": 0.6219860507430282,
+              "matched_walls": 36,
+              "opposite_spot_mean_absolute_difference_nm": 0.4381651157743353,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 0.7847266976699574,
+                  "mean_absolute_error_nm": 0.7009493596659581,
+                  "mean_measured_minus_predicted_nm": -0.33269849903052356,
+                  "paired_absolute_error_change_nm": [
+                    -0.08670213988127441,
+                    0.02619062253885965
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.06435163069780095,
+                    0.0423591703995472
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.2497180677894558
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 0.8127733457786885,
+                  "mean_absolute_error_nm": 0.727930413507464,
+                  "mean_measured_minus_predicted_nm": -0.36064292629844125,
+                  "paired_absolute_error_change_nm": [
+                    -0.08521560665347723,
+                    0.07555369313468173
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.06243131776378147,
+                    0.0935838076144202
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.33610379902353404
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 0.7833972848117194,
+                  "mean_absolute_error_nm": 0.7009982597169802,
+                  "mean_measured_minus_predicted_nm": -0.347204471408423,
+                  "paired_absolute_error_change_nm": [
+                    -0.09299349581420505,
+                    0.03139924594020914
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.07626189589769784,
+                    0.050749787050176486
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.26139751061092775
+                },
+                "nominal": {
+                  "centered_error_nm": 0.7962902654105238,
+                  "mean_absolute_error_nm": 0.7339053479887523,
+                  "mean_measured_minus_predicted_nm": -0.3554050251208844,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  17,
+                  16,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  20
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          ]
+        },
+        "transferred_even": {
+          "second_order_profile_spatial_blocks": {
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ],
+            "side_nm": 17.83508927193864
+          },
+          "second_order_profiles": {
+            "archived_residual": {
+              "error": 0.31114275925808776,
+              "paired_change": [
+                -0.0031338294135633423,
+                0.0012486053806757874
+              ]
+            },
+            "guarded_physical": {
+              "error": 0.31220519327733254,
+              "paired_change": [
+                -0.0024711224727493085,
+                0.002620449164924936
+              ]
+            },
+            "guarded_residual": {
+              "error": 0.31146661219275035,
+              "paired_change": [
+                -0.0028142226321997373,
+                0.0015987091347495596
+              ]
+            },
+            "nominal": {
+              "error": 0.3121391182148256,
+              "paired_change": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "second_order_widths_inside_geometry_support": {
+            "candidate_counts": {
+              "archived_residual": 31,
+              "guarded_physical": 31,
+              "guarded_residual": 31,
+              "nominal": 31
+            },
+            "constant_width_centered_error_nm": 0.5863647861527286,
+            "matched_walls": 31,
+            "opposite_spot_mean_absolute_difference_nm": 0.4438694734962913,
+            "results": {
+              "archived_residual": {
+                "centered_error_nm": 0.7461690089505969,
+                "mean_absolute_error_nm": 0.7163093382826612,
+                "mean_measured_minus_predicted_nm": -0.4493084370650877,
+                "paired_absolute_error_change_nm": [
+                  -0.09141429352886095,
+                  0.010597172380075674
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.08650737355060363,
+                  0.021778678171226588
+                ],
+                "width_change_vs_nominal_rms_nm": 0.24166497036712814
+              },
+              "guarded_physical": {
+                "centered_error_nm": 0.7875052173259738,
+                "mean_absolute_error_nm": 0.7588731455682329,
+                "mean_measured_minus_predicted_nm": -0.48199565312995946,
+                "paired_absolute_error_change_nm": [
+                  -0.07300667114187953,
+                  0.07816402816384123
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.06225211962052964,
+                  0.07490304926139554
+                ],
+                "width_change_vs_nominal_rms_nm": 0.32218599556705885
+              },
+              "guarded_residual": {
+                "centered_error_nm": 0.751426149462099,
+                "mean_absolute_error_nm": 0.7192421856243882,
+                "mean_measured_minus_predicted_nm": -0.45535462401209864,
+                "paired_absolute_error_change_nm": [
+                  -0.09016372855656793,
+                  0.014925184935258318
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.08596272259522228,
+                  0.029256190223204012
+                ],
+                "width_change_vs_nominal_rms_nm": 0.2397202309287662
+              },
+              "nominal": {
+                "centered_error_nm": 0.777045730253644,
+                "mean_absolute_error_nm": 0.7591827438806414,
+                "mean_measured_minus_predicted_nm": -0.4771708113289338,
+                "paired_absolute_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "paired_centered_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "width_change_vs_nominal_rms_nm": 0.0
+              }
+            },
+            "spatial_blocks": {
+              "occupied_blocks": [
+                15,
+                14,
+                16,
+                14
+              ],
+              "side_nm": 17.83508927193864
+            },
+            "wall_centers": [
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                10
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                8,
+                12
+              ],
+              [
+                9,
+                12
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                12,
+                17
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                19
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                15,
+                20
+              ],
+              [
+                16,
+                17
+              ],
+              [
+                16,
+                20
+              ],
+              [
+                16,
+                21
+              ],
+              [
+                19,
+                20
+              ]
+            ]
+          },
+          "widths": [
+            {
+              "candidate_counts": {
+                "archived_residual": 35,
+                "guarded_physical": 35,
+                "guarded_residual": 35,
+                "nominal": 35
+              },
+              "constant_width_centered_error_nm": 1.0774748619072458,
+              "matched_walls": 35,
+              "opposite_spot_mean_absolute_difference_nm": 0.9543274943854319,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 1.3223311716702146,
+                  "mean_absolute_error_nm": 1.1429972920834792,
+                  "mean_measured_minus_predicted_nm": -0.4221409680931059,
+                  "paired_absolute_error_change_nm": [
+                    -0.06438371741382404,
+                    0.03533684690331566
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04952922628142407,
+                    0.05600687268330162
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.21562683149058942
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 1.3232296258432836,
+                  "mean_absolute_error_nm": 1.15668604329162,
+                  "mean_measured_minus_predicted_nm": -0.45041606114597416,
+                  "paired_absolute_error_change_nm": [
+                    -0.07993324721396533,
+                    0.07616865216586664
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.06286945341216987,
+                    0.07386139694089074
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.33148016495523297
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 1.3210475083564426,
+                  "mean_absolute_error_nm": 1.1434283930700289,
+                  "mean_measured_minus_predicted_nm": -0.4360766865331498,
+                  "paired_absolute_error_change_nm": [
+                    -0.06785165687377911,
+                    0.03993195874865273
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.05298086326823378,
+                    0.05552100932017994
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.2306234591608003
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3180560656948095,
+                  "mean_absolute_error_nm": 1.1564932027601584,
+                  "mean_measured_minus_predicted_nm": -0.4411564665066657,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  16,
+                  15,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            },
+            {
+              "candidate_counts": {
+                "archived_residual": 36,
+                "guarded_physical": 36,
+                "guarded_residual": 36,
+                "nominal": 36
+              },
+              "constant_width_centered_error_nm": 0.6219860507430282,
+              "matched_walls": 36,
+              "opposite_spot_mean_absolute_difference_nm": 0.4381651157743353,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 0.7902043820810253,
+                  "mean_absolute_error_nm": 0.7366327740712442,
+                  "mean_measured_minus_predicted_nm": -0.3914447694077995,
+                  "paired_absolute_error_change_nm": [
+                    -0.07962408513442351,
+                    0.027271718826720203
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.06815894891699134,
+                    0.033291107432042194
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.23591376534611042
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 0.8195393042512682,
+                  "mean_absolute_error_nm": 0.7659804820646469,
+                  "mean_measured_minus_predicted_nm": -0.4191415057826196,
+                  "paired_absolute_error_change_nm": [
+                    -0.07761814602113253,
+                    0.08259083059652414
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.0686715314489285,
+                    0.09069518022089366
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.32654238689373155
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 0.7887527171365258,
+                  "mean_absolute_error_nm": 0.7360664686603444,
+                  "mean_measured_minus_predicted_nm": -0.4052867148178824,
+                  "paired_absolute_error_change_nm": [
+                    -0.08736928187064263,
+                    0.03324193238336893
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.08293460421517207,
+                    0.04349850343868435
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.24893397234304987
+                },
+                "nominal": {
+                  "centered_error_nm": 0.8088524985847697,
+                  "mean_absolute_error_nm": 0.7648716851474229,
+                  "mean_measured_minus_predicted_nm": -0.4181127583657437,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  17,
+                  16,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  20
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "domain_intensity_fits": {
+        "archived": {
+          "coefficient_bound_fraction": 0.40540540540540543,
+          "control_nodes": 37,
+          "coordinate_jacobian_min": 0.8127452584412039,
+          "cut_pixels_in_source": 816,
+          "displacement_rms_px": 1.3151820112147858,
+          "guard_px": 3,
+          "source_pixels": 12726,
+          "wall_intensity": [
+            {
+              "calibration_pixels": 5975,
+              "nominal": 0.16200223249120607,
+              "score_pixels": 2083,
+              "warped": 0.13077452625081665
+            },
+            {
+              "calibration_pixels": 6087,
+              "nominal": 0.16151909402166553,
+              "score_pixels": 2084,
+              "warped": 0.13224267412401536
+            },
+            {
+              "calibration_pixels": 5891,
+              "nominal": 0.1549706618781826,
+              "score_pixels": 2146,
+              "warped": 0.1256695557332201
+            },
+            {
+              "calibration_pixels": 6166,
+              "nominal": 0.16338340171979407,
+              "score_pixels": 2107,
+              "warped": 0.13707281645378155
+            }
+          ]
+        },
+        "guarded": {
+          "coefficient_bound_fraction": 0.4189189189189189,
+          "control_nodes": 37,
+          "coordinate_jacobian_min": 0.8049983998278797,
+          "cut_pixels_in_source": 0,
+          "displacement_rms_px": 1.2934999921845458,
+          "guard_px": 3,
+          "source_pixels": 9496,
+          "wall_intensity": [
+            {
+              "calibration_pixels": 4457,
+              "nominal": 0.16952147253439917,
+              "score_pixels": 2083,
+              "warped": 0.1397262997159098
+            },
+            {
+              "calibration_pixels": 4590,
+              "nominal": 0.16714251907316544,
+              "score_pixels": 2084,
+              "warped": 0.13538532300368508
+            },
+            {
+              "calibration_pixels": 4340,
+              "nominal": 0.16393247159964744,
+              "score_pixels": 2146,
+              "warped": 0.13373096337240054
+            },
+            {
+              "calibration_pixels": 4651,
+              "nominal": 0.1677342925036399,
+              "score_pixels": 2107,
+              "warped": 0.14102238365192307
+            }
+          ]
+        }
+      },
+      "wall_count": 36,
+      "within_geometry_support": 31
+    },
+    "DS14": {
+      "detectors": {
+        "separate_disjoint": {
+          "second_order_profile_spatial_blocks": {
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ],
+            "side_nm": 20.246461426256836
+          },
+          "second_order_profiles": {
+            "archived_residual": {
+              "error": 0.2280121265070116,
+              "paired_change": [
+                -0.003942182584653571,
+                0.00515436813514908
+              ]
+            },
+            "guarded_physical": {
+              "error": 0.2285683128646936,
+              "paired_change": [
+                -0.005041471606677698,
+                0.007126764753065442
+              ]
+            },
+            "guarded_residual": {
+              "error": 0.22764187443384068,
+              "paired_change": [
+                -0.004030726549284887,
+                0.00460011028765113
+              ]
+            },
+            "nominal": {
+              "error": 0.2272441875743597,
+              "paired_change": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "second_order_widths_inside_geometry_support": {
+            "candidate_counts": {
+              "archived_residual": 30,
+              "guarded_physical": 30,
+              "guarded_residual": 30,
+              "nominal": 30
+            },
+            "constant_width_centered_error_nm": 1.325840550033349,
+            "matched_walls": 30,
+            "opposite_spot_mean_absolute_difference_nm": 0.4752521516971403,
+            "results": {
+              "archived_residual": {
+                "centered_error_nm": 1.3823576364433612,
+                "mean_absolute_error_nm": 1.1066638438413006,
+                "mean_measured_minus_predicted_nm": -0.13955797234075407,
+                "paired_absolute_error_change_nm": [
+                  -0.052859608847830544,
+                  0.0961020960902685
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.046661703730956634,
+                  0.10219171761855761
+                ],
+                "width_change_vs_nominal_rms_nm": 0.22764847005566605
+              },
+              "guarded_physical": {
+                "centered_error_nm": 1.4051244288566822,
+                "mean_absolute_error_nm": 1.1232925347063705,
+                "mean_measured_minus_predicted_nm": -0.1367739735217258,
+                "paired_absolute_error_change_nm": [
+                  -0.057219186835614784,
+                  0.13246702615215755
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.034574695835716415,
+                  0.13843817691827737
+                ],
+                "width_change_vs_nominal_rms_nm": 0.32589336807789626
+              },
+              "guarded_residual": {
+                "centered_error_nm": 1.3827225639446263,
+                "mean_absolute_error_nm": 1.1057832925729398,
+                "mean_measured_minus_predicted_nm": -0.13976463098255304,
+                "paired_absolute_error_change_nm": [
+                  -0.050306101684363516,
+                  0.09165266660377186
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.04369461460673811,
+                  0.09940623231499529
+                ],
+                "width_change_vs_nominal_rms_nm": 0.21746704526172553
+              },
+              "nominal": {
+                "centered_error_nm": 1.3516772757972433,
+                "mean_absolute_error_nm": 1.0855934997653927,
+                "mean_measured_minus_predicted_nm": -0.17388636066367608,
+                "paired_absolute_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "paired_centered_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "width_change_vs_nominal_rms_nm": 0.0
+              }
+            },
+            "spatial_blocks": {
+              "occupied_blocks": [
+                12,
+                12,
+                14,
+                16
+              ],
+              "side_nm": 20.246461426256836
+            },
+            "wall_centers": [
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                10
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                10,
+                14
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                19
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                15,
+                20
+              ],
+              [
+                16,
+                20
+              ]
+            ]
+          },
+          "widths": [
+            {
+              "candidate_counts": {
+                "archived_residual": 31,
+                "guarded_physical": 31,
+                "guarded_residual": 31,
+                "nominal": 31
+              },
+              "constant_width_centered_error_nm": 1.4781009612739804,
+              "matched_walls": 31,
+              "opposite_spot_mean_absolute_difference_nm": 0.8805281286694594,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 1.5877340952761994,
+                  "mean_absolute_error_nm": 1.3357752272565366,
+                  "mean_measured_minus_predicted_nm": -0.2945918393249179,
+                  "paired_absolute_error_change_nm": [
+                    -0.06602722843038686,
+                    0.07026697179284903
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04721042424894721,
+                    0.09928603089794698
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.21695304423678535
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 1.611375211852729,
+                  "mean_absolute_error_nm": 1.355945573549206,
+                  "mean_measured_minus_predicted_nm": -0.2878736743580425,
+                  "paired_absolute_error_change_nm": [
+                    -0.06558848912114706,
+                    0.11006154277656105
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.0353956740510575,
+                    0.1376377810729976
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.32532477323437753
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 1.588204269029296,
+                  "mean_absolute_error_nm": 1.336937757093342,
+                  "mean_measured_minus_predicted_nm": -0.29323571506694807,
+                  "paired_absolute_error_change_nm": [
+                    -0.0602353113038335,
+                    0.06848539106150399
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04447620443684268,
+                    0.09686091090970336
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.207034281140418
+                },
+                "nominal": {
+                  "centered_error_nm": 1.5567582102876911,
+                  "mean_absolute_error_nm": 1.3312550521351858,
+                  "mean_measured_minus_predicted_nm": -0.3281925568928801,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            },
+            {
+              "candidate_counts": {
+                "archived_residual": 31,
+                "guarded_physical": 31,
+                "guarded_residual": 31,
+                "nominal": 31
+              },
+              "constant_width_centered_error_nm": 1.3092009956139856,
+              "matched_walls": 31,
+              "opposite_spot_mean_absolute_difference_nm": 0.46648003804332705,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 1.363470275362534,
+                  "mean_absolute_error_nm": 1.093229745553413,
+                  "mean_measured_minus_predicted_nm": -0.15732083764965832,
+                  "paired_absolute_error_change_nm": [
+                    -0.04720719456448503,
+                    0.09494734313419553
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.044387824165554424,
+                    0.09808026088580607
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.22544065457922077
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 1.3874829441943437,
+                  "mean_absolute_error_nm": 1.113218719916894,
+                  "mean_measured_minus_predicted_nm": -0.15852333812530192,
+                  "paired_absolute_error_change_nm": [
+                    -0.05045305440537538,
+                    0.13708962470011196
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.031043698677357633,
+                    0.13544076771899347
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.32412893061624276
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 1.3637158069962567,
+                  "mean_absolute_error_nm": 1.0921983879223145,
+                  "mean_measured_minus_predicted_nm": -0.15734161864129514,
+                  "paired_absolute_error_change_nm": [
+                    -0.044064367960298605,
+                    0.0908689558501005
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04177979497651034,
+                    0.09615027483801018
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.21542748431360195
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3314420303119192,
+                  "mean_absolute_error_nm": 1.0681911006321163,
+                  "mean_measured_minus_predicted_nm": -0.1858938692433582,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            }
+          ]
+        },
+        "transferred_even": {
+          "second_order_profile_spatial_blocks": {
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ],
+            "side_nm": 20.246461426256836
+          },
+          "second_order_profiles": {
+            "archived_residual": {
+              "error": 0.3462849018142125,
+              "paired_change": [
+                -0.001387757070046515,
+                0.0038362632505500515
+              ]
+            },
+            "guarded_physical": {
+              "error": 0.3464157150508241,
+              "paired_change": [
+                -0.0023723421453111875,
+                0.004860166168268077
+              ]
+            },
+            "guarded_residual": {
+              "error": 0.34604446252454185,
+              "paired_change": [
+                -0.0016342040811746811,
+                0.0035635444050714136
+              ]
+            },
+            "nominal": {
+              "error": 0.34499873427752376,
+              "paired_change": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "second_order_widths_inside_geometry_support": {
+            "candidate_counts": {
+              "archived_residual": 30,
+              "guarded_physical": 30,
+              "guarded_residual": 30,
+              "nominal": 30
+            },
+            "constant_width_centered_error_nm": 1.325840550033349,
+            "matched_walls": 30,
+            "opposite_spot_mean_absolute_difference_nm": 0.4752521516971403,
+            "results": {
+              "archived_residual": {
+                "centered_error_nm": 1.4292595971382123,
+                "mean_absolute_error_nm": 1.1948612307477502,
+                "mean_measured_minus_predicted_nm": -0.24532460799730388,
+                "paired_absolute_error_change_nm": [
+                  -0.062250718413398215,
+                  0.08648826806206635
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.0500699205684439,
+                  0.09499318076862508
+                ],
+                "width_change_vs_nominal_rms_nm": 0.23509833048794143
+              },
+              "guarded_physical": {
+                "centered_error_nm": 1.4524668134315304,
+                "mean_absolute_error_nm": 1.2112501394235344,
+                "mean_measured_minus_predicted_nm": -0.24170682558147194,
+                "paired_absolute_error_change_nm": [
+                  -0.06897056431791375,
+                  0.12500448530183722
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.043257829118047195,
+                  0.1344699697330357
+                ],
+                "width_change_vs_nominal_rms_nm": 0.3384027930190393
+              },
+              "guarded_residual": {
+                "centered_error_nm": 1.4297382182244067,
+                "mean_absolute_error_nm": 1.1945745262786323,
+                "mean_measured_minus_predicted_nm": -0.24500628131854404,
+                "paired_absolute_error_change_nm": [
+                  -0.05796131683887774,
+                  0.08256183334121717
+                ],
+                "paired_centered_error_change_nm": [
+                  -0.04720679939355824,
+                  0.09367838371638913
+                ],
+                "width_change_vs_nominal_rms_nm": 0.22384245148356918
+              },
+              "nominal": {
+                "centered_error_nm": 1.401599182476342,
+                "mean_absolute_error_nm": 1.1814951192132919,
+                "mean_measured_minus_predicted_nm": -0.286793794104885,
+                "paired_absolute_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "paired_centered_error_change_nm": [
+                  0.0,
+                  0.0
+                ],
+                "width_change_vs_nominal_rms_nm": 0.0
+              }
+            },
+            "spatial_blocks": {
+              "occupied_blocks": [
+                12,
+                12,
+                14,
+                16
+              ],
+              "side_nm": 20.246461426256836
+            },
+            "wall_centers": [
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                10
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                10,
+                11
+              ],
+              [
+                10,
+                14
+              ],
+              [
+                10,
+                15
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                15
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                18
+              ],
+              [
+                14,
+                19
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                15,
+                20
+              ],
+              [
+                16,
+                20
+              ]
+            ]
+          },
+          "widths": [
+            {
+              "candidate_counts": {
+                "archived_residual": 31,
+                "guarded_physical": 31,
+                "guarded_residual": 31,
+                "nominal": 31
+              },
+              "constant_width_centered_error_nm": 1.4781009612739804,
+              "matched_walls": 31,
+              "opposite_spot_mean_absolute_difference_nm": 0.8805281286694594,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 1.5985272941568887,
+                  "mean_absolute_error_nm": 1.360371375133835,
+                  "mean_measured_minus_predicted_nm": -0.3341822931009643,
+                  "paired_absolute_error_change_nm": [
+                    -0.06584967731088771,
+                    0.06679877032663534
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.05224321887845229,
+                    0.09447496228302986
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.2280508075925743
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 1.6237385366035333,
+                  "mean_absolute_error_nm": 1.3799923201771385,
+                  "mean_measured_minus_predicted_nm": -0.32688061164347154,
+                  "paired_absolute_error_change_nm": [
+                    -0.06922604053885398,
+                    0.10716476144470849
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.04183378944104592,
+                    0.1336080083130918
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.33551367019543094
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 1.5994124473673916,
+                  "mean_absolute_error_nm": 1.3614122588011994,
+                  "mean_measured_minus_predicted_nm": -0.3323138349086731,
+                  "paired_absolute_error_change_nm": [
+                    -0.06151867652453679,
+                    0.06514092153882665
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.048537180709622596,
+                    0.09218062835968487
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.21729892366373893
+                },
+                "nominal": {
+                  "centered_error_nm": 1.5731093258801598,
+                  "mean_absolute_error_nm": 1.3587770667258874,
+                  "mean_measured_minus_predicted_nm": -0.36216554485386526,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            },
+            {
+              "candidate_counts": {
+                "archived_residual": 31,
+                "guarded_physical": 31,
+                "guarded_residual": 31,
+                "nominal": 31
+              },
+              "constant_width_centered_error_nm": 1.3092009956139856,
+              "matched_walls": 31,
+              "opposite_spot_mean_absolute_difference_nm": 0.46648003804332705,
+              "results": {
+                "archived_residual": {
+                  "centered_error_nm": 1.4097731062289347,
+                  "mean_absolute_error_nm": 1.1828825147661683,
+                  "mean_measured_minus_predicted_nm": -0.2639761056528333,
+                  "paired_absolute_error_change_nm": [
+                    -0.051052030617449874,
+                    0.08653370759269575
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.046351406424304506,
+                    0.09532211402347018
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.2325040435956895
+                },
+                "guarded_physical": {
+                  "centered_error_nm": 1.4340185969537063,
+                  "mean_absolute_error_nm": 1.2020848372694488,
+                  "mean_measured_minus_predicted_nm": -0.2638171141964852,
+                  "paired_absolute_error_change_nm": [
+                    -0.05464720432577471,
+                    0.12560642095190483
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.033246651610089904,
+                    0.13484430069443867
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.33559927735251727
+                },
+                "guarded_residual": {
+                  "centered_error_nm": 1.409902192250679,
+                  "mean_absolute_error_nm": 1.1817160208853041,
+                  "mean_measured_minus_predicted_nm": -0.2627790096336057,
+                  "paired_absolute_error_change_nm": [
+                    -0.04835438654181595,
+                    0.08157435049677227
+                  ],
+                  "paired_centered_error_change_nm": [
+                    -0.0445021398094377,
+                    0.09288064708763119
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.22101394300207955
+                },
+                "nominal": {
+                  "centered_error_nm": 1.38070184674066,
+                  "mean_absolute_error_nm": 1.1656601219592224,
+                  "mean_measured_minus_predicted_nm": -0.2998201299188285,
+                  "paired_absolute_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "paired_centered_error_change_nm": [
+                    0.0,
+                    0.0
+                  ],
+                  "width_change_vs_nominal_rms_nm": 0.0
+                }
+              },
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "domain_intensity_fits": {
+        "archived": {
+          "coefficient_bound_fraction": 0.39705882352941174,
+          "control_nodes": 34,
+          "coordinate_jacobian_min": 0.8184380917249942,
+          "cut_pixels_in_source": 696,
+          "displacement_rms_px": 1.7297799038559505,
+          "guard_px": 3,
+          "source_pixels": 15016,
+          "wall_intensity": [
+            {
+              "calibration_pixels": 7100,
+              "nominal": 0.1670140934704547,
+              "score_pixels": 2332,
+              "warped": 0.13558934489432603
+            },
+            {
+              "calibration_pixels": 7301,
+              "nominal": 0.16560490409505482,
+              "score_pixels": 2346,
+              "warped": 0.13556938149856657
+            },
+            {
+              "calibration_pixels": 7056,
+              "nominal": 0.15767256825525214,
+              "score_pixels": 2340,
+              "warped": 0.13555792304599218
+            },
+            {
+              "calibration_pixels": 7194,
+              "nominal": 0.1742461860263007,
+              "score_pixels": 2387,
+              "warped": 0.13553446715486753
+            }
+          ]
+        },
+        "guarded": {
+          "coefficient_bound_fraction": 0.39705882352941174,
+          "control_nodes": 34,
+          "coordinate_jacobian_min": 0.8285154000766906,
+          "cut_pixels_in_source": 0,
+          "displacement_rms_px": 1.692799822814317,
+          "guard_px": 3,
+          "source_pixels": 11696,
+          "wall_intensity": [
+            {
+              "calibration_pixels": 5333,
+              "nominal": 0.1713593619152484,
+              "score_pixels": 2332,
+              "warped": 0.1393273477911539
+            },
+            {
+              "calibration_pixels": 5948,
+              "nominal": 0.16833183117142786,
+              "score_pixels": 2346,
+              "warped": 0.1396368212544956
+            },
+            {
+              "calibration_pixels": 5478,
+              "nominal": 0.1636169895471738,
+              "score_pixels": 2340,
+              "warped": 0.1388546637649687
+            },
+            {
+              "calibration_pixels": 5499,
+              "nominal": 0.17721350832984614,
+              "score_pixels": 2387,
+              "warped": 0.13977855210553466
+            }
+          ]
+        }
+      },
+      "wall_count": 31,
+      "within_geometry_support": 30
+    }
+  }
+}

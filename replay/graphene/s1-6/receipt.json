@@ -1,0 +1,89 @@
+{
+  "HDF5_shape": [
+    300,
+    300,
+    432,
+    432
+  ],
+  "archive_md5": "489f879fd49f027c8f0eb083e04385bc",
+  "array_offset": 149488,
+  "author_aperture_sha256": "eb8d1cab13180adb5682d1351efc3a05e4243b61c62c4b1818f2ce0f62021814",
+  "author_aperture_source": "https://github.com/bediakolab/StrainFieldsInTwistedBilayerGraphene/blob/c0159420903babfc2cd4be73315828a6b197ebee/MaddieStuff/MV_02262020_6__integration_disks.mat",
+  "center_rc": [
+    207.66335283627194,
+    184.9317500929014
+  ],
+  "dtype": "<u2",
+  "hdf5_member": "MV_02262020_6.h5",
+  "hdf5_member_bytes": 33592489184,
+  "hdf5_member_crc32": "b4208664",
+  "input_url": "https://zenodo.org/records/4463612/files/MV_02262020_6.zip?download=1",
+  "integrated_sha256": "eaa93d51c2932f65ea2100af3048ce89343c7a650d818ff14aa0ef3cff405385",
+  "mask_sha256": "07bcd8a5219f1436e43f227caa4a6e602b3b53910d7ccd5a4d16b0eec0ff2ac1",
+  "positions_rc": [
+    [
+      218.6201361481733,
+      253.29034963530827
+    ],
+    [
+      272.17467943137416,
+      208.2832401606124
+    ],
+    [
+      261.1583420127103,
+      140.1887411596495
+    ],
+    [
+      196.8983140514464,
+      116.48753619539205
+    ],
+    [
+      143.06124434336408,
+      161.31128265674968
+    ],
+    [
+      153.97661913275775,
+      229.76037338125582
+    ],
+    [
+      283.0591796445731,
+      276.2655228989013
+    ],
+    [
+      325.0873688920495,
+      163.32450757320245
+    ],
+    [
+      249.74727617982512,
+      71.72205966560628
+    ],
+    [
+      132.0923172587624,
+      93.17260244406621
+    ],
+    [
+      88.50631895875134,
+      205.61130903431624
+    ],
+    [
+      164.85828415760167,
+      297.57596143801175
+    ]
+  ],
+  "protocol_sha256": "86611b84b87b400dc46f6ed27fa6c8effc56d7fbd1b5670b6b10ef71779b5074",
+  "row_stride": 2,
+  "usable": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

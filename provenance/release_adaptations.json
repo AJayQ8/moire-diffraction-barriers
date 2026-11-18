@@ -1,0 +1,29 @@
+{
+  "basis": "Release-only portability changes; no scientific calculations or data values changed.",
+  "changes": [
+    {
+      "change": "Writes its figure-input receipt to results/figure_inputs_v021.json rather than a submission directory.",
+      "file": "manuscript/figures/plot_v021_overview.py"
+    },
+    {
+      "change": "Writes regenerated uncertainty output to results/ by default, stores portable source basenames, and records an archive only when its contents were actually read.",
+      "file": "manuscript/figures/plot_moire_barrier_revision.py"
+    },
+    {
+      "change": "Added a saved-evidence CSV exporter for headline scores, the eight-map comparison, and representative wall widths.",
+      "file": "analysis/export_release_tables.py"
+    },
+    {
+      "change": "Added a standalone entry point for regenerating figures from saved records.",
+      "file": "analysis/rebuild_v021_figures.sh"
+    },
+    {
+      "change": "Replaced only the machine-local source path with the portable sibling filename; original record hash is retained in portable_path_redactions.json and SOURCE_ARCHIVE_SHA256SUMS.",
+      "file": "evidence/mos2_wall_landscape_uncertainty_v01.json"
+    },
+    {
+      "change": "Changed the default scan-archive directory from an AJ-specific temporary path to a portable package-relative data/processed_mos2 location.",
+      "file": "replay/observe_bilayers.py"
+    }
+  ]
+}

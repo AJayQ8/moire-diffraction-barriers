@@ -1,0 +1,4 @@
+comparison,maps,matched_wall_segments,isolated_wall_mean_error_nm,periodic_network_mean_error_nm
+"Closer spacing, six maps",DS3;DS4;DS6;DS9;DS10;DS12,168,1.3418162053189935,0.15585832363658078
+"Wider spacing, four maps",DS14;DS1;DS2;DS13,74,0.3767693183668514,0.36526829792416254
+All ten maps,DS10;DS14;DS1;DS2;DS13;DS12;DS9;DS6;DS4;DS3,242,0.9557974505381367,0.23962231335161346

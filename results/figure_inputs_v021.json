@@ -1,0 +1,118 @@
+{
+  "operation": "Figure rearrangement and relabelling only; no fit or physical calculation.",
+  "inputs_sha256": {
+    "mos2_native_wall_examples_v01.json": "8594c1054e90037a804967473a48f37bd34a7368fe4ccf3961a3f47ec8dad691",
+    "mos2_matched_wall_models_v01.json": "6396fcb8cd2df63f1cc5a118a4a03c5b954aeeeaad5a59674c5637d52c0f1db1",
+    "mos2_matched_wall_models_summary_v01.json": "19d3ef921f7d7cbaad4f023a014228777296d03b577ae3f7fb85b53f655d6d99",
+    "mos2_rigid_width_gaps_v01.json": "d92bf8820b1d7a0b6b78b5ff1c5153d085b847bedeb450dc93ebac81c8254ed7"
+  },
+  "main_example": "DS10 (1,7), unchanged from v020",
+  "supplement_example": "DS14 (3,7), unchanged from v020",
+  "map_points": [
+    {
+      "name": "DS3",
+      "spacing": 8.191959491653428,
+      "sections": 39,
+      "gap": {
+        "measured": 1.7708336058804077,
+        "network": 1.8581058288502912,
+        "isolated": -0.004332957746710813
+      }
+    },
+    {
+      "name": "DS4",
+      "spacing": 8.691035730691272,
+      "sections": 41,
+      "gap": {
+        "measured": 1.5638592529117552,
+        "network": 1.7657443351186748,
+        "isolated": -0.004383936022912879
+      }
+    },
+    {
+      "name": "DS6",
+      "spacing": 9.275170080079073,
+      "sections": 29,
+      "gap": {
+        "measured": 1.9126316394130805,
+        "network": 1.708295809604961,
+        "isolated": -0.0018399503048988955
+      }
+    },
+    {
+      "name": "DS10",
+      "spacing": 9.72315008304663,
+      "sections": 29,
+      "gap": {
+        "measured": 1.6317605444645946,
+        "network": 1.30973652035758,
+        "isolated": -0.002147420277546273
+      }
+    },
+    {
+      "name": "DS9",
+      "spacing": 10.977762233359506,
+      "sections": 19,
+      "gap": {
+        "measured": 0.7320569552924518,
+        "network": 0.7881946684326948,
+        "isolated": -0.0036133299549025765
+      }
+    },
+    {
+      "name": "DS12",
+      "spacing": 12.869291527994758,
+      "sections": 11,
+      "gap": {
+        "measured": 0.4203454743027076,
+        "network": 0.483840543890012,
+        "isolated": -0.0030921653419915466
+      }
+    },
+    {
+      "name": "DS13",
+      "spacing": 16.597420738985825,
+      "sections": 36,
+      "gap": {
+        "measured": 0.2371056658243984,
+        "network": 0.34647933717632307,
+        "isolated": 0.0204115826676198
+      }
+    },
+    {
+      "name": "DS14",
+      "spacing": 18.841455382897838,
+      "sections": 31,
+      "gap": {
+        "measured": -0.016526009586559573,
+        "network": 0.11929833360335403,
+        "isolated": 0.020135149824880582
+      }
+    },
+    {
+      "name": "DS2",
+      "spacing": 30.7742026220588,
+      "sections": 5,
+      "gap": {
+        "measured": 0.5687009539465747,
+        "network": -0.020931014303921903,
+        "isolated": -0.0035041067257425063
+      }
+    },
+    {
+      "name": "DS1",
+      "spacing": 31.10520744492471,
+      "sections": 2,
+      "gap": {
+        "measured": -0.6797134477926823,
+        "network": -0.05347023888836677,
+        "isolated": 0.0018035224341874656
+      }
+    }
+  ],
+  "two_model_segments": {
+    "higher_twist": 168,
+    "lower_twist": 74
+  },
+  "rigid_subset_segments": 112
+}

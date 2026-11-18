@@ -1,0 +1,1013 @@
+{
+  "archived_width_comparison": {
+    "all_maps": {
+      "separate_disjoint": {
+        "absolute_order_residual_nm": {
+          "13.2": [
+            0.22318019807552805,
+            0.18974865462655816
+          ],
+          "15": [
+            0.17602711647960137,
+            0.1407881897121268
+          ]
+        },
+        "absolute_order_residual_p05_p95_nm": {
+          "13.2": [
+            [
+              0.17000826943245162,
+              0.3137006620138813
+            ],
+            [
+              0.16898820724213973,
+              0.2596706400311398
+            ]
+          ],
+          "15": [
+            [
+              0.15659352752014374,
+              0.28746908824635975
+            ],
+            [
+              0.14430334941729386,
+              0.22191819283508898
+            ]
+          ]
+        },
+        "score_delta_p05_p95_nm": [
+          -0.05573974090180213,
+          0.01888837049016535
+        ],
+        "score_nm": {
+          "13.2": 0.20646442635104306,
+          "15": 0.15840765309586408,
+          "delta_15_minus_13.2": -0.048056773255178986
+        },
+        "score_p05_p95_nm": {
+          "13.2": [
+            0.17886817515320796,
+            0.2772854722519504
+          ],
+          "15": [
+            0.1605524242181176,
+            0.24504849259185393
+          ]
+        }
+      },
+      "transferred_even": {
+        "absolute_order_residual_nm": {
+          "13.2": [
+            0.23369499260952317,
+            0.18563786030565338
+          ],
+          "15": [
+            0.18481639910301412,
+            0.12115589362591309
+          ]
+        },
+        "absolute_order_residual_p05_p95_nm": {
+          "13.2": [
+            [
+              0.17764821199617953,
+              0.32454179505221287
+            ],
+            [
+              0.15919848032588174,
+              0.25568296483200226
+            ]
+          ],
+          "15": [
+            [
+              0.1619411016195591,
+              0.29430186833829863
+            ],
+            [
+              0.13135141154420163,
+              0.2084226589193906
+            ]
+          ]
+        },
+        "score_delta_p05_p95_nm": [
+          -0.057961749833075775,
+          0.015653127848879154
+        ],
+        "score_nm": {
+          "13.2": 0.20966642645758832,
+          "15": 0.15298614636446356,
+          "delta_15_minus_13.2": -0.05668028009312476
+        },
+        "score_p05_p95_nm": {
+          "13.2": [
+            0.17814474311859832,
+            0.2800404293950464
+          ],
+          "15": [
+            0.15685806791957074,
+            0.242542568502446
+          ]
+        }
+      }
+    },
+    "groups": {
+      "high_six": {
+        "separate_disjoint": {
+          "absolute_order_residual_nm": {
+            "13.2": [
+              0.15604692418623808,
+              0.0798674747805341
+            ],
+            "15": [
+              0.13353473237551744,
+              0.05059249127029818
+            ]
+          },
+          "absolute_order_residual_p05_p95_nm": {
+            "13.2": [
+              [
+                0.10604403500138895,
+                0.24268111263669007
+              ],
+              [
+                0.06343853533340134,
+                0.14760304100782862
+              ]
+            ],
+            "15": [
+              [
+                0.11006458387470262,
+                0.23514194601140143
+              ],
+              [
+                0.051781730592385625,
+                0.13070204044369596
+              ]
+            ]
+          },
+          "score_delta_p05_p95_nm": [
+            -0.02869046999976927,
+            0.021622523704663724
+          ],
+          "score_nm": {
+            "13.2": 0.11795719948338608,
+            "15": 0.09206361182290783,
+            "delta_15_minus_13.2": -0.02589358766047825
+          },
+          "score_p05_p95_nm": {
+            "13.2": [
+              0.09898998537122568,
+              0.17914478071492024
+            ],
+            "15": [
+              0.09513604000505975,
+              0.16723197400466708
+            ]
+          }
+        },
+        "transferred_even": {
+          "absolute_order_residual_nm": {
+            "13.2": [
+              0.16616141335196552,
+              0.07544363579943071
+            ],
+            "15": [
+              0.14253311150197379,
+              0.04283564139607763
+            ]
+          },
+          "absolute_order_residual_p05_p95_nm": {
+            "13.2": [
+              [
+                0.11405842672797467,
+                0.2537763428564247
+              ],
+              [
+                0.058727020176080655,
+                0.14272560695206096
+              ]
+            ],
+            "15": [
+              [
+                0.11869997755598885,
+                0.24567579555822494
+              ],
+              [
+                0.04627146991677819,
+                0.12404824786706177
+              ]
+            ]
+          },
+          "score_delta_p05_p95_nm": [
+            -0.029835558517212705,
+            0.02060216806571154
+          ],
+          "score_nm": {
+            "13.2": 0.12080252457569811,
+            "15": 0.0926843764490257,
+            "delta_15_minus_13.2": -0.028118148126672404
+          },
+          "score_p05_p95_nm": {
+            "13.2": [
+              0.10098152840988595,
+              0.18328139452937675
+            ],
+            "15": [
+              0.09587167726696036,
+              0.1696516265901366
+            ]
+          }
+        }
+      },
+      "low_four": {
+        "separate_disjoint": {
+          "absolute_order_residual_nm": {
+            "13.2": [
+              0.323880108909463,
+              0.3545704243955943
+            ],
+            "15": [
+              0.23976569263572722,
+              0.27608173737486974
+            ]
+          },
+          "absolute_order_residual_p05_p95_nm": {
+            "13.2": [
+              [
+                0.19905479247618102,
+                0.49952099709662606
+              ],
+              [
+                0.28800286275808284,
+                0.47465832055941076
+              ]
+            ],
+            "15": [
+              [
+                0.16936066173780734,
+                0.43707967961663297
+              ],
+              [
+                0.2493175777841825,
+                0.4066479051941952
+              ]
+            ]
+          },
+          "score_delta_p05_p95_nm": [
+            -0.10478381721437778,
+            0.04325177250935676
+          ],
+          "score_nm": {
+            "13.2": 0.3392252666525286,
+            "15": 0.2579237150052985,
+            "delta_15_minus_13.2": -0.08130155164723013
+          },
+          "score_p05_p95_nm": {
+            "13.2": [
+              0.261172190986535,
+              0.4719267781079124
+            ],
+            "15": [
+              0.22588221094071,
+              0.4081814484756057
+            ]
+          }
+        },
+        "transferred_even": {
+          "absolute_order_residual_nm": {
+            "13.2": [
+              0.33499536149585973,
+              0.35092919706498743
+            ],
+            "15": [
+              0.24824133050457464,
+              0.23863627197066625
+            ]
+          },
+          "absolute_order_residual_p05_p95_nm": {
+            "13.2": [
+              [
+                0.20671375899539998,
+                0.5111057862520307
+              ],
+              [
+                0.2707655706445266,
+                0.47106961665432084
+              ]
+            ],
+            "15": [
+              [
+                0.17009134848191806,
+                0.4396216907097052
+              ],
+              [
+                0.22512309762722357,
+                0.37989107095067215
+              ]
+            ]
+          },
+          "score_delta_p05_p95_nm": [
+            -0.10679986453340468,
+            0.041132835092841824
+          ],
+          "score_nm": {
+            "13.2": 0.34296227928042355,
+            "15": 0.24343880123762046,
+            "delta_15_minus_13.2": -0.09952347804280309
+          },
+          "score_p05_p95_nm": {
+            "13.2": [
+              0.2540338670099539,
+              0.47633431369292684
+            ],
+            "15": [
+              0.21391688723524493,
+              0.3976376454525326
+            ]
+          }
+        }
+      }
+    },
+    "settings_meV_per_cell": [
+      "13.2",
+      "15"
+    ]
+  },
+  "cohorts": {
+    "all_maps": [
+      "DS10",
+      "DS14",
+      "DS1",
+      "DS2",
+      "DS13",
+      "DS12",
+      "DS9",
+      "DS6",
+      "DS4",
+      "DS3"
+    ],
+    "common_sweep_sections": {
+      "DS1": 2,
+      "DS10": 29,
+      "DS12": 11,
+      "DS13": 36,
+      "DS14": 31,
+      "DS2": 5,
+      "DS3": 39,
+      "DS4": 41,
+      "DS6": 29,
+      "DS9": 19
+    },
+    "high_six": [
+      "DS10",
+      "DS12",
+      "DS9",
+      "DS6",
+      "DS4",
+      "DS3"
+    ],
+    "low_four": [
+      "DS1",
+      "DS2",
+      "DS14",
+      "DS13"
+    ],
+    "resampling_map_order": [
+      "DS10",
+      "DS14",
+      "DS1",
+      "DS2",
+      "DS13",
+      "DS12",
+      "DS9",
+      "DS6",
+      "DS4",
+      "DS3"
+    ],
+    "total_common_sweep_sections": 242
+  },
+  "energy_grid_meV_per_cell": [
+    9.0,
+    9.5,
+    10.0,
+    10.5,
+    11.0,
+    11.5,
+    12.0,
+    12.5,
+    13.0,
+    13.2,
+    13.5,
+    14.0,
+    14.5,
+    15.0,
+    15.5,
+    16.0,
+    16.5,
+    17.0,
+    17.5,
+    18.0,
+    18.5,
+    19.0
+  ],
+  "half_window_nm": 4.25,
+  "optima": {
+    "groups": {
+      "all_maps": {
+        "cameras": {
+          "separate_disjoint": {
+            "frames": {
+              "archived": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.15840765309586408,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  13.5,
+                  16.0
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.15510857161880356,
+                  0.23435099994227646
+                ]
+              },
+              "rotate_ds13_ds14": {
+                "best_setting_meV_per_cell": "10.5",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.219516044663672,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  9.5,
+                  12.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.18564220345640475,
+                  0.28197443753751283
+                ]
+              }
+            }
+          },
+          "transferred_even": {
+            "frames": {
+              "archived": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.15298614636446356,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  13.5,
+                  16.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.15155313176519028,
+                  0.2322248251546244
+                ]
+              },
+              "rotate_ds13_ds14": {
+                "best_setting_meV_per_cell": "10.5",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.21147287807820425,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  10.0,
+                  12.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.17842659037988112,
+                  0.2749756940740479
+                ]
+              }
+            }
+          }
+        },
+        "maps": [
+          "DS10",
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13",
+          "DS12",
+          "DS9",
+          "DS6",
+          "DS4",
+          "DS3"
+        ],
+        "matched_sections": 242
+      },
+      "high_six": {
+        "cameras": {
+          "separate_disjoint": {
+            "frames": {
+              "archived": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.09206361182290783,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  12.5,
+                  16.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.08953709006663294,
+                  0.15898868376843947
+                ]
+              },
+              "rotate_ds13_ds14": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.09206361182290783,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  12.5,
+                  16.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.08953709006663294,
+                  0.15898868376843947
+                ]
+              }
+            }
+          },
+          "transferred_even": {
+            "frames": {
+              "archived": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.0926843764490257,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  12.5,
+                  16.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.09118868283088677,
+                  0.16157458408611478
+                ]
+              },
+              "rotate_ds13_ds14": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.0926843764490257,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  12.5,
+                  16.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.09118868283088677,
+                  0.16157458408611478
+                ]
+              }
+            }
+          }
+        },
+        "maps": [
+          "DS10",
+          "DS12",
+          "DS9",
+          "DS6",
+          "DS4",
+          "DS3"
+        ],
+        "matched_sections": 168
+      },
+      "low_four": {
+        "cameras": {
+          "separate_disjoint": {
+            "frames": {
+              "archived": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.2579237150052985,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  13.0,
+                  16.5
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.21227623317947336,
+                  0.3706382670391613
+                ]
+              },
+              "rotate_ds13_ds14": {
+                "best_setting_meV_per_cell": "10",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.26964797688121606,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  9.0,
+                  11.0
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.222555206571681,
+                  0.3920135302220534
+                ]
+              }
+            }
+          },
+          "transferred_even": {
+            "frames": {
+              "archived": {
+                "best_setting_meV_per_cell": "15",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.24343880123762046,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  13.0,
+                  17.0
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.20019787450752538,
+                  0.3594629951076577
+                ]
+              },
+              "rotate_ds13_ds14": {
+                "best_setting_meV_per_cell": "10",
+                "minimum_at_grid_boundary": false,
+                "minimum_score_nm": 0.24222016919844414,
+                "sampled_best_setting_p05_p95_meV_per_cell": [
+                  9.5,
+                  11.0
+                ],
+                "sampled_minimum_score_p05_p95_nm": [
+                  0.2021296769772663,
+                  0.3725058913737668
+                ]
+              }
+            }
+          }
+        },
+        "maps": [
+          "DS1",
+          "DS2",
+          "DS14",
+          "DS13"
+        ],
+        "matched_sections": 74
+      }
+    }
+  },
+  "paired_spatial_block_resampling": {
+    "draws_per_origin": 1000,
+    "origins": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "scope": "Within-map resampling conditional on the fixed selected scans and common qualified all-sweep sections; the same block draw is paired across energy candidates, frames, detector calibrations, and diffraction orders. Groups average each map equally. Intervals do not represent between-map or device-level sampling uncertainty.",
+    "seed": 20261116,
+    "total_draws_per_map": 4000
+  },
+  "probe_fwhm_nm": 1.25,
+  "schema": "mos2-saddle-reporting-v01",
+  "score_definition": "For each map, energy, frame, and detector calibration, average signed predicted-minus-measured width residuals over the common all-energy/all-frame/all-calibration wall cohort separately for the two diffraction orders. The width score is the mean of the two absolute residuals, in nm. Group scores average maps equally.",
+  "selected_map_points": {
+    "DS1": {
+      "block_side_nm": 33.424720643449874,
+      "common_sweep_sections": 2,
+      "frames_by_camera": {
+        "separate_disjoint": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.0843153742919267,
+                0.6505092085870092
+              ],
+              "15": [
+                0.13466701554026073,
+                0.8457935012867637
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.12281796697404423,
+            "score_nm": {
+              "13.2": 0.36741229143946796,
+              "15": 0.4902302584135122
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.0843153742919267,
+                0.6505092085870092
+              ],
+              "15": [
+                0.13466701554026073,
+                0.8457935012867637
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.12281796697404423,
+            "score_nm": {
+              "13.2": 0.36741229143946796,
+              "15": 0.4902302584135122
+            }
+          }
+        },
+        "transferred_even": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.08840677987737755,
+                0.537836429026938
+              ],
+              "15": [
+                0.13077702621245213,
+                0.7396514291991076
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.12209262325362213,
+            "score_nm": {
+              "13.2": 0.31312160445215775,
+              "15": 0.4352142277057799
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.08840677987737755,
+                0.537836429026938
+              ],
+              "15": [
+                0.13077702621245213,
+                0.7396514291991076
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.12209262325362213,
+            "score_nm": {
+              "13.2": 0.31312160445215775,
+              "15": 0.4352142277057799
+            }
+          }
+        }
+      },
+      "occupied_blocks_by_origin": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "source_sections": 2
+    },
+    "DS13": {
+      "block_side_nm": 17.83508927193864,
+      "common_sweep_sections": 36,
+      "frames_by_camera": {
+        "separate_disjoint": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.49600712434735744,
+                0.37997148284572435
+              ],
+              "15": [
+                0.2213548027395594,
+                0.15938112387301262
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": -0.24762134029025484,
+            "score_nm": {
+              "13.2": 0.43798930359654087,
+              "15": 0.19036796330628603
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.4825402672871125,
+                0.400636610808952
+              ],
+              "15": [
+                0.6821262701905355,
+                0.5677977274526553
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.18337355977356318,
+            "score_nm": {
+              "13.2": 0.44158843904803224,
+              "15": 0.6249619988215954
+            }
+          }
+        },
+        "transferred_even": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.502876538799671,
+                0.39350286744774654
+              ],
+              "15": [
+                0.227857764308196,
+                0.17215784704758866
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": -0.24818189744581642,
+            "score_nm": {
+              "13.2": 0.44818970312370876,
+              "15": 0.20000780567789234
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.4756218013099741,
+                0.3892226721948441
+              ],
+              "15": [
+                0.6752629395839965,
+                0.5570030512054728
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.18371075864232556,
+            "score_nm": {
+              "13.2": 0.4324222367524091,
+              "15": 0.6161329953947347
+            }
+          }
+        }
+      },
+      "occupied_blocks_by_origin": [
+        17,
+        16,
+        18,
+        16
+      ],
+      "source_sections": 36
+    },
+    "DS14": {
+      "block_side_nm": 20.246461426256836,
+      "common_sweep_sections": 31,
+      "frames_by_camera": {
+        "separate_disjoint": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.3492763201973537,
+                0.17509696672805525
+              ],
+              "15": [
+                0.03312615703537356,
+                0.07452675258050859
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": -0.2083601886547634,
+            "score_nm": {
+              "13.2": 0.2621866434627045,
+              "15": 0.05382645480794107
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.6348650490113219,
+                0.7230177034386825
+              ],
+              "15": [
+                0.830665605829947,
+                0.894658672294053
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.18372076283699768,
+            "score_nm": {
+              "13.2": 0.6789413762250023,
+              "15": 0.862662139062
+            }
+          }
+        },
+        "transferred_even": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.3836339970155363,
+                0.24780965382562262
+              ],
+              "15": [
+                0.0652491810754189,
+                0.0069371588138200805
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": -0.27962865547596,
+            "score_nm": {
+              "13.2": 0.31572182542057947,
+              "15": 0.03609316994461949
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.6075035250912457,
+                0.6686852793281385
+              ],
+              "15": [
+                0.8042840792403119,
+                0.8433522206693492
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.18572374774513833,
+            "score_nm": {
+              "13.2": 0.6380944022096922,
+              "15": 0.8238181499548305
+            }
+          }
+        }
+      },
+      "occupied_blocks_by_origin": [
+        12,
+        12,
+        15,
+        16
+      ],
+      "source_sections": 31
+    },
+    "DS2": {
+      "block_side_nm": 32.10187396503705,
+      "common_sweep_sections": 5,
+      "frames_by_camera": {
+        "separate_disjoint": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.36592161680121427,
+                0.21270403942158822
+              ],
+              "15": [
+                0.5699147952277152,
+                0.0246255717591942
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.007957355382053444,
+            "score_nm": {
+              "13.2": 0.28931282811140124,
+              "15": 0.2972701834934547
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.36592161680121427,
+                0.21270403942158822
+              ],
+              "15": [
+                0.5699147952277152,
+                0.0246255717591942
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.007957355382053444,
+            "score_nm": {
+              "13.2": 0.28931282811140124,
+              "15": 0.2972701834934547
+            }
+          }
+        },
+        "transferred_even": {
+          "archived": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.36506413029085405,
+                0.2245678379596426
+              ],
+              "15": [
+                0.5690813504222315,
+                0.03579865282214865
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.0076240174969417485,
+            "score_nm": {
+              "13.2": 0.29481598412524834,
+              "15": 0.3024400016221901
+            }
+          },
+          "rotate_ds13_ds14": {
+            "absolute_order_residual_nm": {
+              "13.2": [
+                0.36506413029085405,
+                0.2245678379596426
+              ],
+              "15": [
+                0.5690813504222315,
+                0.03579865282214865
+              ]
+            },
+            "score_delta_15_minus_13.2_nm": 0.0076240174969417485,
+            "score_nm": {
+              "13.2": 0.29481598412524834,
+              "15": 0.3024400016221901
+            }
+          }
+        }
+      },
+      "occupied_blocks_by_origin": [
+        2,
+        3,
+        2,
+        4
+      ],
+      "source_sections": 6
+    }
+  },
+  "source_sha256": {
+    "mos2_orientation_candidates_v01.json": "e03669c997e6b02635ff0347aadc5b1dde7cafcf289afa457f3a703615e17fc8",
+    "mos2_saddle_sweep_v01.json": "825ba90c94200edcc5de083bf00133b8a0645ca3a7c35e1af3e45751418d778a",
+    "summarize_mos2_geometry_probe.py": "4ec4c9f1e1f05cdc6d2c97edb6b70bba4a4a4e882bb63fec5c8b8044f32c1f18",
+    "summarize_mos2_saddle_reporting.py": "1a3514a00cd66e673cc33d84a5eeca6cb17781436d9d5f0ae146a900ae46e25c",
+    "summarize_mos2_saddle_sweep.py": "a50a8c8ac3ffbae4bf4c11296a012e9f1a8bc98a74f3b06f828dae6ff6fac058"
+  }
+}

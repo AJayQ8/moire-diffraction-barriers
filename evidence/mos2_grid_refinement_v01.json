@@ -1,0 +1,272 @@
+{
+  "cases_by_grid_n": {
+    "128": {
+      "13.2": {
+        "cross_order_normalized_profile_error": [
+          0.4402672545029194,
+          0.3706037950094851
+        ],
+        "measured_minus_predicted_signed_gap_nm": 0.3684752444621182,
+        "measured_minus_predicted_widths_nm": [
+          3.931918418971691,
+          3.563443174509573
+        ],
+        "measured_signed_gap_first_minus_second_nm": 0.4446006650170471,
+        "predicted_signed_gap_first_minus_second_nm": 0.07612542055492888,
+        "predicted_widths_nm": [
+          3.910762185170175,
+          3.834636764615246
+        ],
+        "qualified": [
+          true,
+          true
+        ],
+        "solver": {
+          "final_energy": 0.01119786889317446,
+          "force_rms_eV_nm": 3.628908435879868e-07,
+          "iterations": 20
+        },
+        "width_fit_error": [
+          0.07304800269946334,
+          0.03156705652999541
+        ]
+      },
+      "19": {
+        "cross_order_normalized_profile_error": [
+          0.49279111401967135,
+          0.4233562430283273
+        ],
+        "measured_minus_predicted_signed_gap_nm": 0.4824959795251673,
+        "measured_minus_predicted_widths_nm": [
+          4.544950223535803,
+          4.0624542440106355
+        ],
+        "measured_signed_gap_first_minus_second_nm": 0.4446006650170471,
+        "predicted_signed_gap_first_minus_second_nm": -0.037895314508120226,
+        "predicted_widths_nm": [
+          3.297730380606063,
+          3.3356256951141834
+        ],
+        "qualified": [
+          true,
+          true
+        ],
+        "solver": {
+          "final_energy": 0.012057385792088851,
+          "force_rms_eV_nm": 7.552257009108153e-07,
+          "iterations": 17
+        },
+        "width_fit_error": [
+          0.1099781417552939,
+          0.04320275533282034
+        ]
+      }
+    },
+    "256": {
+      "13.2": {
+        "cross_order_normalized_profile_error": [
+          0.44026654992365566,
+          0.3706033056239443
+        ],
+        "measured_minus_predicted_signed_gap_nm": 0.36847693173626883,
+        "measured_minus_predicted_widths_nm": [
+          3.931912032742863,
+          3.5634351010065943
+        ],
+        "measured_signed_gap_first_minus_second_nm": 0.4446006650170471,
+        "predicted_signed_gap_first_minus_second_nm": 0.07612373328077826,
+        "predicted_widths_nm": [
+          3.910768571399003,
+          3.8346448381182245
+        ],
+        "qualified": [
+          true,
+          true
+        ],
+        "solver": {
+          "final_energy": 0.011197868894582885,
+          "force_rms_eV_nm": 6.833212819414863e-06,
+          "iterations": 17
+        },
+        "width_fit_error": [
+          0.07304736147456968,
+          0.03156707556781435
+        ]
+      },
+      "19": {
+        "cross_order_normalized_profile_error": [
+          0.4927891673010072,
+          0.42335515192174633
+        ],
+        "measured_minus_predicted_signed_gap_nm": 0.4825005635689372,
+        "measured_minus_predicted_widths_nm": [
+          4.544937919352467,
+          4.06243735578353
+        ],
+        "measured_signed_gap_first_minus_second_nm": 0.4446006650170471,
+        "predicted_signed_gap_first_minus_second_nm": -0.03789989855189013,
+        "predicted_widths_nm": [
+          3.2977426847893985,
+          3.3356425833412886
+        ],
+        "qualified": [
+          true,
+          true
+        ],
+        "solver": {
+          "final_energy": 0.01205738579260505,
+          "force_rms_eV_nm": 5.832059213216516e-06,
+          "iterations": 16
+        },
+        "width_fit_error": [
+          0.10997911487854264,
+          0.04320273025566827
+        ]
+      }
+    }
+  },
+  "doubled_minus_normal": {
+    "13.2": {
+      "absolute_gap_change_over_normal_grid_experimental_gap_residual": 4.579070577949104e-06,
+      "absolute_width_change_over_normal_grid_experimental_width_residual": [
+        1.6242017629784995e-06,
+        2.2656466185157222e-06
+      ],
+      "refined_minus_normal_cross_order_normalized_profile_error": [
+        -7.04579263766103e-07,
+        -4.893855408139025e-07
+      ],
+      "refined_minus_normal_predicted_signed_gap_nm": -1.6872741506190891e-06,
+      "refined_minus_normal_predicted_widths_nm": [
+        6.386228827981455e-06,
+        8.073502978600544e-06
+      ]
+    },
+    "19": {
+      "absolute_gap_change_over_normal_grid_experimental_gap_residual": 9.50068801488776e-06,
+      "absolute_width_change_over_normal_grid_experimental_width_residual": [
+        2.707220702130752e-06,
+        4.1571488786894976e-06
+      ],
+      "refined_minus_normal_cross_order_normalized_profile_error": [
+        -1.946718664158631e-06,
+        -1.0911065809748877e-06
+      ],
+      "refined_minus_normal_predicted_signed_gap_nm": -4.5840437699062875e-06,
+      "refined_minus_normal_predicted_widths_nm": [
+        1.2304183335309915e-05,
+        1.6888227105216203e-05
+      ]
+    }
+  },
+  "elapsed_seconds": 4.8088882910087705,
+  "input_label_caveat": "The existing measured_wall_examples_v01.json uses the field name stacking_coefficients_eV_per_cell for numerical values that match the saved meV-per-cell Fourier coefficients; this runner uses the authoritative meV-per-cell arrays from the saddle-sweep evidence and does not edit the older record.",
+  "input_sha256": {
+    "DS14.zip": "b948c33500e1101436940b283c319b37873210e98478d0a843b76432544d27af",
+    "author_detector_replay.py": "d3d978beac32bd93438217535e40ed5acea688d462a42445aff0b882119aa349",
+    "author_release.py": "b95816c6bc7812ae249ba4786d2b1b37978b7887933f0a45fd0144fefaddf8e2",
+    "author_release.zip": "340014e07ebd3bed3b3e36313b755558be1a6f394e0db23e3b213bdecc085179",
+    "bilayer_relaxation.py": "d129f144f59edf96e93ddbec3f32b17f4f3451a00ced44c3cc773f73198da135",
+    "measured_wall_examples_v01.json": "38531dc5953f13f0e0af4a8d9c7b4d910dbeb70517fd60cded799efc693b2f4f",
+    "moire_common_intensity_replay_v01.json": "4060ad3de694ff33719d921ced00b28727d03300aea298fdcbd5101fdf7614df",
+    "moire_regime_benchmark_v02.json": "660ad736b10aeeea12875974445607ae0bcc9a5d58608bcf840b603b5d6c5f9b",
+    "mos2_camera_transfer_v01.json": "008a30f864fd49397f4b33bd4a9d3f3ab76ef44185526ac3d0ca50d9ed96202e",
+    "mos2_native_wall_examples_v01.json": "8594c1054e90037a804967473a48f37bd34a7368fe4ccf3961a3f47ec8dad691",
+    "mos2_saddle_sweep_v01.json": "825ba90c94200edcc5de083bf00133b8a0645ca3a7c35e1af3e45751418d778a",
+    "observe_bilayers.py": "b04cc00929907b1225fcf141f8e3458114da18393341b03731ab6f8032d5c13f",
+    "registry_protocol_v01.json": "40a1a5e5101dbb51c63d5b67e0d0f9d300d094ef313bf621538f63d4f7785c95",
+    "run_moire_common_intensity.py": "bee78189bd44032a67a982039f3124dc7de65376be9638c55c34ab75ff82176a",
+    "run_moire_regime_benchmark.py": "bc0b4943ad97b499e96913409c7508457fe34b3871dd02f8b6bd3f47f6cea99b",
+    "run_mos2_grid_refinement.py": "e6ef82eace7be024de03b28a047c209fb7eb2f9150e8b9c051fb2504d9902f6a",
+    "run_mos2_intensity_only_replay.py": "ab010a281df3913e4c58a18024ed9325fb47b91af34ae584c98d3b8ad54b9d05",
+    "run_mos2_nonlinear_controls.py": "83099a55f76959498b8b1345a027933c433d9111f160cc77af376def14245c00",
+    "run_mos2_observation_controls.py": "2d558cf0335bea1709806c1ce9911021da89a9962f1383343daf78230e5e2dd7",
+    "run_mos2_saddle_sweep.py": "479c4af7630aca8a90e772d43f29f37ac4b9aea4d362add6cd4b55eca1941f76",
+    "run_mos2_wall_landscape.py": "2a8a69f82f1d85decfa22580de35cf5c02e2b5bb6304714557658f6018da8461",
+    "run_mos2_wall_width_transfer.py": "30b6ef71bae02a96a8a6df5166aec0cee50bd25a5719edf506e8b564caae876e",
+    "run_registry_prediction.py": "0c175ada9ccfe0b2a06929de24979797f1f868adb7a532c7916afd69866b0e15"
+  },
+  "inputs": {
+    "detector_coefficients_frozen_even": [
+      0.9095599750891727,
+      -0.016726480624164784
+    ],
+    "frozen_stacking_coefficients_interpreted_units": "meV per primitive cell, as independently confirmed by the saved landscape and rigid energy",
+    "frozen_stacking_coefficients_numeric_values": [
+      27.332,
+      14.02,
+      -2.542,
+      -0.884,
+      0.0,
+      0.0
+    ],
+    "frozen_stacking_coefficients_source_field_label": "stacking_coefficients_eV_per_cell",
+    "half_window_nm": 4.25,
+    "measured_fit_error": [
+      0.29482326595615865,
+      0.31166129196011255
+    ],
+    "measured_signed_gap_first_minus_second_nm": 0.4446006650170471,
+    "measured_widths_nm": [
+      7.842680604141866,
+      7.398079939124819
+    ],
+    "probe_fwhm_nm": 1.25,
+    "stiffness_bulk_shear_eV_per_cell": [
+      24.933000000000003,
+      15.773999999999997
+    ]
+  },
+  "interpretation_limit": "Conditional single-section numerical convergence check; it does not estimate scan-wide variability or validate the physical energy family.",
+  "nominal_saved_score_verification": {
+    "cross_order_normalized_profile_error": [
+      0.4402672545029194,
+      0.3706037950094851
+    ],
+    "energy_meV_per_cell": 13.2,
+    "grid_n": 128,
+    "passed": true,
+    "predicted_widths_nm": [
+      3.910762185170175,
+      3.834636764615246
+    ],
+    "saved_cross_order_normalized_profile_error": [
+      0.4402672545029194,
+      0.3706037950094851
+    ],
+    "saved_widths_nm": [
+      3.910762185170175,
+      3.834636764615246
+    ]
+  },
+  "normal_grid_requirement": {
+    "longest_cell_vector_nm": 25.233786806898614,
+    "n": 128,
+    "rule": "next power of two above longest cell-vector length / 0.30 nm, with minimum 64"
+  },
+  "normal_grid_saved_sweep_widths_nm": {
+    "13.2": [
+      3.910762185170175,
+      3.834636764615246
+    ],
+    "19": [
+      3.297730380606063,
+      3.3356256951141834
+    ]
+  },
+  "schema": "mos2-grid-refinement-v01",
+  "scope": "One frozen low-twist DS14 wall section [3,7], unchanged measured raster geometry, detector, 1.25 nm Gaussian probe, 4.25 nm fit window, channels, and profile cuts. Compare the published 13.2 meV/cell anchor with the upper tested 19 meV/cell saddle at the recorded N=128 mesh and N=256 doubled mesh.",
+  "selection": {
+    "centers": [
+      3,
+      7
+    ],
+    "energy_family": "The frozen saddle-sweep direction preserves the AB Hessian and AA/AB energies.",
+    "grid_spacing_upper_bound_nm": 0.19713895942889542,
+    "high_saddle_meV_per_cell": 19.0,
+    "normal_grid_n": 128,
+    "scan": "DS14",
+    "spacing_nm": 18.81523165950541,
+    "twist_deg": 0.6986610416445902
+  }
+}

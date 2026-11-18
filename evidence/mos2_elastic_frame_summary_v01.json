@@ -1,0 +1,1491 @@
+{
+  "input_sha256": "456eaf59e68089a5fa68021da2af1623f26f8df27b121d4615115696ac2efb81",
+  "scans": {
+    "DS1": {
+      "held_pixels": {
+        "folds": 4,
+        "rmse": {
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.2594227106614827,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 1,
+            "mean": 0.26137896841413183,
+            "relative_change_percent": 0.7540811471983266
+          },
+          "rotate_minus_30": {
+            "improved_folds": 1,
+            "mean": 0.28680692775655403,
+            "relative_change_percent": 10.555828757338293
+          },
+          "rotate_plus_30": {
+            "improved_folds": 2,
+            "mean": 0.26019094974908435,
+            "relative_change_percent": 0.29613409159234827
+          }
+        }
+      },
+      "local_replay": {
+        "folds": 0,
+        "rmse": {}
+      },
+      "solvers": {
+        "nominal": {
+          "cell_area_nm2": 1756.9167414909525,
+          "final_energy": 0.005980946444529211,
+          "force_rms_eV_nm": 3.782338907934374e-06,
+          "iterations": 29,
+          "polar_mean_percent": 0.03773313664669489,
+          "principal_strains_percent": [
+            -0.17956069535697455,
+            0.25502696865036434
+          ],
+          "twist_degrees": -0.4189636907675435,
+          "uniaxial_fit_residual_percent": 0.11673111028485202,
+          "uniaxial_magnitude_percent": 0.2816235900662299
+        },
+        "remove_mean_strain": {
+          "cell_area_nm2": 1762.775368150899,
+          "final_energy": 0.0059765506019765074,
+          "force_rms_eV_nm": 3.4322614130546512e-06,
+          "iterations": 30,
+          "polar_mean_percent": 2.77416978278211e-14,
+          "principal_strains_percent": [
+            -0.21729383200364444,
+            0.21729383200369992
+          ],
+          "twist_degrees": -0.4189636907675485,
+          "uniaxial_fit_residual_percent": 0.16206907976333992,
+          "uniaxial_magnitude_percent": 0.2542204914620564
+        },
+        "rotate_minus_30": {
+          "cell_area_nm2": 1756.9167414909525,
+          "final_energy": 0.006449825606931286,
+          "force_rms_eV_nm": 3.778453067608532e-06,
+          "iterations": 31,
+          "polar_mean_percent": -0.33326152092768013,
+          "principal_strains_percent": [
+            -0.5505553529313638,
+            -0.11596768892399645
+          ],
+          "twist_degrees": -0.3742603567384437,
+          "uniaxial_fit_residual_percent": 0.23835882013980583,
+          "uniaxial_magnitude_percent": -0.4962464434647905
+        },
+        "rotate_plus_30": {
+          "cell_area_nm2": 1756.9167414909525,
+          "final_energy": 0.00658586315710791,
+          "force_rms_eV_nm": 4.382282297655815e-06,
+          "iterations": 30,
+          "polar_mean_percent": 0.39800075427993686,
+          "principal_strains_percent": [
+            0.18070692227625584,
+            0.6152945862836179
+          ],
+          "twist_degrees": -0.3515264442073947,
+          "uniaxial_fit_residual_percent": 0.3161457641003291,
+          "uniaxial_magnitude_percent": 0.5432622961812723
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "profile_error": {
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.416069673485981
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                0.004519272514318079,
+                0.004519272514318079
+              ],
+              "delta_vs_nominal": 0.004519272514318079,
+              "mean": 0.4205889460002991
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                0.03793764137451103,
+                0.03793764137451103
+              ],
+              "delta_vs_nominal": 0.03793764137451103,
+              "mean": 0.45400731486049206
+            },
+            "rotate_plus_30": {
+              "delta_p05_p95": [
+                -0.007557276973504723,
+                -0.007557276973504723
+              ],
+              "delta_vs_nominal": -0.007557276973504723,
+              "mean": 0.4085123965124763
+            }
+          },
+          "qualified_common_width_sections": 2,
+          "shape_sections": 2,
+          "width_block_support": {
+            "occupied_blocks": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "side_nm": 33.424720643449874
+          },
+          "widths_nm": {
+            "measured": [
+              3.6327683917126254,
+              4.312481839505308
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.36741229143946796,
+              "mean_absolute_per_wall_error": 0.5491251894986287,
+              "pair": [
+                3.717083766004552,
+                3.6619726309182985
+              ],
+              "predicted_minus_measured": [
+                0.08431537429192648,
+                -0.6505092085870094
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0031193951862904523,
+                0.0031193951862904523
+              ],
+              "mean_absolute_error": 0.3705316866257584,
+              "mean_absolute_per_wall_error": 0.5284804679124291,
+              "pair": [
+                3.6867405173638046,
+                3.6253905919049703
+              ],
+              "predicted_minus_measured": [
+                0.05397212565117915,
+                -0.6870912476003377
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.04255897403431641,
+                0.04255897403431641
+              ],
+              "mean_absolute_error": 0.4099712654737844,
+              "mean_absolute_per_wall_error": 0.7866704017889117,
+              "pair": [
+                4.3441792867792115,
+                4.203950203624325
+              ],
+              "predicted_minus_measured": [
+                0.7114108950665861,
+                -0.10853163588098269
+              ]
+            },
+            "rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.5798280759920309,
+                0.5798280759920309
+              ],
+              "mean_absolute_error": 0.9472403674314989,
+              "mean_absolute_per_wall_error": 0.9688949674294766,
+              "pair": [
+                4.9179376120467415,
+                4.92179335403419
+              ],
+              "predicted_minus_measured": [
+                1.285169220334116,
+                0.6093115145288817
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "profile_error": {
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.32018309687413704
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                0.0015025612696833723,
+                0.0015025612696833723
+              ],
+              "delta_vs_nominal": 0.0015025612696833723,
+              "mean": 0.3216856581438204
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                0.024685723862377773,
+                0.024685723862377773
+              ],
+              "delta_vs_nominal": 0.024685723862377773,
+              "mean": 0.3448688207365148
+            },
+            "rotate_plus_30": {
+              "delta_p05_p95": [
+                0.011122598009806417,
+                0.011122598009806417
+              ],
+              "delta_vs_nominal": 0.011122598009806417,
+              "mean": 0.33130569488394346
+            }
+          },
+          "qualified_common_width_sections": 2,
+          "shape_sections": 2,
+          "width_block_support": {
+            "occupied_blocks": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "side_nm": 33.424720643449874
+          },
+          "widths_nm": {
+            "measured": [
+              3.6327683917126254,
+              4.312481839505308
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.31312160445215786,
+              "mean_absolute_per_wall_error": 0.49082709129723623,
+              "pair": [
+                3.7211751715900028,
+                3.7746454104783695
+              ],
+              "predicted_minus_measured": [
+                0.08840677987737733,
+                -0.5378364290269384
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0031132145097363395,
+                0.0031132145097363395
+              ],
+              "mean_absolute_error": 0.3162348189618942,
+              "mean_absolute_per_wall_error": 0.47015478234187513,
+              "pair": [
+                3.69085608212716,
+                3.738099891996054
+              ],
+              "predicted_minus_measured": [
+                0.05808769041453443,
+                -0.574381947509254
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.062192772115293504,
+                0.062192772115293504
+              ],
+              "mean_absolute_error": 0.37531437656745137,
+              "mean_absolute_per_wall_error": 0.8347611426622797,
+              "pair": [
+                4.34853064359033,
+                4.347348340762506
+              ],
+              "predicted_minus_measured": [
+                0.7157622518777043,
+                0.03486650125719848
+              ]
+            },
+            "rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.7072485423684509,
+                0.7072485423684509
+              ],
+              "mean_absolute_error": 1.0203701468206088,
+              "mean_absolute_per_wall_error": 1.0203701468206092,
+              "pair": [
+                4.9229535725920766,
+                5.063036952267074
+              ],
+              "predicted_minus_measured": [
+                1.290185180879451,
+                0.7505551127617665
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS13": {
+      "held_pixels": {
+        "folds": 4,
+        "rmse": {
+          "alternate_nominal": {
+            "improved_folds": 1,
+            "mean": 0.28572772220898585,
+            "relative_change_percent": 0.8277420867379481
+          },
+          "alternate_rotate_plus_30": {
+            "improved_folds": 4,
+            "mean": 0.27125208109115273,
+            "relative_change_percent": -4.280429419635945
+          },
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.2833820497172158,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 3,
+            "mean": 0.2797544247844667,
+            "relative_change_percent": -1.2801181078226587
+          },
+          "rotate_minus_30": {
+            "improved_folds": 4,
+            "mean": 0.27125208109115273,
+            "relative_change_percent": -4.280429419635945
+          }
+        }
+      },
+      "local_replay": {
+        "folds": 12,
+        "rmse": {
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.166519913307875,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 12,
+            "mean": 0.14841419063768965,
+            "relative_change_percent": -10.873007504339782
+          },
+          "rotate_minus_30": {
+            "improved_folds": 12,
+            "mean": 0.14466160646348725,
+            "relative_change_percent": -13.126542291656374
+          }
+        }
+      },
+      "solvers": {
+        "alternate_nominal": {
+          "cell_area_nm2": 369.1132911568679,
+          "final_energy": 0.012167056106661793,
+          "force_rms_eV_nm": 1.8134522855627364e-06,
+          "iterations": 18,
+          "polar_mean_percent": -0.7909719098453671,
+          "principal_strains_percent": [
+            -1.1198216587263596,
+            -0.4621221609643747
+          ],
+          "twist_degrees": -0.7740270003114712,
+          "uniaxial_fit_residual_percent": 0.7051131065194768,
+          "uniaxial_magnitude_percent": -0.9591650325389908
+        },
+        "alternate_rotate_plus_30": {
+          "cell_area_nm2": 369.1132911568679,
+          "final_energy": 0.01147767527920151,
+          "force_rms_eV_nm": 1.23556903536508e-06,
+          "iterations": 17,
+          "polar_mean_percent": -0.010558447181974157,
+          "principal_strains_percent": [
+            -0.3394081960629453,
+            0.318291301698997
+          ],
+          "twist_degrees": -0.8943256456911558,
+          "uniaxial_fit_residual_percent": 0.23258688068746933,
+          "uniaxial_magnitude_percent": -0.39240199691730665
+        },
+        "nominal": {
+          "cell_area_nm2": 369.1132911568679,
+          "final_energy": 0.012145958921132665,
+          "force_rms_eV_nm": 2.535798208530613e-06,
+          "iterations": 18,
+          "polar_mean_percent": 0.7698574002599545,
+          "principal_strains_percent": [
+            0.4410076513789796,
+            1.0987071491409295
+          ],
+          "twist_degrees": -0.7749673724193875,
+          "uniaxial_fit_residual_percent": 0.6797431246889137,
+          "uniaxial_magnitude_percent": 0.9438309511567113
+        },
+        "remove_mean_strain": {
+          "cell_area_nm2": 499.2282316105892,
+          "final_energy": 0.010191808461795404,
+          "force_rms_eV_nm": 1.383038428645124e-06,
+          "iterations": 19,
+          "polar_mean_percent": -5.551115123125783e-15,
+          "principal_strains_percent": [
+            -0.3288497488809706,
+            0.3288497488809595
+          ],
+          "twist_degrees": -0.7749673724193878,
+          "uniaxial_fit_residual_percent": 0.24527330430920433,
+          "uniaxial_magnitude_percent": -0.38473409027217215
+        },
+        "rotate_minus_30": {
+          "cell_area_nm2": 369.1132911568679,
+          "final_energy": 0.011477675279201509,
+          "force_rms_eV_nm": 1.2355690353448477e-06,
+          "iterations": 17,
+          "polar_mean_percent": -0.010558447181918701,
+          "principal_strains_percent": [
+            -0.3394081960629047,
+            0.3182913016990673
+          ],
+          "twist_degrees": -0.8943256456911556,
+          "uniaxial_fit_residual_percent": 0.23258688068745906,
+          "uniaxial_magnitude_percent": -0.39240199691728356
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "profile_error": {
+            "alternate_nominal": {
+              "delta_p05_p95": [
+                -0.00630574767587119,
+                0.015797267558733914
+              ],
+              "delta_vs_nominal": 0.004120421896942618,
+              "mean": 0.25950877955265583
+            },
+            "alternate_rotate_plus_30": {
+              "delta_p05_p95": [
+                -0.021229477109842822,
+                -0.0024113452194160136
+              ],
+              "delta_vs_nominal": -0.012154658571180857,
+              "mean": 0.24323369908453232
+            },
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.25538835765571316
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                -0.003961576467611493,
+                0.021567987975373626
+              ],
+              "delta_vs_nominal": 0.008786679613080103,
+              "mean": 0.2641750372687934
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                -0.0212294771098477,
+                -0.002411345219489922
+              ],
+              "delta_vs_nominal": -0.012154658571204855,
+              "mean": 0.2432336990845084
+            }
+          },
+          "qualified_common_width_sections": 36,
+          "reindexing_max_abs_difference_nm": 9.28924035470402e-08,
+          "shape_sections": 36,
+          "width_block_support": {
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ],
+            "side_nm": 17.83508927193864
+          },
+          "widths_nm": {
+            "alternate_nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.16574991228295097,
+                0.24696354084862993
+              ],
+              "mean_absolute_error": 0.48298098239167997,
+              "mean_absolute_per_wall_error": 0.8859753841582155,
+              "pair": [
+                4.8125604782894955,
+                4.522205834842529
+              ],
+              "predicted_minus_measured": [
+                0.5096054712029643,
+                0.45635649358039565
+              ]
+            },
+            "alternate_rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.3657056216534233,
+                0.4060342914707222
+              ],
+              "mean_absolute_error": 0.44158844046999524,
+              "mean_absolute_per_wall_error": 0.6076946053069187,
+              "pair": [
+                3.820414736771928,
+                3.665212730636746
+              ],
+              "predicted_minus_measured": [
+                -0.48254027031460334,
+                -0.40063661062538714
+              ]
+            },
+            "measured": [
+              4.302955007086531,
+              4.065849341262133
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.43798930359654165,
+              "mean_absolute_per_wall_error": 0.8623360500500373,
+              "pair": [
+                4.798962131433889,
+                4.445820824107859
+              ],
+              "predicted_minus_measured": [
+                0.49600712434735783,
+                0.37997148284572546
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.11801273672673938,
+                0.8510250756719824
+              ],
+              "mean_absolute_error": 0.9100073747402861,
+              "mean_absolute_per_wall_error": 0.9318828604221814,
+              "pair": [
+                3.3102379221950753,
+                3.238551676673017
+              ],
+              "predicted_minus_measured": [
+                -0.9927170848914559,
+                -0.8272976645891164
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.3657056199951793,
+                0.4060342915480202
+              ],
+              "mean_absolute_error": 0.4415884390480318,
+              "mean_absolute_per_wall_error": 0.607694610111684,
+              "pair": [
+                3.8204147397994195,
+                3.6652127304531814
+              ],
+              "predicted_minus_measured": [
+                -0.48254026728711175,
+                -0.40063661080895185
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "profile_error": {
+            "alternate_nominal": {
+              "delta_p05_p95": [
+                -0.006561310911342294,
+                0.01582436481130394
+              ],
+              "delta_vs_nominal": 0.003993444363631974,
+              "mean": 0.31618827198326305
+            },
+            "alternate_rotate_plus_30": {
+              "delta_p05_p95": [
+                -0.019464970552284723,
+                -0.004217961635493672
+              ],
+              "delta_vs_nominal": -0.012147647334460086,
+              "mean": 0.30004718028517097
+            },
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.3121948276196311
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                -0.008566600455349663,
+                0.012225791559733148
+              ],
+              "delta_vs_nominal": 0.0014717899471521504,
+              "mean": 0.31366661756678327
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                -0.01946497055233234,
+                -0.00421796163550119
+              ],
+              "delta_vs_nominal": -0.012147647334527058,
+              "mean": 0.300047180285104
+            }
+          },
+          "qualified_common_width_sections": 36,
+          "reindexing_max_abs_difference_nm": 9.309407555946336e-08,
+          "shape_sections": 36,
+          "width_block_support": {
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ],
+            "side_nm": 17.83508927193864
+          },
+          "widths_nm": {
+            "alternate_nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.1632057535812776,
+                0.24309732432744205
+              ],
+              "mean_absolute_error": 0.4937793356139619,
+              "mean_absolute_per_wall_error": 0.895413541210472,
+              "pair": [
+                4.818892480952891,
+                4.5374705386236975
+              ],
+              "predicted_minus_measured": [
+                0.5159374738663596,
+                0.47162119736156427
+              ]
+            },
+            "alternate_rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.4023009851027826,
+                0.3629959162780503
+              ],
+              "mean_absolute_error": 0.432422237728215,
+              "mean_absolute_per_wall_error": 0.6046030881198765,
+              "pair": [
+                3.827333203198474,
+                3.6766266696937606
+              ],
+              "predicted_minus_measured": [
+                -0.4756218038880573,
+                -0.38922267156837265
+              ]
+            },
+            "measured": [
+              4.302955007086531,
+              4.065849341262133
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.44818970312370876,
+              "mean_absolute_per_wall_error": 0.8657799980161938,
+              "pair": [
+                4.805831545886203,
+                4.459352208709879
+              ],
+              "predicted_minus_measured": [
+                0.5028765387996721,
+                0.39350286744774543
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0865998480142621,
+                0.8139383513583772
+              ],
+              "mean_absolute_error": 0.9014744337443779,
+              "mean_absolute_per_wall_error": 0.9250075623496303,
+              "pair": [
+                3.316654559636886,
+                3.249200921223023
+              ],
+              "predicted_minus_measured": [
+                -0.9863004474496453,
+                -0.8166484200391104
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.4023009887563171,
+                0.36299591680757903
+              ],
+              "mean_absolute_error": 0.4324222367524089,
+              "mean_absolute_per_wall_error": 0.6046030891475271,
+              "pair": [
+                3.8273332057765583,
+                3.6766266690672884
+              ],
+              "predicted_minus_measured": [
+                -0.4756218013099729,
+                -0.38922267219484485
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS14": {
+      "held_pixels": {
+        "folds": 4,
+        "rmse": {
+          "alternate_nominal": {
+            "improved_folds": 2,
+            "mean": 0.28055729406634455,
+            "relative_change_percent": -1.3597032837730727
+          },
+          "alternate_rotate_plus_30": {
+            "improved_folds": 4,
+            "mean": 0.2733364628315328,
+            "relative_change_percent": -3.898453658843337
+          },
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.28442462503277444,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 2,
+            "mean": 0.28149347294921206,
+            "relative_change_percent": -1.0305549609934794
+          },
+          "rotate_minus_30": {
+            "improved_folds": 4,
+            "mean": 0.2733364628315329,
+            "relative_change_percent": -3.898453658843304
+          }
+        }
+      },
+      "local_replay": {
+        "folds": 12,
+        "rmse": {
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.16253741145852776,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 12,
+            "mean": 0.14397797246501423,
+            "relative_change_percent": -11.418564395095633
+          },
+          "rotate_minus_30": {
+            "improved_folds": 12,
+            "mean": 0.14070143320634262,
+            "relative_change_percent": -13.434432144722997
+          }
+        }
+      },
+      "solvers": {
+        "alternate_nominal": {
+          "cell_area_nm2": 439.21289446111325,
+          "final_energy": 0.011200842661450806,
+          "force_rms_eV_nm": 1.5304374667532329e-06,
+          "iterations": 19,
+          "polar_mean_percent": -0.6957812360041837,
+          "principal_strains_percent": [
+            -0.8635388958872678,
+            -0.5280235761210996
+          ],
+          "twist_degrees": -0.7043068877484682,
+          "uniaxial_fit_residual_percent": 0.7108883477432715,
+          "uniaxial_magnitude_percent": -0.701566408794954
+        },
+        "alternate_rotate_plus_30": {
+          "cell_area_nm2": 439.21289446111325,
+          "final_energy": 0.010459226852668757,
+          "force_rms_eV_nm": 1.8866398905369434e-06,
+          "iterations": 16,
+          "polar_mean_percent": 0.011192760396744328,
+          "principal_strains_percent": [
+            -0.15656489948633528,
+            0.17895042027982394
+          ],
+          "twist_degrees": -0.8071008330023349,
+          "uniaxial_fit_residual_percent": 0.11167383952136027,
+          "uniaxial_magnitude_percent": 0.20439476690308125
+        },
+        "nominal": {
+          "cell_area_nm2": 439.21289446111325,
+          "final_energy": 0.01119786889317446,
+          "force_rms_eV_nm": 3.628908435879868e-07,
+          "iterations": 20,
+          "polar_mean_percent": 0.7128661995638996,
+          "principal_strains_percent": [
+            0.5451085396808047,
+            0.8806238594469945
+          ],
+          "twist_degrees": -0.6937327266328583,
+          "uniaxial_fit_residual_percent": 0.7314166585398248,
+          "uniaxial_magnitude_percent": 0.7139740955838944
+        },
+        "remove_mean_strain": {
+          "cell_area_nm2": 597.6351202940657,
+          "final_energy": 0.00919592205119805,
+          "force_rms_eV_nm": 1.5992782177265666e-06,
+          "iterations": 18,
+          "polar_mean_percent": -2.7769453403436728e-14,
+          "principal_strains_percent": [
+            -0.16775765988311747,
+            0.16775765988306193
+          ],
+          "twist_degrees": -0.6937327266328666,
+          "uniaxial_fit_residual_percent": 0.1251224174648553,
+          "uniaxial_magnitude_percent": 0.1962662002356103
+        },
+        "rotate_minus_30": {
+          "cell_area_nm2": 439.21289446111325,
+          "final_energy": 0.010459226852668755,
+          "force_rms_eV_nm": 1.8866398905314915e-06,
+          "iterations": 16,
+          "polar_mean_percent": 0.011192760396672177,
+          "principal_strains_percent": [
+            -0.15656489948638758,
+            0.17895042027973193
+          ],
+          "twist_degrees": -0.8071008330023393,
+          "uniaxial_fit_residual_percent": 0.1116738395213504,
+          "uniaxial_magnitude_percent": 0.20439476690300565
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "profile_error": {
+            "alternate_nominal": {
+              "delta_p05_p95": [
+                -0.022265072641945372,
+                -0.007676745964455428
+              ],
+              "delta_vs_nominal": -0.015140827010373094,
+              "mean": 0.26153697225397454
+            },
+            "alternate_rotate_plus_30": {
+              "delta_p05_p95": [
+                -0.025937692515150323,
+                -0.0043568479664367965
+              ],
+              "delta_vs_nominal": -0.014883941699729512,
+              "mean": 0.2617938575646181
+            },
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.27667779926434766
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                -0.007155519997843965,
+                0.02259108106990777
+              ],
+              "delta_vs_nominal": 0.008488121799809163,
+              "mean": 0.2851659210641568
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                -0.025937692515155,
+                -0.004356847966426352
+              ],
+              "delta_vs_nominal": -0.014883941699755172,
+              "mean": 0.26179385756459245
+            }
+          },
+          "qualified_common_width_sections": 31,
+          "reindexing_max_abs_difference_nm": 1.9751513180565894e-07,
+          "shape_sections": 31,
+          "width_block_support": {
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ],
+            "side_nm": 20.246461426256836
+          },
+          "widths_nm": {
+            "alternate_nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.05816270455514612,
+                0.1772610964530923
+              ],
+              "mean_absolute_error": 0.3637284508708851,
+              "mean_absolute_per_wall_error": 1.0149960833568228,
+              "pair": [
+                4.847877129025971,
+                4.589128425735698
+              ],
+              "predicted_minus_measured": [
+                0.501365807309301,
+                0.22609109443246922
+              ]
+            },
+            "alternate_rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.3474553890584689,
+                0.9093423581833633
+              ],
+              "mean_absolute_error": 0.6789413825198847,
+              "mean_absolute_per_wall_error": 1.0370280857913234,
+              "pair": [
+                3.7116462570867315,
+                3.6400196308933976
+              ],
+              "predicted_minus_measured": [
+                -0.6348650646299383,
+                -0.723017700409831
+              ]
+            },
+            "measured": [
+              4.34651132171667,
+              4.363037331303229
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.26218664346270515,
+              "mean_absolute_per_wall_error": 1.2662992805684385,
+              "pair": [
+                4.695787641914023,
+                4.538134298031285
+              ],
+              "predicted_minus_measured": [
+                0.34927632019735366,
+                0.17509696672805664
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.1518235180572547,
+                1.3811880501682194
+              ],
+              "mean_absolute_error": 1.161904462836992,
+              "mean_absolute_per_wall_error": 1.3280441303041532,
+              "pair": [
+                3.202626015198431,
+                3.1831137121474837
+              ],
+              "predicted_minus_measured": [
+                -1.1438853065182388,
+                -1.179923619155745
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.34745539091479405,
+                0.9093423565881718
+              ],
+              "mean_absolute_error": 0.6789413762250018,
+              "mean_absolute_per_wall_error": 1.0370280848636901,
+              "pair": [
+                3.7116462727053476,
+                3.640019627864547
+              ],
+              "predicted_minus_measured": [
+                -0.6348650490113221,
+                -0.7230177034386815
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "profile_error": {
+            "alternate_nominal": {
+              "delta_p05_p95": [
+                -0.02308511652348214,
+                -0.006407729127685013
+              ],
+              "delta_vs_nominal": -0.014381503737916093,
+              "mean": 0.3331453440834485
+            },
+            "alternate_rotate_plus_30": {
+              "delta_p05_p95": [
+                -0.021515946540168578,
+                -0.0026226227571087423
+              ],
+              "delta_vs_nominal": -0.011997021884060629,
+              "mean": 0.33552982593730407
+            },
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.34752684782136467
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                -0.011299967487223147,
+                0.014515970516710297
+              ],
+              "delta_vs_nominal": 0.0017735287266853114,
+              "mean": 0.34930037654804985
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                -0.021515946540060435,
+                -0.0026226227571033694
+              ],
+              "delta_vs_nominal": -0.01199702188393134,
+              "mean": 0.3355298259374333
+            }
+          },
+          "qualified_common_width_sections": 31,
+          "reindexing_max_abs_difference_nm": 1.8402986068366545e-07,
+          "shape_sections": 31,
+          "width_block_support": {
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ],
+            "side_nm": 20.246461426256836
+          },
+          "widths_nm": {
+            "alternate_nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.04364201193467163,
+                0.1877870771709179
+              ],
+              "mean_absolute_error": 0.4160853528845738,
+              "mean_absolute_per_wall_error": 1.06298212192381,
+              "pair": [
+                4.88385957800597,
+                4.657859780783076
+              ],
+              "predicted_minus_measured": [
+                0.5373482562893006,
+                0.29482244947984704
+              ]
+            },
+            "alternate_rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.4940002484326116,
+                0.9057039956523074
+              ],
+              "mean_absolute_error": 0.6380944046818484,
+              "mean_absolute_per_wall_error": 1.0297894313300509,
+              "pair": [
+                3.739007790119199,
+                3.6943520535370027
+              ],
+              "predicted_minus_measured": [
+                -0.6075035315974708,
+                -0.668685277766226
+              ]
+            },
+            "measured": [
+              4.34651132171667,
+              4.363037331303229
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.31572182542057936,
+              "mean_absolute_per_wall_error": 1.3104671592074832,
+              "pair": [
+                4.730145318732205,
+                4.610846985128852
+              ],
+              "predicted_minus_measured": [
+                0.3836339970155356,
+                0.24780965382562314
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.009668622179178637,
+                1.3806393736910119
+              ],
+              "mean_absolute_error": 1.1294463157662014,
+              "mean_absolute_per_wall_error": 1.298825537954185,
+              "pair": [
+                3.222258874095887,
+                3.228397147391609
+              ],
+              "predicted_minus_measured": [
+                -1.124252447620783,
+                -1.1346401839116198
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.494000247181209,
+                0.9057039921672655
+              ],
+              "mean_absolute_error": 0.6380944022096917,
+              "mean_absolute_per_wall_error": 1.0297894337751226,
+              "pair": [
+                3.7390077966254243,
+                3.6943520519750908
+              ],
+              "predicted_minus_measured": [
+                -0.6075035250912455,
+                -0.6686852793281379
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS2": {
+      "held_pixels": {
+        "folds": 4,
+        "rmse": {
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.2501779251514955,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 0,
+            "mean": 0.25158493599661497,
+            "relative_change_percent": 0.5624040747269854
+          },
+          "rotate_minus_30": {
+            "improved_folds": 0,
+            "mean": 0.2706117258793397,
+            "relative_change_percent": 8.167707328882212
+          },
+          "rotate_plus_30": {
+            "improved_folds": 2,
+            "mean": 0.2534413886398198,
+            "relative_change_percent": 1.304457012483451
+          }
+        }
+      },
+      "local_replay": {
+        "folds": 8,
+        "rmse": {
+          "nominal": {
+            "improved_folds": 0,
+            "mean": 0.1577197287192671,
+            "relative_change_percent": 0.0
+          },
+          "remove_mean_strain": {
+            "improved_folds": 1,
+            "mean": 0.15838859219870904,
+            "relative_change_percent": 0.424083584769841
+          },
+          "rotate_minus_30": {
+            "improved_folds": 0,
+            "mean": 0.1762121347466038,
+            "relative_change_percent": 11.724852799013007
+          }
+        }
+      },
+      "solvers": {
+        "nominal": {
+          "cell_area_nm2": 1090.6220306151076,
+          "final_energy": 0.006970343986792101,
+          "force_rms_eV_nm": 5.3440822747554205e-06,
+          "iterations": 19,
+          "polar_mean_percent": 0.0497398263851645,
+          "principal_strains_percent": [
+            -0.03835101583360645,
+            0.13783066860393545
+          ],
+          "twist_degrees": -0.5101604130846795,
+          "uniaxial_fit_residual_percent": 0.005938229135661655,
+          "uniaxial_magnitude_percent": 0.13918366551979733
+        },
+        "remove_mean_strain": {
+          "cell_area_nm2": 1094.6069433156606,
+          "final_energy": 0.006952038180930483,
+          "force_rms_eV_nm": 2.8893723483671607e-06,
+          "iterations": 21,
+          "polar_mean_percent": 1.6653345369377348e-14,
+          "principal_strains_percent": [
+            -0.08809084221874547,
+            0.08809084221877878
+          ],
+          "twist_degrees": -0.510160413084681,
+          "uniaxial_fit_residual_percent": 0.06570274729988972,
+          "uniaxial_magnitude_percent": 0.10306089683108247
+        },
+        "rotate_minus_30": {
+          "cell_area_nm2": 1090.6220306151076,
+          "final_energy": 0.007533261987858176,
+          "force_rms_eV_nm": 7.025034207298196e-06,
+          "iterations": 22,
+          "polar_mean_percent": -0.40260529178379745,
+          "principal_strains_percent": [
+            -0.4906961340025731,
+            -0.3145144495650218
+          ],
+          "twist_degrees": -0.4569836985004347,
+          "uniaxial_fit_residual_percent": 0.4180446443284893,
+          "uniaxial_magnitude_percent": -0.39544667468529027
+        },
+        "rotate_plus_30": {
+          "cell_area_nm2": 1090.6220306151076,
+          "final_energy": 0.007761656037086972,
+          "force_rms_eV_nm": 9.148111756121548e-06,
+          "iterations": 24,
+          "polar_mean_percent": 0.487844206947452,
+          "principal_strains_percent": [
+            0.39975336472866835,
+            0.5759350491662356
+          ],
+          "twist_degrees": -0.42683423575079177,
+          "uniaxial_fit_residual_percent": 0.5204628283840599,
+          "uniaxial_magnitude_percent": 0.4573500997574104
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "profile_error": {
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.3086139520756979
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                -0.0006341649639057916,
+                0.002469400189988008
+              ],
+              "delta_vs_nominal": -6.44761957365551e-05,
+              "mean": 0.30854947587996134
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                0.017795269312674472,
+                0.040465130410272915
+              ],
+              "delta_vs_nominal": 0.024159138762424908,
+              "mean": 0.3327730908381228
+            },
+            "rotate_plus_30": {
+              "delta_p05_p95": [
+                0.01853980509011663,
+                0.05696411185974702
+              ],
+              "delta_vs_nominal": 0.0418745102820511,
+              "mean": 0.35048846235774894
+            }
+          },
+          "qualified_common_width_sections": 5,
+          "shape_sections": 6,
+          "width_block_support": {
+            "occupied_blocks": [
+              2,
+              3,
+              2,
+              4
+            ],
+            "side_nm": 32.10187396503705
+          },
+          "widths_nm": {
+            "measured": [
+              4.086781928121372,
+              3.518080974174797
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.28931282811140124,
+              "mean_absolute_per_wall_error": 0.39930568197102656,
+              "pair": [
+                3.7208603113201577,
+                3.7307850135963854
+              ],
+              "predicted_minus_measured": [
+                -0.36592161680121427,
+                0.21270403942158822
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.004303866900327469,
+                0.008143627270506437
+              ],
+              "mean_absolute_error": 0.28752104102671505,
+              "mean_absolute_per_wall_error": 0.4083555949642589,
+              "pair": [
+                3.7067056515184627,
+                3.713046779625318
+              ],
+              "predicted_minus_measured": [
+                -0.3800762766029093,
+                0.19496580545052078
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.01711137888005765,
+                0.7851246973763686
+              ],
+              "mean_absolute_error": 0.6877488619111363,
+              "mean_absolute_per_wall_error": 0.8780979514883146,
+              "pair": [
+                4.502169307089023,
+                4.478191319029419
+              ],
+              "predicted_minus_measured": [
+                0.415387378967651,
+                0.9601103448546215
+              ]
+            },
+            "rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.33942592215220757,
+                1.1048314035587787
+              ],
+              "mean_absolute_error": 1.1136528339197138,
+              "mean_absolute_per_wall_error": 1.1218170449809035,
+              "pair": [
+                4.900031772036826,
+                4.932136798098771
+              ],
+              "predicted_minus_measured": [
+                0.8132498439154539,
+                1.4140558239239738
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "profile_error": {
+            "nominal": {
+              "delta_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "delta_vs_nominal": 0.0,
+              "mean": 0.3692216114604629
+            },
+            "remove_mean_strain": {
+              "delta_p05_p95": [
+                -0.0004114811659471695,
+                0.001881294549498036
+              ],
+              "delta_vs_nominal": -2.9351880039635292e-05,
+              "mean": 0.3691922595804232
+            },
+            "rotate_minus_30": {
+              "delta_p05_p95": [
+                0.01469101261081096,
+                0.03173938150821135
+              ],
+              "delta_vs_nominal": 0.023215197059511156,
+              "mean": 0.3924368085199741
+            },
+            "rotate_plus_30": {
+              "delta_p05_p95": [
+                0.01023476152072822,
+                0.050592081392820475
+              ],
+              "delta_vs_nominal": 0.03624237802646846,
+              "mean": 0.40546398948693135
+            }
+          },
+          "qualified_common_width_sections": 5,
+          "shape_sections": 6,
+          "width_block_support": {
+            "occupied_blocks": [
+              2,
+              3,
+              2,
+              4
+            ],
+            "side_nm": 32.10187396503705
+          },
+          "widths_nm": {
+            "measured": [
+              4.086781928121372,
+              3.518080974174797
+            ],
+            "nominal": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.0,
+                0.0
+              ],
+              "mean_absolute_error": 0.2948159841252487,
+              "mean_absolute_per_wall_error": 0.4048576168331435,
+              "pair": [
+                3.721717797830517,
+                3.7426488121344397
+              ],
+              "predicted_minus_measured": [
+                -0.3650641302908548,
+                0.22456783795964252
+              ]
+            },
+            "remove_mean_strain": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.004260710842219684,
+                0.008166403027874303
+              ],
+              "mean_absolute_error": 0.2930623819684868,
+              "mean_absolute_per_wall_error": 0.41393601893027104,
+              "pair": [
+                3.7075523780882578,
+                3.7249761880786565
+              ],
+              "predicted_minus_measured": [
+                -0.3792295500331142,
+                0.20689521390385934
+              ]
+            },
+            "rotate_minus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                -0.01518524922411979,
+                0.787029603557934
+              ],
+              "mean_absolute_error": 0.6958968479244221,
+              "mean_absolute_per_wall_error": 0.886236497812293,
+              "pair": [
+                4.5027809697717975,
+                4.493875628373216
+              ],
+              "predicted_minus_measured": [
+                0.41599904165042556,
+                0.9757946541984186
+              ]
+            },
+            "rotate_plus_30": {
+              "delta_error_vs_nominal_p05_p95": [
+                0.34193413813050233,
+                1.0850626611899006
+              ],
+              "mean_absolute_error": 1.1217778533129437,
+              "mean_absolute_per_wall_error": 1.1299675997766756,
+              "pair": [
+                4.900935426399178,
+                4.947483182522879
+              ],
+              "predicted_minus_measured": [
+                0.8141534982778058,
+                1.4294022083480815
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

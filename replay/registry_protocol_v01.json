@@ -1,0 +1,18 @@
+{
+  "anchor_doi": "10.1038/s41467-023-38504-7",
+  "archive_doi": "10.5281/zenodo.7865970",
+  "target": "Relative in-plane layer displacement across a parallel MoS2 scan, conditional on the moiré lattice geometry and origin measured from AA center coordinates and integer translations.",
+  "split": "Use the development and held-out parallel maps fixed in shear_protocol_v01.json. The center fit and readout were checked on development maps first. Treat the held-out comparisons as map-level tests from the same archive.",
+  "geometry": "Choose a majority consensus of non-collinear AA centers using the nearest integer translations and the same residual cutoff for every map. Fit one affine gradient and origin to those centers. Other displacement values are not model inputs. Apply the archived sample and symmetry rotations.",
+  "center_inlier_nm": 0.065,
+  "probe_fwhm_nm": 1.25,
+  "smoothing_sigma_pixels": 2.0,
+  "primary_metric": "Per-map RMS vector residual in nm, with the same interior mask and Gaussian smoothing for every prediction and measurement. Aggregate per-map errors with equal map weight. Report offset-free error separately as a gauge diagnostic.",
+  "controls": {
+    "rigid": "Use the measured geometry and no local layer relaxation.",
+    "linear_response": "Use the linear elastic response to the adhesion force evaluated at the rigid registry. Do not update the adhesion force as the layers move.",
+    "isotropic_relaxation": "Relax the bilayer without directional stretch in the energy calculation, then warp the predicted displacement into the measured cell. Use the same rigid field and probe response."
+  },
+  "material_parameters": "Use the published Supplementary Tables 1 and 2 without fitting to the archive.",
+  "provenance": "Compare to derived experimental disregistry maps. The geometry and outcome come from the same measurement. This is a test of local relaxation given geometry, not of predicting the twist or the imposed strain."
+}

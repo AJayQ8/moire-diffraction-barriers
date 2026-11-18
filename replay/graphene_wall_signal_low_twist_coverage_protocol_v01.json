@@ -1,0 +1,23 @@
+{
+  "parent": "graphene_wall_signal_author_aperture_protocol_v01.json",
+  "scope": "Extend s1-10 at 0.6272 degrees, whose original central 51 x 51 nm extraction yielded two qualified width pairs. This is a spatial extension in the same acquisition. Report the full scan and the previously unscored wall positions separately.",
+  "scans": {
+    "s1-10": {
+      "record": 4459674,
+      "file": "MV_02262020_10.h5",
+      "published_twist_degrees": 0.6272,
+      "probe_fwhm_nm": 1.3,
+      "region_rc": [[9, 187], [9, 191]],
+      "prior_region_rc": [[49, 151], [49, 151]],
+      "aperture_radii_px": [2.4663117, 3.5],
+      "author_aperture_source": "https://github.com/bediakolab/StrainFieldsInTwistedBilayerGraphene/blob/c0159420903babfc2cd4be73315828a6b197ebee/MaddieStuff/MV_02262020_10__integration_disks.mat"
+    }
+  },
+  "inputs": {
+    "lattice_nm": 0.2459512147,
+    "raster_pixel_nm": 0.5,
+    "single_layer_bulk_shear_eV_per_cell": [69.518, 47.352],
+    "adhesion_even_coefficients_meV_per_cell": [6.832, 4.064, -0.374, -0.095]
+  },
+  "score": "Use the prior s1-10 geometry and opposite-spot checks with the larger predetermined field, model, observer and detector apertures unchanged. A wall belongs to the previously unscored set if its center is at least 5 nm beyond the prior rectangle. Use the full-map results for coverage. Across the new wall positions, report the number of common pairs, median measured and predicted width gap, profile-transfer errors and opposite-spot agreement. Treat a model-resolved magnitude discrepancy as indeterminate if fewer than six pairs qualify or if repeatability competes with the gap error."
+}

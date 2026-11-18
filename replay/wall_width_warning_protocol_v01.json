@@ -1,0 +1,51 @@
+{
+  "scope": "Freeze the signal-to-repeatability warning from the existing parallel MoS2 analysis and apply it to fresh wall profiles in the public February graphene acquisitions of Kazmierczak et al. The released mean twist and published widths are known. Treat the raw profile comparison as a prospective check within that study, with overlapping team and instrument relative to the anchor.",
+  "source_paper": "https://doi.org/10.1038/s41563-021-00973-w",
+  "development": "mos2_wall_signal_repeatability_v01.json",
+  "graphene_inputs": "graphene_wall_signal_repeat_protocol_v01.json",
+  "scans": {
+    "s1-1": {
+      "role": "Wider-spacing test at modest twist. Use the full field to retain enough neighboring AA centers.",
+      "record": 4459671,
+      "file": "MV_02262020_1.h5",
+      "published_twist_degrees": 0.3619,
+      "region_rc": [[0, 200], [0, 200]],
+      "nominal_center_rc": [204.0, 186.0],
+      "first_ring_radius_px": 68.0,
+      "first_ring_orientation_degrees": 48.0,
+      "probe_fwhm_nm": 1.3,
+      "aperture_radii_px": [2.5, 3.5],
+      "row_stride": 2
+    },
+    "s1-5": {
+      "role": "Closer-spacing test in the same acquisition series. Use the fixed central 60 nm square.",
+      "record": 4459674,
+      "file": "MV_02262020_5.h5",
+      "published_twist_degrees": 1.2343,
+      "region_rc": [[40, 160], [40, 160]],
+      "nominal_center_rc": [204.0, 186.0],
+      "first_ring_radius_px": 68.0,
+      "first_ring_orientation_degrees": 48.0,
+      "probe_fwhm_nm": 1.3,
+      "aperture_radii_px": [2.5, 3.5],
+      "row_stride": 2
+    }
+  },
+  "instrument": {
+    "calibration": "Use the same covariance-based weak-spot selection as the s1-2 extraction. Its nine frames are used to find apertures. Use each full aperture in both orders for the main width, and exact opposite triplets for the repeatability scale. Same probe for data analysis and predictions. Repeat at the second aperture for sensitivity.",
+    "median_opposite_correlation_min": 0.3,
+    "minimum_opposite_pairs_per_ring": 2
+  },
+  "warning": {
+    "fixed_half_window_nm": 4.25,
+    "minimum_whole_scan_chords": 6,
+    "minimum_half_scan_chords": 3,
+    "definition": "For walls with qualified widths on both orders with all available spots and both opposite triplets, compute the mean signed first-minus-second width gap and the median absolute difference between the two triplet gaps on the same walls. Signal exceeds repeatability when the signed mean strictly exceeds that median. Warn only when this holds for both the preexisting adaptive wall window and the common fixed window. Report denominators, filtering and receiver aperture sensitivity. The threshold uses the experimental profiles alone. A quiet result can coexist with a benefit from the periodic model.",
+    "spatial_transfer": "Use first-ring geometry to assign adaptive chords fully left or right of the center column of the crop, with a one-native-column margin from the dividing line for interpolation. In each direction use only one half to compute the warning and the other to score predictions. The full-scan test is available at six qualified chords in each window. Halves need three in each warning window and three on the prediction half."
+  },
+  "prediction": {
+    "observer": "The existing sampled Gaussian probe and the same finite scan, width-fit qualification and normalized profile metric from run_graphene_wall_signal.py. Locate chords and model geometry from the first ring only. Use the published elasticity and stacking-energy coefficients throughout.",
+    "score": "On prediction-half chords, fit center to one diffraction order, then evaluate error on the other. Compare the fixed periodic-network shape to the isolated shape allowed to fit width as well as position on its training order. Compare the scan means separately for both transfer directions. Preserve the winning margin, the count and whether both directions improve. Do not fit material parameters or revise the alert threshold in response to test outcomes.",
+    "interpretation": "The unit of evidence is an acquisition. Non-overlapping half-scan checks remain correlated measurements from the same instrument and specimen. A positive warning is useful when the periodic model reduces error in both directions on the opposite half. Report any quiet regions with comparable gains and inconclusive cases."
+  }
+}

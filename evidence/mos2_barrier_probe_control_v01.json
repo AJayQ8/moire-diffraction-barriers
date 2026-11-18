@@ -1,0 +1,3862 @@
+{
+  "images_sha256": "307ec75746e21b57bc88fc2695053f2713e729fef2315c771aea99e4ff988d4e",
+  "known_probe_sha256": "f9b1c34fc04b1b212ec588cc1745ee480d56c0ec5bb06cba40632c76c77b1f56",
+  "probe_library_nm": [
+    0.65,
+    0.78,
+    0.9099999999999999,
+    1.04,
+    1.17,
+    1.2999999999999998,
+    1.4299999999999997,
+    1.5599999999999998,
+    1.69,
+    1.8199999999999998,
+    1.95
+  ],
+  "samples": {
+    "sample_01": {
+      "condition": "variable_probe",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.160607510068129,
+              13.021433355423415
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2671442461326365,
+            "reduced_noise_loss": 1.0890967784558878,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.959245338203187,
+              13.021433355423415
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2671442461326365,
+            "reduced_noise_loss": 1.0921474697120668,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.818667757304159,
+              11.391230729190577
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5170279050171822,
+            "reduced_noise_loss": 0.9215364209329026,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.633198675779235,
+              11.368224412859991
+            ],
+            "barrier_meV_per_cell": 9.678191042639465,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5170279050171822,
+            "reduced_noise_loss": 0.9237715062985942,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.974374730363536,
+              12.45929873658568
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9812149882374479,
+            "reduced_noise_loss": 1.259350289380454,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.805063576418213,
+              12.427904995347602
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.9812149882374479,
+            "reduced_noise_loss": 1.2623593888423292,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.885857243027857,
+              11.411444296391625
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2974023828745007,
+            "reduced_noise_loss": 1.123960307944936,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.715387328627575,
+              11.380109141833787
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.2974023828745007,
+            "reduced_noise_loss": 1.1266311278095422,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.46495412319261,
+              11.908806370505259
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9760338869258556,
+            "reduced_noise_loss": 0.9956766739208547,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.331946685970818,
+              11.908806370505259
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9760338869258556,
+            "reduced_noise_loss": 0.9984656842119495,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.536497084685776,
+              11.324613064678879
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6136064369193472,
+            "reduced_noise_loss": 1.0349882321615218,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.386098052712123,
+              11.324613064678879
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6136064369193472,
+            "reduced_noise_loss": 1.0378873588622544,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.208071808037325,
+              11.735535361162059
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2326997599226717,
+            "reduced_noise_loss": 1.022623877077743,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.017304813409622,
+              11.656382567731827
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.2326997599226717,
+            "reduced_noise_loss": 1.0242460410449263,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.170825331494392,
+              11.967923288109686
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4434775110827043,
+            "reduced_noise_loss": 1.1342245276439982,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.027354080183784,
+              11.967923288109686
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4434775110827043,
+            "reduced_noise_loss": 1.1374016271612084,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.49709381451383,
+              12.540888898949078
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5593104668649518,
+            "reduced_noise_loss": 1.1925934532734317,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.325716880189102,
+              12.540888898949078
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5593104668649518,
+            "reduced_noise_loss": 1.1959340511817607,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.239457864094637,
+              11.359876806975217
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9716019802927071,
+            "reduced_noise_loss": 1.0726810638192144,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.060054624138793,
+              11.218339794909177
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.9716019802927071,
+            "reduced_noise_loss": 1.0732234911272622,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.006904318883155,
+              11.326945317645103
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9882558394101432,
+            "reduced_noise_loss": 1.2478412696471044,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.885210917797872,
+              11.326945317645103
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9882558394101432,
+            "reduced_noise_loss": 1.2513366233435947,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.710991628273348,
+              12.386804316062895
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2003280416806466,
+            "reduced_noise_loss": 1.0603070897094102,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.566800146290394,
+              12.386804316062895
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2003280416806466,
+            "reduced_noise_loss": 1.0632771375797447,
+            "shift_nm": -0.3
+          }
+        }
+      ],
+      "spacing_nm": 28.5990432342223,
+      "twist_degrees": 0.55
+    },
+    "sample_02": {
+      "condition": "variable_probe_and_landscape",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              22.348549392169073,
+              31.088189957727447
+            ],
+            "barrier_meV_per_cell": 26.507294650635785,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0482387355416498,
+            "reduced_noise_loss": 1.1104362776857752,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              20.656432226492075,
+              30.323210366976788
+            ],
+            "barrier_meV_per_cell": 24.18723389246148,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.0482387355416498,
+            "reduced_noise_loss": 1.1107148809983243,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.83078696866915,
+              26.52647247019673
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0244623392057548,
+            "reduced_noise_loss": 0.8111389052291719,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.25815794003168,
+              26.502425342510726
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.0244623392057548,
+            "reduced_noise_loss": 0.8143878480158199,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.47136165044209,
+              22.25666143865141
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0179129397758557,
+            "reduced_noise_loss": 0.9493083764154179,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.962707250326675,
+              22.134072955695487
+            ],
+            "barrier_meV_per_cell": 17.287378173956462,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.0179129397758557,
+            "reduced_noise_loss": 0.9521279005751784,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              15.658296168094234,
+              21.867643546865878
+            ],
+            "barrier_meV_per_cell": 18.375899212322835,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.263027556889707,
+            "reduced_noise_loss": 1.0772144015338068,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.169094477935985,
+              20.869929816074333
+            ],
+            "barrier_meV_per_cell": 16.76754184426326,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.263027556889707,
+            "reduced_noise_loss": 1.0742647610590423,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.219565072882784,
+              29.678786699324334
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5111493912231928,
+            "reduced_noise_loss": 1.1583539859881098,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.459800258768357,
+              29.64398944708275
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.5111493912231928,
+            "reduced_noise_loss": 1.1631000935404567,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              14.78270411673584,
+              21.111042031878288
+            ],
+            "barrier_meV_per_cell": 17.8233307484862,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2005660296104343,
+            "reduced_noise_loss": 1.0554784778668573,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              13.432973999913319,
+              21.09127571172841
+            ],
+            "barrier_meV_per_cell": 16.76754184426326,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.2005660296104343,
+            "reduced_noise_loss": 1.0597694997542635,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              20.059672449049817,
+              29.529942938184824
+            ],
+            "barrier_meV_per_cell": 24.18723389246148,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.190622720290535,
+            "reduced_noise_loss": 1.0923239675023004,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.287607769368684,
+              28.665156137920228
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.190622720290535,
+            "reduced_noise_loss": 1.0925011574023402,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.810041102492843,
+              26.02785741952682
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.083567926213979,
+            "reduced_noise_loss": 1.2846387949348232,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.175915119973503,
+              25.096694239261197
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.083567926213979,
+            "reduced_noise_loss": 1.2837924361059703,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.653586109511163,
+              25.273210419930283
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2225377757021387,
+            "reduced_noise_loss": 1.1149557553582017,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.039339481866367,
+              24.833052260694775
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.2225377757021387,
+            "reduced_noise_loss": 1.116721787792082,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              20.457055742566936,
+              28.342143358164357
+            ],
+            "barrier_meV_per_cell": 24.18723389246148,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.033321676727485,
+            "reduced_noise_loss": 1.1289484999851762,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.80654544155722,
+              27.094071733229235
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.033321676727485,
+            "reduced_noise_loss": 1.126182251320284,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.12130843136895,
+              28.25369121622744
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3882545648316087,
+            "reduced_noise_loss": 1.0425575296581928,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.16740333805862,
+              28.25369121622744
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3882545648316087,
+            "reduced_noise_loss": 1.0469565065765818,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              19.962737000293565,
+              31.555351052912425
+            ],
+            "barrier_meV_per_cell": 24.937099496428356,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4661776083129785,
+            "reduced_noise_loss": 1.0135954662416045,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.082206494425197,
+              31.02789820234717
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.4661776083129785,
+            "reduced_noise_loss": 1.0156763693534303,
+            "shift_nm": 0.0
+          }
+        }
+      ],
+      "spacing_nm": 8.502754966686092,
+      "twist_degrees": 1.85
+    },
+    "sample_03": {
+      "condition": "variable_probe",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.808754900992978,
+              11.632433945530863
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1361627787270159,
+            "reduced_noise_loss": 1.029057908506408,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.07657322918335,
+              11.632433945530863
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1361627787270159,
+            "reduced_noise_loss": 1.0333999249979964,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.937982090695837,
+              10.660135157895139
+            ],
+            "barrier_meV_per_cell": 9.10489041438083,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8730352073351416,
+            "reduced_noise_loss": 1.048150330673951,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.2827591124482645,
+              10.660135157895139
+            ],
+            "barrier_meV_per_cell": 9.10489041438083,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8730352073351416,
+            "reduced_noise_loss": 1.0525729059088622,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.94616272768573,
+              13.23039820632046
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1458783079052477,
+            "reduced_noise_loss": 0.9148460700197515,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.101825136918942,
+              13.23039820632046
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1458783079052477,
+            "reduced_noise_loss": 0.9187061800198347,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.889611264304838,
+              12.74361202293029
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9437747115861899,
+            "reduced_noise_loss": 1.0541254113453364,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.04664810265019,
+              12.74361202293029
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9437747115861899,
+            "reduced_noise_loss": 1.0585731978910975,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.686871934486575,
+              11.82593249170458
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1346456396866753,
+            "reduced_noise_loss": 1.03475903743674,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.953785692189785,
+              11.82593249170458
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1346456396866753,
+            "reduced_noise_loss": 1.0391251093246587,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.916916874717561,
+              13.17889792393805
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9486111222348218,
+            "reduced_noise_loss": 1.1219514339185215,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.09804539099007,
+              13.17889792393805
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9486111222348218,
+            "reduced_noise_loss": 1.1266854062135363,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.53380401348922,
+              12.284445808731025
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5409756725073906,
+            "reduced_noise_loss": 1.0017596662034702,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.791416707462915,
+              12.284445808731025
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5409756725073906,
+            "reduced_noise_loss": 1.0059865002380841,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.74323369398148,
+              13.930213555084995
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4774146169674152,
+            "reduced_noise_loss": 0.8731748422233726,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.82157228906287,
+              13.88795145157381
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.4774146169674152,
+            "reduced_noise_loss": 0.8763403854517694,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.021395593774333,
+              11.867238604109446
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8711938502389899,
+            "reduced_noise_loss": 0.9905596765966768,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.315536286342148,
+              11.867238604109446
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8711938502389899,
+            "reduced_noise_loss": 0.9947392532911775,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.757040199206966,
+              11.331665476715878
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8130730306149268,
+            "reduced_noise_loss": 1.189122690053386,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.989562264408303,
+              11.294051578049068
+            ],
+            "barrier_meV_per_cell": 9.10489041438083,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.8130730306149268,
+            "reduced_noise_loss": 1.193223303568461,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.313993848990732,
+              10.089208533628426
+            ],
+            "barrier_meV_per_cell": 8.565550017834267,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.264559746269147,
+            "reduced_noise_loss": 1.0630899942181928,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              6.691957936654267,
+              10.07048943083438
+            ],
+            "barrier_meV_per_cell": 7.815847087736125,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.264559746269147,
+            "reduced_noise_loss": 1.0671788598248724,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.756795692220885,
+              12.067181418814272
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1070366758345453,
+            "reduced_noise_loss": 1.1424238797725292,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.996857400821935,
+              12.067181418814272
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1070366758345453,
+            "reduced_noise_loss": 1.14724423369562,
+            "shift_nm": -0.3
+          }
+        }
+      ],
+      "spacing_nm": 8.502754966686092,
+      "twist_degrees": 1.85
+    },
+    "sample_04": {
+      "condition": "variable_probe",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.340557543090753,
+              15.073835300846678
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5780219332275969,
+            "reduced_noise_loss": 1.2636925905086966,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.475026571540626,
+              15.073835300846678
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5780219332275969,
+            "reduced_noise_loss": 1.2690246267555687,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.796525526697877,
+              12.574438890434267
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4658817141068536,
+            "reduced_noise_loss": 1.0498203795491816,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.002987996817392,
+              12.40608162670413
+            ],
+            "barrier_meV_per_cell": 9.678191042639465,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.4658817141068536,
+            "reduced_noise_loss": 1.0518296787911152,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.417449558397658,
+              12.74228517498624
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9015193426689629,
+            "reduced_noise_loss": 0.9622884451137109,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.688340525771574,
+              12.74228517498624
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9015193426689629,
+            "reduced_noise_loss": 0.9663487339116591,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.734765395316614,
+              13.699725770904672
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4518863032805025,
+            "reduced_noise_loss": 1.0120066824019844,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.900332150561852,
+              13.699725770904672
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4518863032805025,
+            "reduced_noise_loss": 1.0162767527918661,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.936330657716606,
+              15.598270309026093
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.369697970666519,
+            "reduced_noise_loss": 0.9059881354015508,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.96978705695353,
+              15.598270309026093
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.369697970666519,
+            "reduced_noise_loss": 0.9098108701500804,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.391548853770288,
+              15.112558753658817
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.7522187605805917,
+            "reduced_noise_loss": 0.9315984226576871,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.538016165261254,
+              15.112558753658817
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.7522187605805917,
+            "reduced_noise_loss": 0.935529217689998,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.965527437330252,
+              14.097249992128788
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4019729830365366,
+            "reduced_noise_loss": 0.9311056645137824,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.134396588914283,
+              14.097249992128788
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4019729830365366,
+            "reduced_noise_loss": 0.9350343803978067,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.390657823880503,
+              14.845954335668727
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5649093489884625,
+            "reduced_noise_loss": 0.8723175836573799,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.36372204901653,
+              14.788582611923324
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5649093489884625,
+            "reduced_noise_loss": 0.8753590860217049,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.31268314930973,
+              14.804487050125188
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.568298469325786,
+            "reduced_noise_loss": 1.0717706398871933,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.318626234426365,
+              14.421851963866471
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.568298469325786,
+            "reduced_noise_loss": 1.072023630311219,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.846384007221184,
+              15.719207017352847
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5427634569320332,
+            "reduced_noise_loss": 1.046272208267517,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.821757434523192,
+              15.553449154632137
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5427634569320332,
+            "reduced_noise_loss": 1.0489070449621032,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.164006714005282,
+              14.132564177841829
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3037793163094986,
+            "reduced_noise_loss": 1.1025397937021129,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.219588229625948,
+              14.052610856078172
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.3037793163094986,
+            "reduced_noise_loss": 1.106072138730441,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.581468443322777,
+              15.856684769552059
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6789774631225776,
+            "reduced_noise_loss": 0.9893941972225314,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.791015598095646,
+              15.856684769552059
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6789774631225776,
+            "reduced_noise_loss": 0.9935688562825421,
+            "shift_nm": 0.15
+          }
+        }
+      ],
+      "spacing_nm": 8.502754966686092,
+      "twist_degrees": 1.85
+    },
+    "sample_05": {
+      "condition": "variable_probe",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.047007918590914,
+              22.267905359756003
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0060343768728452,
+            "reduced_noise_loss": 1.0591907735684674,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.62106062412721,
+              22.23472442708564
+            ],
+            "barrier_meV_per_cell": 17.8233307484862,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.0060343768728452,
+            "reduced_noise_loss": 1.0633658123786225,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.388950223562137,
+              28.39555429017787
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5687765708234116,
+            "reduced_noise_loss": 1.114048262438243,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.434186356764247,
+              28.39555429017787
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5687765708234116,
+            "reduced_noise_loss": 1.1187488880181513,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              15.715321872209326,
+              25.104152301149988
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6020582318004282,
+            "reduced_noise_loss": 0.9422164136015568,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.176493777965238,
+              24.8271959093177
+            ],
+            "barrier_meV_per_cell": 17.8233307484862,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.6020582318004282,
+            "reduced_noise_loss": 0.9447329012508214,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.96559613939586,
+              25.64786040348828
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.271821251386542,
+            "reduced_noise_loss": 1.1633465854926712,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.314422499515654,
+              25.353434776773845
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.271821251386542,
+            "reduced_noise_loss": 1.1663948754827134,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              14.933005067136287,
+              20.776111813059526
+            ],
+            "barrier_meV_per_cell": 17.8233307484862,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0416598395768544,
+            "reduced_noise_loss": 1.0255872414758016,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              13.61784773268416,
+              20.76811755921491
+            ],
+            "barrier_meV_per_cell": 16.76754184426326,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.0416598395768544,
+            "reduced_noise_loss": 1.0298349844905237,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.320647847212378,
+              26.526230231538463
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2536506748410703,
+            "reduced_noise_loss": 1.0925392749841023,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.528658451451523,
+              26.526230231538463
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2536506748410703,
+            "reduced_noise_loss": 1.097149145342685,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.765622030297035,
+              26.043481252485012
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2589314998917305,
+            "reduced_noise_loss": 1.1186138793203921,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.232396032496236,
+              26.043481252485012
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2589314998917305,
+            "reduced_noise_loss": 1.1233337691065541,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.311768803767567,
+              25.08387064417556
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4873825112787593,
+            "reduced_noise_loss": 1.1644246612662956,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.685568676078919,
+              24.731594380208527
+            ],
+            "barrier_meV_per_cell": 18.375899212322835,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.4873825112787593,
+            "reduced_noise_loss": 1.1674444984328682,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.22447728812914,
+              22.653118196222135
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0275640703050861,
+            "reduced_noise_loss": 1.006610839919759,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.76808883746807,
+              22.12304462270068
+            ],
+            "barrier_meV_per_cell": 17.287378173956462,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.0275640703050861,
+            "reduced_noise_loss": 1.0066862971048975,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.051057225905968,
+              23.56533666931912
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2237882774837565,
+            "reduced_noise_loss": 1.1999664936491767,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              15.09177356603601,
+              23.56533666931912
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2237882774837565,
+            "reduced_noise_loss": 1.2050296434114096,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.450007320238942,
+              25.990219331736046
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.59515679292157,
+            "reduced_noise_loss": 1.0259872488377342,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.81318618048358,
+              25.035576266242934
+            ],
+            "barrier_meV_per_cell": 18.375899212322835,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.59515679292157,
+            "reduced_noise_loss": 1.0257621305982356,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.07946675157338,
+              24.66339922351446
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.406588448622093,
+            "reduced_noise_loss": 1.133576863603883,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              14.899123003660716,
+              24.66339922351446
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.406588448622093,
+            "reduced_noise_loss": 1.1383598883448276,
+            "shift_nm": 0.3
+          }
+        }
+      ],
+      "spacing_nm": 8.502754966686092,
+      "twist_degrees": 1.85
+    },
+    "sample_06": {
+      "condition": "variable_probe",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.59331664760687,
+              22.326585193766373
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9938517913914755,
+            "reduced_noise_loss": 1.170037014559312,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.21920894440429,
+              22.229070484070213
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.9938517913914755,
+            "reduced_noise_loss": 1.1725148845795035,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              19.07568931491211,
+              24.88965365405143
+            ],
+            "barrier_meV_per_cell": 22.070237309359126,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1143182328389247,
+            "reduced_noise_loss": 0.941288810337628,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.678972552344515,
+              24.86729217262174
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.1143182328389247,
+            "reduced_noise_loss": 0.943795614955096,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.663325806278653,
+              22.34231206862488
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2753893770236533,
+            "reduced_noise_loss": 1.1060984594013732,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.419949725781706,
+              22.34231206862488
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2753893770236533,
+            "reduced_noise_loss": 1.109196774413702,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.747205894258556,
+              23.72253800959846
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1961058666138786,
+            "reduced_noise_loss": 0.9292106299042928,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.34504430530546,
+              23.714949174109467
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.1961058666138786,
+            "reduced_noise_loss": 0.9317659999241991,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.226154821854276,
+              22.817551863114492
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9247580789883577,
+            "reduced_noise_loss": 0.9491111762199816,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.866836058280562,
+              22.556314544717836
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.9247580789883577,
+            "reduced_noise_loss": 0.949785392614785,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.86275466873895,
+              24.149982031063427
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9976368761312668,
+            "reduced_noise_loss": 0.9649275791935815,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.461340471791022,
+              24.03667578018595
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.9976368761312668,
+            "reduced_noise_loss": 0.9669125883383439,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.245344471361147,
+              23.724895366904356
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5720094405625922,
+            "reduced_noise_loss": 1.0108409989938993,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.812657259219893,
+              23.52407468522791
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5720094405625922,
+            "reduced_noise_loss": 1.0125494492830638,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.240863752088732,
+              20.834175254137083
+            ],
+            "barrier_meV_per_cell": 18.375899212322835,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1526022610550348,
+            "reduced_noise_loss": 1.0562670599062027,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              15.944236250313281,
+              20.834175254137083
+            ],
+            "barrier_meV_per_cell": 18.375899212322835,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1526022610550348,
+            "reduced_noise_loss": 1.0592257911664442,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.999035871037027,
+              25.14068925413189
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4610893638878208,
+            "reduced_noise_loss": 0.9676391384037586,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.564263322457517,
+              25.140022811637703
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.4610893638878208,
+            "reduced_noise_loss": 0.9703461887661271,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.850148916818853,
+              23.091831170318887
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0266281252976976,
+            "reduced_noise_loss": 0.8468261177977312,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.469157297145777,
+              23.074249856810184
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.0266281252976976,
+            "reduced_noise_loss": 0.8490736711660105,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.14340562413227,
+              22.206785631916336
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.102888604585883,
+            "reduced_noise_loss": 0.9726455400592698,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.8033770488514,
+              22.206785631916336
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.102888604585883,
+            "reduced_noise_loss": 0.9753700373703602,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.354578033896136,
+              22.672131853963062
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2718698022235053,
+            "reduced_noise_loss": 1.044431482784726,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.95385725559948,
+              22.642320104423405
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.2718698022235053,
+            "reduced_noise_loss": 1.0471667070303217,
+            "shift_nm": -0.15
+          }
+        }
+      ],
+      "spacing_nm": 28.5990432342223,
+      "twist_degrees": 0.55
+    },
+    "sample_09": {
+      "condition": "variable_probe_and_landscape",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.368569042423534,
+              13.307544508869487
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3061627951492267,
+            "reduced_noise_loss": 1.1395878578621856,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.152610903414535,
+              13.176615838902613
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.3061627951492267,
+            "reduced_noise_loss": 1.14108356964819,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.43129541105142,
+              13.265117585230879
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.017562576850692,
+            "reduced_noise_loss": 0.9478781212770968,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.317873307559596,
+              13.265117585230879
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.017562576850692,
+            "reduced_noise_loss": 0.9505332420649878,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              12.790906780388438,
+              16.204758997778285
+            ],
+            "barrier_meV_per_cell": 14.393643100304216,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1136207707470498,
+            "reduced_noise_loss": 1.1005553364975187,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              12.525104800131666,
+              16.155309447987793
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.1136207707470498,
+            "reduced_noise_loss": 1.1031439837738526,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.45031213167123,
+              15.258497304254934
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.531178862548821,
+            "reduced_noise_loss": 1.1356091214700668,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.195385168973136,
+              15.104615429962509
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.531178862548821,
+            "reduced_noise_loss": 1.1374343040465673,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.321838523299515,
+              13.28103171817086
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.006721850224062,
+            "reduced_noise_loss": 1.0507700594094642,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.321838523299515,
+              13.28103171817086
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.006721850224062,
+            "reduced_noise_loss": 1.0537133929092106,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.157393943089629,
+              15.128594812820136
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6713897420726458,
+            "reduced_noise_loss": 1.0484353118810879,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.895394586408768,
+              15.12115134104519
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.6713897420726458,
+            "reduced_noise_loss": 1.0513060939505674,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              12.342395685217966,
+              15.301486182073635
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8533691679377872,
+            "reduced_noise_loss": 0.9881359676651743,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              12.136165355447991,
+              15.136011307508678
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.8533691679377872,
+            "reduced_noise_loss": 0.9890031908852447,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.38994508221993,
+              13.445685321454544
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2407236425327193,
+            "reduced_noise_loss": 1.1253085067129407,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.26406490160159,
+              13.445685321454544
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2407236425327193,
+            "reduced_noise_loss": 1.1284606313816046,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.228601219696904,
+              14.39488342755037
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1012291774121639,
+            "reduced_noise_loss": 1.0401237431124026,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.067204930535729,
+              14.39488342755037
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1012291774121639,
+            "reduced_noise_loss": 1.0430372549978717,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.352294536994323,
+              14.24195425090656
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8569197920451522,
+            "reduced_noise_loss": 1.0123439951954747,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.263919951422778,
+              14.24195425090656
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8569197920451522,
+            "reduced_noise_loss": 1.0151796926610082,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.08838730700683,
+              13.171562804733565
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3296565762624861,
+            "reduced_noise_loss": 0.9554238502058442,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.943668911836125,
+              13.171562804733565
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3296565762624861,
+            "reduced_noise_loss": 0.9581001074893339,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.1574175576385,
+              14.138460682083924
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.12555322361841,
+            "reduced_noise_loss": 1.142008515329771,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.933690455535402,
+              14.069015764044646
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.12555322361841,
+            "reduced_noise_loss": 1.1442975168303973,
+            "shift_nm": 0.3
+          }
+        }
+      ],
+      "spacing_nm": 28.5990432342223,
+      "twist_degrees": 0.55
+    },
+    "sample_11": {
+      "condition": "variable_probe_and_landscape",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.395483468795476,
+              22.115894611206357
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.51818692464014,
+            "reduced_noise_loss": 1.0421211846462068,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.151974946469277,
+              22.115894611206357
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.51818692464014,
+            "reduced_noise_loss": 1.0450402916060002,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.069879981997424,
+              21.897840949208824
+            ],
+            "barrier_meV_per_cell": 19.532960317265136,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0443389700239325,
+            "reduced_noise_loss": 1.06513497684396,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              16.710676689990702,
+              21.811173450657996
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.0443389700239325,
+            "reduced_noise_loss": 1.0674858970370376,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              20.439620039238456,
+              26.738741269606663
+            ],
+            "barrier_meV_per_cell": 23.4599169583627,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.056641530832867,
+            "reduced_noise_loss": 1.0899749452738419,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              20.17648372756532,
+              26.738741269606663
+            ],
+            "barrier_meV_per_cell": 23.4599169583627,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.056641530832867,
+            "reduced_noise_loss": 1.0930280963810515,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.786626916016644,
+              24.457917948193632
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4943245853294491,
+            "reduced_noise_loss": 0.9992290901415682,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.371949927729382,
+              24.427903678343203
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.4943245853294491,
+            "reduced_noise_loss": 1.001865222744202,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.782481106422065,
+              24.176451397723138
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0868416534038476,
+            "reduced_noise_loss": 0.9754083132544898,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.37947047485905,
+              24.176451397723138
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0868416534038476,
+            "reduced_noise_loss": 0.978140549426071,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              16.17645907500786,
+              22.862552764088182
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5629892849897375,
+            "reduced_noise_loss": 0.8823609318876691,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              15.774417510905263,
+              22.85086857855801
+            ],
+            "barrier_meV_per_cell": 18.945598700182735,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.5629892849897375,
+            "reduced_noise_loss": 0.884768190703015,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.151820558181996,
+              23.54857622744199
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.015869603143237,
+            "reduced_noise_loss": 1.0814228729377375,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.762618185597137,
+              23.54857622744199
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.015869603143237,
+            "reduced_noise_loss": 1.0844520686602523,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              19.17489578619284,
+              27.115516639369563
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.486370126911191,
+            "reduced_noise_loss": 1.092188850575695,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.843362512503365,
+              27.115516639369563
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.486370126911191,
+            "reduced_noise_loss": 1.095248203098316,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.416827069705725,
+              22.892098901095704
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2186753693724794,
+            "reduced_noise_loss": 0.9935711257845652,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.134537039800378,
+              22.892098901095704
+            ],
+            "barrier_meV_per_cell": 20.138531634377678,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2186753693724794,
+            "reduced_noise_loss": 0.9963542381817209,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              17.812487161745217,
+              25.297384293488957
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.551731729113189,
+            "reduced_noise_loss": 1.0108254642203354,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              17.491202400591312,
+              25.297384293488957
+            ],
+            "barrier_meV_per_cell": 21.406579058645363,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.551731729113189,
+            "reduced_noise_loss": 1.0136569080977034,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              19.975918284129637,
+              27.69996578723208
+            ],
+            "barrier_meV_per_cell": 23.4599169583627,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5407978875395263,
+            "reduced_noise_loss": 1.0799197702124606,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              19.44865194656184,
+              27.661098841684446
+            ],
+            "barrier_meV_per_cell": 22.754470649279526,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5407978875395263,
+            "reduced_noise_loss": 1.082767787870257,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              18.470374084830315,
+              23.954343566605985
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1175607498019595,
+            "reduced_noise_loss": 0.9372310252577963,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              18.08040280641059,
+              23.836976780719468
+            ],
+            "barrier_meV_per_cell": 20.762877198411985,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.1175607498019595,
+            "reduced_noise_loss": 0.939091340903743,
+            "shift_nm": 0.15
+          }
+        }
+      ],
+      "spacing_nm": 28.5990432342223,
+      "twist_degrees": 0.55
+    },
+    "sample_12": {
+      "condition": "variable_probe_and_landscape",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              13.502570875426311,
+              21.069903271440502
+            ],
+            "barrier_meV_per_cell": 16.76754184426326,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6882687676757522,
+            "reduced_noise_loss": 0.9359122612807956,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              12.149579715636012,
+              21.069903271440502
+            ],
+            "barrier_meV_per_cell": 16.76754184426326,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6882687676757522,
+            "reduced_noise_loss": 0.9398612581638369,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.845670581819345,
+              16.199003953122602
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.181501014156253,
+            "reduced_noise_loss": 1.1135778836647894,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.803899292566745,
+              16.199003953122602
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.181501014156253,
+            "reduced_noise_loss": 1.1182765245241346,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.73890127709664,
+              16.624032472689834
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3952562931362897,
+            "reduced_noise_loss": 1.1598059639922433,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.93223596841526,
+              16.624032472689834
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3952562931362897,
+            "reduced_noise_loss": 1.1646996600428436,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.369838493388771,
+              13.9416102949306
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0700810224066475,
+            "reduced_noise_loss": 1.0856585770557854,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.471855436061405,
+              13.9416102949306
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0700810224066475,
+            "reduced_noise_loss": 1.0902394149336578,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.52816133175279,
+              16.132375745059957
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2539162231564978,
+            "reduced_noise_loss": 1.0617239834729337,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.478239864662655,
+              16.132375745059957
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2539162231564978,
+            "reduced_noise_loss": 1.066203831504465,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.72965635828719,
+              14.937513706809419
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1905532618473431,
+            "reduced_noise_loss": 1.0686329531708385,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.84634525226187,
+              14.937513706809419
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1905532618473431,
+            "reduced_noise_loss": 1.073141952973247,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              12.20264287150586,
+              18.046493947237103
+            ],
+            "barrier_meV_per_cell": 14.839882547306757,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.442951813524448,
+            "reduced_noise_loss": 1.0886577245013738,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.028432422111846,
+              17.682351513667758
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.442951813524448,
+            "reduced_noise_loss": 1.0901738210949112,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.8708459671138,
+              13.880613520982665
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5268924661955794,
+            "reduced_noise_loss": 1.1240746042203869,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.051987234107232,
+              13.880613520982665
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5268924661955794,
+            "reduced_noise_loss": 1.1288175350398821,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.920335552571581,
+              16.192227344877104
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.097306048801084,
+            "reduced_noise_loss": 0.8800280612072711,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.826867322538961,
+              15.964829220772312
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.097306048801084,
+            "reduced_noise_loss": 0.8810258070033616,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.58364843277868,
+              14.767482335578757
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3282873442203467,
+            "reduced_noise_loss": 1.2010346609885747,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.607262322096178,
+              14.541632328715828
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.3282873442203467,
+            "reduced_noise_loss": 1.2032935703574006,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.019028073533397,
+              15.96043713593282
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5607878131807278,
+            "reduced_noise_loss": 0.9146609248898104,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.958208075317446,
+              15.806676270237398
+            ],
+            "barrier_meV_per_cell": 11.98429048142467,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5607878131807278,
+            "reduced_noise_loss": 0.9168485330934812,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              12.363293595911946,
+              16.8609964228779
+            ],
+            "barrier_meV_per_cell": 14.393643100304216,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1415477608834455,
+            "reduced_noise_loss": 1.0393726916520691,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.242450808539818,
+              16.8609964228779
+            ],
+            "barrier_meV_per_cell": 14.393643100304216,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1415477608834455,
+            "reduced_noise_loss": 1.0437582304354112,
+            "shift_nm": -0.45
+          }
+        }
+      ],
+      "spacing_nm": 8.502754966686092,
+      "twist_degrees": 1.85
+    },
+    "sample_13": {
+      "condition": "variable_probe_and_landscape",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.778787926472502,
+              11.4398392673899
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0330735634104833,
+            "reduced_noise_loss": 1.049722406932381,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.033524581629017,
+              11.4398392673899
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0330735634104833,
+            "reduced_noise_loss": 1.05415161540045,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.842636144465293,
+              11.095157329567954
+            ],
+            "barrier_meV_per_cell": 9.38716511267776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.406105468383401,
+            "reduced_noise_loss": 1.1038448853927751,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.204872692829394,
+              11.095157329567954
+            ],
+            "barrier_meV_per_cell": 9.38716511267776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.406105468383401,
+            "reduced_noise_loss": 1.1085024587488628,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.575050753695508,
+              10.67099936765173
+            ],
+            "barrier_meV_per_cell": 9.10489041438083,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3836182045627385,
+            "reduced_noise_loss": 1.0531590827417872,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              6.917319621745685,
+              10.624093931408186
+            ],
+            "barrier_meV_per_cell": 8.30798151680023,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.3836182045627385,
+            "reduced_noise_loss": 1.056692666874517,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.857827825424684,
+              10.942848540920425
+            ],
+            "barrier_meV_per_cell": 9.38716511267776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2860411523375312,
+            "reduced_noise_loss": 1.1248526752218162,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.218091810993564,
+              10.942848540920425
+            ],
+            "barrier_meV_per_cell": 9.38716511267776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2860411523375312,
+            "reduced_noise_loss": 1.1295988890413176,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.42486721116977,
+              12.923683958524604
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.301034391115152,
+            "reduced_noise_loss": 0.9737245016908604,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.657772609810532,
+              12.923683958524604
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.301034391115152,
+            "reduced_noise_loss": 0.9778330438920877,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.826688565746393,
+              13.231415629355709
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0804038736678345,
+            "reduced_noise_loss": 0.9659265721027551,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.999894039346477,
+              13.231415629355709
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0804038736678345,
+            "reduced_noise_loss": 0.9700022116474926,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.546831075060413,
+              9.94451070681688
+            ],
+            "barrier_meV_per_cell": 8.565550017834267,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8904134482319839,
+            "reduced_noise_loss": 1.0019685874934707,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              6.898362172786534,
+              9.891797281177436
+            ],
+            "barrier_meV_per_cell": 7.815847087736125,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 0.8904134482319839,
+            "reduced_noise_loss": 1.0050261509778111,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.614357215069688,
+              12.653257829495505
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6458069683879542,
+            "reduced_noise_loss": 0.9834372234769078,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.00966660812639,
+              12.653257829495505
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6458069683879542,
+            "reduced_noise_loss": 0.9875867476265994,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.419907606016473,
+              11.570061682678952
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2380627014910717,
+            "reduced_noise_loss": 1.0693525473615195,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.69742946522921,
+              11.570061682678952
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2380627014910717,
+            "reduced_noise_loss": 1.073864583426336,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.2997569694140765,
+              10.817120747272618
+            ],
+            "barrier_meV_per_cell": 8.831103795748227,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6701012891805076,
+            "reduced_noise_loss": 1.0435008794384442,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              6.699991563693788,
+              10.817120747272618
+            ],
+            "barrier_meV_per_cell": 8.831103795748227,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.6701012891805076,
+            "reduced_noise_loss": 1.0479038367356528,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              7.341832114805726,
+              10.253004856575092
+            ],
+            "barrier_meV_per_cell": 8.565550017834267,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.367527700841006,
+            "reduced_noise_loss": 0.915903503784759,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              6.763913689056504,
+              10.253004856575092
+            ],
+            "barrier_meV_per_cell": 8.565550017834267,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.367527700841006,
+            "reduced_noise_loss": 0.9197680755306863,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.473717058554902,
+              12.199766372214574
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5959737793135669,
+            "reduced_noise_loss": 1.170731562849223,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              7.778935894840588,
+              12.199766372214574
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5959737793135669,
+            "reduced_noise_loss": 1.1756713584730594,
+            "shift_nm": 0.3
+          }
+        }
+      ],
+      "spacing_nm": 8.502754966686092,
+      "twist_degrees": 1.85
+    },
+    "sample_15": {
+      "condition": "variable_probe_and_landscape",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.075969856171984,
+              10.34533340704651
+            ],
+            "barrier_meV_per_cell": 9.10489041438083,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2810497563338743,
+            "reduced_noise_loss": 1.0236187687921854,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.0193328167351,
+              10.34533340704651
+            ],
+            "barrier_meV_per_cell": 9.10489041438083,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2810497563338743,
+            "reduced_noise_loss": 1.0264860482565892,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.679209860985438,
+              11.077744163874346
+            ],
+            "barrier_meV_per_cell": 9.678191042639465,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0718110141769623,
+            "reduced_noise_loss": 1.1562500200193981,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.51659348874103,
+              11.070787493234283
+            ],
+            "barrier_meV_per_cell": 9.678191042639465,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.5,
+            "probe_fwhm_nm": 1.0718110141769623,
+            "reduced_noise_loss": 1.1593763410632212,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.699931328862657,
+              10.931477778723558
+            ],
+            "barrier_meV_per_cell": 9.678191042639465,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0952217789947107,
+            "reduced_noise_loss": 1.0255213744711182,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.519293562836346,
+              10.893125271065648
+            ],
+            "barrier_meV_per_cell": 9.678191042639465,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.0952217789947107,
+            "reduced_noise_loss": 1.0278192303950933,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.316249928278884,
+              11.74529645104521
+            ],
+            "barrier_meV_per_cell": 10.606531643634776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0353606573206178,
+            "reduced_noise_loss": 0.941199227738603,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.153582488733791,
+              11.730489338120426
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.0353606573206178,
+            "reduced_noise_loss": 0.9435915449425282,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.336890911896464,
+              10.424946902589458
+            ],
+            "barrier_meV_per_cell": 9.38716511267776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8286605394278941,
+            "reduced_noise_loss": 1.0957694523620096,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.213333822456997,
+              10.424946902589458
+            ],
+            "barrier_meV_per_cell": 9.38716511267776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8286605394278941,
+            "reduced_noise_loss": 1.098838834581511,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.021671358314187,
+              11.53158517205449
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2381616490446017,
+            "reduced_noise_loss": 0.9253868514731781,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.901955776577216,
+              11.53158517205449
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.2381616490446017,
+            "reduced_noise_loss": 0.9279789715053158,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.189373457413607,
+              11.529624331496926
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1019002388325907,
+            "reduced_noise_loss": 1.1165431203587222,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.003211905263717,
+              11.496848875193752
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.1019002388325907,
+            "reduced_noise_loss": 1.119173602952279,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.627562030530143,
+              11.315432563861256
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.57504980574846,
+            "reduced_noise_loss": 1.0355716743628676,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.487080875818243,
+              11.315432563861256
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.57504980574846,
+            "reduced_noise_loss": 1.0384724353554806,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.77780709882953,
+              12.770321708543696
+            ],
+            "barrier_meV_per_cell": 11.274384959621605,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5039246092375447,
+            "reduced_noise_loss": 1.0073782667371338,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.574190807944179,
+              12.770027861141982
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5039246092375447,
+            "reduced_noise_loss": 1.0101960547289446,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.167094145668209,
+              11.487182268446238
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0314554328698768,
+            "reduced_noise_loss": 0.9942725615965166,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.052554542732762,
+              11.487182268446238
+            ],
+            "barrier_meV_per_cell": 10.287590250387055,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.0314554328698768,
+            "reduced_noise_loss": 0.9970576387998681,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.79415277535046,
+              12.171405410743128
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8304985246458227,
+            "reduced_noise_loss": 1.1414029279731963,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.614156019223572,
+              12.171405410743128
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8304985246458227,
+            "reduced_noise_loss": 1.1446001350543538,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              8.910633464902798,
+              11.314732746089584
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.265803174006084,
+            "reduced_noise_loss": 1.0258516344765163,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              8.72975460394537,
+              11.242250550730699
+            ],
+            "barrier_meV_per_cell": 9.978239514645912,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.265803174006084,
+            "reduced_noise_loss": 1.0275957579401787,
+            "shift_nm": -0.45
+          }
+        }
+      ],
+      "spacing_nm": 28.5990432342223,
+      "twist_degrees": 0.55
+    },
+    "sample_17": {
+      "condition": "variable_probe",
+      "fits": [
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.43668257819074,
+              15.139000013122603
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4614037488590295,
+            "reduced_noise_loss": 1.0988586666234654,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.17653394073882,
+              15.134849623111048
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.4614037488590295,
+            "reduced_noise_loss": 1.1018972863469565,
+            "shift_nm": 0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              12.046814459516016,
+              15.456825021893755
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.293979925131042,
+            "reduced_noise_loss": 1.0563181076123542,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.78278227842715,
+              15.39205882720433
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.293979925131042,
+            "reduced_noise_loss": 1.0585409586748458,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.502540244382331,
+              15.314410027132611
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5402521088986114,
+            "reduced_noise_loss": 1.0508411718343689,
+            "shift_nm": 0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.280428984586818,
+              15.314410027132611
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5402521088986114,
+            "reduced_noise_loss": 1.0537847045285829,
+            "shift_nm": 0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.788024176666887,
+              14.1886782710668
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4931725913369944,
+            "reduced_noise_loss": 1.1145519698558388,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.556592164734576,
+              14.1886782710668
+            ],
+            "barrier_meV_per_cell": 12.355833885681776,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.4931725913369944,
+            "reduced_noise_loss": 1.1176739641691606,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.978552047692792,
+              15.124861540103751
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.1667024417054566,
+            "reduced_noise_loss": 1.1011929277629384,
+            "shift_nm": -0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.746826261016329,
+              15.067078462091544
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.1667024417054566,
+            "reduced_noise_loss": 1.1036046893621236,
+            "shift_nm": -0.15
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              9.598203751326325,
+              12.582200231561236
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3793894206937243,
+            "reduced_noise_loss": 0.9846810124615617,
+            "shift_nm": -0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              9.48299624955668,
+              12.582200231561236
+            ],
+            "barrier_meV_per_cell": 10.93536102909943,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3793894206937243,
+            "reduced_noise_loss": 0.9874392225805017,
+            "shift_nm": -0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.82603658796325,
+              15.235995990712555
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9926520262063281,
+            "reduced_noise_loss": 1.045905108885477,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.67324585768345,
+              15.235995990712555
+            ],
+            "barrier_meV_per_cell": 13.541016344335105,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.9926520262063281,
+            "reduced_noise_loss": 1.0488348150728313,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.205229382122518,
+              14.223611719833256
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.161145218273796,
+            "reduced_noise_loss": 1.0328844139507518,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.996869667940162,
+              14.223611719833256
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.161145218273796,
+            "reduced_noise_loss": 1.035777647603275,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              12.472539020009004,
+              16.669244442620045
+            ],
+            "barrier_meV_per_cell": 14.393643100304216,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.5483203494725064,
+            "reduced_noise_loss": 1.1704848301374222,
+            "shift_nm": -0.3
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              12.183459878571842,
+              16.645003292858892
+            ],
+            "barrier_meV_per_cell": 13.96082219913088,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 1.0,
+            "probe_fwhm_nm": 1.5483203494725064,
+            "reduced_noise_loss": 1.1735665765562462,
+            "shift_nm": -0.3
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              10.19110325744555,
+              13.087627855009837
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3325062139029658,
+            "reduced_noise_loss": 1.0718130126227408,
+            "shift_nm": 0.45
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              10.006298799772328,
+              13.087627855009837
+            ],
+            "barrier_meV_per_cell": 11.623919491957553,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3325062139029658,
+            "reduced_noise_loss": 1.0748152899690229,
+            "shift_nm": 0.45
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.490379228520128,
+              14.168447774558775
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8828167519839922,
+            "reduced_noise_loss": 1.0788457109354197,
+            "shift_nm": 0.0
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.26138629979868,
+              14.168447774558775
+            ],
+            "barrier_meV_per_cell": 12.738896077927283,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 0.8828167519839922,
+            "reduced_noise_loss": 1.0818676877167515,
+            "shift_nm": 0.0
+          }
+        },
+        {
+          "anchor_shape": {
+            "barrier_interval": [
+              11.673614234444743,
+              15.098596296128152
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3340191873715965,
+            "reduced_noise_loss": 0.9770994044078575,
+            "shift_nm": 0.15
+          },
+          "profile_shapes": {
+            "barrier_interval": [
+              11.47585894558013,
+              15.098596296128152
+            ],
+            "barrier_meV_per_cell": 13.13383416980737,
+            "hit_barrier_bound": false,
+            "landscape_mixture": 0.0,
+            "probe_fwhm_nm": 1.3340191873715965,
+            "reduced_noise_loss": 0.9798363775294481,
+            "shift_nm": 0.15
+          }
+        }
+      ],
+      "spacing_nm": 28.5990432342223,
+      "twist_degrees": 0.55
+    }
+  },
+  "scope": "Sensitivity control after the original blinded score. Replay the periodic model with the normal probe width supplied for each simulated image. Blur is still represented by an isotropic Gaussian. Use the same noisy pixels and permit the original nuisance freedoms for stacking shape, camera and center.",
+  "sealed_truth_sha256": "76b772a11aba43d1a80779cf6376e4220b12edf609cea51fcdd589939b92056d",
+  "source_sha256": {
+    "author_detector_replay.py": "d3d978beac32bd93438217535e40ed5acea688d462a42445aff0b882119aa349",
+    "bilayer_relaxation.py": "d129f144f59edf96e93ddbec3f32b17f4f3451a00ced44c3cc773f73198da135",
+    "moire_regime_benchmark_v02.json": "660ad736b10aeeea12875974445607ae0bcc9a5d58608bcf840b603b5d6c5f9b",
+    "mos2_barrier_recovery_protocol_v01.json": "35a61d94b964f5238d1cc5e0cccbc4a678c03e0dc55f3589b7b7a09f3ca3198f",
+    "mos2_wall_signal_repeatability_v01.json": "76458a5c5d9ac05b2994e7aebad56d8e86b94efc32b2ac50f1aef166f8e3a339",
+    "run_mos2_barrier_probe_control.py": "b0cb375183030f736fc6a13797aa6db4fb46dad52cb43a27ad387b3b5aa5f4c8",
+    "run_mos2_barrier_recovery.py": "1936b4997418bf520ae551309fb78015551fe55e00a8078423f5ca2ff30b37ba",
+    "run_mos2_nonlinear_controls.py": "83099a55f76959498b8b1345a027933c433d9111f160cc77af376def14245c00",
+    "run_mos2_wall_profile_closure.py": "44fcf324c99fec91c054e4290962f00eef1c4a3663cb84b5647c045bac224078",
+    "run_mos2_wall_width_transfer.py": "30b6ef71bae02a96a8a6df5166aec0cee50bd25a5719edf506e8b564caae876e"
+  },
+  "wall_seconds": 29.688755332492292
+}

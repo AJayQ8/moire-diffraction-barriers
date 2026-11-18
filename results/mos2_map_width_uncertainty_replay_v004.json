@@ -1,0 +1,2166 @@
+{
+  "schema": "mos2_map_width_uncertainty_v004",
+  "source": {
+    "record": "mos2_wall_landscape_v01.json",
+    "member": null,
+    "raw_sha256": "dc8f0b693b53a05522efeca4afa01d28b74add55645fbe93afd4ec0d67400c0d",
+    "archive_path": null,
+    "archive_sha256": null,
+    "prior_uncertainty_record": "evidence/mos2_wall_landscape_uncertainty_v01.json",
+    "prior_uncertainty_sha256": "e6b09d26adedcf4a45dc8ef7e9f996ada9c3acb93a14be5364b2862d16969166",
+    "plot_script_sha256": "16cf2bb0abb511da1bcbc5b76861af48f36cfe528f6311fd7593b222518119e3"
+  },
+  "score_definition": "Within each map, average measured and anchor widths separately across the matched qualified wall pairs for each diffraction order. Paired absolute-width error is the mean absolute difference between those two map-mean widths, averaged equally over orders. Group summaries give each map equal weight.",
+  "cohorts": {
+    "nominal_fixed_window": {
+      "camera": "compact",
+      "probe_fwhm_nm": 1.25,
+      "window_half_width_nm": "4.25",
+      "walls": 239,
+      "maps": 10,
+      "counts_by_map": {
+        "DS1": 2,
+        "DS2": 5,
+        "DS14": 29,
+        "DS13": 35,
+        "DS12": 11,
+        "DS9": 19,
+        "DS10": 29,
+        "DS6": 29,
+        "DS4": 41,
+        "DS3": 39
+      },
+      "geometry_walls_for_block_scale_by_map": {
+        "DS1": 2,
+        "DS2": 6,
+        "DS14": 31,
+        "DS13": 36,
+        "DS12": 11,
+        "DS9": 19,
+        "DS10": 29,
+        "DS6": 29,
+        "DS4": 41,
+        "DS3": 39
+      },
+      "definition": "Original-cohort sections with measured and all four relaxed model width pairs qualified in both orders."
+    },
+    "all_three_windows": {
+      "camera": "compact",
+      "probe_fwhm_nm": 1.25,
+      "windows_half_width_nm": [
+        "2.50",
+        "4.25",
+        "adaptive"
+      ],
+      "walls": 175,
+      "maps": 10,
+      "counts_by_map": {
+        "DS1": 2,
+        "DS2": 3,
+        "DS14": 11,
+        "DS13": 13,
+        "DS12": 9,
+        "DS9": 17,
+        "DS10": 24,
+        "DS6": 26,
+        "DS4": 35,
+        "DS3": 35
+      },
+      "definition": "Same eligibility rule intersected across 2.50, 4.25 and adaptive half-windows; used in Fig. 2b."
+    }
+  },
+  "resampling": {
+    "primary_block_factor": 1.0,
+    "sensitivity_block_factors": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "block_side_definition": "factor \u00d7 sqrt(2/sqrt(3)) \u00d7 map median spacing_nm; triangular-cell-area approximation.",
+    "block_side_spacing_support": "All original-cohort wall geometries per map, matching the released 243-wall score bootstrap; width values are resampled only on the qualified 239-pair cohort.",
+    "origin_phases": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "draws_per_origin_per_map": 1000,
+    "seed": 20261115,
+    "draw_rule": "Sample the occupied spatial blocks with replacement, drawing the same number of blocks as occupied; include all wall pairs in each selected block.",
+    "pairing": "Each resampled block jointly carries measured and anchor widths in both orders; maps are held fixed and averaged equally.",
+    "interval": "P5\u2013P95 percentile range (90% conditional within-map spatial block resampling range).",
+    "support_note": "Map bars are omitted when any origin phase has fewer than two occupied blocks; dagger marks that limited support. One-block phases contribute no within-map spread to the group bootstrap."
+  },
+  "group_contrast": {
+    "low_four_maps": [
+      "DS1",
+      "DS2",
+      "DS14",
+      "DS13"
+    ],
+    "high_six_maps": [
+      "DS12",
+      "DS9",
+      "DS10",
+      "DS6",
+      "DS4",
+      "DS3"
+    ],
+    "low_minus_high_definition": "Equal-map mean of per-map paired absolute-width errors in low four maps minus the equal-map mean in high six maps.",
+    "primary_block_scale": {
+      "low_four": {
+        "maps": [
+          "DS1",
+          "DS2",
+          "DS14",
+          "DS13"
+        ],
+        "point_nm": 0.4302189394355457,
+        "block_percentiles_nm": {
+          "p05": 0.3350013708780964,
+          "p50": 0.4376838674126215,
+          "p95": 0.5531253730882494
+        }
+      },
+      "high_six": {
+        "maps": [
+          "DS12",
+          "DS9",
+          "DS10",
+          "DS6",
+          "DS4",
+          "DS3"
+        ],
+        "point_nm": 0.05025029484285896,
+        "block_percentiles_nm": {
+          "p05": 0.061867982276683955,
+          "p50": 0.09145148568994885,
+          "p95": 0.12869761399865726
+        }
+      },
+      "low_minus_high": {
+        "maps": [],
+        "point_nm": 0.3799686445926867,
+        "block_percentiles_nm": {
+          "p05": 0.23625136518870107,
+          "p50": 0.34492816172467167,
+          "p95": 0.46643126181336886
+        }
+      }
+    },
+    "block_scale_sensitivity": {
+      "0.5": {
+        "low_four": {
+          "maps": [
+            "DS1",
+            "DS2",
+            "DS14",
+            "DS13"
+          ],
+          "point_nm": 0.4302189394355457,
+          "block_percentiles_nm": {
+            "p05": 0.32418879175506077,
+            "p50": 0.4352275328342271,
+            "p95": 0.5628006434831624
+          }
+        },
+        "high_six": {
+          "maps": [
+            "DS12",
+            "DS9",
+            "DS10",
+            "DS6",
+            "DS4",
+            "DS3"
+          ],
+          "point_nm": 0.05025029484285896,
+          "block_percentiles_nm": {
+            "p05": 0.06202768908541827,
+            "p50": 0.08982973382625428,
+            "p95": 0.12781186932867197
+          }
+        },
+        "low_minus_high": {
+          "maps": [],
+          "point_nm": 0.3799686445926867,
+          "block_percentiles_nm": {
+            "p05": 0.2293065422545594,
+            "p50": 0.3436424412616223,
+            "p95": 0.4707759046862743
+          }
+        }
+      },
+      "1.0": {
+        "low_four": {
+          "maps": [
+            "DS1",
+            "DS2",
+            "DS14",
+            "DS13"
+          ],
+          "point_nm": 0.4302189394355457,
+          "block_percentiles_nm": {
+            "p05": 0.3350013708780964,
+            "p50": 0.4376838674126215,
+            "p95": 0.5531253730882494
+          }
+        },
+        "high_six": {
+          "maps": [
+            "DS12",
+            "DS9",
+            "DS10",
+            "DS6",
+            "DS4",
+            "DS3"
+          ],
+          "point_nm": 0.05025029484285896,
+          "block_percentiles_nm": {
+            "p05": 0.061867982276683955,
+            "p50": 0.09145148568994885,
+            "p95": 0.12869761399865726
+          }
+        },
+        "low_minus_high": {
+          "maps": [],
+          "point_nm": 0.3799686445926867,
+          "block_percentiles_nm": {
+            "p05": 0.23625136518870107,
+            "p50": 0.34492816172467167,
+            "p95": 0.46643126181336886
+          }
+        }
+      },
+      "1.5": {
+        "low_four": {
+          "maps": [
+            "DS1",
+            "DS2",
+            "DS14",
+            "DS13"
+          ],
+          "point_nm": 0.4302189394355457,
+          "block_percentiles_nm": {
+            "p05": 0.34113658489486376,
+            "p50": 0.43971577809790513,
+            "p95": 0.5473879488000182
+          }
+        },
+        "high_six": {
+          "maps": [
+            "DS12",
+            "DS9",
+            "DS10",
+            "DS6",
+            "DS4",
+            "DS3"
+          ],
+          "point_nm": 0.05025029484285896,
+          "block_percentiles_nm": {
+            "p05": 0.056844609488388896,
+            "p50": 0.08249595040995575,
+            "p95": 0.11419133693991353
+          }
+        },
+        "low_minus_high": {
+          "maps": [],
+          "point_nm": 0.3799686445926867,
+          "block_percentiles_nm": {
+            "p05": 0.25522350827804346,
+            "p50": 0.3562401648541258,
+            "p95": 0.46817106666943975
+          }
+        }
+      }
+    }
+  },
+  "maps": {
+    "DS1": {
+      "inferred_twist_deg": 0.4191180438688972,
+      "nominal_wall_pairs": 2,
+      "common_three_window_pairs": 2,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            4.45322322416785,
+            4.280656633411276
+          ],
+          "anchor_width_nm": [
+            3.687128297794012,
+            3.6884477336150736
+          ],
+          "paired_absolute_width_error_nm": 0.6791519130850201
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 4.45322322416785,
+              "p50": 4.45322322416785,
+              "p95": 4.45322322416785
+            },
+            "order2": {
+              "p05": 4.280656633411276,
+              "p50": 4.280656633411276,
+              "p95": 4.280656633411276
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.687128297794012,
+              "p50": 3.687128297794012,
+              "p95": 3.687128297794012
+            },
+            "order2": {
+              "p05": 3.6884477336150736,
+              "p50": 3.6884477336150736,
+              "p95": 3.6884477336150736
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.6791519130850201,
+            "p50": 0.6791519130850201,
+            "p95": 0.6791519130850201
+          }
+        },
+        "support": {
+          "side_nm": 33.424720643449874,
+          "wall_pairs": 2,
+          "geometry_walls_for_block_scale": 2,
+          "median_spacing_for_block_scale_nm": 31.10520744492471,
+          "blocks_by_origin": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "minimum_occupied_blocks": 1,
+          "single_block_origins": 4,
+          "one_block_at_every_origin": true
+        },
+        "interval_plotted": false
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              4.45322322416785,
+              4.280656633411276
+            ],
+            "anchor_width_nm": [
+              3.687128297794012,
+              3.6884477336150736
+            ],
+            "paired_absolute_width_error_nm": 0.6791519130850201
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 4.41038611835299,
+                "p50": 4.45322322416785,
+                "p95": 4.49606032998271
+              },
+              "order2": {
+                "p05": 4.17061264730021,
+                "p50": 4.280656633411276,
+                "p95": 4.390700619522341
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.657733443596361,
+                "p50": 3.687128297794012,
+                "p95": 3.7165231519916637
+              },
+              "order2": {
+                "p05": 3.6256971176477895,
+                "p50": 3.6884477336150736,
+                "p95": 3.7511983495823578
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.6666826181506549,
+              "p50": 0.6791519130850201,
+              "p95": 0.6916212080193851
+            }
+          },
+          "support": {
+            "side_nm": 16.712360321724937,
+            "wall_pairs": 2,
+            "geometry_walls_for_block_scale": 2,
+            "median_spacing_for_block_scale_nm": 31.10520744492471,
+            "blocks_by_origin": [
+              1,
+              1,
+              2,
+              2
+            ],
+            "minimum_occupied_blocks": 1,
+            "single_block_origins": 2,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": false
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              4.45322322416785,
+              4.280656633411276
+            ],
+            "anchor_width_nm": [
+              3.687128297794012,
+              3.6884477336150736
+            ],
+            "paired_absolute_width_error_nm": 0.6791519130850201
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 4.45322322416785,
+                "p50": 4.45322322416785,
+                "p95": 4.45322322416785
+              },
+              "order2": {
+                "p05": 4.280656633411276,
+                "p50": 4.280656633411276,
+                "p95": 4.280656633411276
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.687128297794012,
+                "p50": 3.687128297794012,
+                "p95": 3.687128297794012
+              },
+              "order2": {
+                "p05": 3.6884477336150736,
+                "p50": 3.6884477336150736,
+                "p95": 3.6884477336150736
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.6791519130850201,
+              "p50": 0.6791519130850201,
+              "p95": 0.6791519130850201
+            }
+          },
+          "support": {
+            "side_nm": 50.13708096517481,
+            "wall_pairs": 2,
+            "geometry_walls_for_block_scale": 2,
+            "median_spacing_for_block_scale_nm": 31.10520744492471,
+            "blocks_by_origin": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "minimum_occupied_blocks": 1,
+            "single_block_origins": 4,
+            "one_block_at_every_origin": true
+          },
+          "interval_plotted": false
+        }
+      }
+    },
+    "DS2": {
+      "inferred_twist_deg": 0.5104074216711458,
+      "nominal_wall_pairs": 5,
+      "common_three_window_pairs": 3,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            4.29359387367065,
+            3.5118346486498795
+          ],
+          "anchor_width_nm": [
+            3.673192522883061,
+            3.6603313812502867
+          ],
+          "paired_absolute_width_error_nm": 0.3844490416939981
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.8736407878649333,
+              "p50": 4.29359387367065,
+              "p95": 4.79703456105922
+            },
+            "order2": {
+              "p05": 3.4082024777667326,
+              "p50": 3.5118346486498795,
+              "p95": 3.590544199313907
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.563833003851153,
+              "p50": 3.673192522883061,
+              "p95": 3.8372318014309235
+            },
+            "order2": {
+              "p05": 3.551187239458018,
+              "p50": 3.6603313812502867,
+              "p95": 3.8240475939386886
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.23343031910004752,
+            "p50": 0.3844490416939981,
+            "p95": 0.6006712069457165
+          }
+        },
+        "support": {
+          "side_nm": 32.10187396503705,
+          "wall_pairs": 5,
+          "geometry_walls_for_block_scale": 6,
+          "median_spacing_for_block_scale_nm": 29.874159898146665,
+          "blocks_by_origin": [
+            2,
+            3,
+            2,
+            4
+          ],
+          "minimum_occupied_blocks": 2,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              4.29359387367065,
+              3.5118346486498795
+            ],
+            "anchor_width_nm": [
+              3.673192522883061,
+              3.6603313812502867
+            ],
+            "paired_absolute_width_error_nm": 0.3844490416939981
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.7474780280097084,
+                "p50": 4.29359387367065,
+                "p95": 4.954869616456429
+              },
+              "order2": {
+                "p05": 3.366210220739054,
+                "p50": 3.5118346486498795,
+                "p95": 3.6771415961317957
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.5170962040657066,
+                "p50": 3.673192522883061,
+                "p95": 3.829772031142988
+              },
+              "order2": {
+                "p05": 3.5061246520615605,
+                "p50": 3.6603313812502867,
+                "p95": 3.803283773738329
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.184236554550389,
+              "p50": 0.38444904169399785,
+              "p95": 0.6546993956998353
+            }
+          },
+          "support": {
+            "side_nm": 16.050936982518525,
+            "wall_pairs": 5,
+            "geometry_walls_for_block_scale": 6,
+            "median_spacing_for_block_scale_nm": 29.874159898146665,
+            "blocks_by_origin": [
+              5,
+              5,
+              4,
+              5
+            ],
+            "minimum_occupied_blocks": 4,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              4.29359387367065,
+              3.5118346486498795
+            ],
+            "anchor_width_nm": [
+              3.673192522883061,
+              3.6603313812502867
+            ],
+            "paired_absolute_width_error_nm": 0.3844490416939981
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.9443206207691612,
+                "p50": 4.29359387367065,
+                "p95": 4.817503753022886
+              },
+              "order2": {
+                "p05": 3.4466322482153253,
+                "p50": 3.5118346486498795,
+                "p95": 3.590544199313907
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.557830209090143,
+                "p50": 3.673192522883061,
+                "p95": 3.8372318014309235
+              },
+              "order2": {
+                "p05": 3.551187239458018,
+                "p50": 3.6603313812502862,
+                "p95": 3.8240475939386886
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.23343031910004752,
+              "p50": 0.3844490416939981,
+              "p95": 0.6486964183478183
+            }
+          },
+          "support": {
+            "side_nm": 48.15281094755558,
+            "wall_pairs": 5,
+            "geometry_walls_for_block_scale": 6,
+            "median_spacing_for_block_scale_nm": 29.874159898146665,
+            "blocks_by_origin": [
+              1,
+              2,
+              2,
+              4
+            ],
+            "minimum_occupied_blocks": 1,
+            "single_block_origins": 1,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": false
+        }
+      }
+    },
+    "DS14": {
+      "inferred_twist_deg": 0.6986610416445902,
+      "nominal_wall_pairs": 29,
+      "common_three_window_pairs": 11,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            4.3037886995373515,
+            4.22014794632508
+          ],
+          "anchor_width_nm": [
+            4.754571819772108,
+            4.578071746450431
+          ],
+          "paired_absolute_width_error_nm": 0.4043534601800536
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.9798240834880687,
+              "p50": 4.305549796793304,
+              "p95": 4.613963832704098
+            },
+            "order2": {
+              "p05": 3.969565389267911,
+              "p50": 4.219598376855968,
+              "p95": 4.479831069847524
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 4.649877390871857,
+              "p50": 4.755637670090499,
+              "p95": 4.852178558279066
+            },
+            "order2": {
+              "p05": 4.474808634155383,
+              "p50": 4.5789631566820805,
+              "p95": 4.676297927649215
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.09669628139304169,
+            "p50": 0.40240500776242016,
+            "p95": 0.7322992694547468
+          }
+        },
+        "support": {
+          "side_nm": 20.246461426256836,
+          "wall_pairs": 29,
+          "geometry_walls_for_block_scale": 31,
+          "median_spacing_for_block_scale_nm": 18.841455382897838,
+          "blocks_by_origin": [
+            12,
+            12,
+            15,
+            16
+          ],
+          "minimum_occupied_blocks": 12,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              4.3037886995373515,
+              4.22014794632508
+            ],
+            "anchor_width_nm": [
+              4.754571819772108,
+              4.578071746450431
+            ],
+            "paired_absolute_width_error_nm": 0.4043534601800536
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.9776110281280426,
+                "p50": 4.305334053160797,
+                "p95": 4.637098667082849
+              },
+              "order2": {
+                "p05": 3.9410600887462524,
+                "p50": 4.219902712477461,
+                "p95": 4.511103312409201
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 4.615736359435015,
+                "p50": 4.7547374538298115,
+                "p95": 4.89484884048414
+              },
+              "order2": {
+                "p05": 4.448919139122896,
+                "p50": 4.577993063886543,
+                "p95": 4.707778211404619
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.0824097205120727,
+              "p50": 0.40782564799013654,
+              "p95": 0.7606694772718718
+            }
+          },
+          "support": {
+            "side_nm": 10.123230713128418,
+            "wall_pairs": 29,
+            "geometry_walls_for_block_scale": 31,
+            "median_spacing_for_block_scale_nm": 18.841455382897838,
+            "blocks_by_origin": [
+              28,
+              29,
+              29,
+              29
+            ],
+            "minimum_occupied_blocks": 28,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              4.3037886995373515,
+              4.22014794632508
+            ],
+            "anchor_width_nm": [
+              4.754571819772108,
+              4.578071746450431
+            ],
+            "paired_absolute_width_error_nm": 0.4043534601800536
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 4.053512944074988,
+                "p50": 4.304528800815561,
+                "p95": 4.541778034838314
+              },
+              "order2": {
+                "p05": 3.999572798600447,
+                "p50": 4.220147946325081,
+                "p95": 4.457118750922765
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 4.624393620490524,
+                "p50": 4.758546965002714,
+                "p95": 4.875812980990428
+              },
+              "order2": {
+                "p05": 4.450809902114832,
+                "p50": 4.58238135261429,
+                "p95": 4.695386907976084
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.1378396097617049,
+              "p50": 0.4043534601800518,
+              "p95": 0.6972035475170749
+            }
+          },
+          "support": {
+            "side_nm": 30.369692139385254,
+            "wall_pairs": 29,
+            "geometry_walls_for_block_scale": 31,
+            "median_spacing_for_block_scale_nm": 18.841455382897838,
+            "blocks_by_origin": [
+              6,
+              6,
+              9,
+              9
+            ],
+            "minimum_occupied_blocks": 6,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS13": {
+      "inferred_twist_deg": 0.7809097049333651,
+      "nominal_wall_pairs": 35,
+      "common_three_window_pairs": 13,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            4.556092840079608,
+            4.112137590429395
+          ],
+          "anchor_width_nm": [
+            4.78012214110234,
+            4.393950974972885
+          ],
+          "paired_absolute_width_error_nm": 0.25292134278311096
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 4.345173186950204,
+              "p50": 4.555882991260081,
+              "p95": 4.770591333799085
+            },
+            "order2": {
+              "p05": 3.968057864194611,
+              "p50": 4.108389720447764,
+              "p95": 4.252084834348696
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 4.610317613556087,
+              "p50": 4.781087143176016,
+              "p95": 4.952152111616201
+            },
+            "order2": {
+              "p05": 4.239819730353573,
+              "p50": 4.394581217713997,
+              "p95": 4.551004499887563
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.07974529339711371,
+            "p50": 0.2575860374263246,
+            "p95": 0.5108378264981719
+          }
+        },
+        "support": {
+          "side_nm": 17.83508927193864,
+          "wall_pairs": 35,
+          "geometry_walls_for_block_scale": 36,
+          "median_spacing_for_block_scale_nm": 16.597420738985825,
+          "blocks_by_origin": [
+            17,
+            16,
+            18,
+            16
+          ],
+          "minimum_occupied_blocks": 16,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              4.556092840079608,
+              4.112137590429395
+            ],
+            "anchor_width_nm": [
+              4.78012214110234,
+              4.393950974972885
+            ],
+            "paired_absolute_width_error_nm": 0.25292134278311096
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 4.352658269390769,
+                "p50": 4.553786569659586,
+                "p95": 4.772864146212543
+              },
+              "order2": {
+                "p05": 3.9749802676655457,
+                "p50": 4.11126805235146,
+                "p95": 4.255996773035898
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 4.596316870522663,
+                "p50": 4.781625206308703,
+                "p95": 4.970807635572918
+              },
+              "order2": {
+                "p05": 4.242744322831995,
+                "p50": 4.39375821602691,
+                "p95": 4.556238631938963
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.08007454984270009,
+              "p50": 0.2525660695708267,
+              "p95": 0.5093042616991631
+            }
+          },
+          "support": {
+            "side_nm": 8.91754463596932,
+            "wall_pairs": 35,
+            "geometry_walls_for_block_scale": 36,
+            "median_spacing_for_block_scale_nm": 16.597420738985825,
+            "blocks_by_origin": [
+              32,
+              34,
+              32,
+              33
+            ],
+            "minimum_occupied_blocks": 32,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              4.556092840079608,
+              4.112137590429395
+            ],
+            "anchor_width_nm": [
+              4.78012214110234,
+              4.393950974972885
+            ],
+            "paired_absolute_width_error_nm": 0.25292134278311096
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 4.303116746500633,
+                "p50": 4.549924486301139,
+                "p95": 4.769198773670161
+              },
+              "order2": {
+                "p05": 3.943330814392039,
+                "p50": 4.108396625982619,
+                "p95": 4.279516543971864
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 4.62010471214426,
+                "p50": 4.784778084754649,
+                "p95": 4.974981107328711
+              },
+              "order2": {
+                "p05": 4.24489682891345,
+                "p50": 4.399039420976205,
+                "p95": 4.578953272005416
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.07464040130077401,
+              "p50": 0.2700324107629656,
+              "p95": 0.5539009851139157
+            }
+          },
+          "support": {
+            "side_nm": 26.75263390790796,
+            "wall_pairs": 35,
+            "geometry_walls_for_block_scale": 36,
+            "median_spacing_for_block_scale_nm": 16.597420738985825,
+            "blocks_by_origin": [
+              9,
+              10,
+              9,
+              10
+            ],
+            "minimum_occupied_blocks": 9,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS12": {
+      "inferred_twist_deg": 1.1849017131673314,
+      "nominal_wall_pairs": 11,
+      "common_three_window_pairs": 9,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            3.658372736923512,
+            3.2448049200750044
+          ],
+          "anchor_width_nm": [
+            3.7544371984805456,
+            3.274169317959772
+          ],
+          "paired_absolute_width_error_nm": 0.06271442972090058
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.508006870726192,
+              "p50": 3.658372736923511,
+              "p95": 3.882620410880982
+            },
+            "order2": {
+              "p05": 3.024530546551135,
+              "p50": 3.244804920075005,
+              "p95": 3.524291576259282
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.6976067521815885,
+              "p50": 3.753854940975532,
+              "p95": 3.8205948243101933
+            },
+            "order2": {
+              "p05": 3.2103657046956875,
+              "p50": 3.273341953263438,
+              "p95": 3.3502479492118606
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.03515342720753534,
+            "p50": 0.11879893736204639,
+            "p95": 0.2482200446532623
+          }
+        },
+        "support": {
+          "side_nm": 13.828953719854614,
+          "wall_pairs": 11,
+          "geometry_walls_for_block_scale": 11,
+          "median_spacing_for_block_scale_nm": 12.869291527994758,
+          "blocks_by_origin": [
+            4,
+            6,
+            5,
+            6
+          ],
+          "minimum_occupied_blocks": 4,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              3.658372736923512,
+              3.2448049200750044
+            ],
+            "anchor_width_nm": [
+              3.7544371984805456,
+              3.274169317959772
+            ],
+            "paired_absolute_width_error_nm": 0.06271442972090058
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.500389430806323,
+                "p50": 3.6542744191165877,
+                "p95": 3.834851294332149
+              },
+              "order2": {
+                "p05": 3.0256611272827483,
+                "p50": 3.250344659687612,
+                "p95": 3.4529302810058966
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.682968923809181,
+                "p50": 3.7530767571377153,
+                "p95": 3.831821768168883
+              },
+              "order2": {
+                "p05": 3.189844868592769,
+                "p50": 3.2711600782506114,
+                "p95": 3.3680308434872654
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.03105451181947464,
+              "p50": 0.10487987593674475,
+              "p95": 0.24803671192185647
+            }
+          },
+          "support": {
+            "side_nm": 6.914476859927307,
+            "wall_pairs": 11,
+            "geometry_walls_for_block_scale": 11,
+            "median_spacing_for_block_scale_nm": 12.869291527994758,
+            "blocks_by_origin": [
+              10,
+              10,
+              11,
+              10
+            ],
+            "minimum_occupied_blocks": 10,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              3.658372736923512,
+              3.2448049200750044
+            ],
+            "anchor_width_nm": [
+              3.7544371984805456,
+              3.274169317959772
+            ],
+            "paired_absolute_width_error_nm": 0.06271442972090058
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.5464185585890093,
+                "p50": 3.658372736923512,
+                "p95": 3.858490616506491
+              },
+              "order2": {
+                "p05": 3.063425445370712,
+                "p50": 3.2448049200750044,
+                "p95": 3.5154047395106023
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.728631765382296,
+                "p50": 3.7544371984805456,
+                "p95": 3.8174529264396724
+              },
+              "order2": {
+                "p05": 3.2308570679913844,
+                "p50": 3.274169317959772,
+                "p95": 3.4004220959581444
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.03333906137740339,
+              "p50": 0.10067355477248974,
+              "p95": 0.19506893758221544
+            }
+          },
+          "support": {
+            "side_nm": 20.74343057978192,
+            "wall_pairs": 11,
+            "geometry_walls_for_block_scale": 11,
+            "median_spacing_for_block_scale_nm": 12.869291527994758,
+            "blocks_by_origin": [
+              3,
+              3,
+              4,
+              4
+            ],
+            "minimum_occupied_blocks": 3,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS9": {
+      "inferred_twist_deg": 1.384220561161022,
+      "nominal_wall_pairs": 19,
+      "common_three_window_pairs": 17,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            3.6990418880172067,
+            2.955357333976916
+          ],
+          "anchor_width_nm": [
+            3.7631580962207383,
+            3.0055744240595557
+          ],
+          "paired_absolute_width_error_nm": 0.05716664914308556
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.4887262718382916,
+              "p50": 3.691278603336617,
+              "p95": 3.94497094672638
+            },
+            "order2": {
+              "p05": 2.83487800707197,
+              "p50": 2.955357333976916,
+              "p95": 3.0839978696595094
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.6505663240788024,
+              "p50": 3.762638775255171,
+              "p95": 3.8816474515136252
+            },
+            "order2": {
+              "p05": 2.88955311428985,
+              "p50": 3.0037189892962166,
+              "p95": 3.1300315898947066
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.02364704767106649,
+            "p50": 0.0971972246570878,
+            "p95": 0.22106679390457096
+          }
+        },
+        "support": {
+          "side_nm": 11.796373214676178,
+          "wall_pairs": 19,
+          "geometry_walls_for_block_scale": 19,
+          "median_spacing_for_block_scale_nm": 10.977762233359506,
+          "blocks_by_origin": [
+            8,
+            9,
+            8,
+            11
+          ],
+          "minimum_occupied_blocks": 8,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              3.6990418880172067,
+              2.955357333976916
+            ],
+            "anchor_width_nm": [
+              3.7631580962207383,
+              3.0055744240595557
+            ],
+            "paired_absolute_width_error_nm": 0.05716664914308556
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.4819202433554923,
+                "p50": 3.6988567052202095,
+                "p95": 3.942933569426729
+              },
+              "order2": {
+                "p05": 2.7879798155619238,
+                "p50": 2.9590645915542835,
+                "p95": 3.1291485661293827
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.6455443296205843,
+                "p50": 3.765586154844808,
+                "p95": 3.8749102796448454
+              },
+              "order2": {
+                "p05": 2.8898593820404033,
+                "p50": 3.0065401151988342,
+                "p95": 3.119938039152623
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.02548895204431237,
+              "p50": 0.09675893016979498,
+              "p95": 0.21783210330970276
+            }
+          },
+          "support": {
+            "side_nm": 5.898186607338089,
+            "wall_pairs": 19,
+            "geometry_walls_for_block_scale": 19,
+            "median_spacing_for_block_scale_nm": 10.977762233359506,
+            "blocks_by_origin": [
+              16,
+              18,
+              19,
+              19
+            ],
+            "minimum_occupied_blocks": 16,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              3.6990418880172067,
+              2.955357333976916
+            ],
+            "anchor_width_nm": [
+              3.7631580962207383,
+              3.0055744240595557
+            ],
+            "paired_absolute_width_error_nm": 0.05716664914308556
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.519320616961845,
+                "p50": 3.699041888017207,
+                "p95": 3.874604074567354
+              },
+              "order2": {
+                "p05": 2.834289351060463,
+                "p50": 2.9553573339769166,
+                "p95": 3.1086348667453416
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.6291701343584664,
+                "p50": 3.7631580962207383,
+                "p95": 3.9126096400919157
+              },
+              "order2": {
+                "p05": 2.871868421187646,
+                "p50": 3.0055744240595557,
+                "p95": 3.1633970063565315
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.021797221801448163,
+              "p50": 0.09159099934535342,
+              "p95": 0.2269424515463614
+            }
+          },
+          "support": {
+            "side_nm": 17.694559822014266,
+            "wall_pairs": 19,
+            "geometry_walls_for_block_scale": 19,
+            "median_spacing_for_block_scale_nm": 10.977762233359506,
+            "blocks_by_origin": [
+              4,
+              6,
+              5,
+              8
+            ],
+            "minimum_occupied_blocks": 4,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS10": {
+      "inferred_twist_deg": 1.6328490376020388,
+      "nominal_wall_pairs": 29,
+      "common_three_window_pairs": 24,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            3.542701669834933,
+            2.3150261604304614
+          ],
+          "anchor_width_nm": [
+            3.5143168666470888,
+            2.3542791741083744
+          ],
+          "paired_absolute_width_error_nm": 0.0338189084328786
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.38091608237936,
+              "p50": 3.5417674137526225,
+              "p95": 3.7128219656930233
+            },
+            "order2": {
+              "p05": 2.207646304399212,
+              "p50": 2.3117911458540563,
+              "p95": 2.429371283495798
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.324689025497496,
+              "p50": 3.5146094866531454,
+              "p95": 3.7055185438343465
+            },
+            "order2": {
+              "p05": 2.264485031736917,
+              "p50": 2.354764423255528,
+              "p95": 2.443943439983001
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.020019712206213815,
+            "p50": 0.06893345103079707,
+            "p95": 0.17973638518184473
+          }
+        },
+        "support": {
+          "side_nm": 10.448204721849484,
+          "wall_pairs": 29,
+          "geometry_walls_for_block_scale": 29,
+          "median_spacing_for_block_scale_nm": 9.72315008304663,
+          "blocks_by_origin": [
+            11,
+            11,
+            12,
+            14
+          ],
+          "minimum_occupied_blocks": 11,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              3.542701669834933,
+              2.3150261604304614
+            ],
+            "anchor_width_nm": [
+              3.5143168666470888,
+              2.3542791741083744
+            ],
+            "paired_absolute_width_error_nm": 0.0338189084328786
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.337640273434507,
+                "p50": 3.5412063051429046,
+                "p95": 3.7397561734095484
+              },
+              "order2": {
+                "p05": 2.1821168719138067,
+                "p50": 2.314330129655334,
+                "p95": 2.4481530116950236
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.294067264917425,
+                "p50": 3.514077814742609,
+                "p95": 3.727149377169351
+              },
+              "order2": {
+                "p05": 2.2588903959363016,
+                "p50": 2.3531284439023645,
+                "p95": 2.44641596323186
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.021036348591185264,
+              "p50": 0.0766356930313219,
+              "p95": 0.1740209847853456
+            }
+          },
+          "support": {
+            "side_nm": 5.224102360924742,
+            "wall_pairs": 29,
+            "geometry_walls_for_block_scale": 29,
+            "median_spacing_for_block_scale_nm": 9.72315008304663,
+            "blocks_by_origin": [
+              26,
+              27,
+              27,
+              25
+            ],
+            "minimum_occupied_blocks": 25,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              3.542701669834933,
+              2.3150261604304614
+            ],
+            "anchor_width_nm": [
+              3.5143168666470888,
+              2.3542791741083744
+            ],
+            "paired_absolute_width_error_nm": 0.0338189084328786
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.4295866454387616,
+                "p50": 3.542701669834932,
+                "p95": 3.63210749090035
+              },
+              "order2": {
+                "p05": 2.2140293290365327,
+                "p50": 2.3127098910038253,
+                "p95": 2.4050812082811968
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.337466383661792,
+                "p50": 3.5097067571367813,
+                "p95": 3.642428771645704
+              },
+              "order2": {
+                "p05": 2.2632646203327913,
+                "p50": 2.351859848408848,
+                "p95": 2.4203965161220404
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.01825087094416955,
+              "p50": 0.05432986823993602,
+              "p95": 0.12466028740866826
+            }
+          },
+          "support": {
+            "side_nm": 15.672307082774225,
+            "wall_pairs": 29,
+            "geometry_walls_for_block_scale": 29,
+            "median_spacing_for_block_scale_nm": 9.72315008304663,
+            "blocks_by_origin": [
+              5,
+              6,
+              8,
+              9
+            ],
+            "minimum_occupied_blocks": 5,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS6": {
+      "inferred_twist_deg": 1.745725823341251,
+      "nominal_wall_pairs": 29,
+      "common_three_window_pairs": 26,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            3.678867651321476,
+            2.0267371637671907
+          ],
+          "anchor_width_nm": [
+            3.6844074426566666,
+            2.129224656350706
+          ],
+          "paired_absolute_width_error_nm": 0.054013641959352876
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.445124826945719,
+              "p50": 3.6837817142514773,
+              "p95": 3.9185989615091894
+            },
+            "order2": {
+              "p05": 1.9263366017633927,
+              "p50": 2.0285328229005186,
+              "p95": 2.1321841936973245
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.4883679962123564,
+              "p50": 3.6882934667608063,
+              "p95": 3.9015678268314877
+            },
+            "order2": {
+              "p05": 2.0216309699484505,
+              "p50": 2.1296693753537888,
+              "p95": 2.2448904208169913
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.037137368782195666,
+            "p50": 0.08353583828503669,
+            "p95": 0.15280662672927284
+          }
+        },
+        "support": {
+          "side_nm": 9.966818880602327,
+          "wall_pairs": 29,
+          "geometry_walls_for_block_scale": 29,
+          "median_spacing_for_block_scale_nm": 9.275170080079073,
+          "blocks_by_origin": [
+            11,
+            14,
+            15,
+            15
+          ],
+          "minimum_occupied_blocks": 11,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              3.678867651321476,
+              2.0267371637671907
+            ],
+            "anchor_width_nm": [
+              3.6844074426566666,
+              2.129224656350706
+            ],
+            "paired_absolute_width_error_nm": 0.054013641959352876
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.4065487283543434,
+                "p50": 3.675001048428266,
+                "p95": 3.932655134633673
+              },
+              "order2": {
+                "p05": 1.9041806885290775,
+                "p50": 2.028463527666923,
+                "p95": 2.1522323567195247
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.4425232136283967,
+                "p50": 3.682556346847572,
+                "p95": 3.9147474663690196
+              },
+              "order2": {
+                "p05": 2.0099974388390622,
+                "p50": 2.12775209846751,
+                "p95": 2.2463449024551467
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.030920043243767695,
+              "p50": 0.08348463598053513,
+              "p95": 0.15484964370753107
+            }
+          },
+          "support": {
+            "side_nm": 4.9834094403011635,
+            "wall_pairs": 29,
+            "geometry_walls_for_block_scale": 29,
+            "median_spacing_for_block_scale_nm": 9.275170080079073,
+            "blocks_by_origin": [
+              27,
+              28,
+              25,
+              26
+            ],
+            "minimum_occupied_blocks": 25,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              3.678867651321476,
+              2.0267371637671907
+            ],
+            "anchor_width_nm": [
+              3.6844074426566666,
+              2.129224656350706
+            ],
+            "paired_absolute_width_error_nm": 0.054013641959352876
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.4838959619978076,
+                "p50": 3.6788676513214766,
+                "p95": 3.9152332577223863
+              },
+              "order2": {
+                "p05": 1.9226354517291167,
+                "p50": 2.02673551720582,
+                "p95": 2.155253950297766
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.5082756932098795,
+                "p50": 3.6887169110687843,
+                "p95": 3.8905751225541496
+              },
+              "order2": {
+                "p05": 1.9953321286811012,
+                "p50": 2.130696414368241,
+                "p95": 2.278076555538085
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.04119242624816823,
+              "p50": 0.0820995289490607,
+              "p95": 0.14127757918922762
+            }
+          },
+          "support": {
+            "side_nm": 14.950228320903488,
+            "wall_pairs": 29,
+            "geometry_walls_for_block_scale": 29,
+            "median_spacing_for_block_scale_nm": 9.275170080079073,
+            "blocks_by_origin": [
+              6,
+              7,
+              8,
+              10
+            ],
+            "minimum_occupied_blocks": 6,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS4": {
+      "inferred_twist_deg": 1.7900998317810126,
+      "nominal_wall_pairs": 41,
+      "common_three_window_pairs": 35,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            3.8788963866408523,
+            2.3766342911211833
+          ],
+          "anchor_width_nm": [
+            3.99161546847286,
+            2.332759739133
+          ],
+          "paired_absolute_width_error_nm": 0.07829681691009549
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.7239336402833914,
+              "p50": 3.878015990173183,
+              "p95": 4.0559732344825425
+            },
+            "order2": {
+              "p05": 2.281309457993291,
+              "p50": 2.377354819162406,
+              "p95": 2.477766946632835
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.931808255803686,
+              "p50": 3.9924952873484587,
+              "p95": 4.049220581096808
+            },
+            "order2": {
+              "p05": 2.2772481654493024,
+              "p50": 2.3333502599466245,
+              "p95": 2.3924431302258244
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.0348781703024009,
+            "p50": 0.08631314182012273,
+            "p95": 0.15080701096418686
+          }
+        },
+        "support": {
+          "side_nm": 9.339125672604888,
+          "wall_pairs": 41,
+          "geometry_walls_for_block_scale": 41,
+          "median_spacing_for_block_scale_nm": 8.691035730691272,
+          "blocks_by_origin": [
+            16,
+            17,
+            17,
+            20
+          ],
+          "minimum_occupied_blocks": 16,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              3.8788963866408523,
+              2.3766342911211833
+            ],
+            "anchor_width_nm": [
+              3.99161546847286,
+              2.332759739133
+            ],
+            "paired_absolute_width_error_nm": 0.07829681691009549
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.6999483663232775,
+                "p50": 3.879025771744538,
+                "p95": 4.069077008427828
+              },
+              "order2": {
+                "p05": 2.2749372784078394,
+                "p50": 2.3785100665285093,
+                "p95": 2.487065146083133
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.920076046185969,
+                "p50": 3.9929271851112036,
+                "p95": 4.061176416759295
+              },
+              "order2": {
+                "p05": 2.281284305372663,
+                "p50": 2.3334301551355683,
+                "p95": 2.385964862744735
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.033721937878417166,
+              "p50": 0.08870146136446533,
+              "p95": 0.1693055071401739
+            }
+          },
+          "support": {
+            "side_nm": 4.669562836302444,
+            "wall_pairs": 41,
+            "geometry_walls_for_block_scale": 41,
+            "median_spacing_for_block_scale_nm": 8.691035730691272,
+            "blocks_by_origin": [
+              38,
+              37,
+              40,
+              38
+            ],
+            "minimum_occupied_blocks": 37,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              3.8788963866408523,
+              2.3766342911211833
+            ],
+            "anchor_width_nm": [
+              3.99161546847286,
+              2.332759739133
+            ],
+            "paired_absolute_width_error_nm": 0.07829681691009549
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.759513934496138,
+                "p50": 3.8792288554835226,
+                "p95": 4.026419046759513
+              },
+              "order2": {
+                "p05": 2.283637120601761,
+                "p50": 2.3761437200025806,
+                "p95": 2.4943445279290506
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.924081518343311,
+                "p50": 3.9921231154700085,
+                "p95": 4.057399199534189
+              },
+              "order2": {
+                "p05": 2.2716761433813764,
+                "p50": 2.3314773840186844,
+                "p95": 2.403880582506301
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.03911057925771945,
+              "p50": 0.082997775294677,
+              "p95": 0.12878665781940818
+            }
+          },
+          "support": {
+            "side_nm": 14.008688508907332,
+            "wall_pairs": 41,
+            "geometry_walls_for_block_scale": 41,
+            "median_spacing_for_block_scale_nm": 8.691035730691272,
+            "blocks_by_origin": [
+              9,
+              10,
+              10,
+              11
+            ],
+            "minimum_occupied_blocks": 9,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    },
+    "DS3": {
+      "inferred_twist_deg": 1.8606133850300897,
+      "nominal_wall_pairs": 39,
+      "common_three_window_pairs": 35,
+      "primary": {
+        "point": {
+          "measured_width_nm": [
+            3.8224588418830385,
+            2.124440207627148
+          ],
+          "anchor_width_nm": [
+            3.8472366309512527,
+            2.1182353509136806
+          ],
+          "paired_absolute_width_error_nm": 0.015491322890840653
+        },
+        "percentiles": {
+          "measured_width_nm": {
+            "order1": {
+              "p05": 3.6307904419561963,
+              "p50": 3.818770141357363,
+              "p95": 4.023815962761531
+            },
+            "order2": {
+              "p05": 2.0151390834298724,
+              "p50": 2.120778545191034,
+              "p95": 2.24244258358587
+            }
+          },
+          "anchor_width_nm": {
+            "order1": {
+              "p05": 3.738023071360777,
+              "p50": 3.8508521037824606,
+              "p95": 3.950540082906146
+            },
+            "order2": {
+              "p05": 2.0574400021229127,
+              "p50": 2.119128824584993,
+              "p95": 2.183028649487798
+            }
+          },
+          "paired_absolute_width_error_nm": {
+            "p05": 0.016686412541334884,
+            "p50": 0.05956415600054665,
+            "p95": 0.14689537765346647
+          }
+        },
+        "support": {
+          "side_nm": 8.802833352447243,
+          "wall_pairs": 39,
+          "geometry_walls_for_block_scale": 39,
+          "median_spacing_for_block_scale_nm": 8.191959491653428,
+          "blocks_by_origin": [
+            16,
+            19,
+            17,
+            19
+          ],
+          "minimum_occupied_blocks": 16,
+          "single_block_origins": 0,
+          "one_block_at_every_origin": false
+        },
+        "interval_plotted": true
+      },
+      "block_scale_sensitivity": {
+        "0.5": {
+          "point": {
+            "measured_width_nm": [
+              3.8224588418830385,
+              2.124440207627148
+            ],
+            "anchor_width_nm": [
+              3.8472366309512527,
+              2.1182353509136806
+            ],
+            "paired_absolute_width_error_nm": 0.015491322890840653
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.6451808913936903,
+                "p50": 3.8199135938582622,
+                "p95": 4.01967249542971
+              },
+              "order2": {
+                "p05": 2.0242653656888145,
+                "p50": 2.1231251827220756,
+                "p95": 2.2277403193155556
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.7528750280900787,
+                "p50": 3.8480938021997932,
+                "p95": 3.9345795396837406
+              },
+              "order2": {
+                "p05": 2.0514622198124153,
+                "p50": 2.118292426794895,
+                "p95": 2.18489876932341
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.015107132536458035,
+              "p50": 0.055784501390437224,
+              "p95": 0.13011512560727212
+            }
+          },
+          "support": {
+            "side_nm": 4.401416676223621,
+            "wall_pairs": 39,
+            "geometry_walls_for_block_scale": 39,
+            "median_spacing_for_block_scale_nm": 8.191959491653428,
+            "blocks_by_origin": [
+              37,
+              37,
+              38,
+              36
+            ],
+            "minimum_occupied_blocks": 36,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        },
+        "1.5": {
+          "point": {
+            "measured_width_nm": [
+              3.8224588418830385,
+              2.124440207627148
+            ],
+            "anchor_width_nm": [
+              3.8472366309512527,
+              2.1182353509136806
+            ],
+            "paired_absolute_width_error_nm": 0.015491322890840653
+          },
+          "percentiles": {
+            "measured_width_nm": {
+              "order1": {
+                "p05": 3.640922714763548,
+                "p50": 3.817057890438008,
+                "p95": 4.050157707965278
+              },
+              "order2": {
+                "p05": 2.019325026220713,
+                "p50": 2.1222797225027334,
+                "p95": 2.2565293638964623
+              }
+            },
+            "anchor_width_nm": {
+              "order1": {
+                "p05": 3.7388817023040746,
+                "p50": 3.848379238446354,
+                "p95": 3.960241960104101
+              },
+              "order2": {
+                "p05": 2.0501936938265315,
+                "p50": 2.1177145595716973,
+                "p95": 2.190144464587049
+              }
+            },
+            "paired_absolute_width_error_nm": {
+              "p05": 0.01471501020905619,
+              "p50": 0.060720721977793435,
+              "p95": 0.14051189641985445
+            }
+          },
+          "support": {
+            "side_nm": 13.204250028670861,
+            "wall_pairs": 39,
+            "geometry_walls_for_block_scale": 39,
+            "median_spacing_for_block_scale_nm": 8.191959491653428,
+            "blocks_by_origin": [
+              9,
+              11,
+              9,
+              10
+            ],
+            "minimum_occupied_blocks": 9,
+            "single_block_origins": 0,
+            "one_block_at_every_origin": false
+          },
+          "interval_plotted": true
+        }
+      }
+    }
+  },
+  "limits": [
+    "Intervals describe conditional spatial sensitivity within these ten previously examined maps with fitted physics and optical responses fixed; maps are not resampled.",
+    "No independent device crosswalk is available, so these ranges are not device-level confidence intervals and do not include acquisition, detector, probe or model uncertainty.",
+    "At the primary block scale DS1 has one occupied block at all four origins; its group-bootstrap contribution is fixed, and its spatial range cannot be estimated."
+  ]
+}

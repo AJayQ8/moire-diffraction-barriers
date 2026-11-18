@@ -1,0 +1,1120 @@
+{
+  "cases": {
+    "fixed_ds2_shape/0.4": {
+      "effective_orientation_factor": 0.04495181183629959,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 1.0827879698246687e-09,
+            "error_by_ring": [
+              0.01737650114140162,
+              0.013942879826376459
+            ],
+            "qualified": true,
+            "width_nm": 3.649530721298892
+          },
+          {
+            "center_nm": -2.935895118191223e-10,
+            "error_by_ring": [
+              0.019464525944144388,
+              0.010580352494453056
+            ],
+            "qualified": true,
+            "width_nm": 3.7110928700540025
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": 1.1737733933654904e-10,
+            "error_by_ring": [
+              0.008748116920976457,
+              0.007581040304493932
+            ],
+            "qualified": true,
+            "width_nm": 3.746086413415184
+          },
+          {
+            "center_nm": 5.3505132539032374e-11,
+            "error_by_ring": [
+              0.009903446323802047,
+              0.005819845698531799
+            ],
+            "qualified": true,
+            "width_nm": 3.7796877839877667
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -2.8704595614840383e-10,
+            "error_by_ring": [
+              0.05238166564076472,
+              0.02182064690837196
+            ],
+            "qualified": true,
+            "width_nm": 3.726926745593579
+          },
+          {
+            "center_nm": -1.4418632413602667e-10,
+            "error_by_ring": [
+              0.05268685596478103,
+              0.021001995741673118
+            ],
+            "qualified": true,
+            "width_nm": 3.767801128742832
+          }
+        ]
+      },
+      "row_spacing_nm": 35.94167953461527,
+      "solver": {
+        "adhesion_eV_per_cell": 0.0030334237660767215,
+        "elastic_eV_per_cell": 0.0026204040987888983,
+        "energy_eV_per_cell": 0.00565382786486562,
+        "force_rms_eV_per_nm": 3.078869256725504e-06,
+        "iterations": 25,
+        "max_relative_shift_nm": 0.1327572265775311,
+        "rigid_energy_eV_per_cell": 0.027331999999999995,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.9662868832740585
+    },
+    "fixed_ds2_shape/0.55": {
+      "effective_orientation_factor": 0.04495181183629962,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 7.662736647231736e-09,
+            "error_by_ring": [
+              0.017248807754179224,
+              0.013840590563631471
+            ],
+            "qualified": true,
+            "width_nm": 3.6505872380283515
+          },
+          {
+            "center_nm": 7.870280545128704e-12,
+            "error_by_ring": [
+              0.019279865693347796,
+              0.010583288106767185
+            ],
+            "qualified": true,
+            "width_nm": 3.711061140110117
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -5.652909200906455e-10,
+            "error_by_ring": [
+              0.008748116920976587,
+              0.007581036517835452
+            ],
+            "qualified": true,
+            "width_nm": 3.7460864541589145
+          },
+          {
+            "center_nm": -1.7030156558953125e-11,
+            "error_by_ring": [
+              0.009903446379469326,
+              0.005819845698531785
+            ],
+            "qualified": true,
+            "width_nm": 3.7796877848515242
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -2.8121157905690495e-09,
+            "error_by_ring": [
+              0.054965638660897514,
+              0.02250737255966379
+            ],
+            "qualified": true,
+            "width_nm": 3.7416985007425065
+          },
+          {
+            "center_nm": 4.432857882540226e-11,
+            "error_by_ring": [
+              0.05521150198858242,
+              0.021837192024833064
+            ],
+            "qualified": true,
+            "width_nm": 3.7794255924309765
+          }
+        ]
+      },
+      "row_spacing_nm": 26.139403297902014,
+      "solver": {
+        "adhesion_eV_per_cell": 0.00416619383375264,
+        "elastic_eV_per_cell": 0.0033963628733035796,
+        "energy_eV_per_cell": 0.00756255670705622,
+        "force_rms_eV_per_nm": 9.223912974303631e-07,
+        "iterations": 23,
+        "max_relative_shift_nm": 0.12072901095667735,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.9781021515985264
+    },
+    "fixed_ds2_shape/0.75": {
+      "effective_orientation_factor": 0.04495181183629959,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": -2.2321850136248848e-09,
+            "error_by_ring": [
+              0.02048022764736689,
+              0.011023022465892377
+            ],
+            "qualified": true,
+            "width_nm": 3.694855490365106
+          },
+          {
+            "center_nm": 3.47384570587583e-11,
+            "error_by_ring": [
+              0.02057571431368548,
+              0.010827983534652728
+            ],
+            "qualified": true,
+            "width_nm": 3.7089032770378263
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": 1.1737733933654904e-10,
+            "error_by_ring": [
+              0.008748116920976457,
+              0.007581040304493932
+            ],
+            "qualified": true,
+            "width_nm": 3.746086413415184
+          },
+          {
+            "center_nm": 5.3505132539032374e-11,
+            "error_by_ring": [
+              0.009903446323802047,
+              0.005819845698531799
+            ],
+            "qualified": true,
+            "width_nm": 3.7796877839877667
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -6.036873195472964e-09,
+            "error_by_ring": [
+              0.05042008372210689,
+              0.023176265489507106
+            ],
+            "qualified": true,
+            "width_nm": 3.8058095529342864
+          },
+          {
+            "center_nm": 2.509436415236993e-10,
+            "error_by_ring": [
+              0.0505606868230545,
+              0.022831736523060416
+            ],
+            "qualified": true,
+            "width_nm": 3.7781102781069724
+          }
+        ]
+      },
+      "row_spacing_nm": 19.168895751794814,
+      "solver": {
+        "adhesion_eV_per_cell": 0.005668980375439869,
+        "elastic_eV_per_cell": 0.004265609199191162,
+        "energy_eV_per_cell": 0.009934589574631031,
+        "force_rms_eV_per_nm": 1.4515052429588474e-06,
+        "iterations": 19,
+        "max_relative_shift_nm": 0.1067921437558811,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.9874436920875995
+    },
+    "fixed_ds2_shape/1": {
+      "effective_orientation_factor": 0.04495181183629962,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": -1.2032894617343468e-08,
+            "error_by_ring": [
+              0.14092887010937047,
+              0.086824638720629
+            ],
+            "qualified": true,
+            "width_nm": 4.147070568692877
+          },
+          {
+            "center_nm": -1.685532544296621e-09,
+            "error_by_ring": [
+              0.156327972098818,
+              0.04198451621029533
+            ],
+            "qualified": true,
+            "width_nm": 3.619367183262388
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -5.652909200906455e-10,
+            "error_by_ring": [
+              0.008748116920976587,
+              0.007581036517835452
+            ],
+            "qualified": true,
+            "width_nm": 3.7460864541589145
+          },
+          {
+            "center_nm": -1.7030156558953125e-11,
+            "error_by_ring": [
+              0.009903446379469326,
+              0.005819845698531785
+            ],
+            "qualified": true,
+            "width_nm": 3.7796877848515242
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -1.2215065601923875e-08,
+            "error_by_ring": [
+              0.07436589819446565,
+              0.08459417594189954
+            ],
+            "qualified": true,
+            "width_nm": 4.193983885461802
+          },
+          {
+            "center_nm": -6.601957673827711e-11,
+            "error_by_ring": [
+              0.10072749431484905,
+              0.03757883264537484
+            ],
+            "qualified": true,
+            "width_nm": 3.6589091161032727
+          }
+        ]
+      },
+      "row_spacing_nm": 14.376671813846109,
+      "solver": {
+        "adhesion_eV_per_cell": 0.007537553989898512,
+        "elastic_eV_per_cell": 0.005091611944232465,
+        "energy_eV_per_cell": 0.012629165934130977,
+        "force_rms_eV_per_nm": 1.304869094974212e-06,
+        "iterations": 15,
+        "max_relative_shift_nm": 0.09187683124719934,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.977113099401021
+    },
+    "fixed_ds2_shape/1.3": {
+      "effective_orientation_factor": 0.04495181183629961,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 2.5915467728334188e-09,
+            "error_by_ring": [
+              0.23248964102372538,
+              0.5631663525221651
+            ],
+            "qualified": true,
+            "width_nm": 5.441218552711909
+          },
+          {
+            "center_nm": 1.266184749548158e-08,
+            "error_by_ring": [
+              0.37247321820283996,
+              0.400163776398194
+            ],
+            "qualified": true,
+            "width_nm": 2.8362396827478715
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -3.442954892256091e-09,
+            "error_by_ring": [
+              0.008366968587473421,
+              0.007066113767487569
+            ],
+            "qualified": true,
+            "width_nm": 3.7528579162572426
+          },
+          {
+            "center_nm": 2.4407146925283495e-10,
+            "error_by_ring": [
+              0.009208885294861902,
+              0.005761101040008892
+            ],
+            "qualified": true,
+            "width_nm": 3.781248225824992
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -9.224148321398904e-09,
+            "error_by_ring": [
+              0.19047108697797785,
+              0.3982468235566303
+            ],
+            "qualified": true,
+            "width_nm": 5.096568999265498
+          },
+          {
+            "center_nm": -6.030123848761147e-09,
+            "error_by_ring": [
+              0.30557940215903223,
+              0.2518668387653875
+            ],
+            "qualified": true,
+            "width_nm": 3.019754182296386
+          }
+        ]
+      },
+      "row_spacing_nm": 11.058978318343161,
+      "solver": {
+        "adhesion_eV_per_cell": 0.009795243890953726,
+        "elastic_eV_per_cell": 0.005671800583274943,
+        "energy_eV_per_cell": 0.01546704447422867,
+        "force_rms_eV_per_nm": 5.96649698082538e-07,
+        "iterations": 13,
+        "max_relative_shift_nm": 0.07674385872149805,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.9464395759270356
+    },
+    "fixed_ds2_shape/1.6": {
+      "effective_orientation_factor": 0.04495181183629959,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 9.023652832179922e-09,
+            "error_by_ring": [
+              0.1529957976818148,
+              0.7993449244077332
+            ],
+            "qualified": true,
+            "width_nm": 5.855706269362937
+          },
+          {
+            "center_nm": -7.0946970393380565e-09,
+            "error_by_ring": [
+              0.44000279822140387,
+              0.5437327113739282
+            ],
+            "qualified": true,
+            "width_nm": 2.203294894615496
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": 2.1592882260381776e-10,
+            "error_by_ring": [
+              0.006767873520057781,
+              0.00548090453066959
+            ],
+            "qualified": true,
+            "width_nm": 3.7813873447122734
+          },
+          {
+            "center_nm": 7.440420845044541e-11,
+            "error_by_ring": [
+              0.006832766109358333,
+              0.005375844667756408
+            ],
+            "qualified": true,
+            "width_nm": 3.7889721678781845
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -1.593779862453547e-08,
+            "error_by_ring": [
+              0.14410152943483642,
+              0.5782655999712719
+            ],
+            "qualified": true,
+            "width_nm": 5.238183112970252
+          },
+          {
+            "center_nm": 3.884107244873631e-09,
+            "error_by_ring": [
+              0.3589360832171268,
+              0.3659027591195058
+            ],
+            "qualified": true,
+            "width_nm": 2.430883530549993
+          }
+        ]
+      },
+      "row_spacing_nm": 8.985419883653817,
+      "solver": {
+        "adhesion_eV_per_cell": 0.012082769721679959,
+        "elastic_eV_per_cell": 0.005776686682921073,
+        "energy_eV_per_cell": 0.017859456404601032,
+        "force_rms_eV_per_nm": 9.742329671218078e-08,
+        "iterations": 13,
+        "max_relative_shift_nm": 0.06348142622983866,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.934218483584872
+    },
+    "fixed_ds2_shape/1.9": {
+      "effective_orientation_factor": 0.044951811836299586,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 6.916684968433564e-09,
+            "error_by_ring": [
+              0.13338704054510678,
+              0.9735794890714656
+            ],
+            "qualified": true,
+            "width_nm": 5.686494334563362
+          },
+          {
+            "center_nm": -1.1080236363019215e-08,
+            "error_by_ring": [
+              0.5267546497969008,
+              0.6644470380428463
+            ],
+            "qualified": true,
+            "width_nm": 1.5817190943836816
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": 1.507615239085486e-10,
+            "error_by_ring": [
+              0.005278521664722598,
+              0.004990338354988957
+            ],
+            "qualified": true,
+            "width_nm": 3.8096900055928224
+          },
+          {
+            "center_nm": 2.0141508283901845e-10,
+            "error_by_ring": [
+              0.005414722892490745,
+              0.004772493981614997
+            ],
+            "qualified": true,
+            "width_nm": 3.798897194456225
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": 1.7305241185489855e-09,
+            "error_by_ring": [
+              0.12088794634438985,
+              0.7525290845134047
+            ],
+            "qualified": true,
+            "width_nm": 5.179838819351459
+          },
+          {
+            "center_nm": -1.1821829715061257e-08,
+            "error_by_ring": [
+              0.43499818655633354,
+              0.4834743733080037
+            ],
+            "qualified": true,
+            "width_nm": 1.8310233827635127
+          }
+        ]
+      },
+      "row_spacing_nm": 7.566669375708477,
+      "solver": {
+        "adhesion_eV_per_cell": 0.014330313301000647,
+        "elastic_eV_per_cell": 0.005473763607699744,
+        "energy_eV_per_cell": 0.01980407690870039,
+        "force_rms_eV_per_nm": 1.1865207152878445e-06,
+        "iterations": 11,
+        "max_relative_shift_nm": 0.05203201477241554,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.993445741489353,
+      "true_periodic_width_nm": 3.9827673594568607
+    },
+    "pure_twist/0.4": {
+      "effective_orientation_factor": 1.2184647302649721e-05,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": -4.028713422475853e-09,
+            "error_by_ring": [
+              0.01754869266445704,
+              0.014238652388711123
+            ],
+            "qualified": true,
+            "width_nm": 3.518529019148305
+          },
+          {
+            "center_nm": 5.756440427101357e-11,
+            "error_by_ring": [
+              0.019970652646722428,
+              0.010390690986626233
+            ],
+            "qualified": true,
+            "width_nm": 3.582976880786119
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -1.8873040833315405e-09,
+            "error_by_ring": [
+              0.008804637653373833,
+              0.007706351985457527
+            ],
+            "qualified": true,
+            "width_nm": 3.615610758006997
+          },
+          {
+            "center_nm": 2.5894703031968103e-10,
+            "error_by_ring": [
+              0.010129860834063833,
+              0.005711902628437229
+            ],
+            "qualified": true,
+            "width_nm": 3.65054760721355
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -1.146946599471321e-09,
+            "error_by_ring": [
+              0.00881884376391036,
+              0.007686349940506493
+            ],
+            "qualified": true,
+            "width_nm": 3.6158308286016827
+          },
+          {
+            "center_nm": -2.1446710919568833e-10,
+            "error_by_ring": [
+              0.010121740055415988,
+              0.005723495429926153
+            ],
+            "qualified": true,
+            "width_nm": 3.650479451979295
+          }
+        ]
+      },
+      "row_spacing_nm": 39.32361332362817,
+      "solver": {
+        "adhesion_eV_per_cell": 0.0029464079643555493,
+        "elastic_eV_per_cell": 0.0025815659256135763,
+        "energy_eV_per_cell": 0.0055279738899691256,
+        "force_rms_eV_per_nm": 4.977502904026967e-06,
+        "iterations": 17,
+        "max_relative_shift_nm": 0.1318420286279558,
+        "rigid_energy_eV_per_cell": 0.027331999999999995,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.8587493801146335,
+      "true_periodic_width_nm": 3.8589155390626533
+    },
+    "pure_twist/0.55": {
+      "effective_orientation_factor": 2.303651547554013e-05,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 3.762484779089988e-09,
+            "error_by_ring": [
+              0.017472120341350005,
+              0.014174475367274585
+            ],
+            "qualified": true,
+            "width_nm": 3.519166851429279
+          },
+          {
+            "center_nm": 1.7746182249497211e-10,
+            "error_by_ring": [
+              0.019857559117178163,
+              0.010393532484581119
+            ],
+            "qualified": true,
+            "width_nm": 3.5829749719319426
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -4.994429989509284e-10,
+            "error_by_ring": [
+              0.008804630549121764,
+              0.007706326849965537
+            ],
+            "qualified": true,
+            "width_nm": 3.6156427281742403
+          },
+          {
+            "center_nm": 2.2603378754559436e-10,
+            "error_by_ring": [
+              0.010129812813483512,
+              0.005711929871518293
+            ],
+            "qualified": true,
+            "width_nm": 3.650579328937043
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -2.6123299232927755e-10,
+            "error_by_ring": [
+              0.008684931825259534,
+              0.007496189291631001
+            ],
+            "qualified": true,
+            "width_nm": 3.6164700670580725
+          },
+          {
+            "center_nm": -1.2613535036025376e-10,
+            "error_by_ring": [
+              0.009843720739579832,
+              0.005769301035763571
+            ],
+            "qualified": true,
+            "width_nm": 3.6487897028265035
+          }
+        ]
+      },
+      "row_spacing_nm": 28.5990432342223,
+      "solver": {
+        "adhesion_eV_per_cell": 0.004050597673547489,
+        "elastic_eV_per_cell": 0.0033625357338719153,
+        "energy_eV_per_cell": 0.007413133407419404,
+        "force_rms_eV_per_nm": 1.7384949549769495e-06,
+        "iterations": 15,
+        "max_relative_shift_nm": 0.12008853123091295,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.8587824736801246,
+      "true_periodic_width_nm": 3.85810024292304
+    },
+    "pure_twist/0.75": {
+      "effective_orientation_factor": 4.2836212996515846e-05,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": -5.067397150321401e-09,
+            "error_by_ring": [
+              0.01442373808722009,
+              0.011835014486645142
+            ],
+            "qualified": true,
+            "width_nm": 3.5457248315811523
+          },
+          {
+            "center_nm": -2.0515260531358932e-10,
+            "error_by_ring": [
+              0.015339827029716698,
+              0.010554021244007564
+            ],
+            "qualified": true,
+            "width_nm": 3.5812556490435172
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -3.7736519721404655e-09,
+            "error_by_ring": [
+              0.008804617668136467,
+              0.007706276453963329
+            ],
+            "qualified": true,
+            "width_nm": 3.615701103429772
+          },
+          {
+            "center_nm": 1.0026934901708651e-10,
+            "error_by_ring": [
+              0.010129724867127371,
+              0.005711979626258838
+            ],
+            "qualified": true,
+            "width_nm": 3.650637199012024
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -4.364524181012885e-10,
+            "error_by_ring": [
+              0.00597266412867373,
+              0.006695453115387341
+            ],
+            "qualified": true,
+            "width_nm": 3.646140743538994
+          },
+          {
+            "center_nm": -4.675142143284675e-11,
+            "error_by_ring": [
+              0.006371840262760494,
+              0.006286496285491487
+            ],
+            "qualified": true,
+            "width_nm": 3.630573170497718
+          }
+        ]
+      },
+      "row_spacing_nm": 20.97270091550955,
+      "solver": {
+        "adhesion_eV_per_cell": 0.005522989521665418,
+        "elastic_eV_per_cell": 0.004244926091664401,
+        "energy_eV_per_cell": 0.00976791561332982,
+        "force_rms_eV_per_nm": 1.4911561533575638e-06,
+        "iterations": 13,
+        "max_relative_shift_nm": 0.1065888895128713,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.8588428535741737,
+      "true_periodic_width_nm": 3.8503260687420506
+    },
+    "pure_twist/1": {
+      "effective_orientation_factor": 7.615242180435002e-05,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 5.841491608056432e-11,
+            "error_by_ring": [
+              0.03267800801101892,
+              0.050435892737433395
+            ],
+            "qualified": true,
+            "width_nm": 3.8569805802888526
+          },
+          {
+            "center_nm": 1.908554787182665e-10,
+            "error_by_ring": [
+              0.05466577703681658,
+              0.01796779308363892
+            ],
+            "qualified": true,
+            "width_nm": 3.5381863261141095
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": 1.2624062841659818e-09,
+            "error_by_ring": [
+              0.008804596229995897,
+              0.007706191828778399
+            ],
+            "qualified": true,
+            "width_nm": 3.615799324150402
+          },
+          {
+            "center_nm": 8.474719092251947e-11,
+            "error_by_ring": [
+              0.010129577144325238,
+              0.0057120634883146915
+            ],
+            "qualified": true,
+            "width_nm": 3.6507345701312945
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": 1.7008929059642208e-08,
+            "error_by_ring": [
+              0.034345262051288926,
+              0.05719530073549141
+            ],
+            "qualified": true,
+            "width_nm": 3.895866360985034
+          },
+          {
+            "center_nm": -3.79980554871611e-10,
+            "error_by_ring": [
+              0.06149971178452457,
+              0.015587882311392416
+            ],
+            "qualified": true,
+            "width_nm": 3.5216819769545626
+          }
+        ]
+      },
+      "row_spacing_nm": 15.729613032045867,
+      "solver": {
+        "adhesion_eV_per_cell": 0.007367427643492554,
+        "elastic_eV_per_cell": 0.005087953964949056,
+        "energy_eV_per_cell": 0.01245538160844161,
+        "force_rms_eV_per_nm": 7.044979255737574e-08,
+        "iterations": 13,
+        "max_relative_shift_nm": 0.09175434556397329,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.858944450426187,
+      "true_periodic_width_nm": 3.82435666668896
+    },
+    "pure_twist/1.3": {
+      "effective_orientation_factor": 0.00012869533865082967,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": -5.548321007581421e-09,
+            "error_by_ring": [
+              0.1463369253048838,
+              0.44859118548850235
+            ],
+            "qualified": true,
+            "width_nm": 5.574991130438975
+          },
+          {
+            "center_nm": -1.3522548866513902e-08,
+            "error_by_ring": [
+              0.3188111062081284,
+              0.2395838435853251
+            ],
+            "qualified": true,
+            "width_nm": 2.966743926842075
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": 1.4950397705249893e-09,
+            "error_by_ring": [
+              0.008804563021935517,
+              0.007706059543410403
+            ],
+            "qualified": true,
+            "width_nm": 3.6159542073909057
+          },
+          {
+            "center_nm": -1.3482044631605425e-10,
+            "error_by_ring": [
+              0.010129345062838484,
+              0.005712196107928843
+            ],
+            "qualified": true,
+            "width_nm": 3.650888125159545
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -1.4709667177527548e-09,
+            "error_by_ring": [
+              0.12309555330626532,
+              0.33036526196573707
+            ],
+            "qualified": true,
+            "width_nm": 4.929591101484839
+          },
+          {
+            "center_nm": -7.643798317900791e-10,
+            "error_by_ring": [
+              0.2618765863451989,
+              0.15873176619233076
+            ],
+            "qualified": true,
+            "width_nm": 2.9925292004674455
+          }
+        ]
+      },
+      "row_spacing_nm": 12.099808299708604,
+      "solver": {
+        "adhesion_eV_per_cell": 0.009607447212138819,
+        "elastic_eV_per_cell": 0.00568907680134855,
+        "energy_eV_per_cell": 0.01529652401348737,
+        "force_rms_eV_per_nm": 3.140445460649003e-07,
+        "iterations": 11,
+        "max_relative_shift_nm": 0.07634882395791795,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.8591046731541176,
+      "true_periodic_width_nm": 3.7833975440426055
+    },
+    "pure_twist/1.6": {
+      "effective_orientation_factor": 0.00019494247982283295,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 6.675871824186773e-09,
+            "error_by_ring": [
+              0.12983373211255853,
+              0.725707223181731
+            ],
+            "qualified": true,
+            "width_nm": 6.010179823346087
+          },
+          {
+            "center_nm": -7.120580668347922e-09,
+            "error_by_ring": [
+              0.4258790937614111,
+              0.4392583148322569
+            ],
+            "qualified": true,
+            "width_nm": 2.321350767779326
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -6.101287173384166e-10,
+            "error_by_ring": [
+              0.007512462735282367,
+              0.006083523258465063
+            ],
+            "qualified": true,
+            "width_nm": 3.6384036012757024
+          },
+          {
+            "center_nm": 3.638970913329864e-11,
+            "error_by_ring": [
+              0.00789165908771556,
+              0.005481910908308004
+            ],
+            "qualified": true,
+            "width_nm": 3.656459206964377
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -2.9765434113097944e-10,
+            "error_by_ring": [
+              0.11877899813267666,
+              0.5335548948733957
+            ],
+            "qualified": true,
+            "width_nm": 5.1635438083265175
+          },
+          {
+            "center_nm": 3.826423011752903e-09,
+            "error_by_ring": [
+              0.35151812711629205,
+              0.296552261056978
+            ],
+            "qualified": true,
+            "width_nm": 2.4179201627887634
+          }
+        ]
+      },
+      "row_spacing_nm": 9.831202803976714,
+      "solver": {
+        "adhesion_eV_per_cell": 0.011883215696517681,
+        "elastic_eV_per_cell": 0.005817699248531784,
+        "energy_eV_per_cell": 0.017700914945049464,
+        "force_rms_eV_per_nm": 5.206785065335652e-07,
+        "iterations": 10,
+        "max_relative_shift_nm": 0.06305155382972764,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.8593066756348318,
+      "true_periodic_width_nm": 3.758654129400541
+    },
+    "pure_twist/1.9": {
+      "effective_orientation_factor": 0.00027489202912137263,
+      "reconstruction_widths": {
+        "analytic_network": [
+          {
+            "center_nm": 5.348205677555503e-09,
+            "error_by_ring": [
+              0.13570414614270068,
+              0.9629249994946594
+            ],
+            "qualified": true,
+            "width_nm": 5.860160238163366
+          },
+          {
+            "center_nm": 3.346289059270683e-07,
+            "error_by_ring": [
+              0.529713277046372,
+              0.6351432480622367
+            ],
+            "qualified": true,
+            "width_nm": 1.65981894456276
+          }
+        ],
+        "isolated": [
+          {
+            "center_nm": -2.4336402543512923e-10,
+            "error_by_ring": [
+              0.006227812484370979,
+              0.005108770061968085
+            ],
+            "qualified": true,
+            "width_nm": 3.661220080943913
+          },
+          {
+            "center_nm": -1.4243906424797696e-10,
+            "error_by_ring": [
+              0.006233897353524556,
+              0.005098916619447702
+            ],
+            "qualified": true,
+            "width_nm": 3.6634449299272083
+          }
+        ],
+        "periodic": [
+          {
+            "center_nm": -1.1589761538045502e-08,
+            "error_by_ring": [
+              0.12329625469242661,
+              0.7566666416026375
+            ],
+            "qualified": true,
+            "width_nm": 5.201705532948272
+          },
+          {
+            "center_nm": -1.6322831318047024e-08,
+            "error_by_ring": [
+              0.4500180420981611,
+              0.4658110781653603
+            ],
+            "qualified": true,
+            "width_nm": 1.8116191325408402
+          }
+        ]
+      },
+      "row_spacing_nm": 8.279017959967012,
+      "solver": {
+        "adhesion_eV_per_cell": 0.014127947527116748,
+        "elastic_eV_per_cell": 0.00553541037730454,
+        "energy_eV_per_cell": 0.019663357904421287,
+        "force_rms_eV_per_nm": 3.1887123533353895e-07,
+        "iterations": 9,
+        "max_relative_shift_nm": 0.05156225521862009,
+        "rigid_energy_eV_per_cell": 0.027332000000000002,
+        "success": true,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL"
+      },
+      "true_isolated_width_nm": 3.8595504457707754,
+      "true_periodic_width_nm": 3.7712845360827494
+    }
+  },
+  "input_sha256": {
+    "bilayer_relaxation.py": "d129f144f59edf96e93ddbec3f32b17f4f3451a00ced44c3cc773f73198da135",
+    "moire_common_intensity_replay_v01.json": "4060ad3de694ff33719d921ced00b28727d03300aea298fdcbd5101fdf7614df",
+    "run_mos2_wall_period_scaling.py": "33826ec170466f8d14bb9fab7ef6a893a315d06790c44ef6ffb6a01d44f9268b",
+    "run_mos2_wall_profile_closure.py": "44fcf324c99fec91c054e4290962f00eef1c4a3663cb84b5647c045bac224078",
+    "run_mos2_wall_width_transfer.py": "30b6ef71bae02a96a8a6df5166aec0cee50bd25a5719edf506e8b564caae876e"
+  },
+  "limits": "Controlled model comparison using an ideal microscope. The second series uses the relative registry gradient in the scan frame and labels each point by its equivalent sinusoidal registry gradient, which is not a pure geometric twist angle for the anisotropic case. The calculation applies published parameters without fitting to new samples.",
+  "scope": "Vary the global twist for the unstrained bilayer and scale the measured linear registry map of DS2 to vary only its period at fixed anisotropy. Hold adhesion, elasticity and pixel-to-probe physics fixed. Record true derivative FWHM along the wall midpoint and the fitted single-wall widths on the two ideal even diffraction orders. Compare with an exact fixed-slip isolated wall and the analytic finite network.",
+  "seconds": 5.81194429192692
+}

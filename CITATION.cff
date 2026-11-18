@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or derived results, please cite this release."
+title: "Interlayer relaxation and diffraction-based sliding-barrier inference in twisted bilayer MoS₂"
+authors:
+  - family-names: Alzanki
+    given-names: Ayas
+    orcid: "https://orcid.org/0009-0004-3121-3778"
+version: v021
+doi: 10.5281/zenodo.24334588
+date-released: 2026-11-18
+repository-code: "https://github.com/AJayQ8/moire-diffraction-barriers"

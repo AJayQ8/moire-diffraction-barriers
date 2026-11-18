@@ -1,0 +1,9 @@
+{
+  "parent": "graphene_wall_signal_protocol_v01.json",
+  "diagnosis": "The initial apertures select the brightest sixfold diffraction lattice. Its opposite first-ring images lack positively correlated fringes and s1-4 failed the AA-center gate. The published measurements are hBN-encapsulated and the authors isolate graphene rather than choosing the brightest disks. Preserve the original extraction and the model, rectangles and scoring rules.",
+  "calibration_before_rescoring": "Use the nine calibration diffraction frames already fetched, searching for the weaker lattice whose opposite first-order disks blink together. The raw frames are averaged within small circular apertures, with aperture scale fixed per optical setting. Select within 4 pixels of the first detector center and within 4 pixels of its first-order radius, at least 15 degrees away from its orientation modulo 60 degrees. Qualify only if the first-ring real-space geometry and opposite disks independently resolve the resulting pattern. No second-ring wall profile is used for locating the weaker lattice.",
+  "geometry_gates": {
+    "median_opposite_first_ring_correlation_minimum": 0.30,
+    "first_ring_twist_relative_error_maximum": 0.25
+  }
+}

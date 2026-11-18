@@ -1,0 +1,22 @@
+{
+  "question": "Do fixed diffraction predictions on the ten previously studied parallel MoS2 maps distinguish a 25 percent interlayer barrier change or a different stacking-energy shape?",
+  "scans": ["DS10", "DS14", "DS1", "DS2", "DS13", "DS12", "DS9", "DS6", "DS4", "DS3"],
+  "input_observation": "Same centers, three wall cuts, reflections and measured images as v002. The ten maps were previously examined and the independent device count is unknown.",
+  "material": {
+    "anchor": "Published reference stiffness and stacking energy.",
+    "barrier_075": "Multiply the anchor stacking energy relative to stable stacking by 0.75. Keep its shape and the reference stiffness.",
+    "barrier_125": "Multiply the anchor stacking energy relative to stable stacking by 1.25. Keep its shape and the reference stiffness.",
+    "shape_enaldiev": "Published alternate landscape rescaled to the reference saddle-to-minimum barrier, with the reference stiffness.",
+    "rigid": "Use the same geometric registry with zero relaxation."
+  },
+  "fit_windows_nm": ["adaptive", "4.25", "2.50"],
+  "probe_fwhm_nm": [0.75, 1.25, 1.75],
+  "camera": {
+    "compact": "Original optical fit to off-wall pixels using the compact three-star relaxation.",
+    "rigid": "Fit the same three optical terms on the same pixels using only the affine registry. Use the same detector coefficients for all material candidates under each optical calibration. Retain the original reflection list, and report each calibration's residual and overlap with scored profiles."
+  },
+  "primary": "All ten maps with equal map weights, nominal 1.25 nm probe and common 4.25 nm half-window. Compare prediction errors for both map-mean apparent widths and the full profile after transferring a registration fit between orders. The signed width gap is a secondary summary. All controls repeat the comparison on identical available wall sections for each metric.",
+  "matching": "Use the v002 cohort for the principal comparisons. A width-only comparison intersects successful, interior fits among the measured values and the four relaxed material candidates in a condition. Compare rigid against them by cross-order profile shape on all eligible sections, and report the separate rigid width qualification and rigid comparisons where all widths qualify.",
+  "interpretation": "A robust material preference requires the width pair and profiles to support a consistent exclusion across both camera calibrations and the probe/window checks that identify widths reliably. Report map-level rankings, paired spatial sensitivity intervals and which settings change the conclusion. A tie, ranking reversal under an adequate camera fit, or gain at the scale of repeatability limits the material claim. This is a retrospective comparison of a finite set of parameter choices at fixed stiffness.",
+  "short_window": "Compare the nominal-probe first-order 2.50 nm fit from rendered diffraction with the intrinsic simulated slip-gradient width on the same wall. Also render the anchor at 0.75 and 1.75 nm true FWHM with the observer fixed at 1.25 nm. Report the qualified real fitted widths and the model's width at each map, retaining departures rather than fitting for a flat twist trend."
+}

@@ -1,0 +1,5681 @@
+{
+  "compression_multiplier_from_DS31_original": 0.11427833422833619,
+  "input_sha256": {
+    "heterobilayer_raw_interference_v01.json": "c5ef4e5fa16b1b3e4d9112a8f4b052c38c06070c1b0a039b5e52e37dad88200a",
+    "moire_common_intensity_replay_v01.json": "4060ad3de694ff33719d921ced00b28727d03300aea298fdcbd5101fdf7614df",
+    "moire_regime_benchmark_v02.json": "660ad736b10aeeea12875974445607ae0bcc9a5d58608bcf840b603b5d6c5f9b",
+    "registry_protocol_v01.json": "40a1a5e5101dbb51c63d5b67e0d0f9d300d094ef313bf621538f63d4f7785c95",
+    "run_moire_longitudinal_transfer.py": "7deaba819dcb9c6393b21b342b37cd90fce99cdca4e42b88bb0d6b3ed27bbe0d"
+  },
+  "limits": "These controls were motivated by DS13, DS14 and DS31. All datasets have already been examined. The same public archive supplies measured geometry, diffraction and camera calibration. Compare each diagnostic directly with the fixed baseline and interpret other maps as sensitivity to those choices.",
+  "scans": {
+    "DS1": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [],
+      "mean_rmse": {}
+    },
+    "DS10": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.10628048526690334,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2253,
+              "rmse": {
+                "compression_only": 0.23617660514520344,
+                "full": 0.1412506449923901,
+                "no_mean_dilation": 0.14044903949923798,
+                "rigid": 0.23667574254976512,
+                "rotation_only": 0.1432563937100432
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2260,
+              "rmse": {
+                "compression_only": 0.20932037622804167,
+                "full": 0.13128715783026415,
+                "no_mean_dilation": 0.1311251250778346,
+                "rigid": 0.21002074831037992,
+                "rotation_only": 0.1336959356349407
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2263,
+              "rmse": {
+                "compression_only": 0.23885811685437439,
+                "full": 0.1320663276809009,
+                "no_mean_dilation": 0.13168438691620957,
+                "rigid": 0.23949144048863746,
+                "rotation_only": 0.13436712009957727
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2202,
+              "rmse": {
+                "compression_only": 0.2058349770463734,
+                "full": 0.11566504576108276,
+                "no_mean_dilation": 0.11488422531891816,
+                "rigid": 0.20652290851241145,
+                "rotation_only": 0.11800496513016506
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.1034693197376397,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2483,
+              "rmse": {
+                "compression_only": 0.22813385307980177,
+                "full": 0.12948056988548298,
+                "no_mean_dilation": 0.1289303049029706,
+                "rigid": 0.22861523943278692,
+                "rotation_only": 0.1303492012113435
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2460,
+              "rmse": {
+                "compression_only": 0.20681422519496248,
+                "full": 0.11124078858060589,
+                "no_mean_dilation": 0.1111862159118159,
+                "rigid": 0.20776883789373543,
+                "rotation_only": 0.11318486402071586
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2502,
+              "rmse": {
+                "compression_only": 0.23626002085915745,
+                "full": 0.12720952944955016,
+                "no_mean_dilation": 0.12691666421289213,
+                "rigid": 0.2370212638099985,
+                "rotation_only": 0.1286507792219569
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2462,
+              "rmse": {
+                "compression_only": 0.2046581514252522,
+                "full": 0.10929126912833587,
+                "no_mean_dilation": 0.10861700261038706,
+                "rigid": 0.20510518712030665,
+                "rotation_only": 0.11118445388910136
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.12359366618113145,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2180,
+              "rmse": {
+                "compression_only": 0.2442670296419591,
+                "full": 0.14495300660503727,
+                "no_mean_dilation": 0.1447189949628607,
+                "rigid": 0.24406305152440635,
+                "rotation_only": 0.14418064413657328
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2195,
+              "rmse": {
+                "compression_only": 0.21056944883516707,
+                "full": 0.126562760651243,
+                "no_mean_dilation": 0.12633343186620505,
+                "rigid": 0.21113040759401006,
+                "rotation_only": 0.1282437005438732
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2208,
+              "rmse": {
+                "compression_only": 0.23349842858853434,
+                "full": 0.12380799154675275,
+                "no_mean_dilation": 0.12384680288774261,
+                "rigid": 0.23415348828232574,
+                "rotation_only": 0.12504509983637832
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2203,
+              "rmse": {
+                "compression_only": 0.21473172493631174,
+                "full": 0.12815581789910296,
+                "no_mean_dilation": 0.12751708661012937,
+                "rigid": 0.21496036508224423,
+                "rotation_only": 0.12844056814588053
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.22242691315292829,
+        "full": 0.12674757583422905,
+        "no_mean_dilation": 0.12635077339810033,
+        "rigid": 0.2229607233834173,
+        "rotation_only": 0.12821697713171246
+      }
+    },
+    "DS11": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.20993067087065503,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2592,
+              "rmse": {
+                "compression_only": 0.1979778599359219,
+                "full": 0.11525000717213683,
+                "no_mean_dilation": 0.11384183969502645,
+                "rigid": 0.19948184900695165,
+                "rotation_only": 0.11926890170114243
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2544,
+              "rmse": {
+                "compression_only": 0.1862917906767408,
+                "full": 0.12328614110182697,
+                "no_mean_dilation": 0.12310159743210325,
+                "rigid": 0.18780551766140804,
+                "rotation_only": 0.12577930208821336
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2572,
+              "rmse": {
+                "compression_only": 0.20854469252842495,
+                "full": 0.13986370846542517,
+                "no_mean_dilation": 0.13848307778337687,
+                "rigid": 0.21000471993249603,
+                "rotation_only": 0.14258896305307975
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2609,
+              "rmse": {
+                "compression_only": 0.19436882626535876,
+                "full": 0.13247363473468304,
+                "no_mean_dilation": 0.13349677745552652,
+                "rigid": 0.1953235475412681,
+                "rotation_only": 0.13333514458810178
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.23453800448184964,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2320,
+              "rmse": {
+                "compression_only": 0.20009648541886002,
+                "full": 0.1164546929691998,
+                "no_mean_dilation": 0.11476841453381104,
+                "rigid": 0.20167293390706695,
+                "rotation_only": 0.1208175161858528
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2346,
+              "rmse": {
+                "compression_only": 0.18137994194875418,
+                "full": 0.11171218487660617,
+                "no_mean_dilation": 0.11136573043740242,
+                "rigid": 0.18329239923837892,
+                "rotation_only": 0.11552316433100572
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2294,
+              "rmse": {
+                "compression_only": 0.20002020255190536,
+                "full": 0.11764539810900952,
+                "no_mean_dilation": 0.11574670023015066,
+                "rigid": 0.2017939095356188,
+                "rotation_only": 0.12142949677721855
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2337,
+              "rmse": {
+                "compression_only": 0.18510145580102527,
+                "full": 0.1161587492696972,
+                "no_mean_dilation": 0.11704663869260826,
+                "rigid": 0.18663243944511854,
+                "rotation_only": 0.11941626785355632
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.23077967903850707,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2659,
+              "rmse": {
+                "compression_only": 0.20874426015438788,
+                "full": 0.13013215883886958,
+                "no_mean_dilation": 0.12946921970362488,
+                "rigid": 0.2096593574326861,
+                "rotation_only": 0.13245396247365623
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2591,
+              "rmse": {
+                "compression_only": 0.18890049751021282,
+                "full": 0.1356672260922069,
+                "no_mean_dilation": 0.1359331797378277,
+                "rigid": 0.19013343013209524,
+                "rotation_only": 0.13733158158659603
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2610,
+              "rmse": {
+                "compression_only": 0.20459287185827268,
+                "full": 0.13451716352581852,
+                "no_mean_dilation": 0.13239719378805148,
+                "rigid": 0.20578555021666264,
+                "rotation_only": 0.1378071171363058
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2649,
+              "rmse": {
+                "compression_only": 0.18692423334062294,
+                "full": 0.11618685952280762,
+                "no_mean_dilation": 0.11681767626478219,
+                "rigid": 0.18829848965970497,
+                "rotation_only": 0.11852509545770024
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.19524525983254068,
+        "full": 0.12411232705652396,
+        "no_mean_dilation": 0.12353900381285765,
+        "rigid": 0.196657011975788,
+        "rotation_only": 0.12702304276936907
+      }
+    },
+    "DS12": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": -0.0740239536769474,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1613,
+              "rmse": {
+                "compression_only": 0.2564389108090987,
+                "full": 0.15419884131909112,
+                "no_mean_dilation": 0.15411533166581817,
+                "rigid": 0.2572990507626338,
+                "rotation_only": 0.15290848311384855
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1672,
+              "rmse": {
+                "compression_only": 0.25565456583890067,
+                "full": 0.13792869450417125,
+                "no_mean_dilation": 0.13886592802973727,
+                "rigid": 0.25499461044715244,
+                "rotation_only": 0.14286381383768806
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1610,
+              "rmse": {
+                "compression_only": 0.2489422087736139,
+                "full": 0.1439024264949564,
+                "no_mean_dilation": 0.14431432089671178,
+                "rigid": 0.24926288632452703,
+                "rotation_only": 0.1465644467732965
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1655,
+              "rmse": {
+                "compression_only": 0.25839868706916064,
+                "full": 0.1632995409933064,
+                "no_mean_dilation": 0.1641162163078298,
+                "rigid": 0.25944406218414784,
+                "rotation_only": 0.1659171648971272
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": -0.07418427330982535,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2105,
+              "rmse": {
+                "compression_only": 0.2600590368930593,
+                "full": 0.16823655416947994,
+                "no_mean_dilation": 0.16802323418753323,
+                "rigid": 0.26055236674254856,
+                "rotation_only": 0.16689298680203363
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2107,
+              "rmse": {
+                "compression_only": 0.25167434270830513,
+                "full": 0.1338744133245641,
+                "no_mean_dilation": 0.13458263363227324,
+                "rigid": 0.2517921274013799,
+                "rotation_only": 0.13501730326663125
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2136,
+              "rmse": {
+                "compression_only": 0.2519816880953859,
+                "full": 0.18768209760978816,
+                "no_mean_dilation": 0.1877283105639385,
+                "rigid": 0.2531229826732643,
+                "rotation_only": 0.18755348083165493
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2184,
+              "rmse": {
+                "compression_only": 0.2641157237888838,
+                "full": 0.18790243366547213,
+                "no_mean_dilation": 0.1882271445522422,
+                "rigid": 0.26438170103307496,
+                "rotation_only": 0.1877881601727434
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": -0.07563024022616974,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2537,
+              "rmse": {
+                "compression_only": 0.24928841309014593,
+                "full": 0.14101800988066024,
+                "no_mean_dilation": 0.1412370303093804,
+                "rigid": 0.24940679335258314,
+                "rotation_only": 0.1422211432232468
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2510,
+              "rmse": {
+                "compression_only": 0.24868068511770336,
+                "full": 0.1316458126031382,
+                "no_mean_dilation": 0.1326157415001686,
+                "rigid": 0.24853069084663798,
+                "rotation_only": 0.13429434674223212
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2552,
+              "rmse": {
+                "compression_only": 0.24279985877906413,
+                "full": 0.1234272555757836,
+                "no_mean_dilation": 0.12406394777006226,
+                "rigid": 0.2429784300937426,
+                "rotation_only": 0.12692947208374375
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2493,
+              "rmse": {
+                "compression_only": 0.25358407370523167,
+                "full": 0.13729700390221247,
+                "no_mean_dilation": 0.13782943045975501,
+                "rigid": 0.2532216698922329,
+                "rotation_only": 0.1379318800813168
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.2534681828890461,
+        "full": 0.15086775700355198,
+        "no_mean_dilation": 0.15130993915628752,
+        "rigid": 0.25374894764616046,
+        "rotation_only": 0.15224022348546357
+      }
+    },
+    "DS13": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.77100804724151,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 10009,
+              "rmse": {
+                "compression_only": 0.2217674514976554,
+                "full": 0.16142030394447182,
+                "no_mean_dilation": 0.1422297892744844,
+                "rigid": 0.22721719177719826,
+                "rotation_only": 0.1847373409393297
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 9888,
+              "rmse": {
+                "compression_only": 0.2188093409395582,
+                "full": 0.16922401501861362,
+                "no_mean_dilation": 0.1501967880160941,
+                "rigid": 0.223025978276639,
+                "rotation_only": 0.18837555970659978
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 9929,
+              "rmse": {
+                "compression_only": 0.22723218143840473,
+                "full": 0.17386488356504257,
+                "no_mean_dilation": 0.1536493941391247,
+                "rigid": 0.23225758134971486,
+                "rotation_only": 0.1937838768281559
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 9867,
+              "rmse": {
+                "compression_only": 0.2180349178566269,
+                "full": 0.16816954347431923,
+                "no_mean_dilation": 0.15134445603751623,
+                "rigid": 0.22274679683432178,
+                "rotation_only": 0.18687381108320897
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.7468769835629359,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 10982,
+              "rmse": {
+                "compression_only": 0.21773844664647402,
+                "full": 0.16072498051404574,
+                "no_mean_dilation": 0.1426583929432898,
+                "rigid": 0.2229474929064795,
+                "rotation_only": 0.18273997296215347
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 10908,
+              "rmse": {
+                "compression_only": 0.2190628631197291,
+                "full": 0.17059606148660414,
+                "no_mean_dilation": 0.1531353876637545,
+                "rigid": 0.22319858965169867,
+                "rotation_only": 0.18826434741731893
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 10975,
+              "rmse": {
+                "compression_only": 0.2209164898403527,
+                "full": 0.1611726771062837,
+                "no_mean_dilation": 0.13837245227072525,
+                "rigid": 0.2258460352778062,
+                "rotation_only": 0.18491793384869204
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 11025,
+              "rmse": {
+                "compression_only": 0.21519925436728374,
+                "full": 0.1683841939495981,
+                "no_mean_dilation": 0.15745344406600417,
+                "rigid": 0.21994750326981435,
+                "rotation_only": 0.1845232819313917
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.7632647518147393,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 9757,
+              "rmse": {
+                "compression_only": 0.21682915896016358,
+                "full": 0.16565378184887863,
+                "no_mean_dilation": 0.14720263102787517,
+                "rigid": 0.22167380557648578,
+                "rotation_only": 0.18646760947799215
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 9846,
+              "rmse": {
+                "compression_only": 0.2211356431181656,
+                "full": 0.1610395698453848,
+                "no_mean_dilation": 0.13990114137605983,
+                "rigid": 0.22548553810862296,
+                "rotation_only": 0.18439173189348174
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 9804,
+              "rmse": {
+                "compression_only": 0.21923232470559076,
+                "full": 0.16517014352211812,
+                "no_mean_dilation": 0.14648785425787475,
+                "rigid": 0.2234818259419799,
+                "rotation_only": 0.18686281971000676
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 9761,
+              "rmse": {
+                "compression_only": 0.22000128696456064,
+                "full": 0.17281880541913963,
+                "no_mean_dilation": 0.15833855657947316,
+                "rigid": 0.224423488258527,
+                "rotation_only": 0.19159915953022666
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.21966327995454707,
+        "full": 0.166519913307875,
+        "no_mean_dilation": 0.14841419063768965,
+        "rigid": 0.22435431893577404,
+        "rotation_only": 0.18696145377737983
+      }
+    },
+    "DS14": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.7179495838626656,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 11958,
+              "rmse": {
+                "compression_only": 0.21664751173417382,
+                "full": 0.1597046903149769,
+                "no_mean_dilation": 0.12940021134956553,
+                "rigid": 0.22280468417506727,
+                "rotation_only": 0.18656835035491184
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 12033,
+              "rmse": {
+                "compression_only": 0.2119227190140713,
+                "full": 0.15687093973791771,
+                "no_mean_dilation": 0.1406109225602902,
+                "rigid": 0.2163722377748252,
+                "rotation_only": 0.17939621906897615
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 12012,
+              "rmse": {
+                "compression_only": 0.2161681209170367,
+                "full": 0.15022585181756526,
+                "no_mean_dilation": 0.13044814344394906,
+                "rigid": 0.22159400220269107,
+                "rotation_only": 0.17730101381649588
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 11901,
+              "rmse": {
+                "compression_only": 0.21075160024754946,
+                "full": 0.160747050322965,
+                "no_mean_dilation": 0.13753582311797752,
+                "rigid": 0.21633069971297916,
+                "rotation_only": 0.18369828930602897
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.699339422593229,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 9950,
+              "rmse": {
+                "compression_only": 0.2241555975817892,
+                "full": 0.1668708024827628,
+                "no_mean_dilation": 0.14091784816015474,
+                "rigid": 0.22961187220214485,
+                "rotation_only": 0.19356756359258284
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 10045,
+              "rmse": {
+                "compression_only": 0.22294809315881134,
+                "full": 0.16106540291725066,
+                "no_mean_dilation": 0.15289695932435302,
+                "rigid": 0.22665529489941663,
+                "rotation_only": 0.1842053525405253
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 10036,
+              "rmse": {
+                "compression_only": 0.21774526159217733,
+                "full": 0.14975365275257224,
+                "no_mean_dilation": 0.1250195758934383,
+                "rigid": 0.22279462560028981,
+                "rotation_only": 0.17904803659663723
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 10139,
+              "rmse": {
+                "compression_only": 0.21882096442695748,
+                "full": 0.16987169636126043,
+                "no_mean_dilation": 0.15169609259188127,
+                "rigid": 0.22403910432152208,
+                "rotation_only": 0.1904971261254998
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.6983237575436932,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 12351,
+              "rmse": {
+                "compression_only": 0.21871273301338964,
+                "full": 0.17779550384201087,
+                "no_mean_dilation": 0.16291891881077716,
+                "rigid": 0.22282433048524303,
+                "rotation_only": 0.1935843742181047
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 12325,
+              "rmse": {
+                "compression_only": 0.21302695146324718,
+                "full": 0.1630596698177602,
+                "no_mean_dilation": 0.15314189187397345,
+                "rigid": 0.21702213781430302,
+                "rotation_only": 0.18134859197575137
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 12318,
+              "rmse": {
+                "compression_only": 0.21239004347971135,
+                "full": 0.15451947493793694,
+                "no_mean_dilation": 0.1326951732739474,
+                "rigid": 0.21697576762919024,
+                "rotation_only": 0.17798045725624193
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 12338,
+              "rmse": {
+                "compression_only": 0.21373848795198272,
+                "full": 0.1799642021973542,
+                "no_mean_dilation": 0.17045410917986295,
+                "rigid": 0.21786576476258682,
+                "rotation_only": 0.1927275277251929
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.2164190070484081,
+        "full": 0.16253741145852776,
+        "no_mean_dilation": 0.14397797246501423,
+        "rigid": 0.2212408767983549,
+        "rotation_only": 0.18499357521474571
+      }
+    },
+    "DS15": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": -0.28837780347461855,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2043,
+              "rmse": {
+                "compression_only": 0.1781341503511232,
+                "full": 0.13293042572093555,
+                "no_mean_dilation": 0.13264370106463155,
+                "rigid": 0.17832410027578158,
+                "rotation_only": 0.13322300659894415
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1959,
+              "rmse": {
+                "compression_only": 0.18191094101509958,
+                "full": 0.14667328490843967,
+                "no_mean_dilation": 0.14638610023479817,
+                "rigid": 0.18207745366770497,
+                "rotation_only": 0.14690903224770915
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2001,
+              "rmse": {
+                "compression_only": 0.1876914582362132,
+                "full": 0.14564902911933011,
+                "no_mean_dilation": 0.14530317055062314,
+                "rigid": 0.1878593773799183,
+                "rotation_only": 0.1459150458809177
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1975,
+              "rmse": {
+                "compression_only": 0.17333876363931797,
+                "full": 0.133474408673052,
+                "no_mean_dilation": 0.13317416980051974,
+                "rigid": 0.17351350638520066,
+                "rotation_only": 0.13376941156661815
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": -0.31785997483607653,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2249,
+              "rmse": {
+                "compression_only": 0.17640487158582305,
+                "full": 0.13235341397502462,
+                "no_mean_dilation": 0.1319738044212764,
+                "rigid": 0.17658017998301423,
+                "rotation_only": 0.13267356258630061
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2252,
+              "rmse": {
+                "compression_only": 0.1968128442209286,
+                "full": 0.17654285237750034,
+                "no_mean_dilation": 0.17629633911262618,
+                "rigid": 0.19698541638185693,
+                "rotation_only": 0.1767339217648382
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2191,
+              "rmse": {
+                "compression_only": 0.20443104739413342,
+                "full": 0.17820064433330562,
+                "no_mean_dilation": 0.17793839193412084,
+                "rigid": 0.20457540144690614,
+                "rotation_only": 0.17838637245702244
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2205,
+              "rmse": {
+                "compression_only": 0.17080710927749207,
+                "full": 0.13037269963131987,
+                "no_mean_dilation": 0.13000791519593194,
+                "rigid": 0.1709945136496471,
+                "rotation_only": 0.1306800571825646
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": -0.3089997704976476,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2284,
+              "rmse": {
+                "compression_only": 0.17908281941373796,
+                "full": 0.13912699277109192,
+                "no_mean_dilation": 0.13880574997519649,
+                "rigid": 0.1792364639369566,
+                "rotation_only": 0.13941115898096004
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2302,
+              "rmse": {
+                "compression_only": 0.20763523881036425,
+                "full": 0.18870295366438597,
+                "no_mean_dilation": 0.18849380889762365,
+                "rigid": 0.207793918478524,
+                "rotation_only": 0.18887046492741447
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2231,
+              "rmse": {
+                "compression_only": 0.21181793666128143,
+                "full": 0.18657220046122852,
+                "no_mean_dilation": 0.18633073531264374,
+                "rigid": 0.2119651448853964,
+                "rotation_only": 0.1867450060882294
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2263,
+              "rmse": {
+                "compression_only": 0.17694321850115743,
+                "full": 0.14241501584979285,
+                "no_mean_dilation": 0.14218249593710586,
+                "rigid": 0.17705765852735494,
+                "rotation_only": 0.1426145356311286
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.187084199925556,
+        "full": 0.1527511601237839,
+        "no_mean_dilation": 0.15246136520309148,
+        "rigid": 0.18724692791652184,
+        "rotation_only": 0.15299429799272063
+      }
+    },
+    "DS16": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": -0.2571072708953788,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2151,
+              "rmse": {
+                "compression_only": 0.18711802801552285,
+                "full": 0.13277873070262042,
+                "no_mean_dilation": 0.13254258108646452,
+                "rigid": 0.18699483802198952,
+                "rotation_only": 0.1328598146441115
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2133,
+              "rmse": {
+                "compression_only": 0.1922663823589149,
+                "full": 0.16240612391105233,
+                "no_mean_dilation": 0.16207199227675556,
+                "rigid": 0.19247628150527035,
+                "rotation_only": 0.16279064329443121
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2207,
+              "rmse": {
+                "compression_only": 0.19655274670145165,
+                "full": 0.1629580829977081,
+                "no_mean_dilation": 0.16259550365598352,
+                "rigid": 0.19663884271022053,
+                "rotation_only": 0.16328631471541652
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2174,
+              "rmse": {
+                "compression_only": 0.1875886743046183,
+                "full": 0.1423598647342843,
+                "no_mean_dilation": 0.1419489908519334,
+                "rigid": 0.18765392383613122,
+                "rotation_only": 0.14258419518399806
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": -0.261305604025924,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2233,
+              "rmse": {
+                "compression_only": 0.18314613161004553,
+                "full": 0.13159325720008935,
+                "no_mean_dilation": 0.13130839756916,
+                "rigid": 0.18313304385542933,
+                "rotation_only": 0.13171019688959526
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2287,
+              "rmse": {
+                "compression_only": 0.18880027100429608,
+                "full": 0.1589310568044638,
+                "no_mean_dilation": 0.15840071594071406,
+                "rigid": 0.18912490349931693,
+                "rotation_only": 0.1594349695454052
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2338,
+              "rmse": {
+                "compression_only": 0.18827765421910647,
+                "full": 0.14918888203153693,
+                "no_mean_dilation": 0.14856004477712997,
+                "rigid": 0.18843819572942908,
+                "rotation_only": 0.14958004281949783
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2299,
+              "rmse": {
+                "compression_only": 0.17687925118802506,
+                "full": 0.13344837161921108,
+                "no_mean_dilation": 0.13290465159781356,
+                "rigid": 0.17717208116335484,
+                "rotation_only": 0.1338351930623852
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": -0.2357648749367244,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2288,
+              "rmse": {
+                "compression_only": 0.19252310055711822,
+                "full": 0.1461250279038494,
+                "no_mean_dilation": 0.14587531485288244,
+                "rigid": 0.1923517584924184,
+                "rotation_only": 0.14627759261723597
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2263,
+              "rmse": {
+                "compression_only": 0.19926817026437296,
+                "full": 0.18174795121133616,
+                "no_mean_dilation": 0.18153003103771576,
+                "rigid": 0.19943711859527086,
+                "rotation_only": 0.18212951897313817
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2369,
+              "rmse": {
+                "compression_only": 0.19284190270040596,
+                "full": 0.15731206841020967,
+                "no_mean_dilation": 0.15687767429401903,
+                "rigid": 0.19292181042140036,
+                "rotation_only": 0.15767787091631275
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2342,
+              "rmse": {
+                "compression_only": 0.18647949282372264,
+                "full": 0.1463911072375187,
+                "no_mean_dilation": 0.14607768009860642,
+                "rigid": 0.18646024610620732,
+                "rotation_only": 0.1464347453186908
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.1893118171456334,
+        "full": 0.15043671039699003,
+        "no_mean_dilation": 0.1500577981699315,
+        "rigid": 0.1894002536613699,
+        "rotation_only": 0.1507167581650182
+      }
+    },
+    "DS19": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.4360356849254756,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1172,
+              "rmse": {
+                "compression_only": 0.31148107856137347,
+                "full": 0.31420658672367147,
+                "no_mean_dilation": 0.3113681163294622,
+                "rigid": 0.30655875312016706,
+                "rotation_only": 0.31704959365925045
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1193,
+              "rmse": {
+                "compression_only": 0.3026315264635335,
+                "full": 0.28882496605588964,
+                "no_mean_dilation": 0.2786762711159514,
+                "rigid": 0.30206393723899916,
+                "rotation_only": 0.2962512045447267
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1121,
+              "rmse": {
+                "compression_only": 0.2890145204619885,
+                "full": 0.26982964548294724,
+                "no_mean_dilation": 0.2649115949953149,
+                "rigid": 0.29191136635064113,
+                "rotation_only": 0.2762675655563461
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1160,
+              "rmse": {
+                "compression_only": 0.26640324324922493,
+                "full": 0.24158209623065224,
+                "no_mean_dilation": 0.24260051959711854,
+                "rigid": 0.2705378867882834,
+                "rotation_only": 0.24366738042228556
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.38125256757254905,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1525,
+              "rmse": {
+                "compression_only": 0.27808715284647473,
+                "full": 0.23979735777448113,
+                "no_mean_dilation": 0.24180020128404905,
+                "rigid": 0.27855076389792455,
+                "rotation_only": 0.24132150391892523
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1531,
+              "rmse": {
+                "compression_only": 0.29479059398955626,
+                "full": 0.24532869387626186,
+                "no_mean_dilation": 0.24565145229093,
+                "rigid": 0.29580916277084196,
+                "rotation_only": 0.24975192924679646
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1405,
+              "rmse": {
+                "compression_only": 0.28207719438835793,
+                "full": 0.21974712300314764,
+                "no_mean_dilation": 0.2226906512927088,
+                "rigid": 0.28161646595278006,
+                "rotation_only": 0.225138240238245
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1413,
+              "rmse": {
+                "compression_only": 0.27086559525853127,
+                "full": 0.1939101399459711,
+                "no_mean_dilation": 0.19795246852141726,
+                "rigid": 0.2720179190322723,
+                "rotation_only": 0.19840845264126364
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.4390527554221723,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1741,
+              "rmse": {
+                "compression_only": 0.2901936371466982,
+                "full": 0.26411588095468747,
+                "no_mean_dilation": 0.2645117970346069,
+                "rigid": 0.2887638210774313,
+                "rotation_only": 0.2674353038022622
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1755,
+              "rmse": {
+                "compression_only": 0.2893666936442944,
+                "full": 0.26408346802249605,
+                "no_mean_dilation": 0.26078330561158936,
+                "rigid": 0.28903000838157583,
+                "rotation_only": 0.27074739406099957
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1774,
+              "rmse": {
+                "compression_only": 0.28853113957712356,
+                "full": 0.25086918680118947,
+                "no_mean_dilation": 0.2523452635203661,
+                "rigid": 0.28980579814094753,
+                "rotation_only": 0.2557535085273706
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1747,
+              "rmse": {
+                "compression_only": 0.2712554699663104,
+                "full": 0.22784992743560115,
+                "no_mean_dilation": 0.2277545405032783,
+                "rigid": 0.2740632718857529,
+                "rotation_only": 0.23120282012523088
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.2862248204627889,
+        "full": 0.25167875602558304,
+        "no_mean_dilation": 0.25092051517473274,
+        "rigid": 0.28672742955313474,
+        "rotation_only": 0.25608290806197526
+      }
+    },
+    "DS2": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.04229091403972863,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 5621,
+              "rmse": {
+                "compression_only": 0.22469480809723816,
+                "full": 0.18738667090147537,
+                "no_mean_dilation": 0.1886953156402211,
+                "rigid": 0.2243934092048216,
+                "rotation_only": 0.18593388376660927
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 5575,
+              "rmse": {
+                "compression_only": 0.2151513408818459,
+                "full": 0.147381706943722,
+                "no_mean_dilation": 0.14724495295691528,
+                "rigid": 0.2153621367860223,
+                "rotation_only": 0.14544754894342454
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 5559,
+              "rmse": {
+                "compression_only": 0.21536726130565506,
+                "full": 0.17874848221389966,
+                "no_mean_dilation": 0.17949318762996563,
+                "rigid": 0.21519310915221287,
+                "rotation_only": 0.17790978032022567
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 5582,
+              "rmse": {
+                "compression_only": 0.23143977398673843,
+                "full": 0.15045893076441766,
+                "no_mean_dilation": 0.15087374683950866,
+                "rigid": 0.2314994760824813,
+                "rotation_only": 0.15062983300625118
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.045861826440566314,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 7914,
+              "rmse": {
+                "compression_only": 0.20941532580800376,
+                "full": 0.15478698383822356,
+                "no_mean_dilation": 0.15576027726426983,
+                "rigid": 0.20890495689898136,
+                "rotation_only": 0.154848458274852
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 7847,
+              "rmse": {
+                "compression_only": 0.21877763598682007,
+                "full": 0.1388482650247795,
+                "no_mean_dilation": 0.13928649291282327,
+                "rigid": 0.21881217947165044,
+                "rotation_only": 0.14017326639863237
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 7822,
+              "rmse": {
+                "compression_only": 0.21289971465080432,
+                "full": 0.15745142239470858,
+                "no_mean_dilation": 0.15769013510596025,
+                "rigid": 0.2125988149984046,
+                "rotation_only": 0.1600430943796391
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 7817,
+              "rmse": {
+                "compression_only": 0.229153977501675,
+                "full": 0.1466953676729105,
+                "no_mean_dilation": 0.14806462924000835,
+                "rigid": 0.22909015339682046,
+                "rotation_only": 0.14890333120430213
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.21961247977734757,
+        "full": 0.1577197287192671,
+        "no_mean_dilation": 0.15838859219870904,
+        "rigid": 0.2194817794989244,
+        "rotation_only": 0.15798614953674206
+      }
+    },
+    "DS20": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.03602185727005567,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 4824,
+              "rmse": {
+                "compression_only": 0.2654847067384618,
+                "full": 0.2593076767478044,
+                "no_mean_dilation": 0.25924328972486954,
+                "rigid": 0.2655637278293064,
+                "rotation_only": 0.25820400600645177
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 4871,
+              "rmse": {
+                "compression_only": 0.23564581120915715,
+                "full": 0.23075533319660876,
+                "no_mean_dilation": 0.23073221952724995,
+                "rigid": 0.23557962032597493,
+                "rotation_only": 0.2307510045295443
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 4916,
+              "rmse": {
+                "compression_only": 0.2459157068108569,
+                "full": 0.2471485005413873,
+                "no_mean_dilation": 0.24724153290654796,
+                "rigid": 0.245790995309131,
+                "rotation_only": 0.2466570349648131
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 4959,
+              "rmse": {
+                "compression_only": 0.2130133617079161,
+                "full": 0.21229919523486948,
+                "no_mean_dilation": 0.21212705667304865,
+                "rigid": 0.21291687856119443,
+                "rotation_only": 0.21309475583223028
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.07509537323948738,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 6209,
+              "rmse": {
+                "compression_only": 0.25276808780913973,
+                "full": 0.25075796621933083,
+                "no_mean_dilation": 0.2508227189580364,
+                "rigid": 0.253043411721506,
+                "rotation_only": 0.2496363426749764
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 6130,
+              "rmse": {
+                "compression_only": 0.23209803086201267,
+                "full": 0.2193652343400545,
+                "no_mean_dilation": 0.21965494497076732,
+                "rigid": 0.2309821969356274,
+                "rotation_only": 0.21873038998056896
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 6131,
+              "rmse": {
+                "compression_only": 0.24302942324822774,
+                "full": 0.24217142517164297,
+                "no_mean_dilation": 0.24215354517781357,
+                "rigid": 0.24260748555411,
+                "rotation_only": 0.23967420611533713
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 6193,
+              "rmse": {
+                "compression_only": 0.23447070521920094,
+                "full": 0.2334771735025508,
+                "no_mean_dilation": 0.2336226433384179,
+                "rigid": 0.23427585683286475,
+                "rotation_only": 0.23525531133280442
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.006687491140177455,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 4232,
+              "rmse": {
+                "compression_only": 0.24517339385408468,
+                "full": 0.24189777340218677,
+                "no_mean_dilation": 0.2420112746630937,
+                "rigid": 0.24487478467483684,
+                "rotation_only": 0.24290143252393848
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 4239,
+              "rmse": {
+                "compression_only": 0.21945019062931082,
+                "full": 0.21345638988026944,
+                "no_mean_dilation": 0.21357013252865095,
+                "rigid": 0.21958984484083308,
+                "rotation_only": 0.2116719567220287
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 4372,
+              "rmse": {
+                "compression_only": 0.2406440207356026,
+                "full": 0.2386711854508059,
+                "no_mean_dilation": 0.23870907248637688,
+                "rigid": 0.24061245441909193,
+                "rotation_only": 0.23484776036140678
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 4336,
+              "rmse": {
+                "compression_only": 0.22498229368823872,
+                "full": 0.22862824724916425,
+                "no_mean_dilation": 0.22866170205547434,
+                "rigid": 0.2248741772115996,
+                "rotation_only": 0.22580507776798414
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.23772297770935083,
+        "full": 0.2348280084113896,
+        "no_mean_dilation": 0.23487917775086228,
+        "rigid": 0.23755928618467295,
+        "rotation_only": 0.23393577323434042
+      }
+    },
+    "DS21": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.0996355398781642,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 5385,
+              "rmse": {
+                "compression_only": 0.23004180581656003,
+                "full": 0.22702389109911061,
+                "no_mean_dilation": 0.2274266779435796,
+                "rigid": 0.23040185819902842,
+                "rotation_only": 0.2243867923895815
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 5348,
+              "rmse": {
+                "compression_only": 0.2560138636349379,
+                "full": 0.25776096703249635,
+                "no_mean_dilation": 0.25792452855421377,
+                "rigid": 0.25625690891653485,
+                "rotation_only": 0.25934100164358065
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 5165,
+              "rmse": {
+                "compression_only": 0.2231212202815962,
+                "full": 0.21904772749981258,
+                "no_mean_dilation": 0.2184255782463584,
+                "rigid": 0.2228110047476191,
+                "rotation_only": 0.21781754234799117
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 5110,
+              "rmse": {
+                "compression_only": 0.2366164210083349,
+                "full": 0.24039894800485087,
+                "no_mean_dilation": 0.24004527103425663,
+                "rigid": 0.23698315866844166,
+                "rotation_only": 0.24205379275051317
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.11445579164148269,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 5529,
+              "rmse": {
+                "compression_only": 0.22643443487388293,
+                "full": 0.22324725430075948,
+                "no_mean_dilation": 0.22269318493175314,
+                "rigid": 0.2262573426643502,
+                "rotation_only": 0.22392651802148889
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 5543,
+              "rmse": {
+                "compression_only": 0.252491010120536,
+                "full": 0.24644846918293237,
+                "no_mean_dilation": 0.2463422527596386,
+                "rigid": 0.25187525771804076,
+                "rotation_only": 0.24665253620523597
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 5665,
+              "rmse": {
+                "compression_only": 0.2273612392213282,
+                "full": 0.22292435818253825,
+                "no_mean_dilation": 0.2225140142199676,
+                "rigid": 0.2282295800242023,
+                "rotation_only": 0.22295906937093807
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 5594,
+              "rmse": {
+                "compression_only": 0.22842319648559362,
+                "full": 0.22922629030811006,
+                "no_mean_dilation": 0.22929990992944435,
+                "rigid": 0.22976909984838326,
+                "rotation_only": 0.22909165904242076
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.2350628989303462,
+        "full": 0.23325973820132634,
+        "no_mean_dilation": 0.2330839272024015,
+        "rigid": 0.23532302634832508,
+        "rotation_only": 0.23327861397146876
+      }
+    },
+    "DS22": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.45805022440781695,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1964,
+              "rmse": {
+                "compression_only": 0.23213080720786317,
+                "full": 0.2083105418753021,
+                "no_mean_dilation": 0.20916254835917497,
+                "rigid": 0.23342450951725424,
+                "rotation_only": 0.20896508927976062
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1971,
+              "rmse": {
+                "compression_only": 0.2518525047160492,
+                "full": 0.22484825631167138,
+                "no_mean_dilation": 0.2254383413722464,
+                "rigid": 0.252447754881957,
+                "rotation_only": 0.22486186820656776
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1970,
+              "rmse": {
+                "compression_only": 0.2399681279910082,
+                "full": 0.21804197477474593,
+                "no_mean_dilation": 0.2180338033006421,
+                "rigid": 0.24038926782372805,
+                "rotation_only": 0.21868760532923204
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1899,
+              "rmse": {
+                "compression_only": 0.26817774317299525,
+                "full": 0.2324409617013976,
+                "no_mean_dilation": 0.23407830227461998,
+                "rigid": 0.2690349347421948,
+                "rotation_only": 0.2323413007954503
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.4186910728708714,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2012,
+              "rmse": {
+                "compression_only": 0.24705257999719046,
+                "full": 0.20384675830148574,
+                "no_mean_dilation": 0.2059221179497967,
+                "rigid": 0.24751711093907208,
+                "rotation_only": 0.20409687565343435
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2013,
+              "rmse": {
+                "compression_only": 0.2608727609216604,
+                "full": 0.24866459401478375,
+                "no_mean_dilation": 0.24918297022846264,
+                "rigid": 0.2605334013051048,
+                "rotation_only": 0.24940196010067417
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2010,
+              "rmse": {
+                "compression_only": 0.2599646272554845,
+                "full": 0.25079439051461744,
+                "no_mean_dilation": 0.25039861174056344,
+                "rigid": 0.2593513824445664,
+                "rotation_only": 0.2516011153358729
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2001,
+              "rmse": {
+                "compression_only": 0.2583665577246974,
+                "full": 0.2160372384736093,
+                "no_mean_dilation": 0.21743821193533086,
+                "rigid": 0.2588642409083711,
+                "rotation_only": 0.21682034680876722
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.416434152979819,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2312,
+              "rmse": {
+                "compression_only": 0.2377769671798254,
+                "full": 0.20486120037734323,
+                "no_mean_dilation": 0.2062692471798439,
+                "rigid": 0.23846418735724476,
+                "rotation_only": 0.20451982959169182
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2356,
+              "rmse": {
+                "compression_only": 0.2585153911688157,
+                "full": 0.24153940829483878,
+                "no_mean_dilation": 0.24272247596104174,
+                "rigid": 0.25803557429952817,
+                "rotation_only": 0.24116977081465785
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2370,
+              "rmse": {
+                "compression_only": 0.24852857326229766,
+                "full": 0.2311852124840968,
+                "no_mean_dilation": 0.23164385999381906,
+                "rigid": 0.24881960748985446,
+                "rotation_only": 0.23121708343137212
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2338,
+              "rmse": {
+                "compression_only": 0.26377319909602365,
+                "full": 0.23595434971787102,
+                "no_mean_dilation": 0.236826578005425,
+                "rigid": 0.26429287888271785,
+                "rotation_only": 0.23576244765649404
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.25224831997449254,
+        "full": 0.22637707390348027,
+        "no_mean_dilation": 0.22725975569174725,
+        "rigid": 0.2525979042159662,
+        "rotation_only": 0.22662044108366455
+      }
+    },
+    "DS23": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.40086120370011835,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1175,
+              "rmse": {
+                "compression_only": 0.24455688481988946,
+                "full": 0.24084457667222678,
+                "no_mean_dilation": 0.24261321763006644,
+                "rigid": 0.2445592720868393,
+                "rotation_only": 0.24030461642339954
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1125,
+              "rmse": {
+                "compression_only": 0.26378341490365154,
+                "full": 0.24712362748427516,
+                "no_mean_dilation": 0.2456566530285893,
+                "rigid": 0.26410668466908593,
+                "rotation_only": 0.24911628512617817
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1169,
+              "rmse": {
+                "compression_only": 0.25510125758539337,
+                "full": 0.27020745836569,
+                "no_mean_dilation": 0.26919142104263977,
+                "rigid": 0.2545617663336638,
+                "rotation_only": 0.26986978878150797
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1141,
+              "rmse": {
+                "compression_only": 0.25102276562297465,
+                "full": 0.2631141926030065,
+                "no_mean_dilation": 0.2611317540429655,
+                "rigid": 0.25041466435434934,
+                "rotation_only": 0.26253843986206327
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.35789758863476195,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 958,
+              "rmse": {
+                "compression_only": 0.24695001600038538,
+                "full": 0.22889511317269606,
+                "no_mean_dilation": 0.22774954076318307,
+                "rigid": 0.24864145040285154,
+                "rotation_only": 0.2315958422028793
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 942,
+              "rmse": {
+                "compression_only": 0.6705107559151389,
+                "full": 0.6618514385578722,
+                "no_mean_dilation": 0.6616783670745147,
+                "rigid": 0.6717799881699884,
+                "rotation_only": 0.6624624282662117
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 930,
+              "rmse": {
+                "compression_only": 0.6762748202663991,
+                "full": 0.6713041837989627,
+                "no_mean_dilation": 0.6706469425498337,
+                "rigid": 0.6765588918724611,
+                "rotation_only": 0.671739014617252
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 933,
+              "rmse": {
+                "compression_only": 0.23430671308784545,
+                "full": 0.24007340350405387,
+                "no_mean_dilation": 0.23872057552902662,
+                "rigid": 0.23385391518495466,
+                "rotation_only": 0.23929678233545415
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.38970582426726885,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1259,
+              "rmse": {
+                "compression_only": 0.22757222040632588,
+                "full": 0.22921207153138998,
+                "no_mean_dilation": 0.23073085657027553,
+                "rigid": 0.22794565403074432,
+                "rotation_only": 0.2279559864284434
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1254,
+              "rmse": {
+                "compression_only": 0.5774136652058047,
+                "full": 0.5683311066582509,
+                "no_mean_dilation": 0.5680260225831476,
+                "rigid": 0.5777612726951853,
+                "rotation_only": 0.5690941594919755
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1240,
+              "rmse": {
+                "compression_only": 0.5931635595160322,
+                "full": 0.5885359034789027,
+                "no_mean_dilation": 0.5890487669308986,
+                "rigid": 0.5934761298979239,
+                "rotation_only": 0.5885904641991108
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1272,
+              "rmse": {
+                "compression_only": 0.24272568430728642,
+                "full": 0.23634663257881752,
+                "no_mean_dilation": 0.2362372313811149,
+                "rigid": 0.2415137781679864,
+                "rotation_only": 0.23663973470362007
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.3736151464697606,
+        "full": 0.3704866423671787,
+        "no_mean_dilation": 0.3701192790938546,
+        "rigid": 0.3737644556555028,
+        "rotation_only": 0.3707669618698413
+      }
+    },
+    "DS24": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.3417637096171278,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1242,
+              "rmse": {
+                "compression_only": 0.26419652146568695,
+                "full": 0.2776377108767946,
+                "no_mean_dilation": 0.28058327741256767,
+                "rigid": 0.2634133689995004,
+                "rotation_only": 0.27704559201741746
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1246,
+              "rmse": {
+                "compression_only": 0.2944087837305873,
+                "full": 0.2826159856237272,
+                "no_mean_dilation": 0.2814285234439857,
+                "rigid": 0.2942055711454949,
+                "rotation_only": 0.2875299045835578
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1278,
+              "rmse": {
+                "compression_only": 0.3010753775556529,
+                "full": 0.2833257612987704,
+                "no_mean_dilation": 0.2805014485832038,
+                "rigid": 0.3031219401215862,
+                "rotation_only": 0.287458460589971
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1214,
+              "rmse": {
+                "compression_only": 0.2728508138463745,
+                "full": 0.2570777128728071,
+                "no_mean_dilation": 0.2559387699759363,
+                "rigid": 0.2738387280477071,
+                "rotation_only": 0.26024868086008557
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.28313287414957544,
+        "full": 0.27516429266802483,
+        "no_mean_dilation": 0.27461300485392337,
+        "rigid": 0.2836449020785722,
+        "rotation_only": 0.278070659512758
+      }
+    },
+    "DS25": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.3350566828984437,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 6143,
+              "rmse": {
+                "compression_only": 0.24488900126375607,
+                "full": 0.24169351158670901,
+                "no_mean_dilation": 0.23921948504767807,
+                "rigid": 0.24460560859900787,
+                "rotation_only": 0.24281812824945995
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 6068,
+              "rmse": {
+                "compression_only": 0.265606165601755,
+                "full": 0.2671881848872027,
+                "no_mean_dilation": 0.26698911283251775,
+                "rigid": 0.2658413087061762,
+                "rotation_only": 0.2664333428227746
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 6067,
+              "rmse": {
+                "compression_only": 0.2698196992886561,
+                "full": 0.26056624304353093,
+                "no_mean_dilation": 0.263295521949562,
+                "rigid": 0.26906603538953716,
+                "rotation_only": 0.259113403333189
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 6068,
+              "rmse": {
+                "compression_only": 0.25134257461645576,
+                "full": 0.24106765114940903,
+                "no_mean_dilation": 0.24214188131185196,
+                "rigid": 0.2511751037403751,
+                "rotation_only": 0.24058754076258243
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.32412118296515746,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 7015,
+              "rmse": {
+                "compression_only": 0.24351748533347126,
+                "full": 0.23963447802283785,
+                "no_mean_dilation": 0.2379915589077712,
+                "rigid": 0.24408143758772416,
+                "rotation_only": 0.24163335218678972
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 6953,
+              "rmse": {
+                "compression_only": 0.25419090105756514,
+                "full": 0.2632012256094923,
+                "no_mean_dilation": 0.26084601487126174,
+                "rigid": 0.2544710796914818,
+                "rotation_only": 0.263438459361175
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 6941,
+              "rmse": {
+                "compression_only": 0.25798489878397246,
+                "full": 0.2517181485178879,
+                "no_mean_dilation": 0.25094083471471973,
+                "rigid": 0.2573133288236014,
+                "rotation_only": 0.25190759748922287
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 7047,
+              "rmse": {
+                "compression_only": 0.2416101732068819,
+                "full": 0.24010385922054223,
+                "no_mean_dilation": 0.23863399083984546,
+                "rigid": 0.24162032264703884,
+                "rotation_only": 0.24036544887839176
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.3865529983327661,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 3569,
+              "rmse": {
+                "compression_only": 0.24898269194830916,
+                "full": 0.23693347265229134,
+                "no_mean_dilation": 0.2358892303385369,
+                "rigid": 0.24845550687734202,
+                "rotation_only": 0.23776374847121795
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 3559,
+              "rmse": {
+                "compression_only": 0.2449437994977369,
+                "full": 0.24242934843115804,
+                "no_mean_dilation": 0.24408526725527432,
+                "rigid": 0.24504326365851625,
+                "rotation_only": 0.24058617313731467
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 3512,
+              "rmse": {
+                "compression_only": 0.27237158394975064,
+                "full": 0.24667080684582018,
+                "no_mean_dilation": 0.24695899231674853,
+                "rigid": 0.2694450565237674,
+                "rotation_only": 0.24820292374262243
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 3506,
+              "rmse": {
+                "compression_only": 0.2604352505928173,
+                "full": 0.2405535628038855,
+                "no_mean_dilation": 0.2406520647745175,
+                "rigid": 0.2595007532525744,
+                "rotation_only": 0.23890514370816043
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.25464118542842734,
+        "full": 0.24764670773089725,
+        "no_mean_dilation": 0.2473036629300238,
+        "rigid": 0.25421823379142855,
+        "rotation_only": 0.2476462718452417
+      }
+    },
+    "DS26": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": -1.028399941318586,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1617,
+              "rmse": {
+                "compression_only": 0.1997148866318736,
+                "full": 0.17994825282233148,
+                "no_mean_dilation": 0.17955299088201448,
+                "rigid": 0.20123726755589524,
+                "rotation_only": 0.18242109817944366
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1618,
+              "rmse": {
+                "compression_only": 0.23932415276630262,
+                "full": 0.21535709096723862,
+                "no_mean_dilation": 0.2197172903811705,
+                "rigid": 0.2399855959059606,
+                "rotation_only": 0.21664520859885444
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1612,
+              "rmse": {
+                "compression_only": 0.2583685756195534,
+                "full": 0.24626141203261803,
+                "no_mean_dilation": 0.2445634675079012,
+                "rigid": 0.258485478388851,
+                "rotation_only": 0.248695743578276
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1608,
+              "rmse": {
+                "compression_only": 0.21750381032756105,
+                "full": 0.21188205798253412,
+                "no_mean_dilation": 0.21735481243724805,
+                "rigid": 0.2163381088987036,
+                "rotation_only": 0.210160544655022
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": -1.0450683185962064,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2035,
+              "rmse": {
+                "compression_only": 0.2086486486476388,
+                "full": 0.19526681758029962,
+                "no_mean_dilation": 0.19531722223115816,
+                "rigid": 0.20958775905224455,
+                "rotation_only": 0.19452492560420284
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2121,
+              "rmse": {
+                "compression_only": 0.22515407175639393,
+                "full": 0.18793225694884436,
+                "no_mean_dilation": 0.1907965318888154,
+                "rigid": 0.22670042481135322,
+                "rotation_only": 0.1931361170279822
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2027,
+              "rmse": {
+                "compression_only": 0.22285089593272664,
+                "full": 0.20207141701541748,
+                "no_mean_dilation": 0.1993588306745307,
+                "rigid": 0.2245802756753921,
+                "rotation_only": 0.2095697448279041
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2096,
+              "rmse": {
+                "compression_only": 0.2161314364799868,
+                "full": 0.20076338721035114,
+                "no_mean_dilation": 0.20563035669124297,
+                "rigid": 0.2156891398974796,
+                "rotation_only": 0.2028809311571781
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": -1.0802802440273487,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2181,
+              "rmse": {
+                "compression_only": 0.19545594904980987,
+                "full": 0.1702949096097939,
+                "no_mean_dilation": 0.17214626863415586,
+                "rigid": 0.1966963831404491,
+                "rotation_only": 0.1733792571281161
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2243,
+              "rmse": {
+                "compression_only": 0.23495520711094664,
+                "full": 0.21485700636398955,
+                "no_mean_dilation": 0.21839074023417207,
+                "rigid": 0.23580888515295365,
+                "rotation_only": 0.21677723113376618
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2145,
+              "rmse": {
+                "compression_only": 0.22570067268175334,
+                "full": 0.21038841918045006,
+                "no_mean_dilation": 0.2115291912070445,
+                "rigid": 0.22652370395582058,
+                "rotation_only": 0.21228142985080095
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2173,
+              "rmse": {
+                "compression_only": 0.20854355144795841,
+                "full": 0.18512936218029954,
+                "no_mean_dilation": 0.19012825126610894,
+                "rigid": 0.2077083484984635,
+                "rotation_only": 0.1851449551965167
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.22102932153770874,
+        "full": 0.20167936582451396,
+        "no_mean_dilation": 0.2037071628362969,
+        "rigid": 0.22161178091113057,
+        "rotation_only": 0.20380143224483863
+      }
+    },
+    "DS28": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.621601975039991,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2335,
+              "rmse": {
+                "compression_only": 0.14065346232867285,
+                "full": 0.1607624403123849,
+                "raw_scaled_compression": 0.18318292853089924,
+                "rigid": 0.17384048986835543,
+                "rotation_only": 0.18698834364064276
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2391,
+              "rmse": {
+                "compression_only": 0.1387440382352045,
+                "full": 0.1625917569643672,
+                "raw_scaled_compression": 0.18418959614842018,
+                "rigid": 0.17195039197832565,
+                "rotation_only": 0.18792157800240877
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2314,
+              "rmse": {
+                "compression_only": 0.14900552213646964,
+                "full": 0.16813281379774325,
+                "raw_scaled_compression": 0.18607547115379452,
+                "rigid": 0.17588967963660934,
+                "rotation_only": 0.18934066016195836
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2347,
+              "rmse": {
+                "compression_only": 0.14665395894959612,
+                "full": 0.16767045791154286,
+                "raw_scaled_compression": 0.19023734163563277,
+                "rigid": 0.18020353302587244,
+                "rotation_only": 0.1941024381165039
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.60019335108504,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2545,
+              "rmse": {
+                "compression_only": 0.140366925421617,
+                "full": 0.16179089640049807,
+                "raw_scaled_compression": 0.18349610724035267,
+                "rigid": 0.17271646288691983,
+                "rotation_only": 0.1872174851057965
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2611,
+              "rmse": {
+                "compression_only": 0.14355162495763243,
+                "full": 0.1658173520534587,
+                "raw_scaled_compression": 0.18654098170311562,
+                "rigid": 0.17493625694796816,
+                "rotation_only": 0.1901529014355865
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2548,
+              "rmse": {
+                "compression_only": 0.14692040605310971,
+                "full": 0.16866596149738516,
+                "raw_scaled_compression": 0.18705353455764182,
+                "rigid": 0.1749839930076205,
+                "rotation_only": 0.19036798472907032
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2554,
+              "rmse": {
+                "compression_only": 0.15067741291978232,
+                "full": 0.16976168342176076,
+                "raw_scaled_compression": 0.19063675640922909,
+                "rigid": 0.18161679831828945,
+                "rotation_only": 0.1942660268633655
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.621429289532492,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2389,
+              "rmse": {
+                "compression_only": 0.14256287637603265,
+                "full": 0.16475632008036545,
+                "raw_scaled_compression": 0.18565399648665634,
+                "rigid": 0.17366379794902415,
+                "rotation_only": 0.1892709248742433
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2412,
+              "rmse": {
+                "compression_only": 0.15460720993239335,
+                "full": 0.17700612136376995,
+                "raw_scaled_compression": 0.1967358693381892,
+                "rigid": 0.1842890960896015,
+                "rotation_only": 0.2000524622163677
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2356,
+              "rmse": {
+                "compression_only": 0.15265106154327293,
+                "full": 0.1741367914242682,
+                "raw_scaled_compression": 0.19116561742940177,
+                "rigid": 0.17887180872018127,
+                "rotation_only": 0.19426325848281373
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2351,
+              "rmse": {
+                "compression_only": 0.14778547334517328,
+                "full": 0.17208097016119414,
+                "raw_scaled_compression": 0.19353022697059505,
+                "rigid": 0.1809873412433533,
+                "rotation_only": 0.19715962475768023
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.1461816643499131,
+        "full": 0.16776446378239487,
+        "raw_scaled_compression": 0.18820820230032734,
+        "rigid": 0.17699580413934343,
+        "rotation_only": 0.19175864069886983
+      }
+    },
+    "DS29": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 4.0265573519136675,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2301,
+              "rmse": {
+                "compression_only": 0.17066044051943946,
+                "full": 0.1707409107228153,
+                "raw_scaled_compression": 0.17546995064347107,
+                "rigid": 0.17717905536250692,
+                "rotation_only": 0.17720404275439297
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2289,
+              "rmse": {
+                "compression_only": 0.1567332150896124,
+                "full": 0.15714332742133544,
+                "raw_scaled_compression": 0.16407932146633875,
+                "rigid": 0.16604121035248576,
+                "rotation_only": 0.16629646879972365
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2333,
+              "rmse": {
+                "compression_only": 0.170633878498418,
+                "full": 0.17060271941792834,
+                "raw_scaled_compression": 0.17793211518711108,
+                "rigid": 0.18003916522820568,
+                "rotation_only": 0.18003408769532886
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2361,
+              "rmse": {
+                "compression_only": 0.157813453297727,
+                "full": 0.15772969280283644,
+                "raw_scaled_compression": 0.16326957939876002,
+                "rigid": 0.16536597443405054,
+                "rotation_only": 0.1652487649031078
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.994356317659803,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2466,
+              "rmse": {
+                "compression_only": 0.15508204832684916,
+                "full": 0.15520177678232766,
+                "raw_scaled_compression": 0.16389049195588834,
+                "rigid": 0.16626902821755773,
+                "rotation_only": 0.16631205447018105
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2452,
+              "rmse": {
+                "compression_only": 0.17129725333317292,
+                "full": 0.17161322059393092,
+                "raw_scaled_compression": 0.17601422557445257,
+                "rigid": 0.17739046389064672,
+                "rotation_only": 0.17770436026424521
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2433,
+              "rmse": {
+                "compression_only": 0.17804136821036004,
+                "full": 0.17828119651080243,
+                "raw_scaled_compression": 0.1860760065272616,
+                "rigid": 0.18761962906128787,
+                "rotation_only": 0.1880205225444604
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2493,
+              "rmse": {
+                "compression_only": 0.17170647540130551,
+                "full": 0.17215995499742012,
+                "raw_scaled_compression": 0.17968391966750935,
+                "rigid": 0.18124673818639736,
+                "rotation_only": 0.1816171145647373
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 4.016968594371397,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2507,
+              "rmse": {
+                "compression_only": 0.16529040340986964,
+                "full": 0.16523302282612226,
+                "raw_scaled_compression": 0.1721368207895423,
+                "rigid": 0.17422831747793074,
+                "rotation_only": 0.17414893721131117
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2475,
+              "rmse": {
+                "compression_only": 0.14909223196003682,
+                "full": 0.14947702375948324,
+                "raw_scaled_compression": 0.1557937698002025,
+                "rigid": 0.15778382239633645,
+                "rotation_only": 0.1581213150560824
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2514,
+              "rmse": {
+                "compression_only": 0.18436054216480321,
+                "full": 0.18430866069750942,
+                "raw_scaled_compression": 0.19047285679349396,
+                "rigid": 0.19203410023775408,
+                "rotation_only": 0.1921208624686755
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2528,
+              "rmse": {
+                "compression_only": 0.1708170226796405,
+                "full": 0.17074866756783216,
+                "raw_scaled_compression": 0.1749497079448642,
+                "rigid": 0.17670662215101157,
+                "rotation_only": 0.17657533800367192
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.1667940277409362,
+        "full": 0.16693668117502866,
+        "raw_scaled_compression": 0.173314063812408,
+        "rigid": 0.17515867724968093,
+        "rotation_only": 0.1752836557279932
+      }
+    },
+    "DS3": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.018590775948910326,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2484,
+              "rmse": {
+                "compression_only": 0.22855060979047107,
+                "full": 0.11598166917645973,
+                "no_mean_dilation": 0.11569194592645321,
+                "rigid": 0.22811460256308422,
+                "rotation_only": 0.1158307554333399
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2473,
+              "rmse": {
+                "compression_only": 0.2393967409278478,
+                "full": 0.13584994837795927,
+                "no_mean_dilation": 0.13544778401081697,
+                "rigid": 0.23904509438013583,
+                "rotation_only": 0.13562094764561125
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2478,
+              "rmse": {
+                "compression_only": 0.22886848900705367,
+                "full": 0.10964388409241978,
+                "no_mean_dilation": 0.1093163827642589,
+                "rigid": 0.22846569595398133,
+                "rotation_only": 0.10950945777025985
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2474,
+              "rmse": {
+                "compression_only": 0.23588363411564825,
+                "full": 0.13858933757838682,
+                "no_mean_dilation": 0.1382348063203755,
+                "rigid": 0.23548022961217793,
+                "rotation_only": 0.1384834574818557
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.021321805543409487,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2707,
+              "rmse": {
+                "compression_only": 0.23413467119958803,
+                "full": 0.12983159480868234,
+                "no_mean_dilation": 0.12971977813761165,
+                "rigid": 0.2336619213978781,
+                "rotation_only": 0.12974034080475297
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2654,
+              "rmse": {
+                "compression_only": 0.24195688483126113,
+                "full": 0.14467706336562836,
+                "no_mean_dilation": 0.14431000130093888,
+                "rigid": 0.24176571721707882,
+                "rotation_only": 0.1446134088115595
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2735,
+              "rmse": {
+                "compression_only": 0.2322427516328568,
+                "full": 0.12571745444140348,
+                "no_mean_dilation": 0.12533579431805933,
+                "rigid": 0.2319132751664119,
+                "rotation_only": 0.12581938026670522
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2670,
+              "rmse": {
+                "compression_only": 0.2393585858089062,
+                "full": 0.15253184152665067,
+                "no_mean_dilation": 0.1522705428572152,
+                "rigid": 0.2389597748400132,
+                "rotation_only": 0.15233573865375033
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": -0.01800479076832851,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2111,
+              "rmse": {
+                "compression_only": 0.23119437224539272,
+                "full": 0.12313499319865272,
+                "no_mean_dilation": 0.12293396824964922,
+                "rigid": 0.23075715625429963,
+                "rotation_only": 0.12305427452185083
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2060,
+              "rmse": {
+                "compression_only": 0.23899148472530757,
+                "full": 0.13563348794532165,
+                "no_mean_dilation": 0.13553618255386174,
+                "rigid": 0.23853916104105244,
+                "rotation_only": 0.13520452634436106
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2088,
+              "rmse": {
+                "compression_only": 0.2341903302427205,
+                "full": 0.12168473272508021,
+                "no_mean_dilation": 0.12147210784600174,
+                "rigid": 0.23378877457247693,
+                "rotation_only": 0.12189853457981166
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2116,
+              "rmse": {
+                "compression_only": 0.2339025371675904,
+                "full": 0.14130756815432696,
+                "no_mean_dilation": 0.1411474982533199,
+                "rigid": 0.23352459996120856,
+                "rotation_only": 0.14081161535558073
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.23488925764122034,
+        "full": 0.13121529794924766,
+        "no_mean_dilation": 0.1309513993782135,
+        "rigid": 0.23450133357998326,
+        "rotation_only": 0.13107686980578656
+      }
+    },
+    "DS30": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.7193589255212474,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2339,
+              "rmse": {
+                "compression_only": 0.1348417127463122,
+                "full": 0.11345095752733456,
+                "raw_scaled_compression": 0.13776393713398516,
+                "rigid": 0.1591598913745613,
+                "rotation_only": 0.14192387541078527
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2337,
+              "rmse": {
+                "compression_only": 0.15463900640553352,
+                "full": 0.13770779317633983,
+                "raw_scaled_compression": 0.15822962305934915,
+                "rigid": 0.17581449911561045,
+                "rotation_only": 0.1617041890656161
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2284,
+              "rmse": {
+                "compression_only": 0.15276079223249736,
+                "full": 0.13767890304026595,
+                "raw_scaled_compression": 0.1565109054241157,
+                "rigid": 0.17244287552240636,
+                "rotation_only": 0.15971750068625767
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2340,
+              "rmse": {
+                "compression_only": 0.14805509163369243,
+                "full": 0.13032596542826763,
+                "raw_scaled_compression": 0.15226162661757706,
+                "rigid": 0.1708289253685087,
+                "rotation_only": 0.1560194926437972
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.7202408199259436,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2527,
+              "rmse": {
+                "compression_only": 0.1313479582703667,
+                "full": 0.11019860634669455,
+                "raw_scaled_compression": 0.1345088540251311,
+                "rigid": 0.15590101148573665,
+                "rotation_only": 0.13873153646576236
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2507,
+              "rmse": {
+                "compression_only": 0.14763356722944998,
+                "full": 0.12976082529116995,
+                "raw_scaled_compression": 0.15128027516658787,
+                "rigid": 0.16999314316554856,
+                "rotation_only": 0.15498392203032532
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2529,
+              "rmse": {
+                "compression_only": 0.13520691268399018,
+                "full": 0.11718214566042555,
+                "raw_scaled_compression": 0.13966375936432146,
+                "rigid": 0.15817190910446238,
+                "rotation_only": 0.14355599004674474
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2451,
+              "rmse": {
+                "compression_only": 0.13598666165868933,
+                "full": 0.11225976351636253,
+                "raw_scaled_compression": 0.13660591629997787,
+                "rigid": 0.16028005722298375,
+                "rotation_only": 0.14091864173896046
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.720614270123586,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2379,
+              "rmse": {
+                "compression_only": 0.13639739271984833,
+                "full": 0.11555855439689024,
+                "raw_scaled_compression": 0.13916934829162034,
+                "rigid": 0.1601564049607358,
+                "rotation_only": 0.14325561923852795
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2370,
+              "rmse": {
+                "compression_only": 0.152294645113924,
+                "full": 0.13643109794108813,
+                "raw_scaled_compression": 0.15690782802127795,
+                "rigid": 0.17412896215775928,
+                "rotation_only": 0.16040223589640673
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2354,
+              "rmse": {
+                "compression_only": 0.14759165655398632,
+                "full": 0.13157565153730852,
+                "raw_scaled_compression": 0.15235979002567823,
+                "rigid": 0.16902133272835965,
+                "rotation_only": 0.1558644118938904
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2339,
+              "rmse": {
+                "compression_only": 0.1471983806647725,
+                "full": 0.12690188533262095,
+                "raw_scaled_compression": 0.14972614333046444,
+                "rigid": 0.17048441820274815,
+                "rotation_only": 0.1536343991692178
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.1436628148260886,
+        "full": 0.1249193457662307,
+        "raw_scaled_compression": 0.14708233389667386,
+        "rigid": 0.16636528586745175,
+        "rotation_only": 0.15089265119052434
+      }
+    },
+    "DS31": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 4.054361848115789,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2712,
+              "rmse": {
+                "compression_only": 0.1304727119059241,
+                "full": 0.12447533912106475,
+                "raw_scaled_compression": 0.13511751906819305,
+                "rigid": 0.14431424173680715,
+                "rotation_only": 0.13780147789434125
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2637,
+              "rmse": {
+                "compression_only": 0.15118297157929766,
+                "full": 0.14212388866773853,
+                "raw_scaled_compression": 0.1534887260699411,
+                "rigid": 0.16515629624092776,
+                "rotation_only": 0.15604193562717983
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2701,
+              "rmse": {
+                "compression_only": 0.1359162748073238,
+                "full": 0.12946368990783985,
+                "raw_scaled_compression": 0.14080907168512843,
+                "rigid": 0.1505204499553461,
+                "rotation_only": 0.143606188101913
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2696,
+              "rmse": {
+                "compression_only": 0.13563515227952036,
+                "full": 0.127885923727661,
+                "raw_scaled_compression": 0.13847015134897103,
+                "rigid": 0.14921757220492593,
+                "rotation_only": 0.14109795865060623
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 4.039416697991107,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2566,
+              "rmse": {
+                "compression_only": 0.12909504458840132,
+                "full": 0.12391449329638977,
+                "raw_scaled_compression": 0.13470643230751259,
+                "rigid": 0.1430834170343381,
+                "rotation_only": 0.13743397699096754
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2601,
+              "rmse": {
+                "compression_only": 0.13719678978143227,
+                "full": 0.1284111276844199,
+                "raw_scaled_compression": 0.1418143144464954,
+                "rigid": 0.1537166669714394,
+                "rotation_only": 0.1448062841268969
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2578,
+              "rmse": {
+                "compression_only": 0.13822593020734994,
+                "full": 0.13177938362246075,
+                "raw_scaled_compression": 0.14227340684184764,
+                "rigid": 0.15185238180649646,
+                "rotation_only": 0.14497751400672237
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2568,
+              "rmse": {
+                "compression_only": 0.13172240160108722,
+                "full": 0.12399320344039877,
+                "raw_scaled_compression": 0.13619740749950776,
+                "rigid": 0.1471779921980306,
+                "rotation_only": 0.1390777908112221
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 4.048474974854507,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2291,
+              "rmse": {
+                "compression_only": 0.12682899465897768,
+                "full": 0.12110153217274208,
+                "raw_scaled_compression": 0.13141190335564268,
+                "rigid": 0.14060322599577535,
+                "rotation_only": 0.13411428200914507
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2351,
+              "rmse": {
+                "compression_only": 0.1544501249034765,
+                "full": 0.14536984550460388,
+                "raw_scaled_compression": 0.15566226081121654,
+                "rigid": 0.16733162861258097,
+                "rotation_only": 0.15807985914198808
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2303,
+              "rmse": {
+                "compression_only": 0.1298449538778758,
+                "full": 0.1231372641408706,
+                "raw_scaled_compression": 0.13572743818578484,
+                "rigid": 0.14577982034658576,
+                "rotation_only": 0.13877251075249558
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2286,
+              "rmse": {
+                "compression_only": 0.1550394722277176,
+                "full": 0.15067192996603815,
+                "raw_scaled_compression": 0.15857590004586636,
+                "rigid": 0.1657630445004159,
+                "rotation_only": 0.16057496319637277
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.13796756853486533,
+        "full": 0.13102730177101898,
+        "raw_scaled_compression": 0.14202121097217563,
+        "rigid": 0.15204306146697247,
+        "rotation_only": 0.14469872844248755
+      }
+    },
+    "DS32": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.832206381718528,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2493,
+              "rmse": {
+                "compression_only": 0.15868505162991475,
+                "full": 0.15194880799398622,
+                "raw_scaled_compression": 0.15761783653727326,
+                "rigid": 0.16728911151825304,
+                "rotation_only": 0.15932490733329183
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2522,
+              "rmse": {
+                "compression_only": 0.14361361135355802,
+                "full": 0.1309214304152897,
+                "raw_scaled_compression": 0.1415221977166767,
+                "rigid": 0.1569401781137654,
+                "rotation_only": 0.14401397619894873
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2507,
+              "rmse": {
+                "compression_only": 0.1697728693955447,
+                "full": 0.15872728743649547,
+                "raw_scaled_compression": 0.16553142593953815,
+                "rigid": 0.17850108972335196,
+                "rotation_only": 0.1672456994571414
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2538,
+              "rmse": {
+                "compression_only": 0.1469438803470355,
+                "full": 0.14067192346328886,
+                "raw_scaled_compression": 0.1493027873144403,
+                "rigid": 0.1583096358502309,
+                "rotation_only": 0.15143919195243757
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.843170146197408,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2525,
+              "rmse": {
+                "compression_only": 0.1390328940379745,
+                "full": 0.12847147590870903,
+                "raw_scaled_compression": 0.1365802811252916,
+                "rigid": 0.15015139121382065,
+                "rotation_only": 0.13880809995627919
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2511,
+              "rmse": {
+                "compression_only": 0.1577903105679951,
+                "full": 0.1445440697167665,
+                "raw_scaled_compression": 0.15423096847332593,
+                "rigid": 0.1694706293110122,
+                "rotation_only": 0.15644114906674061
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2530,
+              "rmse": {
+                "compression_only": 0.14869514698980624,
+                "full": 0.13490552139614376,
+                "raw_scaled_compression": 0.14445835355842812,
+                "rigid": 0.16080602304856617,
+                "rotation_only": 0.14675448887585874
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2501,
+              "rmse": {
+                "compression_only": 0.15279095660091388,
+                "full": 0.1432129956257267,
+                "raw_scaled_compression": 0.15167762599727222,
+                "rigid": 0.16375312977859408,
+                "rotation_only": 0.15375221333503558
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.846487581614749,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2554,
+              "rmse": {
+                "compression_only": 0.14788565538883125,
+                "full": 0.14017796322383938,
+                "raw_scaled_compression": 0.1469147025008944,
+                "rigid": 0.1580591648523541,
+                "rotation_only": 0.1488639297572114
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2569,
+              "rmse": {
+                "compression_only": 0.14711452907384953,
+                "full": 0.13632146361829925,
+                "raw_scaled_compression": 0.14526471036897834,
+                "rigid": 0.1586645046028065,
+                "rotation_only": 0.14746675569458098
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2597,
+              "rmse": {
+                "compression_only": 0.16374813545563366,
+                "full": 0.15328089365157188,
+                "raw_scaled_compression": 0.1606937585451851,
+                "rigid": 0.17394765745418425,
+                "rotation_only": 0.16254630664445144
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2539,
+              "rmse": {
+                "compression_only": 0.1388012764788163,
+                "full": 0.13028179608016138,
+                "raw_scaled_compression": 0.13957511448395238,
+                "rigid": 0.1510107008862621,
+                "rotation_only": 0.14190837351163263
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.15123952644332278,
+        "full": 0.14112213571085652,
+        "raw_scaled_compression": 0.14944748021343804,
+        "rigid": 0.16224193469610013,
+        "rotation_only": 0.15154709098196753
+      }
+    },
+    "DS33": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.8853088480929943,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2523,
+              "rmse": {
+                "compression_only": 0.16291599374833887,
+                "full": 0.15877239988034894,
+                "raw_scaled_compression": 0.16193911297057575,
+                "rigid": 0.1688839162393936,
+                "rotation_only": 0.16363735107181415
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2544,
+              "rmse": {
+                "compression_only": 0.17915397598759825,
+                "full": 0.17846551918747466,
+                "raw_scaled_compression": 0.17891102918337726,
+                "rigid": 0.18131860224956942,
+                "rotation_only": 0.17999480612643196
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2535,
+              "rmse": {
+                "compression_only": 0.17899390117243427,
+                "full": 0.17507110064534395,
+                "raw_scaled_compression": 0.17634822306190628,
+                "rigid": 0.181929537794986,
+                "rotation_only": 0.17750970370311495
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2505,
+              "rmse": {
+                "compression_only": 0.17699410921498476,
+                "full": 0.17518709601186933,
+                "raw_scaled_compression": 0.17799124018897305,
+                "rigid": 0.18218325012430267,
+                "rotation_only": 0.17932146972477728
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.8924015638554312,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2198,
+              "rmse": {
+                "compression_only": 0.15742481830257446,
+                "full": 0.15204979457076725,
+                "raw_scaled_compression": 0.15465702398937378,
+                "rigid": 0.16288346249407973,
+                "rotation_only": 0.15643164590267677
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2197,
+              "rmse": {
+                "compression_only": 0.1611038213459612,
+                "full": 0.16000876618532778,
+                "raw_scaled_compression": 0.16200573200706855,
+                "rigid": 0.16528898443474258,
+                "rotation_only": 0.16358826265892262
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2261,
+              "rmse": {
+                "compression_only": 0.17561632333652824,
+                "full": 0.17253309076718035,
+                "raw_scaled_compression": 0.1735734488493535,
+                "rigid": 0.17855448747845756,
+                "rotation_only": 0.174777516750065
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2177,
+              "rmse": {
+                "compression_only": 0.1652697879201813,
+                "full": 0.16418481986551833,
+                "raw_scaled_compression": 0.1662546267902547,
+                "rigid": 0.17002631357824194,
+                "rotation_only": 0.16771584627359007
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.8649132976916785,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2412,
+              "rmse": {
+                "compression_only": 0.1548437259685663,
+                "full": 0.15147496885975303,
+                "raw_scaled_compression": 0.15476674949899902,
+                "rigid": 0.1610150204378098,
+                "rotation_only": 0.15662720753535928
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2447,
+              "rmse": {
+                "compression_only": 0.1708438466345564,
+                "full": 0.17053970838633437,
+                "raw_scaled_compression": 0.17298666568257778,
+                "rigid": 0.17503027563180668,
+                "rotation_only": 0.1744037762158474
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2424,
+              "rmse": {
+                "compression_only": 0.16510748515637125,
+                "full": 0.15998711597322848,
+                "raw_scaled_compression": 0.16178346063283566,
+                "rigid": 0.1688391844653837,
+                "rotation_only": 0.16327921160043996
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2360,
+              "rmse": {
+                "compression_only": 0.15862332557230124,
+                "full": 0.15685066319943028,
+                "raw_scaled_compression": 0.16004381838836618,
+                "rigid": 0.16459769384632106,
+                "rotation_only": 0.16174671079660705
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.1672409261966997,
+        "full": 0.16459375362771472,
+        "raw_scaled_compression": 0.1667717609369718,
+        "rigid": 0.17171256073125787,
+        "rotation_only": 0.16825279236330384
+      }
+    },
+    "DS34": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.7346958328832773,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2650,
+              "rmse": {
+                "compression_only": 0.12049502147403049,
+                "full": 0.11974715874593281,
+                "raw_scaled_compression": 0.1449348177290885,
+                "rigid": 0.15067981834471975,
+                "rotation_only": 0.14981378371813128
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2670,
+              "rmse": {
+                "compression_only": 0.11731366760921377,
+                "full": 0.11605675730602236,
+                "raw_scaled_compression": 0.14479451294359177,
+                "rigid": 0.15139719101112842,
+                "rotation_only": 0.15032720576679945
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2651,
+              "rmse": {
+                "compression_only": 0.10776405151709123,
+                "full": 0.10663264385665315,
+                "raw_scaled_compression": 0.13567038655291017,
+                "rigid": 0.142509319757831,
+                "rotation_only": 0.1412774586518472
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2598,
+              "rmse": {
+                "compression_only": 0.11967630969908988,
+                "full": 0.11913575866562756,
+                "raw_scaled_compression": 0.14790023082080359,
+                "rigid": 0.1538396583194825,
+                "rotation_only": 0.15330506879716457
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.7321589530476635,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2383,
+              "rmse": {
+                "compression_only": 0.13154175292071824,
+                "full": 0.13048710659413246,
+                "raw_scaled_compression": 0.1541615511080836,
+                "rigid": 0.15947971237154676,
+                "rotation_only": 0.15876741859634033
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2468,
+              "rmse": {
+                "compression_only": 0.11985656277780421,
+                "full": 0.11854989753065386,
+                "raw_scaled_compression": 0.14712018065286483,
+                "rigid": 0.15360753276217376,
+                "rotation_only": 0.15266080655877592
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2450,
+              "rmse": {
+                "compression_only": 0.12191439552371074,
+                "full": 0.12043812047696206,
+                "raw_scaled_compression": 0.14675378243582293,
+                "rigid": 0.1530430934421354,
+                "rotation_only": 0.15174691850626215
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2384,
+              "rmse": {
+                "compression_only": 0.12651159520313146,
+                "full": 0.12565479554462353,
+                "raw_scaled_compression": 0.152363950847037,
+                "rigid": 0.15816689444645485,
+                "rotation_only": 0.15745896380779378
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.736226027817411,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2582,
+              "rmse": {
+                "compression_only": 0.16549366654864012,
+                "full": 0.16531575342879745,
+                "raw_scaled_compression": 0.17967089784585197,
+                "rigid": 0.18310568505400035,
+                "rotation_only": 0.18273931413502567
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2577,
+              "rmse": {
+                "compression_only": 0.1451053544424057,
+                "full": 0.14459120530587963,
+                "raw_scaled_compression": 0.16530039267955618,
+                "rigid": 0.17030989213479064,
+                "rotation_only": 0.16944640248228565
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2529,
+              "rmse": {
+                "compression_only": 0.12802670613237238,
+                "full": 0.12710471943786258,
+                "raw_scaled_compression": 0.15139768527327388,
+                "rigid": 0.15698805311627848,
+                "rotation_only": 0.1560732592701679
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2524,
+              "rmse": {
+                "compression_only": 0.15046303122236532,
+                "full": 0.15022851502606557,
+                "raw_scaled_compression": 0.17079465014549558,
+                "rigid": 0.17545866945024816,
+                "rotation_only": 0.1748016129149131
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.12951350958921445,
+        "full": 0.1286618693266011,
+        "raw_scaled_compression": 0.153405253252865,
+        "rigid": 0.15904879335089916,
+        "rotation_only": 0.15820151776712557
+      }
+    },
+    "DS35": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.677755531854991,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2505,
+              "rmse": {
+                "compression_only": 0.1512647586727294,
+                "full": 0.1504699237426563,
+                "raw_scaled_compression": 0.15924131212441092,
+                "rigid": 0.16392728739464535,
+                "rotation_only": 0.1629368821518024
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2536,
+              "rmse": {
+                "compression_only": 0.16756734829114808,
+                "full": 0.16749206102097647,
+                "raw_scaled_compression": 0.16941134024286766,
+                "rigid": 0.17199002876658476,
+                "rotation_only": 0.17183406947574198
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2455,
+              "rmse": {
+                "compression_only": 0.140530741962834,
+                "full": 0.14030060924432142,
+                "raw_scaled_compression": 0.1488578797430242,
+                "rigid": 0.15310114651122916,
+                "rotation_only": 0.15282500823797354
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2477,
+              "rmse": {
+                "compression_only": 0.16796472081251337,
+                "full": 0.16755827697701262,
+                "raw_scaled_compression": 0.16973249929152656,
+                "rigid": 0.1727150680423177,
+                "rotation_only": 0.17217825325482405
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.6846099783045325,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2635,
+              "rmse": {
+                "compression_only": 0.16484756975048687,
+                "full": 0.16433189962739,
+                "raw_scaled_compression": 0.1675234159233435,
+                "rigid": 0.17085460528642454,
+                "rotation_only": 0.17033354696095
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2586,
+              "rmse": {
+                "compression_only": 0.16472306769554734,
+                "full": 0.16446594651083524,
+                "raw_scaled_compression": 0.16854057847585854,
+                "rigid": 0.17130927477561111,
+                "rotation_only": 0.17127253659951808
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2606,
+              "rmse": {
+                "compression_only": 0.16414875315559563,
+                "full": 0.16429695993312446,
+                "raw_scaled_compression": 0.1681055000816126,
+                "rigid": 0.17045774797530872,
+                "rotation_only": 0.17091206242770934
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2573,
+              "rmse": {
+                "compression_only": 0.16119410995729622,
+                "full": 0.16059244619121985,
+                "raw_scaled_compression": 0.1630749476997721,
+                "rigid": 0.16639972155768568,
+                "rotation_only": 0.16588085334900618
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.6770109033324916,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2442,
+              "rmse": {
+                "compression_only": 0.15853287447043182,
+                "full": 0.15755059394075396,
+                "raw_scaled_compression": 0.16262269329958903,
+                "rigid": 0.16720752417223692,
+                "rotation_only": 0.16584521449706655
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2380,
+              "rmse": {
+                "compression_only": 0.16975957923731405,
+                "full": 0.16918295187557356,
+                "raw_scaled_compression": 0.17314470915420066,
+                "rigid": 0.17613556978538233,
+                "rotation_only": 0.17572670645190988
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2447,
+              "rmse": {
+                "compression_only": 0.16165110187606402,
+                "full": 0.16197961252790516,
+                "raw_scaled_compression": 0.1667066747220671,
+                "rigid": 0.1692771374874274,
+                "rotation_only": 0.16962495428587143
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2453,
+              "rmse": {
+                "compression_only": 0.16350421668912346,
+                "full": 0.16283603448648826,
+                "raw_scaled_compression": 0.16731136868295826,
+                "rigid": 0.17051675361961147,
+                "rotation_only": 0.1702675294094248
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.16130740354759035,
+        "full": 0.16092144300652148,
+        "raw_scaled_compression": 0.16535607662010263,
+        "rigid": 0.16865765544787206,
+        "rotation_only": 0.1683031347584832
+      }
+    },
+    "DS36": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.632882344125295,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2200,
+              "rmse": {
+                "compression_only": 0.14987466078879916,
+                "full": 0.1506390127039872,
+                "raw_scaled_compression": 0.16430778765157492,
+                "rigid": 0.1676420415507118,
+                "rotation_only": 0.16879052732782251
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2230,
+              "rmse": {
+                "compression_only": 0.14173416624605048,
+                "full": 0.14210554127655886,
+                "raw_scaled_compression": 0.15468776477188856,
+                "rigid": 0.15974885210101578,
+                "rotation_only": 0.15946644507804825
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2275,
+              "rmse": {
+                "compression_only": 0.16571190256772178,
+                "full": 0.16688452747081475,
+                "raw_scaled_compression": 0.17872185007176067,
+                "rigid": 0.18208777190837425,
+                "rotation_only": 0.182778692605336
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2285,
+              "rmse": {
+                "compression_only": 0.1317160210459758,
+                "full": 0.13149545783635858,
+                "raw_scaled_compression": 0.14789478588193405,
+                "rigid": 0.15322846897807166,
+                "rotation_only": 0.15313658620488788
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.6169593130016318,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1794,
+              "rmse": {
+                "compression_only": 0.1527322785274295,
+                "full": 0.15240030305769414,
+                "raw_scaled_compression": 0.1694156850816322,
+                "rigid": 0.17328191954571287,
+                "rotation_only": 0.17421803976388792
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1737,
+              "rmse": {
+                "compression_only": 0.14947293015321997,
+                "full": 0.14922403335252782,
+                "raw_scaled_compression": 0.161505496169146,
+                "rigid": 0.16657783589540243,
+                "rotation_only": 0.1661617344321988
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1776,
+              "rmse": {
+                "compression_only": 0.15710049517869634,
+                "full": 0.1588274974963912,
+                "raw_scaled_compression": 0.1667322077439486,
+                "rigid": 0.1697488511247817,
+                "rotation_only": 0.17112061107939255
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1762,
+              "rmse": {
+                "compression_only": 0.1372221451740355,
+                "full": 0.13456547723432472,
+                "raw_scaled_compression": 0.15034436682210886,
+                "rigid": 0.15763996147828468,
+                "rotation_only": 0.155452613213549
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.6247857415659737,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2231,
+              "rmse": {
+                "compression_only": 0.1650314077537548,
+                "full": 0.16494672891399423,
+                "raw_scaled_compression": 0.17864128577704802,
+                "rigid": 0.1819099854866937,
+                "rotation_only": 0.18252230947192838
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2200,
+              "rmse": {
+                "compression_only": 0.1751266521937903,
+                "full": 0.17519326476791902,
+                "raw_scaled_compression": 0.18311726461974365,
+                "rigid": 0.18657616736687832,
+                "rotation_only": 0.1863620306668156
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2276,
+              "rmse": {
+                "compression_only": 0.1663686770237208,
+                "full": 0.166756393395167,
+                "raw_scaled_compression": 0.1779059799280114,
+                "rigid": 0.18159060733422505,
+                "rotation_only": 0.1819091667536842
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2286,
+              "rmse": {
+                "compression_only": 0.15897220621022748,
+                "full": 0.15878048922670282,
+                "raw_scaled_compression": 0.1695565124716666,
+                "rigid": 0.17327985527158257,
+                "rotation_only": 0.17334384246670698
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.15425529523861845,
+        "full": 0.15431822722770336,
+        "raw_scaled_compression": 0.1669025822492053,
+        "rigid": 0.17110935983681122,
+        "rotation_only": 0.17127188325535483
+      }
+    },
+    "DS37": {
+      "interface": [
+        "MoS2",
+        "WSe2",
+        "AP"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 3.392127080267228,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2488,
+              "rmse": {
+                "compression_only": 0.16475394939093624,
+                "full": 0.1660530008375965,
+                "raw_scaled_compression": 0.1688048563809675,
+                "rigid": 0.17239209401057837,
+                "rotation_only": 0.1724700699554517
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2486,
+              "rmse": {
+                "compression_only": 0.18608632057490748,
+                "full": 0.1877196545304968,
+                "raw_scaled_compression": 0.18797560428410703,
+                "rigid": 0.18927920912388008,
+                "rotation_only": 0.19061842599403614
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2465,
+              "rmse": {
+                "compression_only": 0.1999660398138307,
+                "full": 0.20078254336485993,
+                "raw_scaled_compression": 0.20543248113952742,
+                "rigid": 0.20804417889859972,
+                "rotation_only": 0.2078377549017761
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2499,
+              "rmse": {
+                "compression_only": 0.190120915692922,
+                "full": 0.19146162417931237,
+                "raw_scaled_compression": 0.19110769234305455,
+                "rigid": 0.19265831032802674,
+                "rotation_only": 0.19342400166390528
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 3.417278496443109,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2599,
+              "rmse": {
+                "compression_only": 0.1656634769119502,
+                "full": 0.166430695057896,
+                "raw_scaled_compression": 0.17295835202750787,
+                "rigid": 0.17653509739822956,
+                "rotation_only": 0.1767717576244547
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2574,
+              "rmse": {
+                "compression_only": 0.17380454272660723,
+                "full": 0.1753970139632718,
+                "raw_scaled_compression": 0.17468114887651037,
+                "rigid": 0.17613105778840465,
+                "rotation_only": 0.1776919868285448
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2582,
+              "rmse": {
+                "compression_only": 0.20373647255413593,
+                "full": 0.2042891757510206,
+                "raw_scaled_compression": 0.21099905214385556,
+                "rigid": 0.21277409794852506,
+                "rotation_only": 0.21344136639924377
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2584,
+              "rmse": {
+                "compression_only": 0.20288405812776675,
+                "full": 0.20379900104583623,
+                "raw_scaled_compression": 0.19933436751372297,
+                "rigid": 0.19920480334947954,
+                "rotation_only": 0.2006991553795615
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 3.403581074047052,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2907,
+              "rmse": {
+                "compression_only": 0.1372005263748318,
+                "full": 0.1380735150117845,
+                "raw_scaled_compression": 0.14351280173292585,
+                "rigid": 0.14865560267851255,
+                "rotation_only": 0.14845916554611763
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2849,
+              "rmse": {
+                "compression_only": 0.16671325733459164,
+                "full": 0.16812759823430518,
+                "raw_scaled_compression": 0.17223296585840664,
+                "rigid": 0.1744783374511406,
+                "rotation_only": 0.17596296118775584
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2903,
+              "rmse": {
+                "compression_only": 0.15633050311976748,
+                "full": 0.15653550987972897,
+                "raw_scaled_compression": 0.16493191320030942,
+                "rigid": 0.1697268947091463,
+                "rotation_only": 0.16930783378081646
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2908,
+              "rmse": {
+                "compression_only": 0.14999237212988561,
+                "full": 0.15080515321789206,
+                "raw_scaled_compression": 0.15322880081028567,
+                "rigid": 0.15700855530163954,
+                "rotation_only": 0.15725712978700604
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.17477103622934442,
+        "full": 0.17578954042283343,
+        "raw_scaled_compression": 0.17876666969259838,
+        "rigid": 0.1814073532488469,
+        "rotation_only": 0.18199513408738918
+      }
+    },
+    "DS4": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.11024099584154073,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2339,
+              "rmse": {
+                "compression_only": 0.16519342877931248,
+                "full": 0.08934864429665787,
+                "no_mean_dilation": 0.08898352272057314,
+                "rigid": 0.16491084380459278,
+                "rotation_only": 0.08932898085487948
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2280,
+              "rmse": {
+                "compression_only": 0.21533909122792516,
+                "full": 0.11655669253809482,
+                "no_mean_dilation": 0.11568233936110846,
+                "rigid": 0.2155006769575539,
+                "rotation_only": 0.11710906020567555
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2289,
+              "rmse": {
+                "compression_only": 0.21242781911091743,
+                "full": 0.11601522830638059,
+                "no_mean_dilation": 0.1155561759383899,
+                "rigid": 0.2125148176881162,
+                "rotation_only": 0.1164236309932098
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2261,
+              "rmse": {
+                "compression_only": 0.1682936971974049,
+                "full": 0.09170138344443807,
+                "no_mean_dilation": 0.09112429358075304,
+                "rigid": 0.1680969439330904,
+                "rotation_only": 0.09189027831520671
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.11052520270381581,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2572,
+              "rmse": {
+                "compression_only": 0.16932369505220518,
+                "full": 0.10483025570117538,
+                "no_mean_dilation": 0.10459988645586926,
+                "rigid": 0.16912531467471414,
+                "rotation_only": 0.1046980858336089
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2613,
+              "rmse": {
+                "compression_only": 0.22037466715540877,
+                "full": 0.13682306277320333,
+                "no_mean_dilation": 0.13629947182366298,
+                "rigid": 0.220535775106962,
+                "rotation_only": 0.13728856006553208
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2584,
+              "rmse": {
+                "compression_only": 0.2177923485853611,
+                "full": 0.13202353842581432,
+                "no_mean_dilation": 0.13150274209672497,
+                "rigid": 0.21784383666718354,
+                "rotation_only": 0.13239854330852638
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2553,
+              "rmse": {
+                "compression_only": 0.17308081492622357,
+                "full": 0.10987814842427367,
+                "no_mean_dilation": 0.10922368480708744,
+                "rigid": 0.17297714098374958,
+                "rotation_only": 0.11010473365449355
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.09767522002865903,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2410,
+              "rmse": {
+                "compression_only": 0.16608144443485107,
+                "full": 0.0990629788207762,
+                "no_mean_dilation": 0.0984779264993995,
+                "rigid": 0.16584903342961188,
+                "rotation_only": 0.09906037170944433
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2342,
+              "rmse": {
+                "compression_only": 0.2125452707163904,
+                "full": 0.11702137049396924,
+                "no_mean_dilation": 0.11618484189140617,
+                "rigid": 0.2126901655639203,
+                "rotation_only": 0.11741427716930758
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2343,
+              "rmse": {
+                "compression_only": 0.21491534135034807,
+                "full": 0.12534088335132984,
+                "no_mean_dilation": 0.12484860857515294,
+                "rigid": 0.2150358452072261,
+                "rotation_only": 0.1258014927597005
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2356,
+              "rmse": {
+                "compression_only": 0.1646457811160037,
+                "full": 0.09541817761817854,
+                "no_mean_dilation": 0.09463134658656285,
+                "rigid": 0.1644730389736917,
+                "rotation_only": 0.09585081104089636
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.19166778330436263,
+        "full": 0.11116836368285767,
+        "no_mean_dilation": 0.11059290336139088,
+        "rigid": 0.19162945274920107,
+        "rotation_only": 0.11144740215920677
+      }
+    },
+    "DS5": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.2310478078447827,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2238,
+              "rmse": {
+                "compression_only": 0.22275854066666106,
+                "full": 0.10254094020770904,
+                "no_mean_dilation": 0.10021880131040566,
+                "rigid": 0.22301286942448384,
+                "rotation_only": 0.1043440150655171
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2268,
+              "rmse": {
+                "compression_only": 0.22312699238116088,
+                "full": 0.10890028331024876,
+                "no_mean_dilation": 0.10714757777049025,
+                "rigid": 0.2232509690907379,
+                "rotation_only": 0.11016123526899202
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2272,
+              "rmse": {
+                "compression_only": 0.22994574580691013,
+                "full": 0.10583795192959508,
+                "no_mean_dilation": 0.1040019509814143,
+                "rigid": 0.23015207875476074,
+                "rotation_only": 0.10724708405461099
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2267,
+              "rmse": {
+                "compression_only": 0.21909220915655825,
+                "full": 0.1091339789178985,
+                "no_mean_dilation": 0.10678409528382436,
+                "rigid": 0.21931950302222675,
+                "rotation_only": 0.11108252304466806
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.19857228086141995,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2526,
+              "rmse": {
+                "compression_only": 0.22797832323444986,
+                "full": 0.11358151082040811,
+                "no_mean_dilation": 0.11183931268003384,
+                "rigid": 0.2280813160159642,
+                "rotation_only": 0.11475337181478022
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2457,
+              "rmse": {
+                "compression_only": 0.2255978740737555,
+                "full": 0.12756715006302988,
+                "no_mean_dilation": 0.12695212428376929,
+                "rigid": 0.22569947803499205,
+                "rotation_only": 0.12848612250061098
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2541,
+              "rmse": {
+                "compression_only": 0.23339276886358382,
+                "full": 0.12174989326009712,
+                "no_mean_dilation": 0.1202137266728602,
+                "rigid": 0.23357717572849016,
+                "rotation_only": 0.12303841240941842
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2486,
+              "rmse": {
+                "compression_only": 0.21935092193136715,
+                "full": 0.11506436342930014,
+                "no_mean_dilation": 0.1138169903017319,
+                "rigid": 0.2194515556713157,
+                "rotation_only": 0.11697908980650075
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.20882396008898976,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2351,
+              "rmse": {
+                "compression_only": 0.22018658183962,
+                "full": 0.09744161290670993,
+                "no_mean_dilation": 0.09522570332724002,
+                "rigid": 0.22038212490517028,
+                "rotation_only": 0.09961101660757875
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2371,
+              "rmse": {
+                "compression_only": 0.22386701510651436,
+                "full": 0.11395805795378769,
+                "no_mean_dilation": 0.11252820467941929,
+                "rigid": 0.22410137034226993,
+                "rotation_only": 0.11541160591035998
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2369,
+              "rmse": {
+                "compression_only": 0.2288383884302342,
+                "full": 0.1083020815806489,
+                "no_mean_dilation": 0.10613064406492441,
+                "rigid": 0.22889505558385426,
+                "rotation_only": 0.10952503400301421
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2365,
+              "rmse": {
+                "compression_only": 0.21589709311290703,
+                "full": 0.10630460947402527,
+                "no_mean_dilation": 0.10498215791158749,
+                "rigid": 0.21607379499022755,
+                "rotation_only": 0.10819814110110994
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.2241693712169769,
+        "full": 0.11086520282112151,
+        "no_mean_dilation": 0.10915344077230842,
+        "rigid": 0.22433310763037448,
+        "rotation_only": 0.11240313763226346
+      }
+    },
+    "DS6": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.06763227285575925,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2443,
+              "rmse": {
+                "compression_only": 0.2369817864884097,
+                "full": 0.14509059280220987,
+                "no_mean_dilation": 0.14431426101388822,
+                "rigid": 0.23715150119638467,
+                "rotation_only": 0.14726200129663433
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2480,
+              "rmse": {
+                "compression_only": 0.22636658354106096,
+                "full": 0.14080562876002,
+                "no_mean_dilation": 0.1407106419270567,
+                "rigid": 0.22651574278719372,
+                "rotation_only": 0.142725029920228
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2494,
+              "rmse": {
+                "compression_only": 0.2287228779458038,
+                "full": 0.13123873917018072,
+                "no_mean_dilation": 0.13024845538265323,
+                "rigid": 0.22901001854438527,
+                "rotation_only": 0.13523797463657763
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2472,
+              "rmse": {
+                "compression_only": 0.2344126841401002,
+                "full": 0.13978971608044863,
+                "no_mean_dilation": 0.13966905342160293,
+                "rigid": 0.2345068143061561,
+                "rotation_only": 0.14018028959178855
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.05586725312948856,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2056,
+              "rmse": {
+                "compression_only": 0.23130684666443352,
+                "full": 0.12464430529298773,
+                "no_mean_dilation": 0.12332428074438831,
+                "rigid": 0.23170647941128727,
+                "rotation_only": 0.12736557567511117
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2039,
+              "rmse": {
+                "compression_only": 0.2265010303711691,
+                "full": 0.12362454909109731,
+                "no_mean_dilation": 0.12289103918799589,
+                "rigid": 0.22699050943268273,
+                "rotation_only": 0.1259203483056065
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2050,
+              "rmse": {
+                "compression_only": 0.2311338418944584,
+                "full": 0.12626703020348995,
+                "no_mean_dilation": 0.12497404943236068,
+                "rigid": 0.23147967126549962,
+                "rotation_only": 0.1284113870772117
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2097,
+              "rmse": {
+                "compression_only": 0.23154091165370191,
+                "full": 0.12490235894784225,
+                "no_mean_dilation": 0.12468544416049936,
+                "rigid": 0.23197344480217763,
+                "rotation_only": 0.12556279267474088
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.0769718084634935,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2026,
+              "rmse": {
+                "compression_only": 0.23722270458454164,
+                "full": 0.1434592790142795,
+                "no_mean_dilation": 0.14234629664484805,
+                "rigid": 0.23765297253333245,
+                "rotation_only": 0.14608851628132463
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2000,
+              "rmse": {
+                "compression_only": 0.22493391575623928,
+                "full": 0.13642306958155057,
+                "no_mean_dilation": 0.13603172173144745,
+                "rigid": 0.2254677778381868,
+                "rotation_only": 0.13969045237414657
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2014,
+              "rmse": {
+                "compression_only": 0.23630273836013166,
+                "full": 0.15478442538663223,
+                "no_mean_dilation": 0.15374773870596972,
+                "rigid": 0.2362096614855038,
+                "rotation_only": 0.15788140367640252
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2064,
+              "rmse": {
+                "compression_only": 0.23317367342344858,
+                "full": 0.13804835916000216,
+                "no_mean_dilation": 0.13793569745487588,
+                "rigid": 0.2339109572653588,
+                "rotation_only": 0.1397097434056416
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.23154996623529153,
+        "full": 0.13575650445756174,
+        "no_mean_dilation": 0.13507322331729887,
+        "rigid": 0.23188129590567907,
+        "rotation_only": 0.1380029595762845
+      }
+    },
+    "DS7": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.05080132668665823,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2017,
+              "rmse": {
+                "compression_only": 0.266814146031386,
+                "full": 0.1448326698990215,
+                "no_mean_dilation": 0.14461431914621964,
+                "rigid": 0.2667472315941184,
+                "rotation_only": 0.1455783233395858
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2050,
+              "rmse": {
+                "compression_only": 0.2714747733671277,
+                "full": 0.19362085054690711,
+                "no_mean_dilation": 0.1927681072053136,
+                "rigid": 0.2710285110495353,
+                "rotation_only": 0.1938375954865562
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2004,
+              "rmse": {
+                "compression_only": 0.2735459005792437,
+                "full": 0.19652466618723596,
+                "no_mean_dilation": 0.19699752618474012,
+                "rigid": 0.27338840841361517,
+                "rotation_only": 0.1956816975621551
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1947,
+              "rmse": {
+                "compression_only": 0.270874732469973,
+                "full": 0.15108235878751186,
+                "no_mean_dilation": 0.15093108002759964,
+                "rigid": 0.27088746945208375,
+                "rotation_only": 0.1516275848663214
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.07010555135935498,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1746,
+              "rmse": {
+                "compression_only": 0.27037247321231206,
+                "full": 0.14613913510699858,
+                "no_mean_dilation": 0.14685311894173497,
+                "rigid": 0.27058558494931506,
+                "rotation_only": 0.1442775010620949
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1745,
+              "rmse": {
+                "compression_only": 0.2599486794597235,
+                "full": 0.14392007621969435,
+                "no_mean_dilation": 0.14263788126807123,
+                "rigid": 0.25984397224209993,
+                "rotation_only": 0.14508704590770594
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1741,
+              "rmse": {
+                "compression_only": 0.26799268570318546,
+                "full": 0.18790945529409794,
+                "no_mean_dilation": 0.18747855577757225,
+                "rigid": 0.26802345632368396,
+                "rotation_only": 0.1883726191119693
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1806,
+              "rmse": {
+                "compression_only": 0.2722031551338386,
+                "full": 0.18606240874473312,
+                "no_mean_dilation": 0.18465894284367323,
+                "rigid": 0.2724413576753806,
+                "rotation_only": 0.1878973731698552
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.061256174167823293,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2185,
+              "rmse": {
+                "compression_only": 0.2642419462686763,
+                "full": 0.1452202171807697,
+                "no_mean_dilation": 0.14534618479270944,
+                "rigid": 0.2642397469127807,
+                "rotation_only": 0.1454500976238773
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2152,
+              "rmse": {
+                "compression_only": 0.26080091226357016,
+                "full": 0.17825056325308158,
+                "no_mean_dilation": 0.17801158230453135,
+                "rigid": 0.26034822752005743,
+                "rotation_only": 0.17850147324835522
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2116,
+              "rmse": {
+                "compression_only": 0.2741397649259397,
+                "full": 0.1907963064644352,
+                "no_mean_dilation": 0.1915630930957498,
+                "rigid": 0.2738363905262011,
+                "rotation_only": 0.1899874721063418
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2105,
+              "rmse": {
+                "compression_only": 0.26804505430392345,
+                "full": 0.16134459049449895,
+                "no_mean_dilation": 0.16096519607629736,
+                "rigid": 0.2681316723428224,
+                "rotation_only": 0.16158768185463743
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.26837118530990833,
+        "full": 0.16880860818158216,
+        "no_mean_dilation": 0.16856879897201774,
+        "rigid": 0.2682918357501412,
+        "rotation_only": 0.16899053877828796
+      }
+    },
+    "DS8": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.02859961697498489,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2525,
+              "rmse": {
+                "compression_only": 0.22285548419288811,
+                "full": 0.1097864276254163,
+                "no_mean_dilation": 0.10942272191068661,
+                "rigid": 0.22236407681879788,
+                "rotation_only": 0.11023719854965368
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2472,
+              "rmse": {
+                "compression_only": 0.2339795134831152,
+                "full": 0.13850945633746264,
+                "no_mean_dilation": 0.13826527401481034,
+                "rigid": 0.23327399461215165,
+                "rotation_only": 0.1387461779699087
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2482,
+              "rmse": {
+                "compression_only": 0.23210973611043464,
+                "full": 0.13537661326614525,
+                "no_mean_dilation": 0.13517995352232842,
+                "rigid": 0.23134067678754344,
+                "rotation_only": 0.13596492726524073
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2537,
+              "rmse": {
+                "compression_only": 0.21883034281256308,
+                "full": 0.13826932657655502,
+                "no_mean_dilation": 0.138087100101639,
+                "rigid": 0.21846241345578463,
+                "rotation_only": 0.1386697488603925
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.027368716209705574,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2521,
+              "rmse": {
+                "compression_only": 0.22115010950302783,
+                "full": 0.138879855991926,
+                "no_mean_dilation": 0.1385829340293289,
+                "rigid": 0.22066781640385225,
+                "rotation_only": 0.13905940756700827
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2521,
+              "rmse": {
+                "compression_only": 0.22795000622386585,
+                "full": 0.12001164553449079,
+                "no_mean_dilation": 0.1199006648456639,
+                "rigid": 0.22690594537092043,
+                "rotation_only": 0.11988746315385
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2512,
+              "rmse": {
+                "compression_only": 0.22953605808034067,
+                "full": 0.14265596402602915,
+                "no_mean_dilation": 0.14253075322711783,
+                "rigid": 0.22880867852020534,
+                "rotation_only": 0.143507221589288
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2515,
+              "rmse": {
+                "compression_only": 0.21604268788934838,
+                "full": 0.11698463749561253,
+                "no_mean_dilation": 0.11676794458192055,
+                "rigid": 0.21543573532014876,
+                "rotation_only": 0.11700729412635594
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.03208618693472309,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2400,
+              "rmse": {
+                "compression_only": 0.21660473237151445,
+                "full": 0.12950075554359677,
+                "no_mean_dilation": 0.12924874807120093,
+                "rigid": 0.21611093315117308,
+                "rotation_only": 0.13032056844942053
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2426,
+              "rmse": {
+                "compression_only": 0.2304814318067625,
+                "full": 0.11443945330484989,
+                "no_mean_dilation": 0.11412522554797122,
+                "rigid": 0.22944652339595145,
+                "rotation_only": 0.11506400501372971
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2401,
+              "rmse": {
+                "compression_only": 0.22817486987052035,
+                "full": 0.13743089549755286,
+                "no_mean_dilation": 0.1371338966384194,
+                "rigid": 0.22758826899311452,
+                "rotation_only": 0.13906379140946198
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2429,
+              "rmse": {
+                "compression_only": 0.2226740542935786,
+                "full": 0.11327246423219509,
+                "no_mean_dilation": 0.1128879582030709,
+                "rigid": 0.22164902042513723,
+                "rotation_only": 0.1139510275584103
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.2250324188864966,
+        "full": 0.1279264579526527,
+        "no_mean_dilation": 0.1276777645578465,
+        "rigid": 0.22433784027123171,
+        "rotation_only": 0.1284565692927267
+      }
+    },
+    "DS9": {
+      "interface": [
+        "MoS2",
+        "MoS2",
+        "P"
+      ],
+      "local_scores": [
+        {
+          "center_group": 0,
+          "mean_affine_dilation_percent": 0.024932725335255902,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 2133,
+              "rmse": {
+                "compression_only": 0.2498225872467703,
+                "full": 0.13883878757350057,
+                "no_mean_dilation": 0.13897007211429965,
+                "rigid": 0.24978282591831977,
+                "rotation_only": 0.1400123689543703
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2099,
+              "rmse": {
+                "compression_only": 0.23301416149149015,
+                "full": 0.1326122678838396,
+                "no_mean_dilation": 0.13251232842771174,
+                "rigid": 0.2327350973592161,
+                "rotation_only": 0.1337092780330884
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2151,
+              "rmse": {
+                "compression_only": 0.2480617259532939,
+                "full": 0.14017405288655846,
+                "no_mean_dilation": 0.1401844209189059,
+                "rigid": 0.24760247949587477,
+                "rotation_only": 0.14051043463077212
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 2106,
+              "rmse": {
+                "compression_only": 0.23747610136267602,
+                "full": 0.15936014360508557,
+                "no_mean_dilation": 0.15934560227164843,
+                "rigid": 0.237460931246124,
+                "rotation_only": 0.15951223846861948
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 1,
+          "mean_affine_dilation_percent": 0.018180236979225998,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1577,
+              "rmse": {
+                "compression_only": 0.25066406513700235,
+                "full": 0.15369480514116607,
+                "no_mean_dilation": 0.15377671842626275,
+                "rigid": 0.2502912690814407,
+                "rotation_only": 0.154928642039932
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 1536,
+              "rmse": {
+                "compression_only": 0.23529486495444726,
+                "full": 0.13467689668629035,
+                "no_mean_dilation": 0.13482865136761196,
+                "rigid": 0.23497614695303654,
+                "rotation_only": 0.13366415090667938
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 1598,
+              "rmse": {
+                "compression_only": 0.25022679339632226,
+                "full": 0.13878440735570136,
+                "no_mean_dilation": 0.13857141313828997,
+                "rigid": 0.25019148108743,
+                "rotation_only": 0.13945682229318332
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1589,
+              "rmse": {
+                "compression_only": 0.2442840972636738,
+                "full": 0.17351543816748619,
+                "no_mean_dilation": 0.1734028838010298,
+                "rigid": 0.24452930643891985,
+                "rotation_only": 0.17431583459764732
+              }
+            }
+          ]
+        },
+        {
+          "center_group": 2,
+          "mean_affine_dilation_percent": 0.03461597684652338,
+          "scores": [
+            {
+              "axis": "rows",
+              "calibration_half": 0,
+              "pixels": 1963,
+              "rmse": {
+                "compression_only": 0.25195638641743856,
+                "full": 0.1495662384071268,
+                "no_mean_dilation": 0.14939124075153717,
+                "rigid": 0.251718305788829,
+                "rotation_only": 0.14947837530338162
+              }
+            },
+            {
+              "axis": "rows",
+              "calibration_half": 1,
+              "pixels": 2021,
+              "rmse": {
+                "compression_only": 0.2351067836145368,
+                "full": 0.13817510278148892,
+                "no_mean_dilation": 0.13796733146205864,
+                "rigid": 0.23459015633461072,
+                "rotation_only": 0.13813563226338235
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 0,
+              "pixels": 2013,
+              "rmse": {
+                "compression_only": 0.2536239999408957,
+                "full": 0.15936865599448394,
+                "no_mean_dilation": 0.15877614884934976,
+                "rigid": 0.25339640914694467,
+                "rotation_only": 0.15984754339194407
+              }
+            },
+            {
+              "axis": "columns",
+              "calibration_half": 1,
+              "pixels": 1975,
+              "rmse": {
+                "compression_only": 0.2403234493956613,
+                "full": 0.15432061067015565,
+                "no_mean_dilation": 0.1538348896391929,
+                "rigid": 0.24006856501110138,
+                "rotation_only": 0.15580915789345484
+              }
+            }
+          ]
+        }
+      ],
+      "mean_rmse": {
+        "compression_only": 0.24415458468118403,
+        "full": 0.14775728392940696,
+        "no_mean_dilation": 0.14763014176399156,
+        "rigid": 0.24394524782182062,
+        "rotation_only": 0.1482817065647046
+      }
+    }
+  },
+  "scope": "Retrospective fixed diagnostics across the local geometry folds. For MoS2 bilayers retain measured geometry in the diffraction calculation and remove mean dilation from the mechanics only. For mixed materials carry the DS31 raw-lattice longitudinal multiplier unchanged to all mixed-material maps."
+}

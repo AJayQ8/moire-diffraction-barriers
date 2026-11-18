@@ -1,0 +1,9 @@
+{
+  "change": "Replaced the machine-local absolute path with the sibling evidence filename.",
+  "changed_field": "/source",
+  "original_record_sha256_from_v021_source_archive": "597d653bf6e5487b34b48b491e1414843266ed4fa4ff88e1468dc47f7c68c248",
+  "portable_source_reference": "mos2_wall_landscape_v01.json",
+  "portable_source_sha256": "dc8f0b693b53a05522efeca4afa01d28b74add55645fbe93afd4ec0d67400c0d",
+  "record": "evidence/mos2_wall_landscape_uncertainty_v01.json",
+  "scientific_values_changed": false
+}

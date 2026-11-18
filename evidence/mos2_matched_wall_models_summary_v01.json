@@ -1,0 +1,1808 @@
+{
+  "schema": "mos2-matched-scan-grid-wall-models-summary-v01",
+  "case_sha256": "6396fcb8cd2df63f1cc5a118a4a03c5b954aeeeaad5a59674c5637d52c0f1db1",
+  "primary": "Mean over six higher-twist maps of the absolute prediction error in the map-mean first-minus-second fitted width, on the original matched section IDs. Use only walls where the measured and both predicted widths qualify in both orders.",
+  "uncertainty": "Fifth and ninety-fifth percentiles from paired spatial-block resampling within the same maps, conditional on the probe, geometry, material and selected scans.",
+  "groups": {
+    "higher_twist": {
+      "scan_grid": {
+        "scans": [
+          "DS3",
+          "DS4",
+          "DS6",
+          "DS9",
+          "DS10",
+          "DS12"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 168,
+        "network_wins": 6,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -1.2535648727431001,
+          -1.0333585589154215
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.15585832363658078,
+          "isolated": 1.3418162053189935
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.12080252457569812,
+          "isolated": 0.7150698638426892
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.47426467618995233,
+          "isolated": 1.3623662610694955
+        }
+      },
+      "direct_at_same_settings": {
+        "scans": [
+          "DS3",
+          "DS4",
+          "DS6",
+          "DS9",
+          "DS10",
+          "DS12"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 168,
+        "network_wins": 6,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -1.2322346220868436,
+          -1.007356933756812
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.1562230753398429,
+          "isolated": 1.315837697068753
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.09313289329612467,
+          "isolated": 0.6829119312974763
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.4748085398583856,
+          "isolated": 1.3405550711571508
+        }
+      },
+      "earlier_adaptive_window": {
+        "scans": [
+          "DS3",
+          "DS4",
+          "DS6",
+          "DS9",
+          "DS10",
+          "DS12"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 168,
+        "network_wins": 6,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -1.652148074035521,
+          -1.4407426225177964
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.169417721660826,
+          "isolated": 1.7353667783496334
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.08579582257980307,
+          "isolated": 0.9209143128611984
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.470154392160315,
+          "isolated": 1.7353667783496336
+        }
+      }
+    },
+    "lower_twist": {
+      "scan_grid": {
+        "scans": [
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 74,
+        "network_wins": 2,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -0.08587272173594462,
+          0.08469799002618476
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.36526829792416254,
+          "isolated": 0.3767693183668514
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.34296227928042367,
+          "isolated": 0.23437440131177206
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.5983668121815826,
+          "isolated": 0.6025335521607702
+        }
+      },
+      "direct_at_same_settings": {
+        "scans": [
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 74,
+        "network_wins": 2,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -0.07541847975871913,
+          0.091341417104992
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.3733795882644171,
+          "isolated": 0.3767081466434761
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.31173207489949745,
+          "isolated": 0.2083440594929894
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.5952279512756442,
+          "isolated": 0.5974094485071373
+        }
+      },
+      "earlier_adaptive_window": {
+        "scans": [
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 75,
+        "network_wins": 2,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -0.29729917223244773,
+          -0.14531787595174134
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.1741400792299277,
+          "isolated": 0.4400853880086666
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.31587275560520467,
+          "isolated": 0.31695144531441605
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.5675770424550748,
+          "isolated": 0.6134921624216697
+        }
+      }
+    },
+    "all_maps": {
+      "scan_grid": {
+        "scans": [
+          "DS10",
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13",
+          "DS12",
+          "DS9",
+          "DS6",
+          "DS4",
+          "DS3"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 242,
+        "network_wins": 8,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -0.7679436929392653,
+          -0.6176532100229949
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.23962231335161346,
+          "isolated": 0.9557974505381367
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.20966642645758835,
+          "isolated": 0.5227916788303223
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.5239055305866044,
+          "isolated": 1.0584331775060052
+        }
+      },
+      "direct_at_same_settings": {
+        "scans": [
+          "DS10",
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13",
+          "DS12",
+          "DS9",
+          "DS6",
+          "DS4",
+          "DS3"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 242,
+        "network_wins": 8,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -0.7509415302733361,
+          -0.5989403987340481
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.24308568050967255,
+          "isolated": 0.9401858768986424
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.18057256593747378,
+          "isolated": 0.49308478257568156
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.5229763044252891,
+          "isolated": 1.0432968220971452
+        }
+      },
+      "earlier_adaptive_window": {
+        "scans": [
+          "DS10",
+          "DS14",
+          "DS1",
+          "DS2",
+          "DS13",
+          "DS12",
+          "DS9",
+          "DS6",
+          "DS4",
+          "DS3"
+        ],
+        "scans_without_matched_fits": [],
+        "matched_sections": 243,
+        "network_wins": 8,
+        "network_minus_isolated_error_p05_p95_nm": [
+          -1.0937570351994972,
+          -0.9529067534245791
+        ],
+        "map_mean_gap_absolute_error_nm": {
+          "network": 0.17130666468846667,
+          "isolated": 1.2172542222132468
+        },
+        "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+          "network": 0.1778265957899637,
+          "isolated": 0.6793291658424854
+        },
+        "mean_absolute_wall_gap_error_nm": {
+          "network": 0.509123452278219,
+          "isolated": 1.286616931978448
+        }
+      }
+    }
+  },
+  "maps": {
+    "DS10": {
+      "candidate_sections": 29,
+      "twist_deg": 1.6328490376020388,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 29,
+          "mean_widths_nm": {
+            "measured": [
+              3.808480792250205,
+              2.176720247785609
+            ],
+            "network": [
+              3.5399580524365617,
+              2.230221532078983
+            ],
+            "isolated": [
+              3.812596717739979,
+              3.814744138017526
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.6317605444645946,
+            "network": 1.30973652035758,
+            "isolated": -0.002147420277546273
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.3220240241070147,
+            "isolated": 1.6339079647421408
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.16101201205350857,
+            "isolated": 0.8210699078608457
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.47896187230640286,
+            "isolated": 1.6339079647421413
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.4216214914432457,
+            -1.1970669098797428
+          ],
+          "spatial_blocks": {
+            "side_nm": 10.448204721849484,
+            "occupied_blocks": [
+              11,
+              11,
+              12,
+              14
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 29,
+          "mean_widths_nm": {
+            "measured": [
+              3.808480792250205,
+              2.176720247785609
+            ],
+            "network": [
+              3.480615607228647,
+              2.188455139168782
+            ],
+            "isolated": [
+              3.756695202009471,
+              3.732937923613839
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.6317605444645946,
+            "network": 1.2921604680598644,
+            "isolated": 0.023757278395631642
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.3396000764047302,
+            "isolated": 1.608003266068963
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.16980003820236544,
+            "isolated": 0.8040016330344819
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.4795346006170733,
+            "isolated": 1.6080032660689638
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.3789807182119356,
+            -1.1602492696180189
+          ],
+          "spatial_blocks": {
+            "side_nm": 10.448204721849484,
+            "occupied_blocks": [
+              11,
+              11,
+              12,
+              14
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 29,
+          "mean_widths_nm": {
+            "measured": [
+              3.4963053080691,
+              1.8623927435529177
+            ],
+            "network": [
+              3.316926850403656,
+              1.8927488142921973
+            ],
+            "isolated": [
+              3.7148612190637036,
+              3.707428771414351
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.6339125645161818,
+            "network": 1.4241780361114578,
+            "isolated": 0.0074324476493537826
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.20973452840472406,
+            "isolated": 1.6264801168668281
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.10486726420236181,
+            "isolated": 1.0317959694280183
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5397363900016643,
+            "isolated": 1.626480116866828
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.6374406635449827,
+            -1.1937654632936348
+          ],
+          "spatial_blocks": {
+            "side_nm": 10.448204721849484,
+            "occupied_blocks": [
+              11,
+              11,
+              12,
+              14
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.47039441530632997,
+        "isolated": 0.5390004857805683
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS14": {
+      "candidate_sections": 31,
+      "twist_deg": 0.6986610416445902,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 31,
+          "mean_widths_nm": {
+            "measured": [
+              4.34651132171667,
+              4.363037331303229
+            ],
+            "network": [
+              4.730145318732205,
+              4.610846985128852
+            ],
+            "isolated": [
+              4.4346810306691165,
+              4.414545880844236
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": -0.016526009586559573,
+            "network": 0.11929833360335403,
+            "isolated": 0.020135149824880582
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.1358243431899136,
+            "isolated": 0.03666115941144016
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.31572182542057936,
+            "isolated": 0.06983912924672708
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.44146714176084023,
+            "isolated": 0.4173195487852745
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.0890721805178119,
+            0.10922152878305792
+          ],
+          "spatial_blocks": {
+            "side_nm": 20.246461426256836,
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 31,
+          "mean_widths_nm": {
+            "measured": [
+              4.34651132171667,
+              4.363037331303229
+            ],
+            "network": [
+              4.6746641904434405,
+              4.537951105228026
+            ],
+            "isolated": [
+              4.381279913459305,
+              4.339281956805544
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": -0.016526009586559573,
+            "network": 0.1367130852154149,
+            "isolated": 0.04199795665375943
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.15323909480197445,
+            "isolated": 0.058523966240319004
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.251533321325784,
+            "isolated": 0.02926198312015993
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.44401645248465393,
+            "isolated": 0.42037830294506223
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.06939915270250756,
+            0.10426807813053797
+          ],
+          "spatial_blocks": {
+            "side_nm": 20.246461426256836,
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 31,
+          "mean_widths_nm": {
+            "measured": [
+              4.656839355903225,
+              4.100710795863606
+            ],
+            "network": [
+              4.759865909088132,
+              4.347692632775851
+            ],
+            "isolated": [
+              4.284697992592121,
+              4.287556077441578
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.556128560039619,
+            "network": 0.41217327631228207,
+            "isolated": -0.0028580848494574158
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.1439552837273369,
+            "isolated": 0.5589866448890763
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.1750041950485759,
+            "isolated": 0.27949332244453773
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.46182475314899335,
+            "isolated": 0.6280774864684133
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.48220959079961323,
+            -0.3286814703555017
+          ],
+          "spatial_blocks": {
+            "side_nm": 20.246461426256836,
+            "occupied_blocks": [
+              12,
+              12,
+              15,
+              16
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.3475268478213647,
+        "isolated": 0.33077841348453024
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS1": {
+      "candidate_sections": 2,
+      "twist_deg": 0.4191180438688972,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 2,
+          "mean_widths_nm": {
+            "measured": [
+              3.6327683917126254,
+              4.312481839505308
+            ],
+            "network": [
+              3.7211751715900028,
+              3.7746454104783695
+            ],
+            "isolated": [
+              3.9340908865051953,
+              3.9322873640710077
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": -0.6797134477926823,
+            "network": -0.05347023888836677,
+            "isolated": 0.0018035224341874656
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.6262432089043155,
+            "isolated": 0.6815169702268697
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.31312160445215786,
+            "isolated": 0.3407584851134351
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.730552200912497,
+            "isolated": 0.7795589082750678
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.05527376132255424,
+            -0.05527376132255424
+          ],
+          "spatial_blocks": {
+            "side_nm": 33.424720643449874,
+            "occupied_blocks": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 2,
+          "mean_widths_nm": {
+            "measured": [
+              3.6327683917126254,
+              4.312481839505308
+            ],
+            "network": [
+              3.662852742243193,
+              3.6897182726959263
+            ],
+            "isolated": [
+              3.8763068842631396,
+              3.8492823152919895
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": -0.6797134477926823,
+            "network": -0.02686553045273299,
+            "isolated": 0.027024568971150353
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.6528479173399493,
+            "isolated": 0.7067380167638326
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.32642395866997465,
+            "isolated": 0.3533690083819163
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.7289234809802743,
+            "isolated": 0.7773147769626552
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.05389009942388334,
+            -0.05389009942388334
+          ],
+          "spatial_blocks": {
+            "side_nm": 33.424720643449874,
+            "occupied_blocks": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 2,
+          "mean_widths_nm": {
+            "measured": [
+              4.345571502570913,
+              3.9453783282987978
+            ],
+            "network": [
+              3.586903307919084,
+              3.651788502614543
+            ],
+            "isolated": [
+              3.800370168414408,
+              3.8101237485097132
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.40019317427211565,
+            "network": -0.06488519469545917,
+            "isolated": -0.009753580095305248
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.4650783689675748,
+            "isolated": 0.4099467543674209
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.526129010168042,
+            "isolated": 0.34022795697279506
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.4650783689675748,
+            "isolated": 0.4099467543674209
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            0.05513161460015392,
+            0.05513161460015392
+          ],
+          "spatial_blocks": {
+            "side_nm": 33.424720643449874,
+            "occupied_blocks": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.32018309687413704,
+        "isolated": 0.32532397192288953
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS2": {
+      "candidate_sections": 6,
+      "twist_deg": 0.5104074216711458,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 5,
+          "mean_widths_nm": {
+            "measured": [
+              4.086781928121372,
+              3.518080974174797
+            ],
+            "network": [
+              3.721717797830517,
+              3.7426488121344397
+            ],
+            "isolated": [
+              3.7669548963117023,
+              3.7704590030374447
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.5687009539465747,
+            "network": -0.020931014303921903,
+            "isolated": -0.0035041067257425063
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.5896319682504966,
+            "isolated": 0.5722050606723172
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.2948159841252487,
+            "isolated": 0.2861025303361586
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.6610271540386472,
+            "isolated": 0.6650427046855014
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.007932076042349134,
+            0.025951140684000895
+          ],
+          "spatial_blocks": {
+            "side_nm": 32.10187396503705,
+            "occupied_blocks": [
+              2,
+              3,
+              2,
+              4
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 5,
+          "mean_widths_nm": {
+            "measured": [
+              4.086781928121372,
+              3.518080974174797
+            ],
+            "network": [
+              3.6654321141843456,
+              3.6604123558898345
+            ],
+            "isolated": [
+              3.7106653709651054,
+              3.6884723503985883
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.5687009539465747,
+            "network": 0.005019758294511156,
+            "isolated": 0.022193020566517153
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.5636811956520635,
+            "isolated": 0.5465079333800575
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.2818405978260319,
+            "isolated": 0.2732539666900289
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.6457311017732728,
+            "isolated": 0.6492370989460203
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.006890826594974531,
+            0.025472018387009854
+          ],
+          "spatial_blocks": {
+            "side_nm": 32.10187396503705,
+            "occupied_blocks": [
+              2,
+              3,
+              2,
+              4
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 6,
+          "mean_widths_nm": {
+            "measured": [
+              3.9316692897337,
+              3.9035717443243807
+            ],
+            "network": [
+              3.5865461660090254,
+              3.6219679855050106
+            ],
+            "isolated": [
+              3.6283851820277726,
+              3.6511913188731335
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.028097545409319302,
+            "network": -0.035421819495984774,
+            "isolated": -0.02280613684536063
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.06351936490530408,
+            "isolated": 0.050903682254679936
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.3133634412720223,
+            "isolated": 0.2778322665785873
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5902294874634428,
+            "isolated": 0.59065300931701
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.018512047958074776,
+            0.013341824068728303
+          ],
+          "spatial_blocks": {
+            "side_nm": 32.10187396503705,
+            "occupied_blocks": [
+              2,
+              3,
+              2,
+              4
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.3692216114604628,
+        "isolated": 0.3687795471550949
+      },
+      "excluded_from_scan_grid_comparison": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "DS13": {
+      "candidate_sections": 36,
+      "twist_deg": 0.7809097049333651,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 36,
+          "mean_widths_nm": {
+            "measured": [
+              4.302955007086531,
+              4.065849341262133
+            ],
+            "network": [
+              4.805831545886203,
+              4.459352208709879
+            ],
+            "isolated": [
+              4.435405426058909,
+              4.41499384339129
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.2371056658243984,
+            "network": 0.34647933717632307,
+            "isolated": 0.0204115826676198
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.10937367135192466,
+            "isolated": 0.2166940831567786
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.44818970312370876,
+            "isolated": 0.24079746055076745
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5604207520143458,
+            "isolated": 0.5482130468972372
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.3353898425524754,
+            0.31064968929821357
+          ],
+          "spatial_blocks": {
+            "side_nm": 17.83508927193864,
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 36,
+          "mean_widths_nm": {
+            "measured": [
+              4.302955007086531,
+              4.065849341262133
+            ],
+            "network": [
+              4.751960501494571,
+              4.391104690406492
+            ],
+            "isolated": [
+              4.382914951771536,
+              4.340871956136834
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.2371056658243984,
+            "network": 0.3608558110880795,
+            "isolated": 0.04204299563470312
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.12375014526368111,
+            "isolated": 0.19506267018969528
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.3871304217761993,
+            "isolated": 0.17749127977985246
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5622407698643759,
+            "isolated": 0.5427076151748116
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.3229181852575671,
+            0.31454015026828086
+          ],
+          "spatial_blocks": {
+            "side_nm": 17.83508927193864,
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 36,
+          "mean_widths_nm": {
+            "measured": [
+              4.341004971587295,
+              3.607088874239814
+            ],
+            "network": [
+              4.602002997179222,
+              3.844079600512244
+            ],
+            "isolated": [
+              4.2835759805078615,
+              4.290164353683869
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.7339160973474808,
+            "network": 0.7579233966669757,
+            "isolated": -0.006588373176008207
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.024007299319494968,
+            "isolated": 0.740504470523489
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.24899437593217844,
+            "isolated": 0.3702522352617441
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.7531755602402881,
+            "isolated": 0.8252913995338343
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.810227367508334,
+            -0.23479692367300492
+          ],
+          "spatial_blocks": {
+            "side_nm": 17.83508927193864,
+            "occupied_blocks": [
+              17,
+              16,
+              18,
+              16
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.31219482761963113,
+        "isolated": 0.3008867861805504
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS12": {
+      "candidate_sections": 11,
+      "twist_deg": 1.1849017131673314,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 11,
+          "mean_widths_nm": {
+            "measured": [
+              3.645485543551511,
+              3.2251400692488037
+            ],
+            "network": [
+              3.8121066212682853,
+              3.3282660773782737
+            ],
+            "isolated": [
+              3.7788941188913627,
+              3.7819862842333545
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.4203454743027076,
+            "network": 0.483840543890012,
+            "isolated": -0.0030921653419915466
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.06349506958730444,
+            "isolated": 0.4234376396446991
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.13487354292312204,
+            "isolated": 0.34512739516220114
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.4369121625687789,
+            "isolated": 0.5046363750501871
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.5094063794400766,
+            0.24505681921561265
+          ],
+          "spatial_blocks": {
+            "side_nm": 13.828953719854614,
+            "occupied_blocks": [
+              4,
+              6,
+              5,
+              6
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 11,
+          "mean_widths_nm": {
+            "measured": [
+              3.645485543551511,
+              3.2251400692488037
+            ],
+            "network": [
+              3.750723199156269,
+              3.2576688855367792
+            ],
+            "isolated": [
+              3.7238977837812586,
+              3.7011106151148536
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.4203454743027076,
+            "network": 0.49305431361948915,
+            "isolated": 0.022787168666405237
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.07270883931678157,
+            "isolated": 0.39755830563630234
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.0688832359463667,
+            "isolated": 0.27719139304789864
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.43896265398883844,
+            "isolated": 0.4929319502847468
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.49273849448917506,
+            0.2961872540657392
+          ],
+          "spatial_blocks": {
+            "side_nm": 13.828953719854614,
+            "occupied_blocks": [
+              4,
+              6,
+              5,
+              6
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 11,
+          "mean_widths_nm": {
+            "measured": [
+              3.8310900964991386,
+              2.5545941010267743
+            ],
+            "network": [
+              3.674473249228068,
+              2.6421873189452683
+            ],
+            "isolated": [
+              3.648905345932917,
+              3.667163898296422
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.2764959954723643,
+            "network": 1.0322859302827998,
+            "isolated": -0.018258552363504477
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.24421006518956445,
+            "isolated": 1.2947545478358686
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.12210503259478234,
+            "isolated": 0.6473772739179346
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5213956687665454,
+            "isolated": 1.294754547835869
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.245776799455767,
+            -0.8937549978297143
+          ],
+          "spatial_blocks": {
+            "side_nm": 13.828953719854614,
+            "occupied_blocks": [
+              4,
+              6,
+              5,
+              6
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.33447473123392685,
+        "isolated": 0.3331702277655317
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS9": {
+      "candidate_sections": 19,
+      "twist_deg": 1.384220561161022,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 19,
+          "mean_widths_nm": {
+            "measured": [
+              3.6456366192839256,
+              2.9135796639914733
+            ],
+            "network": [
+              3.821480531562396,
+              3.0332858631297017
+            ],
+            "isolated": [
+              3.773082685553453,
+              3.776696015508356
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.7320569552924518,
+            "network": 0.7881946684326948,
+            "isolated": -0.0036133299549025765
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.05613771314024296,
+            "isolated": 0.7356702852473544
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.14777505570834948,
+            "isolated": 0.49528120889320526
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5613098714446231,
+            "isolated": 0.7777718843448783
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.8146340207679698,
+            -0.12600075374552971
+          ],
+          "spatial_blocks": {
+            "side_nm": 11.796373214676178,
+            "occupied_blocks": [
+              8,
+              9,
+              8,
+              11
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 19,
+          "mean_widths_nm": {
+            "measured": [
+              3.6456366192839256,
+              2.9135796639914733
+            ],
+            "network": [
+              3.7602656356360185,
+              2.9711789814607172
+            ],
+            "isolated": [
+              3.7171828756327763,
+              3.6945954201938007
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 0.7320569552924518,
+            "network": 0.789086654175302,
+            "isolated": 0.02258745543897635
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.057029698882850144,
+            "isolated": 0.7094694998534755
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.08611416691066842,
+            "isolated": 0.42628100627558907
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.5620311557236628,
+            "isolated": 0.7624000997354161
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -0.7902632265327487,
+            -0.09977277676911375
+          ],
+          "spatial_blocks": {
+            "side_nm": 11.796373214676178,
+            "occupied_blocks": [
+              8,
+              9,
+              8,
+              11
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 19,
+          "mean_widths_nm": {
+            "measured": [
+              3.644311454282261,
+              2.346762992260235
+            ],
+            "network": [
+              3.677792754948806,
+              2.3532847627565765
+            ],
+            "isolated": [
+              3.6513346490936542,
+              3.6646918105739057
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.2975484620220266,
+            "network": 1.3245079921922294,
+            "isolated": -0.013357161480251525
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.026959530170202806,
+            "isolated": 1.310905623502278
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.02000153558144313,
+            "isolated": 0.6624760065625319
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.44003308344320774,
+            "isolated": 1.310905623502278
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.4514448842518164,
+            -0.7712902366331187
+          ],
+          "spatial_blocks": {
+            "side_nm": 11.796373214676178,
+            "occupied_blocks": [
+              8,
+              9,
+              8,
+              11
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.3160182352538305,
+        "isolated": 0.34380794836567263
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS6": {
+      "candidate_sections": 29,
+      "twist_deg": 1.745725823341251,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 29,
+          "mean_widths_nm": {
+            "measured": [
+              3.8247635435462244,
+              1.9121319041331446
+            ],
+            "network": [
+              3.7572196103390776,
+              2.0489238007341166
+            ],
+            "isolated": [
+              3.8076151697713367,
+              3.809455120076235
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.9126316394130805,
+            "network": 1.708295809604961,
+            "isolated": -0.0018399503048988955
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.20433582980811948,
+            "isolated": 1.9144715897179794
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.10216791490405941,
+            "isolated": 0.957235794858989
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.4662608383278681,
+            "isolated": 1.9144715897179787
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.8586392338369366,
+            -1.5692241273332688
+          ],
+          "spatial_blocks": {
+            "side_nm": 9.966818880602327,
+            "occupied_blocks": [
+              11,
+              14,
+              15,
+              15
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 29,
+          "mean_widths_nm": {
+            "measured": [
+              3.8247635435462244,
+              1.9121319041331446
+            ],
+            "network": [
+              3.698173528958204,
+              2.0120559236003173
+            ],
+            "isolated": [
+              3.751891612086415,
+              3.7285279815715673
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.9126316394130805,
+            "network": 1.6861176053578875,
+            "isolated": 0.023363630514849097
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.226514034055193,
+            "isolated": 1.8892680088982314
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.1132570170275965,
+            "isolated": 0.944634004449116
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.47586190535620193,
+            "isolated": 1.8892680088982308
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.7964382610290694,
+            -1.5271262495506903
+          ],
+          "spatial_blocks": {
+            "side_nm": 9.966818880602327,
+            "occupied_blocks": [
+              11,
+              14,
+              15,
+              15
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 29,
+          "mean_widths_nm": {
+            "measured": [
+              3.623364743575342,
+              1.680777810932175
+            ],
+            "network": [
+              3.572042311380656,
+              1.7646961353312827
+            ],
+            "isolated": [
+              3.7171711798876346,
+              3.7103627211983006
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.942586932643167,
+            "network": 1.8073461760493732,
+            "isolated": 0.006808458689333812
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.13524075659379386,
+            "isolated": 1.9357784739538333
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.06762037829689693,
+            "isolated": 1.0616956732892089
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.3953639402219046,
+            "isolated": 1.9357784739538337
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -2.0209700213281923,
+            -1.58496769877853
+          ],
+          "spatial_blocks": {
+            "side_nm": 9.966818880602327,
+            "occupied_blocks": [
+              11,
+              14,
+              15,
+              15
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.4122993442226045,
+        "isolated": 0.5261843882426318
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS4": {
+      "candidate_sections": 41,
+      "twist_deg": 1.7900998317810126,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 41,
+          "mean_widths_nm": {
+            "measured": [
+              3.857945941666272,
+              2.294086688754516
+            ],
+            "network": [
+              4.054702566515398,
+              2.2889582313967245
+            ],
+            "isolated": [
+              3.7510529496123635,
+              3.7554368856352776
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.5638592529117552,
+            "network": 1.7657443351186748,
+            "isolated": -0.004383936022912879
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.20188508220691959,
+            "isolated": 1.5682431889346682
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.1009425411034588,
+            "isolated": 0.784121594467335
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.4972966382854605,
+            "isolated": 1.5682431889346686
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.6162765459114274,
+            -1.1328010977194727
+          ],
+          "spatial_blocks": {
+            "side_nm": 9.339125672604888,
+            "occupied_blocks": [
+              16,
+              17,
+              17,
+              20
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 41,
+          "mean_widths_nm": {
+            "measured": [
+              3.857945941666272,
+              2.294086688754516
+            ],
+            "network": [
+              3.9868675512685074,
+              2.243900637321713
+            ],
+            "isolated": [
+              3.6958065922518712,
+              3.673851022003964
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.5638592529117552,
+            "network": 1.7429669139467938,
+            "isolated": 0.02195557024790695
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.1791076610350386,
+            "isolated": 1.5419036826638484
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.0895538305175192,
+            "isolated": 0.7709518413319243
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.49278387694705583,
+            "isolated": 1.5419036826638488
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.6020135351579,
+            -1.1353779113205422
+          ],
+          "spatial_blocks": {
+            "side_nm": 9.339125672604888,
+            "occupied_blocks": [
+              16,
+              17,
+              17,
+              20
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 41,
+          "mean_widths_nm": {
+            "measured": [
+              4.087320270929034,
+              1.94933318167728
+            ],
+            "network": [
+              4.310843742200599,
+              1.9324130243064443
+            ],
+            "isolated": [
+              3.662283488792152,
+              3.6567554358224754
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 2.137987089251754,
+            "network": 2.378430717894155,
+            "isolated": 0.005528052969677034
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.2404436286424012,
+            "isolated": 2.132459036282077
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.12022181432120038,
+            "isolated": 1.0662295181410386
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.548530407614015,
+            "isolated": 2.1324590362820772
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -2.1904225647385194,
+            -1.5813475826466283
+          ],
+          "spatial_blocks": {
+            "side_nm": 9.339125672604888,
+            "occupied_blocks": [
+              16,
+              17,
+              17,
+              20
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.354238255927832,
+        "isolated": 0.4071487598569134
+      },
+      "excluded_from_scan_grid_comparison": []
+    },
+    "DS3": {
+      "candidate_sections": 39,
+      "twist_deg": 1.8606133850300897,
+      "models": {
+        "scan_grid": {
+          "matched_sections": 39,
+          "mean_widths_nm": {
+            "measured": [
+              3.7738215097623264,
+              2.002987903881919
+            ],
+            "network": [
+              3.895501702008958,
+              2.0373958731586685
+            ],
+            "isolated": [
+              3.7533979675238425,
+              3.7577309252705535
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.7708336058804077,
+            "network": 1.8581058288502912,
+            "isolated": -0.004332957746710813
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.08727222296988346,
+            "isolated": 1.7751665636271186
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.07804408076169045,
+            "isolated": 0.8875832818135592
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.4048466742065809,
+            "isolated": 1.7751665636271186
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.8757228471669023,
+            -1.4258139260105738
+          ],
+          "spatial_blocks": {
+            "side_nm": 8.802833352447243,
+            "occupied_blocks": [
+              16,
+              19,
+              17,
+              19
+            ]
+          }
+        },
+        "direct_at_same_settings": {
+          "matched_sections": 39,
+          "mean_widths_nm": {
+            "measured": [
+              3.7738215097623264,
+              2.002987903881919
+            ],
+            "network": [
+              3.8299028813366385,
+              1.9966911331117676
+            ],
+            "isolated": [
+              3.6976615470551835,
+              3.6756513604664725
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 1.7708336058804077,
+            "network": 1.8332117482248715,
+            "isolated": 0.02201018658870926
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.062378142344463816,
+            "isolated": 1.7488234192916985
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.031189071172231797,
+            "isolated": 0.8744117096458481
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.3996770465174814,
+            "isolated": 1.7488234192916985
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -1.8372839267254608,
+            -1.437574108252471
+          ],
+          "spatial_blocks": {
+            "side_nm": 8.802833352447243,
+            "occupied_blocks": [
+              16,
+              19,
+              17,
+              19
+            ]
+          }
+        },
+        "earlier_adaptive_window": {
+          "matched_sections": 39,
+          "mean_widths_nm": {
+            "measured": [
+              3.901877559628547,
+              1.7798233139029378
+            ],
+            "network": [
+              4.0564427452228475,
+              1.7744706785329707
+            ],
+            "isolated": [
+              3.6702014090058666,
+              3.659970034937173
+            ]
+          },
+          "mean_first_minus_second_nm": {
+            "measured": 2.122054245725609,
+            "network": 2.2819720666898786,
+            "isolated": 0.010231374068693478
+          },
+          "map_mean_gap_absolute_error_nm": {
+            "network": 0.15991782096426954,
+            "isolated": 2.1118228716569156
+          },
+          "mean_absolute_error_of_the_two_map_mean_widths_nm": {
+            "network": 0.07995891048213388,
+            "isolated": 1.0559114358284578
+          },
+          "mean_absolute_wall_gap_error_nm": {
+            "network": 0.3758668629145534,
+            "isolated": 2.111822871656916
+          },
+          "network_minus_isolated_error_p05_p95_nm": [
+            -2.20572150762005,
+            -1.7000402475596617
+          ],
+          "spatial_blocks": {
+            "side_nm": 8.802833352447243,
+            "occupied_blocks": [
+              16,
+              19,
+              17,
+              19
+            ]
+          }
+        }
+      },
+      "profile_error_on_all_candidate_sections": {
+        "network": 0.3170627119982076,
+        "isolated": 0.4149526032166794
+      },
+      "excluded_from_scan_grid_comparison": []
+    }
+  }
+}

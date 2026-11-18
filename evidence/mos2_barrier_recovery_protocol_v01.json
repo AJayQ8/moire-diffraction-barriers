@@ -1,0 +1,43 @@
+{
+  "question": "Given two diffraction-ring images, measured wall geometry and independently specified in-plane elasticity, can a periodic equilibrium recover the saddle-point minus AB stacking barrier more accurately than an isolated-wall fit?",
+  "observable": "A wall-aligned synthetic microscope raster centred on the midpoint between neighbouring AA sites. Score the profile averaged along the central 16 percent of the wall. Use the same normal window, diffraction channels, blur and registration freedoms for the isolated and periodic fits.",
+  "twist_degrees": [0.55, 1.85],
+  "raster_pixel_nm": 0.5,
+  "nominal_probe_fwhm_nm": 1.25,
+  "generator": {
+    "relative_barrier_intervals": [[0.66, 0.79], [0.94, 1.09], [1.32, 1.54]],
+    "replicates_per_case": 12,
+    "alternate_shape_mixture_interval": [0.55, 0.90],
+    "maximum_unmodelled_curvature_perturbation_meV_per_cell": 0.70,
+    "variable_probe_fwhm_nm": [0.90, 1.62],
+    "maximum_absolute_log_probe_aspect": 0.12,
+    "maximum_normal_shift_nm": 0.45,
+    "maximum_detector_odd_coefficient_error": 0.025,
+    "noise_correlation_length_nm": 1.10,
+    "conditions": {
+      "nominal": {"counts_per_unit_signal": 560, "column_noise_sd": 0.018},
+      "variable_probe": {"counts_per_unit_signal": 180, "column_noise_sd": 0.048},
+      "variable_probe_and_landscape": {"counts_per_unit_signal": 180, "column_noise_sd": 0.048}
+    }
+  },
+  "fitting": {
+    "relative_barrier_bounds": [0.18, 5.5],
+    "simulation_grid_barrier_points": 25,
+    "search_grid_barrier_points": 113,
+    "landscape_mixtures": [0.0, 0.5, 1.0],
+    "fitted_probe_fwhm_nm": [0.75, 1.0, 1.25, 1.5, 1.75],
+    "fitted_normal_shifts_nm": [-0.60, -0.45, -0.30, -0.15, 0.0, 0.15, 0.30, 0.45, 0.60],
+    "relative_gain_bounds": [0.6, 1.4],
+    "noise_likelihood_delta": 3.84,
+    "main_comparison": "Fit the exact isolated-wall energy balance and finite periodic equilibrium independently on ring 1, ring 2 and both rings. Report the anchor landscape fit and the fit profiling over the independently published landscape shapes. Both functions use the same calibrated camera and per-channel gain, offset and linear background nuisance. In the nominal condition the calibrated probe is supplied; otherwise profile over the same allowed probe widths for every model. The soundness check recovers a known isolated barrier under matched noiseless optics.",
+    "qualification": "Report the fraction of recoveries within 20 percent at each wall spacing and noise condition, the actual empirical spread and the likelihood ranges for ambiguous fits. Treat at least 80 percent inside 20 percent as a practical recovery at the specified spacing and condition. Assess calibration of the likelihood ranges against the sealed barriers. Keep systematic model-error results at face value. The simulation evaluates known-truth recovery conditional on the given elasticity."
+  },
+  "calibration_notes": "The reconstruction raster and nominal probe come from the anchor study. Representative signed camera contrast is comparable to the archived fitted odd-to-even ratios. The experimental high-pass residual includes wall nonuniformity, registration and camera effects. Simulated counting and correlated column noise give roughly 4 or 8 percent one-pixel noise in units of the nominal full fringe amplitude at a midfringe intensity of 0.70. These scales are informed by experimental fit residuals. The source does not provide a repeated image or per-pixel electron count calibration. The variable-probe cases also perturb the probe shape and signed contrast within the stated ranges.",
+  "sources": {
+    "microscope_and_primary_material": "https://doi.org/10.1038/s41467-023-38504-7",
+    "alternate_adhesion_shape": "https://doi.org/10.1103/PhysRevLett.124.206101",
+    "fixed_material_spacing_test": "mos2_wall_period_scaling_v01.json",
+    "detector_calibration_scale": "moire_regime_benchmark_v02.json",
+    "experimental_repeatability": "mos2_wall_signal_repeatability_v01.json"
+  }
+}

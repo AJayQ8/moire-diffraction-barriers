@@ -1,0 +1,4481 @@
+{
+  "cameras": {
+    "separate_disjoint": {
+      "first_order_selected_ellipses": {
+        "DS13": {
+          "first_order_centered_width": {
+            "DS10": {
+              "ellipse": "ellipse_2.20_090",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    0.03583288346121267,
+                    0.1294986580970285
+                  ],
+                  "profile_error": [
+                    -0.0024990778001368675,
+                    0.005304895657919978
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    0.04228998547733741,
+                    0.13174496760314727
+                  ],
+                  "profile_error": [
+                    0.006024387351638782,
+                    0.014280923561786828
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.40234710345165897,
+                  "mean_absolute_error_nm": 0.4234811498261244,
+                  "mean_measured_minus_predicted_nm": -0.3136319251583249,
+                  "profile_error": 0.3667881703957111
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.48511093919517,
+                  "mean_absolute_error_nm": 0.4470646106474766,
+                  "mean_measured_minus_predicted_nm": -0.24081217695555324,
+                  "profile_error": 0.3680484203552224
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39563744817990254,
+                  "mean_absolute_error_nm": 0.30783637690043847,
+                  "mean_measured_minus_predicted_nm": -0.07115723081408011,
+                  "profile_error": 0.35779962804050086
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_2.20_090",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.16092209463765028,
+                    -0.0534974048500562
+                  ],
+                  "profile_error": [
+                    -0.01062354932191537,
+                    -0.005341933549280976
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.16935833037764442,
+                    -0.05714117976354689
+                  ],
+                  "profile_error": [
+                    -0.001897963825929748,
+                    0.007532560682342126
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.7886035579374795,
+                  "mean_absolute_error_nm": 0.9433774091614145,
+                  "mean_measured_minus_predicted_nm": -0.7991028346460347,
+                  "profile_error": 0.22103024146621827
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.6799089111050807,
+                  "mean_absolute_error_nm": 0.7975115572893218,
+                  "mean_measured_minus_predicted_nm": -0.6707961137149727,
+                  "profile_error": 0.21308249628073328
+                },
+                "nominal": {
+                  "centered_error_nm": 0.7962902348435019,
+                  "mean_absolute_error_nm": 0.7339053210459182,
+                  "mean_measured_minus_predicted_nm": -0.35540504743336787,
+                  "profile_error": 0.21024957993656282
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_2.20_090",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.15513796031491295,
+                    -0.006135761102477458
+                  ],
+                  "profile_error": [
+                    -0.007962672448011396,
+                    -0.0012560632002987604
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.1712685766216207,
+                    -0.008778425402286422
+                  ],
+                  "profile_error": [
+                    -0.0004510376465244239,
+                    0.015226475761494366
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 1.3215624730528928,
+                  "mean_absolute_error_nm": 1.2890572188362566,
+                  "mean_measured_minus_predicted_nm": -0.6536160482781375,
+                  "profile_error": 0.2389621164566608
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.2364141337089074,
+                  "mean_absolute_error_nm": 1.2238403633989803,
+                  "mean_measured_minus_predicted_nm": -0.6871443111574306,
+                  "profile_error": 0.2342094840896402
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3314420312817166,
+                  "mean_absolute_error_nm": 1.0681910999595474,
+                  "mean_measured_minus_predicted_nm": -0.18589386601362867,
+                  "profile_error": 0.22724418757431447
+                }
+              },
+              "width_walls": 31
+            }
+          },
+          "first_order_profile": {
+            "DS10": {
+              "ellipse": "ellipse_1.75_090",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    0.0017508070966115819,
+                    0.05405867553564135
+                  ],
+                  "profile_error": [
+                    -0.001233013510202685,
+                    0.0021269137141794116
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    0.003836614799812652,
+                    0.055650956186567485
+                  ],
+                  "profile_error": [
+                    0.0017100072083881814,
+                    0.005733940243262814
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.39838435467044236,
+                  "mean_absolute_error_nm": 0.3573171033194649,
+                  "mean_measured_minus_predicted_nm": -0.18997819999559543,
+                  "profile_error": 0.36117879355147076
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.42717037348326337,
+                  "mean_absolute_error_nm": 0.36637970779544954,
+                  "mean_measured_minus_predicted_nm": -0.15566840556936554,
+                  "profile_error": 0.36160765753159657
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39563744817990254,
+                  "mean_absolute_error_nm": 0.30783637690043847,
+                  "mean_measured_minus_predicted_nm": -0.07115723081408011,
+                  "profile_error": 0.35779962804050086
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_1.75_090",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.08067705069104092,
+                    -0.035692628490533264
+                  ],
+                  "profile_error": [
+                    -0.004939253708812181,
+                    -0.0023402044340951546
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.08548911150179166,
+                    -0.038356898219337215
+                  ],
+                  "profile_error": [
+                    -0.0021045009569248263,
+                    0.0025629136226587163
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.7920287765328281,
+                  "mean_absolute_error_nm": 0.8091704820373073,
+                  "mean_measured_minus_predicted_nm": -0.564306781715454,
+                  "profile_error": 0.21414178647953364
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.7327507401515411,
+                  "mean_absolute_error_nm": 0.7427769521062082,
+                  "mean_measured_minus_predicted_nm": -0.5030068559830707,
+                  "profile_error": 0.2105160391920561
+                },
+                "nominal": {
+                  "centered_error_nm": 0.7962902348435019,
+                  "mean_absolute_error_nm": 0.7339053210459182,
+                  "mean_measured_minus_predicted_nm": -0.35540504743336787,
+                  "profile_error": 0.21024957993656282
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_1.75_090",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.08162373272620319,
+                    -0.01421825682632697
+                  ],
+                  "profile_error": [
+                    -0.004596347849058389,
+                    -0.0010586308582552501
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.08933026248178168,
+                    -0.015460413015117656
+                  ],
+                  "profile_error": [
+                    -0.0019323757860566489,
+                    0.006252353911313062
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.3266771225540472,
+                  "mean_absolute_error_nm": 1.1635045980102439,
+                  "mean_measured_minus_predicted_nm": -0.40497591345353856,
+                  "profile_error": 0.23211552402481025
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.2766322532685954,
+                  "mean_absolute_error_nm": 1.1246989060647274,
+                  "mean_measured_minus_predicted_nm": -0.42254659436794084,
+                  "profile_error": 0.2291971902710851
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3314420312817166,
+                  "mean_absolute_error_nm": 1.0681910999595474,
+                  "mean_measured_minus_predicted_nm": -0.18589386601362867,
+                  "profile_error": 0.22724418757431447
+                }
+              },
+              "width_walls": 31
+            }
+          }
+        },
+        "DS14": {
+          "first_order_centered_width": {
+            "DS10": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.011096062048081343,
+                    0.09280325730857246
+                  ],
+                  "profile_error": [
+                    -0.008621393596054922,
+                    0.0010890081048476694
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.013538227310715604,
+                    0.10560786032795295
+                  ],
+                  "profile_error": [
+                    -9.953899714020243e-05,
+                    0.010046024540926988
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.40234710345165897,
+                  "mean_absolute_error_nm": 0.4234811498261244,
+                  "mean_measured_minus_predicted_nm": -0.3136319251583249,
+                  "profile_error": 0.3667881703957111
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.44940628147325734,
+                  "mean_absolute_error_nm": 0.44219932118184346,
+                  "mean_measured_minus_predicted_nm": -0.2925011241820698,
+                  "profile_error": 0.36289217477436947
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39563744817990254,
+                  "mean_absolute_error_nm": 0.30783637690043847,
+                  "mean_measured_minus_predicted_nm": -0.07115723081408011,
+                  "profile_error": 0.35779962804050086
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.05432341747141917,
+                    0.13526964836674013
+                  ],
+                  "profile_error": [
+                    -0.007681385359334448,
+                    0.0009011082435374545
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.06237780943707808,
+                    0.12696696590422013
+                  ],
+                  "profile_error": [
+                    0.0015794711501919483,
+                    0.01329916829044754
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.7886035579374795,
+                  "mean_absolute_error_nm": 0.9433774091614145,
+                  "mean_measured_minus_predicted_nm": -0.7991028346460347,
+                  "profile_error": 0.22103024146621827
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.8299292372302935,
+                  "mean_absolute_error_nm": 0.8888065446699595,
+                  "mean_measured_minus_predicted_nm": -0.6798615991025776,
+                  "profile_error": 0.2176658436530704
+                },
+                "nominal": {
+                  "centered_error_nm": 0.7962902348435019,
+                  "mean_absolute_error_nm": 0.7339053210459182,
+                  "mean_measured_minus_predicted_nm": -0.35540504743336787,
+                  "profile_error": 0.21024957993656282
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.27884669233829346,
+                    -0.03529081652883807
+                  ],
+                  "profile_error": [
+                    -0.016050472954459792,
+                    -0.008136396756656056
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.2935076550457391,
+                    -0.04103845754397397
+                  ],
+                  "profile_error": [
+                    -0.008450060549848504,
+                    0.008014671951183723
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 1.3215624730528928,
+                  "mean_absolute_error_nm": 1.2890572188362566,
+                  "mean_measured_minus_predicted_nm": -0.6536160482781375,
+                  "profile_error": 0.2389621164566608
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.1557358978778183,
+                  "mean_absolute_error_nm": 1.0673745286557021,
+                  "mean_measured_minus_predicted_nm": -0.5794711059407569,
+                  "profile_error": 0.2266485166898563
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3314420312817166,
+                  "mean_absolute_error_nm": 1.0681910999595474,
+                  "mean_measured_minus_predicted_nm": -0.18589386601362867,
+                  "profile_error": 0.22724418757431447
+                }
+              },
+              "width_walls": 31
+            }
+          },
+          "first_order_profile": {
+            "DS10": {
+              "ellipse": "ellipse_1.75_060",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.0254314978899051,
+                    0.03775675976801958
+                  ],
+                  "profile_error": [
+                    -0.004633523933668194,
+                    -0.00024133381548157405
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.02726011748131911,
+                    0.043305036715789724
+                  ],
+                  "profile_error": [
+                    -0.0013676826659613645,
+                    0.003142261567304043
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.39838435467044236,
+                  "mean_absolute_error_nm": 0.3573171033194649,
+                  "mean_measured_minus_predicted_nm": -0.18997819999559543,
+                  "profile_error": 0.36117879355147076
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.40868225830179744,
+                  "mean_absolute_error_nm": 0.3646293966906461,
+                  "mean_measured_minus_predicted_nm": -0.18381979611145075,
+                  "profile_error": 0.35873132560465326
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39563744817990254,
+                  "mean_absolute_error_nm": 0.30783637690043847,
+                  "mean_measured_minus_predicted_nm": -0.07115723081408011,
+                  "profile_error": 0.35779962804050086
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_1.75_060",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.04741382801605862,
+                    0.044524453025414336
+                  ],
+                  "profile_error": [
+                    -0.003597647455432411,
+                    0.0008249817252808657
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.052034711729375495,
+                    0.03987839113561509
+                  ],
+                  "profile_error": [
+                    -0.0005350263125216925,
+                    0.005523914596825208
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.7920287765328281,
+                  "mean_absolute_error_nm": 0.8091704820373073,
+                  "mean_measured_minus_predicted_nm": -0.564306781715454,
+                  "profile_error": 0.21414178647953364
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.7895163470937627,
+                  "mean_absolute_error_nm": 0.7949485607128888,
+                  "mean_measured_minus_predicted_nm": -0.508943728431201,
+                  "profile_error": 0.21277637444866523
+                },
+                "nominal": {
+                  "centered_error_nm": 0.7962902348435019,
+                  "mean_absolute_error_nm": 0.7339053210459182,
+                  "mean_measured_minus_predicted_nm": -0.35540504743336787,
+                  "profile_error": 0.21024957993656282
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_1.75_060",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.14043753367587092,
+                    -0.033469805886541096
+                  ],
+                  "profile_error": [
+                    -0.008457368096403992,
+                    -0.004220158088516598
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.14742679159451352,
+                    -0.03571098761003181
+                  ],
+                  "profile_error": [
+                    -0.005652752476556029,
+                    0.002958109394425365
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.3266771225540472,
+                  "mean_absolute_error_nm": 1.1635045980102439,
+                  "mean_measured_minus_predicted_nm": -0.40497591345353856,
+                  "profile_error": 0.23211552402481025
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.2351414816312818,
+                  "mean_absolute_error_nm": 1.054894616143356,
+                  "mean_measured_minus_predicted_nm": -0.3715291044475365,
+                  "profile_error": 0.22567554490132197
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3314420312817166,
+                  "mean_absolute_error_nm": 1.0681910999595474,
+                  "mean_measured_minus_predicted_nm": -0.18589386601362867,
+                  "profile_error": 0.22724418757431447
+                }
+              },
+              "width_walls": 31
+            }
+          }
+        }
+      },
+      "scans": {
+        "DS10": {
+          "profile_scores": {
+            "circle_1.75": [
+              0.3517297310926751,
+              0.36117879355147076
+            ],
+            "circle_2.20": [
+              0.35311103836063085,
+              0.3667881703957111
+            ],
+            "ellipse_1.75_000": [
+              0.35399780951752924,
+              0.36249405798262163
+            ],
+            "ellipse_1.75_030": [
+              0.352007903240451,
+              0.3591872983862092
+            ],
+            "ellipse_1.75_060": [
+              0.34992257775601454,
+              0.35873132560465326
+            ],
+            "ellipse_1.75_090": [
+              0.35037690693392304,
+              0.36160765753159657
+            ],
+            "ellipse_1.75_120": [
+              0.3525116812290358,
+              0.3644932555361338
+            ],
+            "ellipse_1.75_150": [
+              0.3540325055827602,
+              0.364748881233226
+            ],
+            "ellipse_2.20_000": [
+              0.3602463132211024,
+              0.3711277662124525
+            ],
+            "ellipse_2.20_030": [
+              0.3559581301124361,
+              0.3656172916335432
+            ],
+            "ellipse_2.20_060": [
+              0.34933868325150663,
+              0.36289217477436947
+            ],
+            "ellipse_2.20_090": [
+              0.34936513322747154,
+              0.3680484203552224
+            ],
+            "ellipse_2.20_120": [
+              0.3543701622333803,
+              0.37457761363680175
+            ],
+            "ellipse_2.20_150": [
+              0.3584242879219321,
+              0.37521738204336846
+            ],
+            "nominal": [
+              0.3519134068224115,
+              0.35779962804050086
+            ]
+          },
+          "profile_walls": 29,
+          "width_by_order": [
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.11031786546738834,
+                "ellipse_1.75_030": 0.09711696291408192,
+                "ellipse_1.75_060": 0.091593783011823,
+                "ellipse_1.75_090": 0.11177539805992683,
+                "ellipse_1.75_120": 0.09303807164407485,
+                "ellipse_1.75_150": 0.09240049307281506,
+                "ellipse_2.20_000": 0.230326222495967,
+                "ellipse_2.20_030": 0.20614137529418874,
+                "ellipse_2.20_060": 0.18895398267903554,
+                "ellipse_2.20_090": 0.23388733053304286,
+                "ellipse_2.20_120": 0.18562365046999552,
+                "ellipse_2.20_150": 0.1929643371769349
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.9653505862142325,
+                  "mean_absolute_error_nm": 0.6918012397327445,
+                  "mean_measured_minus_predicted_nm": 0.05741607516364421
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 0.9750091779014555,
+                  "mean_absolute_error_nm": 0.748905088953167,
+                  "mean_measured_minus_predicted_nm": -0.1513609936147229
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 0.9961308184985697,
+                  "mean_absolute_error_nm": 0.7322256639293566,
+                  "mean_measured_minus_predicted_nm": -0.028894141788531426
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 0.980297752833201,
+                  "mean_absolute_error_nm": 0.7237119849488715,
+                  "mean_measured_minus_predicted_nm": -0.030236526427225657
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.9551921388007979,
+                  "mean_absolute_error_nm": 0.6939169962134597,
+                  "mean_measured_minus_predicted_nm": 0.06138608845343456
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.94699458357236,
+                  "mean_absolute_error_nm": 0.672916855076442,
+                  "mean_measured_minus_predicted_nm": 0.1472755791311102
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 0.9596803003278869,
+                  "mean_absolute_error_nm": 0.6805974777597135,
+                  "mean_measured_minus_predicted_nm": 0.14832684585765302
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 0.9844507381908864,
+                  "mean_absolute_error_nm": 0.7109102276832124,
+                  "mean_measured_minus_predicted_nm": 0.06359993322882451
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.0584509828182165,
+                  "mean_absolute_error_nm": 0.8640479193940035,
+                  "mean_measured_minus_predicted_nm": -0.33696216816548547
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.0250234901687483,
+                  "mean_absolute_error_nm": 0.8544017987208935,
+                  "mean_measured_minus_predicted_nm": -0.3408706295489358
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.9646488166267242,
+                  "mean_absolute_error_nm": 0.7527480937951445,
+                  "mean_measured_minus_predicted_nm": -0.13184833702291074
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.9444057738025102,
+                  "mean_absolute_error_nm": 0.682506058505954,
+                  "mean_measured_minus_predicted_nm": 0.05317043174655764
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 0.9651821335857953,
+                  "mean_absolute_error_nm": 0.6878462997338561,
+                  "mean_measured_minus_predicted_nm": 0.05667487588651196
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.025105466709479,
+                  "mean_absolute_error_nm": 0.7809107803909913,
+                  "mean_measured_minus_predicted_nm": -0.1262183531892154
+                },
+                "nominal": {
+                  "centered_error_nm": 0.9565972737699013,
+                  "mean_absolute_error_nm": 0.6914173172558643,
+                  "mean_measured_minus_predicted_nm": 0.24098849778720238
+                }
+              },
+              "qualified_walls": 29,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            },
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.10427320768112519,
+                "ellipse_1.75_030": 0.09498441592691148,
+                "ellipse_1.75_060": 0.1145201507916108,
+                "ellipse_1.75_090": 0.11254411278241448,
+                "ellipse_1.75_120": 0.09608066725512152,
+                "ellipse_1.75_150": 0.11661449086694867,
+                "ellipse_2.20_000": 0.19033701817255463,
+                "ellipse_2.20_030": 0.1740194937220534,
+                "ellipse_2.20_060": 0.21580062964070135,
+                "ellipse_2.20_090": 0.2224365957107314,
+                "ellipse_2.20_120": 0.177384173669175,
+                "ellipse_2.20_150": 0.22668604358649924
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.39838435467044236,
+                  "mean_absolute_error_nm": 0.3573171033194649,
+                  "mean_measured_minus_predicted_nm": -0.18997819999559543
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 0.40234710345165897,
+                  "mean_absolute_error_nm": 0.4234811498261244,
+                  "mean_measured_minus_predicted_nm": -0.3136319251583249
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 0.4004630187699038,
+                  "mean_absolute_error_nm": 0.3637164322239995,
+                  "mean_measured_minus_predicted_nm": -0.22309487153838142
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 0.3918951750838038,
+                  "mean_absolute_error_nm": 0.36699986303765636,
+                  "mean_measured_minus_predicted_nm": -0.22120279553370656
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.40868225830179744,
+                  "mean_absolute_error_nm": 0.3646293966906461,
+                  "mean_measured_minus_predicted_nm": -0.18381979611145075
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.42717037348326337,
+                  "mean_absolute_error_nm": 0.36637970779544954,
+                  "mean_measured_minus_predicted_nm": -0.15566840556936554
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 0.42657247020840505,
+                  "mean_absolute_error_nm": 0.3545506074254197,
+                  "mean_measured_minus_predicted_nm": -0.15673020491259512
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 0.41885343115361984,
+                  "mean_absolute_error_nm": 0.3642537494357919,
+                  "mean_measured_minus_predicted_nm": -0.18670282797812845
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 0.42572186513832233,
+                  "mean_absolute_error_nm": 0.4742517983233465,
+                  "mean_measured_minus_predicted_nm": -0.38448425311058726
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 0.4107116467618647,
+                  "mean_absolute_error_nm": 0.4730095417342371,
+                  "mean_measured_minus_predicted_nm": -0.3783522970431693
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.44940628147325734,
+                  "mean_absolute_error_nm": 0.44219932118184346,
+                  "mean_measured_minus_predicted_nm": -0.2925011241820698
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.48511093919517,
+                  "mean_absolute_error_nm": 0.4470646106474766,
+                  "mean_measured_minus_predicted_nm": -0.24081217695555324
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 0.4650326375472372,
+                  "mean_absolute_error_nm": 0.416805062897172,
+                  "mean_measured_minus_predicted_nm": -0.24188903018730074
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 0.4613770041275235,
+                  "mean_absolute_error_nm": 0.4381565716628593,
+                  "mean_measured_minus_predicted_nm": -0.29973510514152396
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39563744817990254,
+                  "mean_absolute_error_nm": 0.30783637690043847,
+                  "mean_measured_minus_predicted_nm": -0.07115723081408011
+                }
+              },
+              "qualified_walls": 29,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            }
+          ]
+        },
+        "DS13": {
+          "profile_scores": {
+            "circle_1.75": [
+              0.2919698798284529,
+              0.21414178647953364
+            ],
+            "circle_2.20": [
+              0.2942111814563613,
+              0.22103024146621827
+            ],
+            "ellipse_1.75_000": [
+              0.2930878552346485,
+              0.21801578903365787
+            ],
+            "ellipse_1.75_030": [
+              0.2928205832453695,
+              0.2163217242639094
+            ],
+            "ellipse_1.75_060": [
+              0.2917669178214577,
+              0.21277637444866523
+            ],
+            "ellipse_1.75_090": [
+              0.2908764725641946,
+              0.2105160391920561
+            ],
+            "ellipse_1.75_120": [
+              0.29136009588536327,
+              0.21322536959145508
+            ],
+            "ellipse_1.75_150": [
+              0.292517223692449,
+              0.2172599625535259
+            ],
+            "ellipse_2.20_000": [
+              0.2966913719706823,
+              0.22901794971789557
+            ],
+            "ellipse_2.20_030": [
+              0.2958416586667498,
+              0.2252595633037743
+            ],
+            "ellipse_2.20_060": [
+              0.29353741027014435,
+              0.2176658436530704
+            ],
+            "ellipse_2.20_090": [
+              0.2917578159542441,
+              0.21308249628073328
+            ],
+            "ellipse_2.20_120": [
+              0.2934528086874332,
+              0.22093083603118593
+            ],
+            "ellipse_2.20_150": [
+              0.2960592903600012,
+              0.22961650475366405
+            ],
+            "nominal": [
+              0.29047475865967354,
+              0.21024957993656282
+            ]
+          },
+          "profile_walls": 36,
+          "width_by_order": [
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.08860701611221099,
+                "ellipse_1.75_030": 0.10793858046546656,
+                "ellipse_1.75_060": 0.14311048438936566,
+                "ellipse_1.75_090": 0.09109906331499114,
+                "ellipse_1.75_120": 0.10619919408403902,
+                "ellipse_1.75_150": 0.1436675748003843,
+                "ellipse_2.20_000": 0.18614314238145788,
+                "ellipse_2.20_030": 0.2297303913926145,
+                "ellipse_2.20_060": 0.302503743729722,
+                "ellipse_2.20_090": 0.19744051460656464,
+                "ellipse_2.20_120": 0.22165960032254334,
+                "ellipse_2.20_150": 0.3049350403362473
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.311202798756969,
+                  "mean_absolute_error_nm": 1.1881104804210523,
+                  "mean_measured_minus_predicted_nm": -0.5952569254609563
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 1.313933948197945,
+                  "mean_absolute_error_nm": 1.2603573403699961,
+                  "mean_measured_minus_predicted_nm": -0.7927114114655972
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.3491830377075458,
+                  "mean_absolute_error_nm": 1.2375043460547428,
+                  "mean_measured_minus_predicted_nm": -0.6558965562410262
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 1.354901068035945,
+                  "mean_absolute_error_nm": 1.2338828719135588,
+                  "mean_measured_minus_predicted_nm": -0.6039163632526217
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.322880225238528,
+                  "mean_absolute_error_nm": 1.1849148126320845,
+                  "mean_measured_minus_predicted_nm": -0.5415670352223502
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.2773717151435622,
+                  "mean_absolute_error_nm": 1.1384332508105632,
+                  "mean_measured_minus_predicted_nm": -0.5340155868487055
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 1.2760773017308913,
+                  "mean_absolute_error_nm": 1.154519887716545,
+                  "mean_measured_minus_predicted_nm": -0.586170023382404
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 1.3160938756973568,
+                  "mean_absolute_error_nm": 1.2052944355407866,
+                  "mean_measured_minus_predicted_nm": -0.6456107517783934
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.3994426528510304,
+                  "mean_absolute_error_nm": 1.3722579518556284,
+                  "mean_measured_minus_predicted_nm": -0.9206907208122334
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.4156194003764955,
+                  "mean_absolute_error_nm": 1.3392710179582141,
+                  "mean_measured_minus_predicted_nm": -0.81170522799213
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.3562769491229403,
+                  "mean_absolute_error_nm": 1.2356250941368563,
+                  "mean_measured_minus_predicted_nm": -0.6761159851448066
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.2474061999189618,
+                  "mean_absolute_error_nm": 1.1485571789493436,
+                  "mean_measured_minus_predicted_nm": -0.6620987383626753
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 1.2501720225516804,
+                  "mean_absolute_error_nm": 1.228271880336456,
+                  "mean_measured_minus_predicted_nm": -0.7720720755022162
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.3450616669611024,
+                  "mean_absolute_error_nm": 1.344913857032269,
+                  "mean_measured_minus_predicted_nm": -0.894173405817947
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3093880703297835,
+                  "mean_absolute_error_nm": 1.1435173271471832,
+                  "mean_measured_minus_predicted_nm": -0.42346984492106915
+                }
+              },
+              "qualified_walls": 35,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  16,
+                  15,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            },
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.11384889056784077,
+                "ellipse_1.75_030": 0.14224893261043803,
+                "ellipse_1.75_060": 0.18410174484913375,
+                "ellipse_1.75_090": 0.11795812317601587,
+                "ellipse_1.75_120": 0.13963691684894933,
+                "ellipse_1.75_150": 0.18408643030510094,
+                "ellipse_2.20_000": 0.23472241217138004,
+                "ellipse_2.20_030": 0.29937883565989576,
+                "ellipse_2.20_060": 0.3837360943961562,
+                "ellipse_2.20_090": 0.25285566504549645,
+                "ellipse_2.20_120": 0.2884405762054624,
+                "ellipse_2.20_150": 0.383999776923916
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.7920287765328281,
+                  "mean_absolute_error_nm": 0.8091704820373073,
+                  "mean_measured_minus_predicted_nm": -0.564306781715454
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 0.7886035579374795,
+                  "mean_absolute_error_nm": 0.9433774091614145,
+                  "mean_measured_minus_predicted_nm": -0.7991028346460347
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 0.8602050162093733,
+                  "mean_absolute_error_nm": 0.87750225326691,
+                  "mean_measured_minus_predicted_nm": -0.6241172938534276
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 0.8436147859606983,
+                  "mean_absolute_error_nm": 0.8581134621144766,
+                  "mean_measured_minus_predicted_nm": -0.5721199957322657
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.7895163470937627,
+                  "mean_absolute_error_nm": 0.7949485607128888,
+                  "mean_measured_minus_predicted_nm": -0.508943728431201
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.7327507401515411,
+                  "mean_absolute_error_nm": 0.7427769521062082,
+                  "mean_measured_minus_predicted_nm": -0.5030068559830707
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 0.7653333998023022,
+                  "mean_absolute_error_nm": 0.7901628433801443,
+                  "mean_measured_minus_predicted_nm": -0.5550258317588164
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 0.8378649635542286,
+                  "mean_absolute_error_nm": 0.8603280108305182,
+                  "mean_measured_minus_predicted_nm": -0.6127925359505841
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 0.9381891096669435,
+                  "mean_absolute_error_nm": 1.0804992758224665,
+                  "mean_measured_minus_predicted_nm": -0.9216220731858054
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 0.9188033487911379,
+                  "mean_absolute_error_nm": 1.0180514574376893,
+                  "mean_measured_minus_predicted_nm": -0.8164007075829951
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.8299292372302935,
+                  "mean_absolute_error_nm": 0.8888065446699595,
+                  "mean_measured_minus_predicted_nm": -0.6798615991025776
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.6799089111050807,
+                  "mean_absolute_error_nm": 0.7975115572893218,
+                  "mean_measured_minus_predicted_nm": -0.6707961137149727
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 0.7644901782325071,
+                  "mean_absolute_error_nm": 0.9414272316748473,
+                  "mean_measured_minus_predicted_nm": -0.7771634750461082
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 0.92836258229112,
+                  "mean_absolute_error_nm": 1.0855049685364786,
+                  "mean_measured_minus_predicted_nm": -0.8899303293267403
+                },
+                "nominal": {
+                  "centered_error_nm": 0.7962902348435019,
+                  "mean_absolute_error_nm": 0.7339053210459182,
+                  "mean_measured_minus_predicted_nm": -0.35540504743336787
+                }
+              },
+              "qualified_walls": 36,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  17,
+                  16,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  20
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          ]
+        },
+        "DS14": {
+          "profile_scores": {
+            "circle_1.75": [
+              0.3089493800080771,
+              0.23211552402481025
+            ],
+            "circle_2.20": [
+              0.31105464643435166,
+              0.2389621164566608
+            ],
+            "ellipse_1.75_000": [
+              0.3102733107750478,
+              0.23514885098130361
+            ],
+            "ellipse_1.75_030": [
+              0.308154676871525,
+              0.22868040088269728
+            ],
+            "ellipse_1.75_060": [
+              0.30687898580571976,
+              0.22567554490132197
+            ],
+            "ellipse_1.75_090": [
+              0.3076805627040403,
+              0.2291971902710851
+            ],
+            "ellipse_1.75_120": [
+              0.30992776075396555,
+              0.23627334476985062
+            ],
+            "ellipse_1.75_150": [
+              0.31126122851144433,
+              0.23931351549271201
+            ],
+            "ellipse_2.20_000": [
+              0.31359473845904196,
+              0.24451176795060653
+            ],
+            "ellipse_2.20_030": [
+              0.3093437710376544,
+              0.23161090540604015
+            ],
+            "ellipse_2.20_060": [
+              0.3069034706535327,
+              0.2266485166898563
+            ],
+            "ellipse_2.20_090": [
+              0.308642510097167,
+              0.2342094840896402
+            ],
+            "ellipse_2.20_120": [
+              0.3134171135658877,
+              0.24860052819651848
+            ],
+            "ellipse_2.20_150": [
+              0.31605957790797806,
+              0.25462107143229973
+            ],
+            "nominal": [
+              0.30749692575766363,
+              0.22724418757431447
+            ]
+          },
+          "profile_walls": 31,
+          "width_by_order": [
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.11352578919055453,
+                "ellipse_1.75_030": 0.10590222503782094,
+                "ellipse_1.75_060": 0.1354325887560778,
+                "ellipse_1.75_090": 0.11465249599537182,
+                "ellipse_1.75_120": 0.10331856896453723,
+                "ellipse_1.75_150": 0.13682896760902383,
+                "ellipse_2.20_000": 0.24018721674434085,
+                "ellipse_2.20_030": 0.22774338865789306,
+                "ellipse_2.20_060": 0.28581382606971234,
+                "ellipse_2.20_090": 0.24530362242452108,
+                "ellipse_2.20_120": 0.2161695696812084,
+                "ellipse_2.20_150": 0.29204526225014055
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.555861931766645,
+                  "mean_absolute_error_nm": 1.3910383275408222,
+                  "mean_measured_minus_predicted_nm": -0.4996686126988921
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 1.5547837819541568,
+                  "mean_absolute_error_nm": 1.473725777746738,
+                  "mean_measured_minus_predicted_nm": -0.6977301188476175
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.611898230228127,
+                  "mean_absolute_error_nm": 1.4374750560100598,
+                  "mean_measured_minus_predicted_nm": -0.4901821041425838
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 1.5345214754285454,
+                  "mean_absolute_error_nm": 1.3527078857145756,
+                  "mean_measured_minus_predicted_nm": -0.4586690449115668
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.4823996734474558,
+                  "mean_absolute_error_nm": 1.3065455031159747,
+                  "mean_measured_minus_predicted_nm": -0.4668662095599469
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.5055566782986072,
+                  "mean_absolute_error_nm": 1.344423416109399,
+                  "mean_measured_minus_predicted_nm": -0.5078734624060995
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 1.5838404854541184,
+                  "mean_absolute_error_nm": 1.4360538386888937,
+                  "mean_measured_minus_predicted_nm": -0.5399687650900137
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 1.6382845875138006,
+                  "mean_absolute_error_nm": 1.4812394467188668,
+                  "mean_measured_minus_predicted_nm": -0.5303850159335535
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.6798722990844184,
+                  "mean_absolute_error_nm": 1.5648042992918394,
+                  "mean_measured_minus_predicted_nm": -0.6766368406759099
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.518644675211102,
+                  "mean_absolute_error_nm": 1.3868844905240272,
+                  "mean_measured_minus_predicted_nm": -0.6097603649288207
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.410841412054681,
+                  "mean_absolute_error_nm": 1.2957918405146087,
+                  "mean_measured_minus_predicted_nm": -0.6253555626659951
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.4557682472111737,
+                  "mean_absolute_error_nm": 1.391373542328025,
+                  "mean_measured_minus_predicted_nm": -0.7132023836089101
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 1.6207557050558496,
+                  "mean_absolute_error_nm": 1.5823973565789609,
+                  "mean_measured_minus_predicted_nm": -0.7827280874666459
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.7391603667654132,
+                  "mean_absolute_error_nm": 1.6760466767674491,
+                  "mean_measured_minus_predicted_nm": -0.7609406400481941
+                },
+                "nominal": {
+                  "centered_error_nm": 1.556758207722754,
+                  "mean_absolute_error_nm": 1.3312550590659384,
+                  "mean_measured_minus_predicted_nm": -0.3281925832962486
+                }
+              },
+              "qualified_walls": 31,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            },
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.1466439550643436,
+                "ellipse_1.75_030": 0.14161518910510332,
+                "ellipse_1.75_060": 0.1775519066823528,
+                "ellipse_1.75_090": 0.1478939103270157,
+                "ellipse_1.75_120": 0.13735344380890613,
+                "ellipse_1.75_150": 0.17975491602996624,
+                "ellipse_2.20_000": 0.3070006667919797,
+                "ellipse_2.20_030": 0.30225913864724924,
+                "ellipse_2.20_060": 0.37046382863900784,
+                "ellipse_2.20_090": 0.3128199638063894,
+                "ellipse_2.20_120": 0.2842604904568255,
+                "ellipse_2.20_150": 0.37938299806165243
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.3266771225540472,
+                  "mean_absolute_error_nm": 1.1635045980102439,
+                  "mean_measured_minus_predicted_nm": -0.40497591345353856
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 1.3215624730528928,
+                  "mean_absolute_error_nm": 1.2890572188362566,
+                  "mean_measured_minus_predicted_nm": -0.6536160482781375
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.3894731880670006,
+                  "mean_absolute_error_nm": 1.2024720328750786,
+                  "mean_measured_minus_predicted_nm": -0.38472967922676526
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 1.2893333606191484,
+                  "mean_absolute_error_nm": 1.0952702438017892,
+                  "mean_measured_minus_predicted_nm": -0.35373948382012627
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.2351414816312818,
+                  "mean_absolute_error_nm": 1.054894616143356,
+                  "mean_measured_minus_predicted_nm": -0.3715291044475365
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.2766322532685954,
+                  "mean_absolute_error_nm": 1.1246989060647274,
+                  "mean_measured_minus_predicted_nm": -0.42254659436794084
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 1.376902424529746,
+                  "mean_absolute_error_nm": 1.2435694522082892,
+                  "mean_measured_minus_predicted_nm": -0.45419193665888113
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 1.4360954745221524,
+                  "mean_absolute_error_nm": 1.281360689422493,
+                  "mean_measured_minus_predicted_nm": -0.43390196513741164
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.4639113004753914,
+                  "mean_absolute_error_nm": 1.363235079055707,
+                  "mean_measured_minus_predicted_nm": -0.6091459884957106
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.260592140744513,
+                  "mean_absolute_error_nm": 1.1357025055845091,
+                  "mean_measured_minus_predicted_nm": -0.5448013185066353
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.1557358978778183,
+                  "mean_absolute_error_nm": 1.0673745286557021,
+                  "mean_measured_minus_predicted_nm": -0.5794711059407569
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.2364141337089074,
+                  "mean_absolute_error_nm": 1.2238403633989803,
+                  "mean_measured_minus_predicted_nm": -0.6871443111574306
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 1.4394708259584557,
+                  "mean_absolute_error_nm": 1.4778363891357504,
+                  "mean_measured_minus_predicted_nm": -0.7548213431590879
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.5667414930533667,
+                  "mean_absolute_error_nm": 1.550867690484157,
+                  "mean_measured_minus_predicted_nm": -0.7093589049798994
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3314420312817166,
+                  "mean_absolute_error_nm": 1.0681910999595474,
+                  "mean_measured_minus_predicted_nm": -0.18589386601362867
+                }
+              },
+              "qualified_walls": 31,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "transferred_even": {
+      "first_order_selected_ellipses": {
+        "DS13": {
+          "first_order_centered_width": {
+            "DS10": {
+              "ellipse": "ellipse_2.20_090",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    0.0349284908811385,
+                    0.1314042000459524
+                  ],
+                  "profile_error": [
+                    0.001178266896179253,
+                    0.007933812801004834
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    0.04330382818089579,
+                    0.13421047994689647
+                  ],
+                  "profile_error": [
+                    0.005074103250167253,
+                    0.014405245481768858
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.4022076370186476,
+                  "mean_absolute_error_nm": 0.4287579971002857,
+                  "mean_measured_minus_predicted_nm": -0.31595132797606335,
+                  "profile_error": 0.4841483037392288
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.48450750761824146,
+                  "mean_absolute_error_nm": 0.44999934504655525,
+                  "mean_measured_minus_predicted_nm": -0.2416656222355999,
+                  "profile_error": 0.48885803231634084
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39496598316797565,
+                  "mean_absolute_error_nm": 0.3088114946571396,
+                  "mean_measured_minus_predicted_nm": -0.07322169831199868,
+                  "profile_error": 0.47881279932083654
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_2.20_090",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.17017067778443146,
+                    -0.0660287697562764
+                  ],
+                  "profile_error": [
+                    -0.00692037476029154,
+                    -0.0035047656889562024
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.17841460862492817,
+                    -0.07166709095148639
+                  ],
+                  "profile_error": [
+                    -0.0005564097370902577,
+                    0.005973246546024093
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.8022946323455323,
+                  "mean_absolute_error_nm": 0.9966156394451117,
+                  "mean_measured_minus_predicted_nm": -0.8685905227997153,
+                  "profile_error": 0.31990844931770435
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.6808849480287597,
+                  "mean_absolute_error_nm": 0.8472235903647649,
+                  "mean_measured_minus_predicted_nm": -0.7368243577549348,
+                  "profile_error": 0.3147290539180207
+                },
+                "nominal": {
+                  "centered_error_nm": 0.8088525033704924,
+                  "mean_absolute_error_nm": 0.7648716881285339,
+                  "mean_measured_minus_predicted_nm": -0.41811276010413573,
+                  "profile_error": 0.31213911821468954
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_2.20_090",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.16582391178882763,
+                    -0.025628747056131412
+                  ],
+                  "profile_error": [
+                    -0.005705172174159168,
+                    -0.0007958642123369305
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.17562236500681738,
+                    -0.02703815003080302
+                  ],
+                  "profile_error": [
+                    -0.0015100669112125956,
+                    0.010262738479798141
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 1.3749576021871126,
+                  "mean_absolute_error_nm": 1.4096376597830316,
+                  "mean_measured_minus_predicted_nm": -0.780671067842715,
+                  "profile_error": 0.35260109574436876
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.2759658123046462,
+                  "mean_absolute_error_nm": 1.3442979540387543,
+                  "mean_measured_minus_predicted_nm": -0.8107093899994168,
+                  "profile_error": 0.3491669019671419
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3807018439154273,
+                  "mean_absolute_error_nm": 1.16566011991266,
+                  "mean_measured_minus_predicted_nm": -0.29982013083942916,
+                  "profile_error": 0.3449987342776484
+                }
+              },
+              "width_walls": 31
+            }
+          },
+          "first_order_profile": {
+            "DS10": {
+              "ellipse": "ellipse_1.75_090",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    0.0009792398890179912,
+                    0.05591710698983227
+                  ],
+                  "profile_error": [
+                    0.00043293099727202694,
+                    0.0034041304861533346
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    0.003778167327535367,
+                    0.056840704434009105
+                  ],
+                  "profile_error": [
+                    0.0012014582812068465,
+                    0.0058363870331097885
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.3979643396559125,
+                  "mean_absolute_error_nm": 0.36146666401750277,
+                  "mean_measured_minus_predicted_nm": -0.1921855803290406,
+                  "profile_error": 0.48047032998688255
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.42657220296154635,
+                  "mean_absolute_error_nm": 0.36861463383202436,
+                  "mean_measured_minus_predicted_nm": -0.15729141435807803,
+                  "profile_error": 0.4824534567092053
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39496598316797565,
+                  "mean_absolute_error_nm": 0.3088114946571396,
+                  "mean_measured_minus_predicted_nm": -0.07322169831199868,
+                  "profile_error": 0.47881279932083654
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_1.75_090",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.08519596092585266,
+                    -0.04147863410570741
+                  ],
+                  "profile_error": [
+                    -0.0032387352495030137,
+                    -0.0016281696156509764
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.08912715181591048,
+                    -0.04504651398605375
+                  ],
+                  "profile_error": [
+                    -0.0010308665713477327,
+                    0.002205161657486146
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.8050932966271922,
+                  "mean_absolute_error_nm": 0.8520880413191789,
+                  "mean_measured_minus_predicted_nm": -0.6302374314158544,
+                  "profile_error": 0.3150889059961542
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.7402741117923906,
+                  "mean_absolute_error_nm": 0.7828783535016152,
+                  "mean_measured_minus_predicted_nm": -0.5672839526742428,
+                  "profile_error": 0.3126629267330822
+                },
+                "nominal": {
+                  "centered_error_nm": 0.8088525033704924,
+                  "mean_absolute_error_nm": 0.7648716881285339,
+                  "mean_measured_minus_predicted_nm": -0.41811276010413573,
+                  "profile_error": 0.31213911821468954
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_1.75_090",
+              "equal_trace_circle": "circle_1.75",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_1.75": {
+                  "centered_width_error_nm": [
+                    -0.08664068865682992,
+                    -0.02335471661650528
+                  ],
+                  "profile_error": [
+                    -0.0031108826883296803,
+                    -0.0004836497255333198
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.09137480166294365,
+                    -0.024070228588251745
+                  ],
+                  "profile_error": [
+                    -0.0018364187998280795,
+                    0.0043218441770774265
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.3778968862044962,
+                  "mean_absolute_error_nm": 1.2726865930347695,
+                  "mean_measured_minus_predicted_nm": -0.5250676199410221,
+                  "profile_error": 0.34802883510367144
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.3215159993920498,
+                  "mean_absolute_error_nm": 1.2320240722577045,
+                  "mean_measured_minus_predicted_nm": -0.5410388536823882,
+                  "profile_error": 0.3461357659210101
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3807018439154273,
+                  "mean_absolute_error_nm": 1.16566011991266,
+                  "mean_measured_minus_predicted_nm": -0.29982013083942916,
+                  "profile_error": 0.3449987342776484
+                }
+              },
+              "width_walls": 31
+            }
+          }
+        },
+        "DS14": {
+          "first_order_centered_width": {
+            "DS10": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.007896014299701905,
+                    0.0964961529404236
+                  ],
+                  "profile_error": [
+                    0.0023410707628212487,
+                    0.012271517269697977
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.009638579958489742,
+                    0.11005313210502396
+                  ],
+                  "profile_error": [
+                    0.007544845925630251,
+                    0.01752711683426351
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.4022076370186476,
+                  "mean_absolute_error_nm": 0.4287579971002857,
+                  "mean_measured_minus_predicted_nm": -0.31595132797606335,
+                  "profile_error": 0.4841483037392288
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.4521825074277604,
+                  "mean_absolute_error_nm": 0.4455762431590172,
+                  "mean_measured_minus_predicted_nm": -0.2947881229194137,
+                  "profile_error": 0.4914895082494681
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39496598316797565,
+                  "mean_absolute_error_nm": 0.3088114946571396,
+                  "mean_measured_minus_predicted_nm": -0.07322169831199868,
+                  "profile_error": 0.47881279932083654
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.07341907852310894,
+                    0.11646793614353498
+                  ],
+                  "profile_error": [
+                    -0.005195611200828845,
+                    0.000525586209092666
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.07698026902770275,
+                    0.10703404348510323
+                  ],
+                  "profile_error": [
+                    0.0015893338274309138,
+                    0.009620944021359514
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.8022946323455323,
+                  "mean_absolute_error_nm": 0.9966156394451117,
+                  "mean_measured_minus_predicted_nm": -0.8685905227997153,
+                  "profile_error": 0.31990844931770435
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.8248163169177082,
+                  "mean_absolute_error_nm": 0.9229837364275172,
+                  "mean_measured_minus_predicted_nm": -0.7437768878597738,
+                  "profile_error": 0.3175703013581311
+                },
+                "nominal": {
+                  "centered_error_nm": 0.8088525033704924,
+                  "mean_absolute_error_nm": 0.7648716881285339,
+                  "mean_measured_minus_predicted_nm": -0.41811276010413573,
+                  "profile_error": 0.31213911821468954
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.2898885773047474,
+                    -0.061912381859857375
+                  ],
+                  "profile_error": [
+                    -0.011342289162778976,
+                    -0.005423643497366901
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.2983279323875774,
+                    -0.06488348735424818
+                  ],
+                  "profile_error": [
+                    -0.006948247481217517,
+                    0.005519699739500784
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 1.3749576021871126,
+                  "mean_absolute_error_nm": 1.4096376597830316,
+                  "mean_measured_minus_predicted_nm": -0.780671067842715,
+                  "profile_error": 0.35260109574436876
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.1875440932593315,
+                  "mean_absolute_error_nm": 1.1734700488867755,
+                  "mean_measured_minus_predicted_nm": -0.6970138200154772,
+                  "profile_error": 0.3440124467830628
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3807018439154273,
+                  "mean_absolute_error_nm": 1.16566011991266,
+                  "mean_measured_minus_predicted_nm": -0.29982013083942916,
+                  "profile_error": 0.3449987342776484
+                }
+              },
+              "width_walls": 31
+            }
+          },
+          "first_order_profile": {
+            "DS10": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.007896014299701905,
+                    0.0964961529404236
+                  ],
+                  "profile_error": [
+                    0.0023410707628212487,
+                    0.012271517269697977
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.009638579958489742,
+                    0.11005313210502396
+                  ],
+                  "profile_error": [
+                    0.007544845925630251,
+                    0.01752711683426351
+                  ]
+                }
+              },
+              "profile_walls": 29,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.4022076370186476,
+                  "mean_absolute_error_nm": 0.4287579971002857,
+                  "mean_measured_minus_predicted_nm": -0.31595132797606335,
+                  "profile_error": 0.4841483037392288
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.4521825074277604,
+                  "mean_absolute_error_nm": 0.4455762431590172,
+                  "mean_measured_minus_predicted_nm": -0.2947881229194137,
+                  "profile_error": 0.4914895082494681
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39496598316797565,
+                  "mean_absolute_error_nm": 0.3088114946571396,
+                  "mean_measured_minus_predicted_nm": -0.07322169831199868,
+                  "profile_error": 0.47881279932083654
+                }
+              },
+              "width_walls": 29
+            },
+            "DS13": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.07341907852310894,
+                    0.11646793614353498
+                  ],
+                  "profile_error": [
+                    -0.005195611200828845,
+                    0.000525586209092666
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.07698026902770275,
+                    0.10703404348510323
+                  ],
+                  "profile_error": [
+                    0.0015893338274309138,
+                    0.009620944021359514
+                  ]
+                }
+              },
+              "profile_walls": 36,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 0.8022946323455323,
+                  "mean_absolute_error_nm": 0.9966156394451117,
+                  "mean_measured_minus_predicted_nm": -0.8685905227997153,
+                  "profile_error": 0.31990844931770435
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.8248163169177082,
+                  "mean_absolute_error_nm": 0.9229837364275172,
+                  "mean_measured_minus_predicted_nm": -0.7437768878597738,
+                  "profile_error": 0.3175703013581311
+                },
+                "nominal": {
+                  "centered_error_nm": 0.8088525033704924,
+                  "mean_absolute_error_nm": 0.7648716881285339,
+                  "mean_measured_minus_predicted_nm": -0.41811276010413573,
+                  "profile_error": 0.31213911821468954
+                }
+              },
+              "width_walls": 36
+            },
+            "DS14": {
+              "ellipse": "ellipse_2.20_060",
+              "equal_trace_circle": "circle_2.20",
+              "paired_ranges_ellipse_minus_control": {
+                "circle_2.20": {
+                  "centered_width_error_nm": [
+                    -0.2898885773047474,
+                    -0.061912381859857375
+                  ],
+                  "profile_error": [
+                    -0.011342289162778976,
+                    -0.005423643497366901
+                  ]
+                },
+                "nominal": {
+                  "centered_width_error_nm": [
+                    -0.2983279323875774,
+                    -0.06488348735424818
+                  ],
+                  "profile_error": [
+                    -0.006948247481217517,
+                    0.005519699739500784
+                  ]
+                }
+              },
+              "profile_walls": 31,
+              "second_order": {
+                "circle_2.20": {
+                  "centered_error_nm": 1.3749576021871126,
+                  "mean_absolute_error_nm": 1.4096376597830316,
+                  "mean_measured_minus_predicted_nm": -0.780671067842715,
+                  "profile_error": 0.35260109574436876
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.1875440932593315,
+                  "mean_absolute_error_nm": 1.1734700488867755,
+                  "mean_measured_minus_predicted_nm": -0.6970138200154772,
+                  "profile_error": 0.3440124467830628
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3807018439154273,
+                  "mean_absolute_error_nm": 1.16566011991266,
+                  "mean_measured_minus_predicted_nm": -0.29982013083942916,
+                  "profile_error": 0.3449987342776484
+                }
+              },
+              "width_walls": 31
+            }
+          }
+        }
+      },
+      "scans": {
+        "DS10": {
+          "profile_scores": {
+            "circle_1.75": [
+              0.4244617091894807,
+              0.48047032998688255
+            ],
+            "circle_2.20": [
+              0.42507775853628244,
+              0.4841483037392288
+            ],
+            "ellipse_1.75_000": [
+              0.42637005473431744,
+              0.4794514599414815
+            ],
+            "ellipse_1.75_030": [
+              0.42490817319034296,
+              0.4818955567487724
+            ],
+            "ellipse_1.75_060": [
+              0.4229399588796397,
+              0.483397283125606
+            ],
+            "ellipse_1.75_090": [
+              0.4231789358872685,
+              0.4824534567092053
+            ],
+            "ellipse_1.75_120": [
+              0.4251350396413357,
+              0.48040011006598116
+            ],
+            "ellipse_1.75_150": [
+              0.42630260190057656,
+              0.47895708166699613
+            ],
+            "ellipse_2.20_000": [
+              0.4310363427538252,
+              0.4826001539606865
+            ],
+            "ellipse_2.20_030": [
+              0.428432317193904,
+              0.48849317491932065
+            ],
+            "ellipse_2.20_060": [
+              0.42207243988707693,
+              0.4914895082494681
+            ],
+            "ellipse_2.20_090": [
+              0.42148036798736044,
+              0.48885803231634084
+            ],
+            "ellipse_2.20_120": [
+              0.4263181995332278,
+              0.48440755406659003
+            ],
+            "ellipse_2.20_150": [
+              0.42886729860503264,
+              0.48180313859936885
+            ],
+            "nominal": [
+              0.4250682700261047,
+              0.47881279932083654
+            ]
+          },
+          "profile_walls": 29,
+          "width_by_order": [
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.10726261176112048,
+                "ellipse_1.75_030": 0.08906466848053335,
+                "ellipse_1.75_060": 0.08440489074261834,
+                "ellipse_1.75_090": 0.10784579841896229,
+                "ellipse_1.75_120": 0.08394338458036589,
+                "ellipse_1.75_150": 0.08528293151819794,
+                "ellipse_2.20_000": 0.22552945112176218,
+                "ellipse_2.20_030": 0.1897459233398014,
+                "ellipse_2.20_060": 0.17480562336639807,
+                "ellipse_2.20_090": 0.22408885803021403,
+                "ellipse_2.20_120": 0.16371644367864113,
+                "ellipse_2.20_150": 0.1792220705007386
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.9797215875746753,
+                  "mean_absolute_error_nm": 0.708678800358098,
+                  "mean_measured_minus_predicted_nm": 0.10167012521464638
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 0.9901411001825193,
+                  "mean_absolute_error_nm": 0.7621895548754386,
+                  "mean_measured_minus_predicted_nm": -0.11297547117337453
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.0089880934704827,
+                  "mean_absolute_error_nm": 0.7463723702713508,
+                  "mean_measured_minus_predicted_nm": 0.007600250874650239
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 0.9954275471810575,
+                  "mean_absolute_error_nm": 0.7390850114980668,
+                  "mean_measured_minus_predicted_nm": 0.0034535946821306783
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.9714208363160092,
+                  "mean_absolute_error_nm": 0.7128623691115376,
+                  "mean_measured_minus_predicted_nm": 0.10296320581044247
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.9617881794665356,
+                  "mean_absolute_error_nm": 0.6950585033676685,
+                  "mean_measured_minus_predicted_nm": 0.19953334843740075
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 0.9722632001298922,
+                  "mean_absolute_error_nm": 0.7003918692723899,
+                  "mean_measured_minus_predicted_nm": 0.20457616773555914
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 0.9961379214415695,
+                  "mean_absolute_error_nm": 0.7248381786802365,
+                  "mean_measured_minus_predicted_nm": 0.11192790304298128
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.0676779492101982,
+                  "mean_absolute_error_nm": 0.8759235145190012,
+                  "mean_measured_minus_predicted_nm": -0.31684175809089754
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.038845885840245,
+                  "mean_absolute_error_nm": 0.867694706740225,
+                  "mean_measured_minus_predicted_nm": -0.325157025778675
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.9831524269384495,
+                  "mean_absolute_error_nm": 0.7687008376236643,
+                  "mean_measured_minus_predicted_nm": -0.09721093054289912
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.9617119223977096,
+                  "mean_absolute_error_nm": 0.7041695561061911,
+                  "mean_measured_minus_predicted_nm": 0.11284425653370954
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 0.9784334824674805,
+                  "mean_absolute_error_nm": 0.7035284067294346,
+                  "mean_measured_minus_predicted_nm": 0.126750919928523
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.0340837131697362,
+                  "mean_absolute_error_nm": 0.79033509367272,
+                  "mean_measured_minus_predicted_nm": -0.07751239980453739
+                },
+                "nominal": {
+                  "centered_error_nm": 0.969358732630873,
+                  "mean_absolute_error_nm": 0.7141437204243473,
+                  "mean_measured_minus_predicted_nm": 0.28847017414011217
+                }
+              },
+              "qualified_walls": 29,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            },
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.10466232399329509,
+                "ellipse_1.75_030": 0.09460193486039216,
+                "ellipse_1.75_060": 0.1140871148226209,
+                "ellipse_1.75_090": 0.11299571762418756,
+                "ellipse_1.75_120": 0.09561235133492117,
+                "ellipse_1.75_150": 0.11641386704664086,
+                "ellipse_2.20_000": 0.19074242420092113,
+                "ellipse_2.20_030": 0.17311267548690615,
+                "ellipse_2.20_060": 0.21430484932435712,
+                "ellipse_2.20_090": 0.22304114164310582,
+                "ellipse_2.20_120": 0.17609485501920222,
+                "ellipse_2.20_150": 0.2263529699044591
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.3979643396559125,
+                  "mean_absolute_error_nm": 0.36146666401750277,
+                  "mean_measured_minus_predicted_nm": -0.1921855803290406
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 0.4022076370186476,
+                  "mean_absolute_error_nm": 0.4287579971002857,
+                  "mean_measured_minus_predicted_nm": -0.31595132797606335
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 0.400367824056576,
+                  "mean_absolute_error_nm": 0.36774056177160375,
+                  "mean_measured_minus_predicted_nm": -0.225885086066422
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 0.39358249240239623,
+                  "mean_absolute_error_nm": 0.371985723779624,
+                  "mean_measured_minus_predicted_nm": -0.22416360414819952
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.4100758471663574,
+                  "mean_absolute_error_nm": 0.36845917512834264,
+                  "mean_measured_minus_predicted_nm": -0.18619491071536692
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.42657220296154635,
+                  "mean_absolute_error_nm": 0.36861463383202436,
+                  "mean_measured_minus_predicted_nm": -0.15729141435807803
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 0.4240108125001636,
+                  "mean_absolute_error_nm": 0.35779831803008816,
+                  "mean_measured_minus_predicted_nm": -0.15812589169476635
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 0.4166362279807624,
+                  "mean_absolute_error_nm": 0.3664519784152701,
+                  "mean_measured_minus_predicted_nm": -0.1886866323816933
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 0.42610805045493433,
+                  "mean_absolute_error_nm": 0.47978406143231056,
+                  "mean_measured_minus_predicted_nm": -0.38834476004364754
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 0.41439849542336626,
+                  "mean_absolute_error_nm": 0.4788924093389466,
+                  "mean_measured_minus_predicted_nm": -0.38218440902206047
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.4521825074277604,
+                  "mean_absolute_error_nm": 0.4455762431590172,
+                  "mean_measured_minus_predicted_nm": -0.2947881229194137
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.48450750761824146,
+                  "mean_absolute_error_nm": 0.44999934504655525,
+                  "mean_measured_minus_predicted_nm": -0.2416656222355999
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 0.46058954051879897,
+                  "mean_absolute_error_nm": 0.41650090083271246,
+                  "mean_measured_minus_predicted_nm": -0.24254403398198074
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 0.45805017828110883,
+                  "mean_absolute_error_nm": 0.43754421640487706,
+                  "mean_measured_minus_predicted_nm": -0.30190312513750706
+                },
+                "nominal": {
+                  "centered_error_nm": 0.39496598316797565,
+                  "mean_absolute_error_nm": 0.3088114946571396,
+                  "mean_measured_minus_predicted_nm": -0.07322169831199868
+                }
+              },
+              "qualified_walls": 29,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  11,
+                  11,
+                  12,
+                  14
+                ],
+                "side_nm": 10.448204721849484
+              },
+              "wall_centers": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  13,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ]
+              ]
+            }
+          ]
+        },
+        "DS13": {
+          "profile_scores": {
+            "circle_1.75": [
+              0.30153712766554164,
+              0.3150889059961542
+            ],
+            "circle_2.20": [
+              0.3037918946531714,
+              0.31990844931770435
+            ],
+            "ellipse_1.75_000": [
+              0.3026259237628708,
+              0.3176258941349219
+            ],
+            "ellipse_1.75_030": [
+              0.3023991162816573,
+              0.31631684759162676
+            ],
+            "ellipse_1.75_060": [
+              0.30136841653553703,
+              0.3139808454534481
+            ],
+            "ellipse_1.75_090": [
+              0.30047416864245197,
+              0.3126629267330822
+            ],
+            "ellipse_1.75_120": [
+              0.30090124863765094,
+              0.3146293630793348
+            ],
+            "ellipse_1.75_150": [
+              0.3020211395614576,
+              0.317269517551209
+            ],
+            "ellipse_2.20_000": [
+              0.30620280182023457,
+              0.3251191230761385
+            ],
+            "ellipse_2.20_030": [
+              0.30548729284280574,
+              0.32256368714609357
+            ],
+            "ellipse_2.20_060": [
+              0.30322317686007444,
+              0.3175703013581311
+            ],
+            "ellipse_2.20_090": [
+              0.3014180057547231,
+              0.3147290539180207
+            ],
+            "ellipse_2.20_120": [
+              0.3029131333570431,
+              0.31987948178331754
+            ],
+            "ellipse_2.20_150": [
+              0.30540706223012604,
+              0.325671496249241
+            ],
+            "nominal": [
+              0.2999947960709592,
+              0.31213911821468954
+            ]
+          },
+          "profile_walls": 36,
+          "width_by_order": [
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.08945262936034318,
+                "ellipse_1.75_030": 0.10804382031007602,
+                "ellipse_1.75_060": 0.14335885038244897,
+                "ellipse_1.75_090": 0.09195041619137533,
+                "ellipse_1.75_120": 0.10629545682387775,
+                "ellipse_1.75_150": 0.14391712984769994,
+                "ellipse_2.20_000": 0.1879876645219362,
+                "ellipse_2.20_030": 0.22997425687044087,
+                "ellipse_2.20_060": 0.3030528962584106,
+                "ellipse_2.20_090": 0.19931204479855674,
+                "ellipse_2.20_120": 0.22186094154610678,
+                "ellipse_2.20_150": 0.3054951503289733
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.320350211792782,
+                  "mean_absolute_error_nm": 1.202153532110869,
+                  "mean_measured_minus_predicted_nm": -0.6135932465739665
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 1.3236797955793003,
+                  "mean_absolute_error_nm": 1.2755860356564035,
+                  "mean_measured_minus_predicted_nm": -0.8118213149324356
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.3596913445274967,
+                  "mean_absolute_error_nm": 1.2523439135394212,
+                  "mean_measured_minus_predicted_nm": -0.6748689732070264
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 1.3641909731899702,
+                  "mean_absolute_error_nm": 1.2479054973199188,
+                  "mean_measured_minus_predicted_nm": -0.622456125548116
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.3308062365301907,
+                  "mean_absolute_error_nm": 1.1983250385808881,
+                  "mean_measured_minus_predicted_nm": -0.5594680233521349
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.2851326794422366,
+                  "mean_absolute_error_nm": 1.1518357126844865,
+                  "mean_measured_minus_predicted_nm": -0.5517191066794911
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 1.2850538389608854,
+                  "mean_absolute_error_nm": 1.1688469964991726,
+                  "mean_measured_minus_predicted_nm": -0.6043111160926888
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 1.326443233128514,
+                  "mean_absolute_error_nm": 1.2202341448278804,
+                  "mean_measured_minus_predicted_nm": -0.6643822001232493
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.412182140501675,
+                  "mean_absolute_error_nm": 1.3915064710683773,
+                  "mean_measured_minus_predicted_nm": -0.9411974181787575
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.4256493226283695,
+                  "mean_absolute_error_nm": 1.3543982520839664,
+                  "mean_measured_minus_predicted_nm": -0.8313011204650873
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.3633165955124842,
+                  "mean_absolute_error_nm": 1.2494695624555046,
+                  "mean_measured_minus_predicted_nm": -0.6943026225259261
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.2540247700660632,
+                  "mean_absolute_error_nm": 1.162443467899033,
+                  "mean_measured_minus_predicted_nm": -0.6798281723720189
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 1.2595031222307722,
+                  "mean_absolute_error_nm": 1.2437304736951813,
+                  "mean_measured_minus_predicted_nm": -0.7907340131607409
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.357421702122429,
+                  "mean_absolute_error_nm": 1.3632283381030197,
+                  "mean_measured_minus_predicted_nm": -0.914206265914631
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3180560611520948,
+                  "mean_absolute_error_nm": 1.1564931954915763,
+                  "mean_measured_minus_predicted_nm": -0.44115645466254594
+                }
+              },
+              "qualified_walls": 35,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  16,
+                  15,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            },
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.11580940604175569,
+                "ellipse_1.75_030": 0.14459886325934093,
+                "ellipse_1.75_060": 0.18602755514723648,
+                "ellipse_1.75_090": 0.12000709098089668,
+                "ellipse_1.75_120": 0.14189036911645675,
+                "ellipse_1.75_150": 0.18590489065442722,
+                "ellipse_2.20_000": 0.2387280817975003,
+                "ellipse_2.20_030": 0.30430473964293536,
+                "ellipse_2.20_060": 0.38776218018656533,
+                "ellipse_2.20_090": 0.25724935093048157,
+                "ellipse_2.20_120": 0.29297937076116304,
+                "ellipse_2.20_150": 0.38759415798264346
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 0.8050932966271922,
+                  "mean_absolute_error_nm": 0.8520880413191789,
+                  "mean_measured_minus_predicted_nm": -0.6302374314158544
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 0.8022946323455323,
+                  "mean_absolute_error_nm": 0.9966156394451117,
+                  "mean_measured_minus_predicted_nm": -0.8685905227997153
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 0.8781506484927217,
+                  "mean_absolute_error_nm": 0.9237964867384952,
+                  "mean_measured_minus_predicted_nm": -0.6916365411519882
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 0.8533070264854256,
+                  "mean_absolute_error_nm": 0.8925694375940504,
+                  "mean_measured_minus_predicted_nm": -0.6370435237917859
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 0.79360480874719,
+                  "mean_absolute_error_nm": 0.8269844782155007,
+                  "mean_measured_minus_predicted_nm": -0.572208299424594
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 0.7402741117923906,
+                  "mean_absolute_error_nm": 0.7828783535016152,
+                  "mean_measured_minus_predicted_nm": -0.5672839526742428
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 0.7825267393533027,
+                  "mean_absolute_error_nm": 0.8382695992487561,
+                  "mean_measured_minus_predicted_nm": -0.6219047246194683
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 0.8595450605986823,
+                  "mean_absolute_error_nm": 0.9100810449345492,
+                  "mean_measured_minus_predicted_nm": -0.6812554525694439
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 0.9616391625954228,
+                  "mean_absolute_error_nm": 1.1365810170518582,
+                  "mean_measured_minus_predicted_nm": -0.9942980820155937
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 0.9258064275001814,
+                  "mean_absolute_error_nm": 1.0561057178693654,
+                  "mean_measured_minus_predicted_nm": -0.8838012674626501
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 0.8248163169177082,
+                  "mean_absolute_error_nm": 0.9229837364275172,
+                  "mean_measured_minus_predicted_nm": -0.7437768878597738
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 0.6808849480287597,
+                  "mean_absolute_error_nm": 0.8472235903647649,
+                  "mean_measured_minus_predicted_nm": -0.7368243577549348
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 0.7878501518907798,
+                  "mean_absolute_error_nm": 1.008367637334494,
+                  "mean_measured_minus_predicted_nm": -0.8485106264094101
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 0.9593815118180579,
+                  "mean_absolute_error_nm": 1.156225199143102,
+                  "mean_measured_minus_predicted_nm": -0.9644445714629608
+                },
+                "nominal": {
+                  "centered_error_nm": 0.8088525033704924,
+                  "mean_absolute_error_nm": 0.7648716881285339,
+                  "mean_measured_minus_predicted_nm": -0.41811276010413573
+                }
+              },
+              "qualified_walls": 36,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  17,
+                  16,
+                  18,
+                  16
+                ],
+                "side_nm": 17.83508927193864
+              },
+              "wall_centers": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  9,
+                  12
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  12,
+                  16
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  16,
+                  20
+                ],
+                [
+                  16,
+                  21
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          ]
+        },
+        "DS14": {
+          "profile_scores": {
+            "circle_1.75": [
+              0.3360373886060419,
+              0.34802883510367144
+            ],
+            "circle_2.20": [
+              0.3380261115345616,
+              0.35260109574436876
+            ],
+            "ellipse_1.75_000": [
+              0.3374121028979585,
+              0.35015868890513674
+            ],
+            "ellipse_1.75_030": [
+              0.3352995341836551,
+              0.3455086927782159
+            ],
+            "ellipse_1.75_060": [
+              0.33396734227181013,
+              0.34358244607180666
+            ],
+            "ellipse_1.75_090": [
+              0.33471000340662305,
+              0.3461357659210101
+            ],
+            "ellipse_1.75_120": [
+              0.33694324497934175,
+              0.35094998077966344
+            ],
+            "ellipse_1.75_150": [
+              0.33833041888158194,
+              0.35314930741222755
+            ],
+            "ellipse_2.20_000": [
+              0.3406625029394877,
+              0.35635235757411055
+            ],
+            "ellipse_2.20_030": [
+              0.3364379735886662,
+              0.34734525233346114
+            ],
+            "ellipse_2.20_060": [
+              0.33389366118163244,
+              0.3440124467830628
+            ],
+            "ellipse_2.20_090": [
+              0.3354928890592533,
+              0.3491669019671419
+            ],
+            "ellipse_2.20_120": [
+              0.3401772554286641,
+              0.3588616220000769
+            ],
+            "ellipse_2.20_150": [
+              0.3429319916809093,
+              0.3631247805163468
+            ],
+            "nominal": [
+              0.3346562628240943,
+              0.3449987342776484
+            ]
+          },
+          "profile_walls": 31,
+          "width_by_order": [
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.11525064160888435,
+                "ellipse_1.75_030": 0.10628767639149944,
+                "ellipse_1.75_060": 0.1363786643377263,
+                "ellipse_1.75_090": 0.11639990073201845,
+                "ellipse_1.75_120": 0.10369162938559998,
+                "ellipse_1.75_150": 0.1377616082725389,
+                "ellipse_2.20_000": 0.2439562504662611,
+                "ellipse_2.20_030": 0.2285857475128176,
+                "ellipse_2.20_060": 0.28791588745974717,
+                "ellipse_2.20_090": 0.24918237790758865,
+                "ellipse_2.20_120": 0.21695176833828367,
+                "ellipse_2.20_150": 0.29409075096434417
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.5728560496653385,
+                  "mean_absolute_error_nm": 1.4204634017640314,
+                  "mean_measured_minus_predicted_nm": -0.5350456106865711
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 1.5725207058113762,
+                  "mean_absolute_error_nm": 1.505103714546128,
+                  "mean_measured_minus_predicted_nm": -0.7347824145900148
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.6316642529553642,
+                  "mean_absolute_error_nm": 1.4679194181460546,
+                  "mean_measured_minus_predicted_nm": -0.5264209329836702
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 1.5526546125803322,
+                  "mean_absolute_error_nm": 1.3814879513761837,
+                  "mean_measured_minus_predicted_nm": -0.4940584565474574
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.4976661271187541,
+                  "mean_absolute_error_nm": 1.3342790136128853,
+                  "mean_measured_minus_predicted_nm": -0.5014001315464979
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.5197334846370048,
+                  "mean_absolute_error_nm": 1.372798360913739,
+                  "mean_measured_minus_predicted_nm": -0.5424005403458696
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 1.5997543890070243,
+                  "mean_absolute_error_nm": 1.4658291300523518,
+                  "mean_measured_minus_predicted_nm": -0.5753433762906162
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 1.6569207861457274,
+                  "mean_absolute_error_nm": 1.5120213650121737,
+                  "mean_measured_minus_predicted_nm": -0.5666162069200584
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.7036834401720091,
+                  "mean_absolute_error_nm": 1.5977852813289652,
+                  "mean_measured_minus_predicted_nm": -0.715535881633559
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.5389805356740403,
+                  "mean_absolute_error_nm": 1.417138963557628,
+                  "mean_measured_minus_predicted_nm": -0.6468656833216551
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.4246687502237987,
+                  "mean_absolute_error_nm": 1.3240966778446508,
+                  "mean_measured_minus_predicted_nm": -0.6606382897723883
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.4672139220789842,
+                  "mean_absolute_error_nm": 1.4207152139091694,
+                  "mean_measured_minus_predicted_nm": -0.7484600825576497
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 1.636158274170717,
+                  "mean_absolute_error_nm": 1.6139116857096352,
+                  "mean_measured_minus_predicted_nm": -0.8197762285133511
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.7604176023442442,
+                  "mean_absolute_error_nm": 1.7097279456497514,
+                  "mean_measured_minus_predicted_nm": -0.7998100458648387
+                },
+                "nominal": {
+                  "centered_error_nm": 1.5731093248786594,
+                  "mean_absolute_error_nm": 1.3587770681582807,
+                  "mean_measured_minus_predicted_nm": -0.3621655481552716
+                }
+              },
+              "qualified_walls": 31,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            },
+            {
+              "directional_width_effect_vs_circle_nm": {
+                "ellipse_1.75_000": 0.15106656955812703,
+                "ellipse_1.75_030": 0.14628038286358638,
+                "ellipse_1.75_060": 0.18073412644757167,
+                "ellipse_1.75_090": 0.15248452351351377,
+                "ellipse_1.75_120": 0.14181302851029762,
+                "ellipse_1.75_150": 0.18286070015403377,
+                "ellipse_2.20_000": 0.316117090522814,
+                "ellipse_2.20_030": 0.3122272686448668,
+                "ellipse_2.20_060": 0.3771851932530116,
+                "ellipse_2.20_090": 0.3226755520170274,
+                "ellipse_2.20_120": 0.29335654198760625,
+                "ellipse_2.20_150": 0.3857856075121646
+              },
+              "probe_width_scores": {
+                "circle_1.75": {
+                  "centered_error_nm": 1.3778968862044962,
+                  "mean_absolute_error_nm": 1.2726865930347695,
+                  "mean_measured_minus_predicted_nm": -0.5250676199410221
+                },
+                "circle_2.20": {
+                  "centered_error_nm": 1.3749576021871126,
+                  "mean_absolute_error_nm": 1.4096376597830316,
+                  "mean_measured_minus_predicted_nm": -0.780671067842715
+                },
+                "ellipse_1.75_000": {
+                  "centered_error_nm": 1.4469165295281534,
+                  "mean_absolute_error_nm": 1.3115927118614603,
+                  "mean_measured_minus_predicted_nm": -0.5063268424605303
+                },
+                "ellipse_1.75_030": {
+                  "centered_error_nm": 1.338346917814172,
+                  "mean_absolute_error_nm": 1.1957656268434032,
+                  "mean_measured_minus_predicted_nm": -0.47086039464943846
+                },
+                "ellipse_1.75_060": {
+                  "centered_error_nm": 1.2771949450702427,
+                  "mean_absolute_error_nm": 1.1562364341064615,
+                  "mean_measured_minus_predicted_nm": -0.4871135500566858
+                },
+                "ellipse_1.75_090": {
+                  "centered_error_nm": 1.3215159993920498,
+                  "mean_absolute_error_nm": 1.2320240722577045,
+                  "mean_measured_minus_predicted_nm": -0.5410388536823882
+                },
+                "ellipse_1.75_120": {
+                  "centered_error_nm": 1.4305568010117906,
+                  "mean_absolute_error_nm": 1.3588446724757803,
+                  "mean_measured_minus_predicted_nm": -0.5771193449173152
+                },
+                "ellipse_1.75_150": {
+                  "centered_error_nm": 1.4954326310452144,
+                  "mean_absolute_error_nm": 1.3966565579718775,
+                  "mean_measured_minus_predicted_nm": -0.5583922306446101
+                },
+                "ellipse_2.20_000": {
+                  "centered_error_nm": 1.5305615152543406,
+                  "mean_absolute_error_nm": 1.4836301700870933,
+                  "mean_measured_minus_predicted_nm": -0.739273524648156
+                },
+                "ellipse_2.20_030": {
+                  "centered_error_nm": 1.3091936170232488,
+                  "mean_absolute_error_nm": 1.239792535227319,
+                  "mean_measured_minus_predicted_nm": -0.6655548959961125
+                },
+                "ellipse_2.20_060": {
+                  "centered_error_nm": 1.1875440932593315,
+                  "mean_absolute_error_nm": 1.1734700488867755,
+                  "mean_measured_minus_predicted_nm": -0.6970138200154772
+                },
+                "ellipse_2.20_090": {
+                  "centered_error_nm": 1.2759658123046462,
+                  "mean_absolute_error_nm": 1.3442979540387543,
+                  "mean_measured_minus_predicted_nm": -0.8107093899994168
+                },
+                "ellipse_2.20_120": {
+                  "centered_error_nm": 1.4985142438156014,
+                  "mean_absolute_error_nm": 1.6093595251607138,
+                  "mean_measured_minus_predicted_nm": -0.8876212251927795
+                },
+                "ellipse_2.20_150": {
+                  "centered_error_nm": 1.6368381464088486,
+                  "mean_absolute_error_nm": 1.6857295772919862,
+                  "mean_measured_minus_predicted_nm": -0.8454670048978149
+                },
+                "nominal": {
+                  "centered_error_nm": 1.3807018439154273,
+                  "mean_absolute_error_nm": 1.16566011991266,
+                  "mean_measured_minus_predicted_nm": -0.29982013083942916
+                }
+              },
+              "qualified_walls": 31,
+              "spatial_blocks": {
+                "occupied_blocks": [
+                  12,
+                  12,
+                  15,
+                  16
+                ],
+                "side_nm": 20.246461426256836
+              },
+              "wall_centers": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  10
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  7,
+                  12
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  14
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  11,
+                  15
+                ],
+                [
+                  11,
+                  16
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  14,
+                  18
+                ],
+                [
+                  14,
+                  19
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  15,
+                  19
+                ],
+                [
+                  15,
+                  20
+                ],
+                [
+                  16,
+                  20
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "input_sha256": "3b3887f25eb685718685e2e48e4d5f82f15685dd75d2b627c523b6999a14f370",
+  "probes": {
+    "circle_1.75": {
+      "fwhm_nm": 1.5206906325745548,
+      "kind": "circular"
+    },
+    "circle_2.20": {
+      "fwhm_nm": 1.7892037335082889,
+      "kind": "circular"
+    },
+    "ellipse_1.75_000": {
+      "equal_trace_circle": "circle_1.75",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 0,
+      "major_fwhm_nm": 1.75,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_1.75_030": {
+      "equal_trace_circle": "circle_1.75",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 30,
+      "major_fwhm_nm": 1.75,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_1.75_060": {
+      "equal_trace_circle": "circle_1.75",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 60,
+      "major_fwhm_nm": 1.75,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_1.75_090": {
+      "equal_trace_circle": "circle_1.75",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 90,
+      "major_fwhm_nm": 1.75,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_1.75_120": {
+      "equal_trace_circle": "circle_1.75",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 120,
+      "major_fwhm_nm": 1.75,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_1.75_150": {
+      "equal_trace_circle": "circle_1.75",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 150,
+      "major_fwhm_nm": 1.75,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_2.20_000": {
+      "equal_trace_circle": "circle_2.20",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 0,
+      "major_fwhm_nm": 2.2,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_2.20_030": {
+      "equal_trace_circle": "circle_2.20",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 30,
+      "major_fwhm_nm": 2.2,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_2.20_060": {
+      "equal_trace_circle": "circle_2.20",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 60,
+      "major_fwhm_nm": 2.2,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_2.20_090": {
+      "equal_trace_circle": "circle_2.20",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 90,
+      "major_fwhm_nm": 2.2,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_2.20_120": {
+      "equal_trace_circle": "circle_2.20",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 120,
+      "major_fwhm_nm": 2.2,
+      "minor_fwhm_nm": 1.25
+    },
+    "ellipse_2.20_150": {
+      "equal_trace_circle": "circle_2.20",
+      "kind": "elliptical",
+      "major_angle_to_raster_x_deg": 150,
+      "major_fwhm_nm": 2.2,
+      "minor_fwhm_nm": 1.25
+    },
+    "nominal": {
+      "fwhm_nm": 1.25,
+      "kind": "circular"
+    }
+  }
+}

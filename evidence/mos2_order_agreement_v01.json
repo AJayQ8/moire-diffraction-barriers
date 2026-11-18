@@ -1,0 +1,1399 @@
+{
+  "case_example": {
+    "agrees_at_primary_factor_1_20": true,
+    "condition": "variable_probe",
+    "first_second_agreement_factor": 1.0,
+    "fit_style": "profile_shapes",
+    "fits": {
+      "both": {
+        "absolute_relative_error": 0.5461160031261652,
+        "barrier_interval_meV_per_cell": [
+          17.75681844101565,
+          36.0908962534306
+        ],
+        "barrier_meV_per_cell": 30.87906023064845,
+        "error_gt_20_percent": true,
+        "hit_barrier_bound": false,
+        "interval_contains_truth": true,
+        "landscape_mixture": 0.0,
+        "probe_fwhm_nm": 1.5,
+        "qualified_interior_fit": true,
+        "reduced_noise_loss": 0.9466097129949352,
+        "shift_nm": 0.3
+      },
+      "first": {
+        "absolute_relative_error": 0.6434690997162058,
+        "barrier_interval_meV_per_cell": [
+          18.574008486723503,
+          45.41192492227345
+        ],
+        "barrier_meV_per_cell": 32.82339825390523,
+        "error_gt_20_percent": true,
+        "hit_barrier_bound": false,
+        "interval_contains_truth": true,
+        "landscape_mixture": 0.0,
+        "probe_fwhm_nm": 1.75,
+        "qualified_interior_fit": true,
+        "reduced_noise_loss": 0.8451265768890593,
+        "shift_nm": 0.15
+      },
+      "second": {
+        "absolute_relative_error": 0.6434690997162058,
+        "barrier_interval_meV_per_cell": [
+          17.831850368174173,
+          40.545250056733956
+        ],
+        "barrier_meV_per_cell": 32.82339825390523,
+        "error_gt_20_percent": true,
+        "hit_barrier_bound": false,
+        "interval_contains_truth": true,
+        "landscape_mixture": 1.0,
+        "probe_fwhm_nm": 1.5,
+        "qualified_interior_fit": true,
+        "reduced_noise_loss": 1.0185120022922247,
+        "shift_nm": 0.3
+      }
+    },
+    "model": "periodic",
+    "realization_index_zero_based": 4,
+    "sample_id": "sample_06",
+    "spacing_nm": 28.5990432342223,
+    "truth_barrier_meV_per_cell": 19.972020319440855
+  },
+  "checks": {
+    "216_synthetic_images": true,
+    "all_group_counts_recomputed_from_saved_fits": true,
+    "periodic_variable_probe_28_6_primary_5_of_15": true,
+    "sample_06_realization_4_truth_and_point_estimates_match": true,
+    "scenario_count_18": true,
+    "three_scenarios_per_spacing_condition": true
+  },
+  "groups": [
+    {
+      "condition": "nominal",
+      "known_truth_barriers_meV_per_cell": [
+        10.399629173246417,
+        12.448486133888224,
+        19.972020319440855
+      ],
+      "models": {
+        "isolated": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 0,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 0
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_07",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_08",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_14",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 36,
+            "first_order": 14,
+            "second_order": 36
+          }
+        },
+        "periodic": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.75,
+              "agree_pairs": 27,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 27,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.9166666666666666,
+              "agree_pairs": 33,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 1,
+                "exactly_one_order_misses_gt_20_percent": 1,
+                "first_order_misses_gt_20_percent": 1,
+                "neither_order_misses_gt_20_percent": 32,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.9722222222222222,
+              "agree_pairs": 35,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 1,
+                "exactly_one_order_misses_gt_20_percent": 1,
+                "first_order_misses_gt_20_percent": 1,
+                "neither_order_misses_gt_20_percent": 34,
+                "second_order_misses_gt_20_percent": 0
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 33,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 1
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_07",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_08",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_14",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 0,
+            "first_order": 2,
+            "second_order": 0
+          }
+        }
+      },
+      "realizations_per_scenario": 12,
+      "scenario_count": 3,
+      "spacing_nm": 8.502754966686092
+    },
+    {
+      "condition": "variable_probe",
+      "known_truth_barriers_meV_per_cell": [
+        10.399629173246417,
+        12.448486133888224,
+        19.972020319440855
+      ],
+      "models": {
+        "isolated": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 12,
+          "primary_factor_1_20": {
+            "agree_pairs": 0,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 0
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 24,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 3,
+              "qualified_pairs": 9,
+              "sample_id": "sample_03",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 4,
+              "qualified_pairs": 8,
+              "sample_id": "sample_04",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 5,
+              "qualified_pairs": 7,
+              "sample_id": "sample_05",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 16,
+            "first_order": 16,
+            "second_order": 24
+          }
+        },
+        "periodic": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.3055555555555556,
+              "agree_pairs": 11,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 1,
+                "exactly_one_order_misses_gt_20_percent": 1,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 10,
+                "second_order_misses_gt_20_percent": 1
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.4722222222222222,
+              "agree_pairs": 17,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 2,
+                "exactly_one_order_misses_gt_20_percent": 2,
+                "first_order_misses_gt_20_percent": 1,
+                "neither_order_misses_gt_20_percent": 15,
+                "second_order_misses_gt_20_percent": 1
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.6944444444444444,
+              "agree_pairs": 25,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 9,
+                "exactly_one_order_misses_gt_20_percent": 7,
+                "first_order_misses_gt_20_percent": 8,
+                "neither_order_misses_gt_20_percent": 16,
+                "second_order_misses_gt_20_percent": 3
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 17,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 2
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_03",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_04",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_05",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 5,
+            "first_order": 18,
+            "second_order": 4
+          }
+        }
+      },
+      "realizations_per_scenario": 12,
+      "scenario_count": 3,
+      "spacing_nm": 8.502754966686092
+    },
+    {
+      "condition": "variable_probe_and_landscape",
+      "known_truth_barriers_meV_per_cell": [
+        10.399629173246419,
+        12.448486133888231,
+        19.97202031944087
+      ],
+      "models": {
+        "isolated": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.0,
+              "agree_pairs": 0,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 0,
+                "second_order_misses_gt_20_percent": 0
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 9,
+          "primary_factor_1_20": {
+            "agree_pairs": 0,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 0
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 27,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_02",
+              "truth_barrier_meV_per_cell": 19.97202031944087
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 6,
+              "qualified_pairs": 6,
+              "sample_id": "sample_12",
+              "truth_barrier_meV_per_cell": 12.448486133888231
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 3,
+              "qualified_pairs": 9,
+              "sample_id": "sample_13",
+              "truth_barrier_meV_per_cell": 10.399629173246419
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 17,
+            "first_order": 17,
+            "second_order": 27
+          }
+        },
+        "periodic": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.2222222222222222,
+              "agree_pairs": 8,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 1,
+                "either_order_misses_gt_20_percent": 2,
+                "exactly_one_order_misses_gt_20_percent": 1,
+                "first_order_misses_gt_20_percent": 2,
+                "neither_order_misses_gt_20_percent": 6,
+                "second_order_misses_gt_20_percent": 1
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.3333333333333333,
+              "agree_pairs": 12,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 1,
+                "either_order_misses_gt_20_percent": 4,
+                "exactly_one_order_misses_gt_20_percent": 3,
+                "first_order_misses_gt_20_percent": 4,
+                "neither_order_misses_gt_20_percent": 8,
+                "second_order_misses_gt_20_percent": 1
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.4444444444444444,
+              "agree_pairs": 16,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 1,
+                "either_order_misses_gt_20_percent": 5,
+                "exactly_one_order_misses_gt_20_percent": 4,
+                "first_order_misses_gt_20_percent": 5,
+                "neither_order_misses_gt_20_percent": 11,
+                "second_order_misses_gt_20_percent": 1
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 12,
+            "both_orders_miss_gt_20_percent_among_agreeing": 1,
+            "either_order_misses_gt_20_percent_among_agreeing": 4
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_02",
+              "truth_barrier_meV_per_cell": 19.97202031944087
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_12",
+              "truth_barrier_meV_per_cell": 12.448486133888231
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_13",
+              "truth_barrier_meV_per_cell": 10.399629173246419
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 9,
+            "first_order": 17,
+            "second_order": 10
+          }
+        }
+      },
+      "realizations_per_scenario": 12,
+      "scenario_count": 3,
+      "spacing_nm": 8.502754966686092
+    },
+    {
+      "condition": "nominal",
+      "known_truth_barriers_meV_per_cell": [
+        10.399629173246417,
+        12.448486133888224,
+        19.972020319440855
+      ],
+      "models": {
+        "isolated": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.9166666666666666,
+              "agree_pairs": 33,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 33,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 1.0,
+              "agree_pairs": 36,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 36,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 1.0,
+              "agree_pairs": 36,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 36,
+                "second_order_misses_gt_20_percent": 0
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 36,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 0
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_00",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_10",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_16",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 0,
+            "first_order": 0,
+            "second_order": 0
+          }
+        },
+        "periodic": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.9166666666666666,
+              "agree_pairs": 33,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 33,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 1.0,
+              "agree_pairs": 36,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 36,
+                "second_order_misses_gt_20_percent": 0
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 1.0,
+              "agree_pairs": 36,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 0,
+                "either_order_misses_gt_20_percent": 0,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 0,
+                "neither_order_misses_gt_20_percent": 36,
+                "second_order_misses_gt_20_percent": 0
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 36,
+            "both_orders_miss_gt_20_percent_among_agreeing": 0,
+            "either_order_misses_gt_20_percent_among_agreeing": 0
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_00",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_10",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_16",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 0,
+            "first_order": 0,
+            "second_order": 0
+          }
+        }
+      },
+      "realizations_per_scenario": 12,
+      "scenario_count": 3,
+      "spacing_nm": 28.5990432342223
+    },
+    {
+      "condition": "variable_probe",
+      "known_truth_barriers_meV_per_cell": [
+        10.399629173246417,
+        12.448486133888224,
+        19.972020319440855
+      ],
+      "models": {
+        "isolated": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.2777777777777778,
+              "agree_pairs": 10,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 3,
+                "either_order_misses_gt_20_percent": 4,
+                "exactly_one_order_misses_gt_20_percent": 1,
+                "first_order_misses_gt_20_percent": 3,
+                "neither_order_misses_gt_20_percent": 6,
+                "second_order_misses_gt_20_percent": 4
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.3888888888888889,
+              "agree_pairs": 14,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 4,
+                "either_order_misses_gt_20_percent": 6,
+                "exactly_one_order_misses_gt_20_percent": 2,
+                "first_order_misses_gt_20_percent": 4,
+                "neither_order_misses_gt_20_percent": 8,
+                "second_order_misses_gt_20_percent": 6
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.5833333333333334,
+              "agree_pairs": 21,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 5,
+                "either_order_misses_gt_20_percent": 10,
+                "exactly_one_order_misses_gt_20_percent": 5,
+                "first_order_misses_gt_20_percent": 6,
+                "neither_order_misses_gt_20_percent": 11,
+                "second_order_misses_gt_20_percent": 9
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 14,
+            "both_orders_miss_gt_20_percent_among_agreeing": 4,
+            "either_order_misses_gt_20_percent_among_agreeing": 6
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_01",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_06",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_17",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 11,
+            "first_order": 13,
+            "second_order": 17
+          }
+        },
+        "periodic": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.3055555555555556,
+              "agree_pairs": 11,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 4,
+                "either_order_misses_gt_20_percent": 4,
+                "exactly_one_order_misses_gt_20_percent": 0,
+                "first_order_misses_gt_20_percent": 4,
+                "neither_order_misses_gt_20_percent": 7,
+                "second_order_misses_gt_20_percent": 4
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.4166666666666667,
+              "agree_pairs": 15,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 5,
+                "either_order_misses_gt_20_percent": 6,
+                "exactly_one_order_misses_gt_20_percent": 1,
+                "first_order_misses_gt_20_percent": 5,
+                "neither_order_misses_gt_20_percent": 9,
+                "second_order_misses_gt_20_percent": 6
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.6111111111111112,
+              "agree_pairs": 22,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 6,
+                "either_order_misses_gt_20_percent": 10,
+                "exactly_one_order_misses_gt_20_percent": 4,
+                "first_order_misses_gt_20_percent": 7,
+                "neither_order_misses_gt_20_percent": 12,
+                "second_order_misses_gt_20_percent": 9
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 15,
+            "both_orders_miss_gt_20_percent_among_agreeing": 5,
+            "either_order_misses_gt_20_percent_among_agreeing": 6
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_01",
+              "truth_barrier_meV_per_cell": 10.399629173246417
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_06",
+              "truth_barrier_meV_per_cell": 19.972020319440855
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_17",
+              "truth_barrier_meV_per_cell": 12.448486133888224
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 12,
+            "first_order": 13,
+            "second_order": 17
+          }
+        }
+      },
+      "realizations_per_scenario": 12,
+      "scenario_count": 3,
+      "spacing_nm": 28.5990432342223
+    },
+    {
+      "condition": "variable_probe_and_landscape",
+      "known_truth_barriers_meV_per_cell": [
+        10.399629173246419,
+        12.448486133888231,
+        19.97202031944087
+      ],
+      "models": {
+        "isolated": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.3333333333333333,
+              "agree_pairs": 12,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 4,
+                "exactly_one_order_misses_gt_20_percent": 2,
+                "first_order_misses_gt_20_percent": 3,
+                "neither_order_misses_gt_20_percent": 8,
+                "second_order_misses_gt_20_percent": 3
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.5277777777777778,
+              "agree_pairs": 19,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 7,
+                "exactly_one_order_misses_gt_20_percent": 5,
+                "first_order_misses_gt_20_percent": 6,
+                "neither_order_misses_gt_20_percent": 12,
+                "second_order_misses_gt_20_percent": 3
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.7222222222222222,
+              "agree_pairs": 26,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 10,
+                "exactly_one_order_misses_gt_20_percent": 8,
+                "first_order_misses_gt_20_percent": 8,
+                "neither_order_misses_gt_20_percent": 16,
+                "second_order_misses_gt_20_percent": 4
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 19,
+            "both_orders_miss_gt_20_percent_among_agreeing": 2,
+            "either_order_misses_gt_20_percent_among_agreeing": 7
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_09",
+              "truth_barrier_meV_per_cell": 12.448486133888231
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_11",
+              "truth_barrier_meV_per_cell": 19.97202031944087
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_15",
+              "truth_barrier_meV_per_cell": 10.399629173246419
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 8,
+            "first_order": 14,
+            "second_order": 9
+          }
+        },
+        "periodic": {
+          "agreement_sensitivity": {
+            "1.10": {
+              "agree_fraction_of_qualified_pairs": 0.3333333333333333,
+              "agree_pairs": 12,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.1,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 4,
+                "exactly_one_order_misses_gt_20_percent": 2,
+                "first_order_misses_gt_20_percent": 3,
+                "neither_order_misses_gt_20_percent": 8,
+                "second_order_misses_gt_20_percent": 3
+              }
+            },
+            "1.20": {
+              "agree_fraction_of_qualified_pairs": 0.5277777777777778,
+              "agree_pairs": 19,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.2,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 7,
+                "exactly_one_order_misses_gt_20_percent": 5,
+                "first_order_misses_gt_20_percent": 6,
+                "neither_order_misses_gt_20_percent": 12,
+                "second_order_misses_gt_20_percent": 3
+              }
+            },
+            "1.30": {
+              "agree_fraction_of_qualified_pairs": 0.7222222222222222,
+              "agree_pairs": 26,
+              "agreement_definition": "max(first, second) / min(first, second) <= threshold",
+              "agreement_factor_threshold": 1.3,
+              "among_agreeing_pairs": {
+                "both_orders_miss_gt_20_percent": 2,
+                "either_order_misses_gt_20_percent": 10,
+                "exactly_one_order_misses_gt_20_percent": 8,
+                "first_order_misses_gt_20_percent": 8,
+                "neither_order_misses_gt_20_percent": 16,
+                "second_order_misses_gt_20_percent": 4
+              }
+            }
+          },
+          "candidate_both_order_fits": 36,
+          "candidate_order_pairs": 36,
+          "excluded_pairs_due_to_bound_or_invalid_single_order_fit": 0,
+          "primary_factor_1_20": {
+            "agree_pairs": 19,
+            "both_orders_miss_gt_20_percent_among_agreeing": 2,
+            "either_order_misses_gt_20_percent_among_agreeing": 7
+          },
+          "qualified_both_order_fits": 36,
+          "qualified_matched_order_pairs": 36,
+          "scenario_breakdown": [
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_09",
+              "truth_barrier_meV_per_cell": 12.448486133888231
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_11",
+              "truth_barrier_meV_per_cell": 19.97202031944087
+            },
+            {
+              "both_order_fit_qualification": {
+                "candidate_count": 12,
+                "qualified_count": 12
+              },
+              "candidate_pairs": 12,
+              "excluded_first_fits": 0,
+              "excluded_second_fits": 0,
+              "qualified_pairs": 12,
+              "sample_id": "sample_15",
+              "truth_barrier_meV_per_cell": 10.399629173246419
+            }
+          ],
+          "truth_error_gt_20_percent_all_qualified_pairs": {
+            "both_order_fit": 8,
+            "first_order": 14,
+            "second_order": 9
+          }
+        }
+      },
+      "realizations_per_scenario": 12,
+      "scenario_count": 3,
+      "spacing_nm": 28.5990432342223
+    }
+  ],
+  "input_counts": {
+    "fit_style_analyzed": "profile_shapes",
+    "model_families": 2,
+    "realizations_per_scenario": 12,
+    "saved_fits_per_scenario": 144,
+    "scenarios": 18,
+    "spacing_condition_groups": 6,
+    "synthetic_images": 216
+  },
+  "method": {
+    "agreement_conditioned_miss_counts": "either miss means at least one of the two order estimates is >20% from truth; both miss means each is >20% from truth. These counts are among pairs passing the agreement factor.",
+    "agreement_definition": "max(first, second) / min(first, second) <= factor threshold",
+    "agreement_pair": [
+      "first",
+      "second"
+    ],
+    "fit_style": "profile_shapes",
+    "matched_cohort": "Pair first and second estimates only within the same saved sample scenario and zero-based realization index. Each spacing/condition group contains three barrier scenarios with twelve paired realizations each.",
+    "models": [
+      "isolated",
+      "periodic"
+    ],
+    "primary_agreement_factor": 1.2,
+    "qualification": "A first/second pair is eligible only when both saved profile_shapes point estimates are finite, positive, and not flagged hit_barrier_bound. There is no additional fit-success field in the sealed output. Barrier intervals are reported but do not qualify or reject a point estimate.",
+    "reported_fit_orders": [
+      "first",
+      "second",
+      "both"
+    ],
+    "sensitivity_agreement_factors": [
+      1.1,
+      1.3
+    ],
+    "sensitivity_limits": "Counts describe this finite synthetic design and its saved nuisance realizations, not a probability for experimental scans or a calibrated real-data uncertainty.",
+    "truth_miss_definition": "absolute relative error abs(estimate / known_truth - 1) > 0.20",
+    "truth_source": "samples[sample_id].truth.barrier_meV_per_cell in the frozen recovery record"
+  },
+  "provenance": {
+    "analysis_script": "analysis/summarize_mos2_order_agreement.py",
+    "analysis_script_sha256": "218ac3351346e94a144dc0614b253a1c439d3ac806552e5661169de33fbf6d36",
+    "fit_before_reveal_sha256": "54e7bac774b0de1eabeef7f60b60345e71d1fb5baf5f5cddefba77afbd3c5014",
+    "images_sha256": "307ec75746e21b57bc88fc2695053f2713e729fef2315c771aea99e4ff988d4e",
+    "input_file": "evidence/mos2_barrier_recovery_v01.json",
+    "input_sha256": "b45f91ffa2a6d512ead17ac472c44bc7ab73fa6c2b26ef94777c6bff0e800c7f",
+    "simulation_seed": 518392,
+    "source_sha256": {
+      "author_detector_replay.py": "d3d978beac32bd93438217535e40ed5acea688d462a42445aff0b882119aa349",
+      "bilayer_relaxation.py": "d129f144f59edf96e93ddbec3f32b17f4f3451a00ced44c3cc773f73198da135",
+      "moire_regime_benchmark_v02.json": "660ad736b10aeeea12875974445607ae0bcc9a5d58608bcf840b603b5d6c5f9b",
+      "mos2_barrier_recovery_protocol_v01.json": "35a61d94b964f5238d1cc5e0cccbc4a678c03e0dc55f3589b7b7a09f3ca3198f",
+      "mos2_wall_signal_repeatability_v01.json": "76458a5c5d9ac05b2994e7aebad56d8e86b94efc32b2ac50f1aef166f8e3a339",
+      "run_mos2_barrier_recovery.py": "1936b4997418bf520ae551309fb78015551fe55e00a8078423f5ca2ff30b37ba",
+      "run_mos2_nonlinear_controls.py": "83099a55f76959498b8b1345a027933c433d9111f160cc77af376def14245c00",
+      "run_mos2_wall_profile_closure.py": "44fcf324c99fec91c054e4290962f00eef1c4a3663cb84b5647c045bac224078",
+      "run_mos2_wall_width_transfer.py": "30b6ef71bae02a96a8a6df5166aec0cee50bd25a5719edf506e8b564caae876e"
+    },
+    "truth_sha256": "76b772a11aba43d1a80779cf6376e4220b12edf609cea51fcdd589939b92056d"
+  },
+  "schema": "mos2_order_agreement_v01",
+  "scope": "Read-only reanalysis of the frozen known-barrier recovery fits. No images were regenerated, no profiles were refit, no truth values were inferred, and no interpolation or extrapolation was used."
+}

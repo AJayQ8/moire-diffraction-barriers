@@ -1,0 +1,20 @@
+{
+  "question": "Given measured moire geometry, does a fixed model of directional stretch predict the shear contrast among the three wall directions in both MoS2 stackings?",
+  "scope": "All 24 unique MoS2 maps have been examined. This is a new endpoint for the antiparallel set and a retrospective comparison within the same experimental archive.",
+  "cases": {
+    "parallel_development": ["DS5", "DS7", "DS8", "DS11"],
+    "parallel_comparison": ["DS1", "DS2", "DS3", "DS4", "DS6", "DS9", "DS10", "DS12", "DS13", "DS14"],
+    "antiparallel_comparison": ["DS15", "DS16", "DS19", "DS20", "DS21", "DS22", "DS23", "DS24", "DS25", "DS26"]
+  },
+  "geometry": "Use the established first-ring affine fit and AP stacking origin from the common intensity replay. Use the independent archived global geometry only to match the 60 degree branch before calculating shear in the archive frame.",
+  "observer": "Use the same three first-ring midpoint masks for every prediction and the archived field. Preserve the existing measured-valid support, 1.25 nm probe, two-pixel smoothing, and principal strain difference of half the relative field. Require at least 20 pixels per direction. Report the authors' field-defined sector score with archived geometry in a separate check.",
+  "models": {
+    "full": "Equilibrium using the measured gradient and the published stacking-specific constants.",
+    "isotropic_warp": "Preserve area ratio and twist in the equilibrium problem. Map the relaxation onto the full measured geometry.",
+    "equal_shear": "Predict no contrast among the three directions.",
+    "energy_scaled_first_order": "Use the first-order field with its amplitude chosen by energy minimization. No observed shear fit.",
+    "rotated_stretch": "Rotate only the directional stretch by plus or minus 60 degrees in the equilibrium problem and preserve the observed background geometry."
+  },
+  "scoring": "Primary is per-map RMSE of the three directional means after subtracting their common mean. Lowest-wall identification and errors normalized by mean shear are secondary. Record equal and warped baselines, and whether the two fixed stretch rotations reduce error. Report map means and sensitivity to excluding one map. Compare anisotropy to inferred stretch and stretch to twist ratio descriptively, since angle and stacking change across maps.",
+  "interpretation": "Evaluate whether the model beats the equal-shear baseline on at least 8 of 10 antiparallel maps and identifies the lowest-shear wall direction on at least 7 of 10 maps. A claim that directional mechanics is needed also requires an advantage over the isotropic warp. Ranking alone ignores contrast amplitude and can be shared by both models. Device identities are incomplete."
+}

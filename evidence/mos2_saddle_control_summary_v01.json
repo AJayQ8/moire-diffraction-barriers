@@ -1,0 +1,1951 @@
+{
+  "input_sha256": "99057c09fa3dd9691c41c60dcc33bc26f7ec565ca226e3caa69c976a642db315",
+  "scans": {
+    "DS1": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.005500798209689144,
+          "force_rms_eV_nm": 5.160289331363332e-06,
+          "iterations": 33
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0005454698118172729,
+                  -0.0005454698118172729
+                ],
+                "delta_vs_nominal": -0.0005454698118172729,
+                "mean": 0.41552420367416376
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.416069673485981
+              }
+            },
+            "qualified_common_width_sections": 2,
+            "shape_sections": 2,
+            "width_block_support": {
+              "occupied_blocks": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "side_nm": 33.424720643449874
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.036127769512320995,
+                  0.036127769512320995
+                ],
+                "mean_absolute_error": 0.40354006095178896,
+                "mean_absolute_per_wall_error": 0.4104622193237246,
+                "pair": [
+                  4.259523875845139,
+                  4.132157201734244
+                ],
+                "predicted_minus_measured": [
+                  0.6267554841325138,
+                  -0.1803246377710641
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.36741229143946796,
+                "mean_absolute_per_wall_error": 0.5491251894986287,
+                "pair": [
+                  3.717083766004552,
+                  3.6619726309182985
+                ],
+                "predicted_minus_measured": [
+                  0.08431537429192648,
+                  -0.6505092085870094
+                ]
+              },
+              "measured": [
+                3.6327683917126254,
+                4.312481839505308
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.0007640451827968242,
+                  0.0007640451827968242
+                ],
+                "delta_vs_nominal": 0.0007640451827968242,
+                "mean": 0.32094714205693387
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.32018309687413704
+              }
+            },
+            "qualified_common_width_sections": 2,
+            "shape_sections": 2,
+            "width_block_support": {
+              "occupied_blocks": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "side_nm": 33.424720643449874
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.02836530896497136,
+                  0.02836530896497136
+                ],
+                "mean_absolute_error": 0.3414869134171292,
+                "mean_absolute_per_wall_error": 0.4426876624581534,
+                "pair": [
+                  4.263952543450165,
+                  4.260692164408589
+                ],
+                "predicted_minus_measured": [
+                  0.6311841517375392,
+                  -0.05178967509671928
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.31312160445215786,
+                "mean_absolute_per_wall_error": 0.49082709129723623,
+                "pair": [
+                  3.7211751715900028,
+                  3.7746454104783695
+                ],
+                "predicted_minus_measured": [
+                  0.08840677987737733,
+                  -0.5378364290269384
+                ]
+              },
+              "measured": [
+                3.6327683917126254,
+                4.312481839505308
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS10": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.017914693461916986,
+          "force_rms_eV_nm": 2.8307601961425943e-07,
+          "iterations": 13
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0027407820592468927,
+                  0.001322224257659903
+                ],
+                "delta_vs_nominal": -0.0006680950609267251,
+                "mean": 0.375065024592793
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.37573311965371975
+              }
+            },
+            "qualified_common_width_sections": 29,
+            "shape_sections": 29,
+            "width_block_support": {
+              "occupied_blocks": [
+                11,
+                11,
+                12,
+                14
+              ],
+              "side_nm": 10.448204721849484
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.01723423523156954,
+                  0.021653716316279426
+                ],
+                "mean_absolute_error": 0.15254965201440984,
+                "mean_absolute_per_wall_error": 0.4341822737544862,
+                "pair": [
+                  3.6019855037571737,
+                  2.2753242633213975
+                ],
+                "predicted_minus_measured": [
+                  -0.20649528849303111,
+                  0.09860401553578857
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.13612677854194843,
+                "mean_absolute_per_wall_error": 0.4228524539287173,
+                "pair": [
+                  3.595663213663306,
+                  2.236156226282607
+                ],
+                "predicted_minus_measured": [
+                  -0.21281757858689865,
+                  0.05943597849699822
+                ]
+              },
+              "measured": [
+                3.808480792250205,
+                2.176720247785609
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0011916459862514107,
+                  0.002010868214326522
+                ],
+                "delta_vs_nominal": 0.0004689162618681414,
+                "mean": 0.4708633315681982
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.47039441530632997
+              }
+            },
+            "qualified_common_width_sections": 29,
+            "shape_sections": 29,
+            "width_block_support": {
+              "occupied_blocks": [
+                11,
+                11,
+                12,
+                14
+              ],
+              "side_nm": 10.448204721849484
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.014531176010979996,
+                  0.02390344933089301
+                ],
+                "mean_absolute_error": 0.18076127002956466,
+                "mean_absolute_per_wall_error": 0.44248285722711,
+                "pair": [
+                  3.539137202298628,
+                  2.268899197893161
+                ],
+                "predicted_minus_measured": [
+                  -0.26934358995157703,
+                  0.09217895010755228
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.16101201205350857,
+                "mean_absolute_per_wall_error": 0.4306485130729443,
+                "pair": [
+                  3.5399580524365617,
+                  2.230221532078983
+                ],
+                "predicted_minus_measured": [
+                  -0.26852273981364316,
+                  0.053501284293373974
+                ]
+              },
+              "measured": [
+                3.808480792250205,
+                2.176720247785609
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS12": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.01385348957887586,
+          "force_rms_eV_nm": 2.7106084831331473e-07,
+          "iterations": 16
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.004485019874505436,
+                  0.009930823922264893
+                ],
+                "delta_vs_nominal": 0.007388698691789312,
+                "mean": 0.3083735717168158
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.30098487302502647
+              }
+            },
+            "qualified_common_width_sections": 11,
+            "shape_sections": 11,
+            "width_block_support": {
+              "occupied_blocks": [
+                4,
+                6,
+                5,
+                6
+              ],
+              "side_nm": 13.828953719854614
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.05016643682331775,
+                  0.2753139721912723
+                ],
+                "mean_absolute_error": 0.39281406872373936,
+                "mean_absolute_per_wall_error": 0.4834378027504023,
+                "pair": [
+                  4.123709902051034,
+                  3.53254384819676
+                ],
+                "predicted_minus_measured": [
+                  0.4782243584995225,
+                  0.30740377894795623
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.13080516769476924,
+                "mean_absolute_per_wall_error": 0.3653918496290387,
+                "pair": [
+                  3.8125017311869245,
+                  3.319734217002929
+                ],
+                "predicted_minus_measured": [
+                  0.16701618763541326,
+                  0.09459414775412522
+                ]
+              },
+              "measured": [
+                3.645485543551511,
+                3.2251400692488037
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.002923965094880665,
+                  0.006571585399085721
+                ],
+                "delta_vs_nominal": 0.004774522878376592,
+                "mean": 0.33924925411230344
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.33447473123392685
+              }
+            },
+            "qualified_common_width_sections": 11,
+            "shape_sections": 11,
+            "width_block_support": {
+              "occupied_blocks": [
+                4,
+                6,
+                5,
+                6
+              ],
+              "side_nm": 13.828953719854614
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.050340357879305575,
+                  0.2750671594433167
+                ],
+                "mean_absolute_error": 0.3967363216014448,
+                "mean_absolute_per_wall_error": 0.48673125112994936,
+                "pair": [
+                  4.122561755354958,
+                  3.541536500648246
+                ],
+                "predicted_minus_measured": [
+                  0.47707621180344706,
+                  0.3163964313994425
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.13487354292312204,
+                "mean_absolute_per_wall_error": 0.3633579347580666,
+                "pair": [
+                  3.8121066212682853,
+                  3.3282660773782737
+                ],
+                "predicted_minus_measured": [
+                  0.16662107771677404,
+                  0.10312600812947004
+                ]
+              },
+              "measured": [
+                3.645485543551511,
+                3.2251400692488037
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS13": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.011447818389169048,
+          "force_rms_eV_nm": 1.2875473968527332e-06,
+          "iterations": 21
+        },
+        "rotated": {
+          "final_energy": 0.010860962876271526,
+          "force_rms_eV_nm": 1.4794521180966635e-06,
+          "iterations": 19
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.004911701404561451,
+                  0.014194244726371655
+                ],
+                "delta_vs_nominal": 0.009608589312301685,
+                "mean": 0.2649969469680149
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.25538835765571316
+              }
+            },
+            "qualified_common_width_sections": 36,
+            "shape_sections": 36,
+            "width_block_support": {
+              "occupied_blocks": [
+                17,
+                16,
+                18,
+                16
+              ],
+              "side_nm": 17.83508927193864
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.49601357583624217,
+                  0.5714091449058136
+                ],
+                "mean_absolute_error": 0.9707900240337288,
+                "mean_absolute_per_wall_error": 1.1469099104590257,
+                "pair": [
+                  5.402151800122175,
+                  4.9082325962939475
+                ],
+                "predicted_minus_measured": [
+                  1.0991967930356434,
+                  0.8423832550318142
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.43798930359654165,
+                "mean_absolute_per_wall_error": 0.8623360500500373,
+                "pair": [
+                  4.798962131433889,
+                  4.445820824107859
+                ],
+                "predicted_minus_measured": [
+                  0.49600712434735783,
+                  0.37997148284572546
+                ]
+              },
+              "measured": [
+                4.302955007086531,
+                4.065849341262133
+              ]
+            }
+          },
+          "rotated": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.007693614898558668,
+                  -0.0004978493559307758
+                ],
+                "delta_vs_nominal": -0.004091554082264554,
+                "mean": 0.2391421450022438
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.2432336990845084
+              }
+            },
+            "qualified_common_width_sections": 36,
+            "shape_sections": 36,
+            "width_block_support": {
+              "occupied_blocks": [
+                17,
+                16,
+                18,
+                16
+              ],
+              "side_nm": 17.83508927193864
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.42390794470756804,
+                  -0.11466004748713413
+                ],
+                "mean_absolute_error": 0.024712747028163395,
+                "mean_absolute_per_wall_error": 0.5670266658832129,
+                "pair": [
+                  4.281348545811859,
+                  4.0380303084804785
+                ],
+                "predicted_minus_measured": [
+                  -0.02160646127467203,
+                  -0.027819032781654762
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.4415884390480318,
+                "mean_absolute_per_wall_error": 0.607694610111684,
+                "pair": [
+                  3.8204147397994195,
+                  3.6652127304531814
+                ],
+                "predicted_minus_measured": [
+                  -0.48254026728711175,
+                  -0.40063661080895185
+                ]
+              },
+              "measured": [
+                4.302955007086531,
+                4.065849341262133
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.0051291219878627755,
+                  0.011436405520090287
+                ],
+                "delta_vs_nominal": 0.008226976030833243,
+                "mean": 0.3204218036504643
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3121948276196311
+              }
+            },
+            "qualified_common_width_sections": 36,
+            "shape_sections": 36,
+            "width_block_support": {
+              "occupied_blocks": [
+                17,
+                16,
+                18,
+                16
+              ],
+              "side_nm": 17.83508927193864
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.4950482909160022,
+                  0.5723197875467639
+                ],
+                "mean_absolute_error": 0.9818875441098873,
+                "mean_absolute_per_wall_error": 1.1547794651519598,
+                "pair": [
+                  5.409226890973852,
+                  4.923352545594587
+                ],
+                "predicted_minus_measured": [
+                  1.1062718838873211,
+                  0.8575032043324535
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.44818970312370876,
+                "mean_absolute_per_wall_error": 0.8657799980161938,
+                "pair": [
+                  4.805831545886203,
+                  4.459352208709879
+                ],
+                "predicted_minus_measured": [
+                  0.5028765387996721,
+                  0.39350286744774543
+                ]
+              },
+              "measured": [
+                4.302955007086531,
+                4.065849341262133
+              ]
+            }
+          },
+          "rotated": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0036151685862104827,
+                  0.0013049798575814789
+                ],
+                "delta_vs_nominal": -0.0011399495438634702,
+                "mean": 0.2989072307412406
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.300047180285104
+              }
+            },
+            "qualified_common_width_sections": 36,
+            "shape_sections": 36,
+            "width_block_support": {
+              "occupied_blocks": [
+                17,
+                16,
+                18,
+                16
+              ],
+              "side_nm": 17.83508927193864
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.423982789479664,
+                  -0.10402937379836838
+                ],
+                "mean_absolute_error": 0.014928014665025469,
+                "mean_absolute_per_wall_error": 0.5693788322202293,
+                "pair": [
+                  4.28812552534387,
+                  4.050822793674744
+                ],
+                "predicted_minus_measured": [
+                  -0.014829481742661521,
+                  -0.015026547587389416
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.4324222367524089,
+                "mean_absolute_per_wall_error": 0.6046030891475271,
+                "pair": [
+                  3.8273332057765583,
+                  3.6766266690672884
+                ],
+                "predicted_minus_measured": [
+                  -0.4756218013099729,
+                  -0.38922267219484485
+                ]
+              },
+              "measured": [
+                4.302955007086531,
+                4.065849341262133
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS14": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.010502453795265456,
+          "force_rms_eV_nm": 6.591978355620668e-07,
+          "iterations": 22
+        },
+        "rotated": {
+          "final_energy": 0.009858456650021115,
+          "force_rms_eV_nm": 1.9010238327258792e-06,
+          "iterations": 18
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.008596538737293729,
+                  0.022288868823161733
+                ],
+                "delta_vs_nominal": 0.015276885909386957,
+                "mean": 0.2919546851737346
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.27667779926434766
+              }
+            },
+            "qualified_common_width_sections": 31,
+            "shape_sections": 31,
+            "width_block_support": {
+              "occupied_blocks": [
+                12,
+                12,
+                15,
+                16
+              ],
+              "side_nm": 20.246461426256836
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.3130535576883842,
+                  0.6630822649425617
+                ],
+                "mean_absolute_error": 0.9016702504449574,
+                "mean_absolute_per_wall_error": 1.6668355800713948,
+                "pair": [
+                  5.424261381557592,
+                  5.088627772352221
+                ],
+                "predicted_minus_measured": [
+                  1.0777500598409224,
+                  0.7255904410489924
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.26218664346270515,
+                "mean_absolute_per_wall_error": 1.2662992805684385,
+                "pair": [
+                  4.695787641914023,
+                  4.538134298031285
+                ],
+                "predicted_minus_measured": [
+                  0.34927632019735366,
+                  0.17509696672805664
+                ]
+              },
+              "measured": [
+                4.34651132171667,
+                4.363037331303229
+              ]
+            }
+          },
+          "rotated": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.010605683530408288,
+                  0.0007405519251899961
+                ],
+                "delta_vs_nominal": -0.0049959910125695495,
+                "mean": 0.2567978665520229
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.26179385756459245
+              }
+            },
+            "qualified_common_width_sections": 31,
+            "shape_sections": 31,
+            "width_block_support": {
+              "occupied_blocks": [
+                12,
+                12,
+                15,
+                16
+              ],
+              "side_nm": 20.246461426256836
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.43560005111152955,
+                  -0.15316287338444612
+                ],
+                "mean_absolute_error": 0.25066917788872756,
+                "mean_absolute_per_wall_error": 0.9877955536730153,
+                "pair": [
+                  4.175500750467694,
+                  4.03270954677475
+                ],
+                "predicted_minus_measured": [
+                  -0.171010571248976,
+                  -0.3303277845284791
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.6789413762250018,
+                "mean_absolute_per_wall_error": 1.0370280848636901,
+                "pair": [
+                  3.7116462727053476,
+                  3.640019627864547
+                ],
+                "predicted_minus_measured": [
+                  -0.6348650490113221,
+                  -0.7230177034386815
+                ]
+              },
+              "measured": [
+                4.34651132171667,
+                4.363037331303229
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.004585008732909778,
+                  0.013090330807440839
+                ],
+                "delta_vs_nominal": 0.008940702045389009,
+                "mean": 0.3564675498667535
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.34752684782136467
+              }
+            },
+            "qualified_common_width_sections": 31,
+            "shape_sections": 31,
+            "width_block_support": {
+              "occupied_blocks": [
+                12,
+                12,
+                15,
+                16
+              ],
+              "side_nm": 20.246461426256836
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.39664888092407535,
+                  0.6710461820967073
+                ],
+                "mean_absolute_error": 0.9622943768018617,
+                "mean_absolute_per_wall_error": 1.7258788403364138,
+                "pair": [
+                  5.461734272649512,
+                  5.17240313397411
+                ],
+                "predicted_minus_measured": [
+                  1.115222950932842,
+                  0.8093658026708814
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.31572182542057936,
+                "mean_absolute_per_wall_error": 1.3104671592074832,
+                "pair": [
+                  4.730145318732205,
+                  4.610846985128852
+                ],
+                "predicted_minus_measured": [
+                  0.3836339970155356,
+                  0.24780965382562314
+                ]
+              },
+              "measured": [
+                4.34651132171667,
+                4.363037331303229
+              ]
+            }
+          },
+          "rotated": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.007981843229909807,
+                  0.0001187937571973559
+                ],
+                "delta_vs_nominal": -0.0039911332292854864,
+                "mean": 0.33153869270814773
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3355298259374333
+              }
+            },
+            "qualified_common_width_sections": 31,
+            "shape_sections": 31,
+            "width_block_support": {
+              "occupied_blocks": [
+                12,
+                12,
+                15,
+                16
+              ],
+              "side_nm": 20.246461426256836
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.4396311534597157,
+                  -0.07036729854055619
+                ],
+                "mean_absolute_error": 0.20560145001199448,
+                "mean_absolute_per_wall_error": 1.00454540096332,
+                "pair": [
+                  4.204349036175156,
+                  4.093996716820754
+                ],
+                "predicted_minus_measured": [
+                  -0.1421622855415139,
+                  -0.26904061448247507
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.6380944022096917,
+                "mean_absolute_per_wall_error": 1.0297894337751226,
+                "pair": [
+                  3.7390077966254243,
+                  3.6943520519750908
+                ],
+                "predicted_minus_measured": [
+                  -0.6075035250912455,
+                  -0.6686852793281379
+                ]
+              },
+              "measured": [
+                4.34651132171667,
+                4.363037331303229
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS2": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.006457366731926862,
+          "force_rms_eV_nm": 3.911783792916684e-06,
+          "iterations": 23
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.006042046926776558,
+                  0.01260175090847242
+                ],
+                "delta_vs_nominal": 0.00932189891762449,
+                "mean": 0.3179358509933224
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3086139520756979
+              }
+            },
+            "qualified_common_width_sections": 5,
+            "shape_sections": 6,
+            "width_block_support": {
+              "occupied_blocks": [
+                2,
+                3,
+                2,
+                4
+              ],
+              "side_nm": 32.10187396503705
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.030923738442353743,
+                  0.4874583831728041
+                ],
+                "mean_absolute_error": 0.3996699216561832,
+                "mean_absolute_per_wall_error": 0.5998251426244574,
+                "pair": [
+                  4.223594407527941,
+                  4.180608338080595
+                ],
+                "predicted_minus_measured": [
+                  0.1368124794065686,
+                  0.6625273639057978
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.28931282811140124,
+                "mean_absolute_per_wall_error": 0.39930568197102656,
+                "pair": [
+                  3.7208603113201577,
+                  3.7307850135963854
+                ],
+                "predicted_minus_measured": [
+                  -0.36592161680121427,
+                  0.21270403942158822
+                ]
+              },
+              "measured": [
+                4.086781928121372,
+                3.518080974174797
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.004285625120007944,
+                  0.013262009063855088
+                ],
+                "delta_vs_nominal": 0.008773817091931516,
+                "mean": 0.3779954285523943
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3692216114604629
+              }
+            },
+            "qualified_common_width_sections": 5,
+            "shape_sections": 6,
+            "width_block_support": {
+              "occupied_blocks": [
+                2,
+                3,
+                2,
+                4
+              ],
+              "side_nm": 32.10187396503705
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.030233966002222612,
+                  0.4702822085571772
+                ],
+                "mean_absolute_error": 0.4068642986996278,
+                "mean_absolute_per_wall_error": 0.6069803969528805,
+                "pair": [
+                  4.224482885890159,
+                  4.194108613805266
+                ],
+                "predicted_minus_measured": [
+                  0.13770095776878666,
+                  0.676027639630469
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.2948159841252487,
+                "mean_absolute_per_wall_error": 0.4048576168331435,
+                "pair": [
+                  3.721717797830517,
+                  3.7426488121344397
+                ],
+                "predicted_minus_measured": [
+                  -0.3650641302908548,
+                  0.22456783795964252
+                ]
+              },
+              "measured": [
+                4.086781928121372,
+                3.518080974174797
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS3": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.01954939157204648,
+          "force_rms_eV_nm": 2.9441763538946666e-07,
+          "iterations": 11
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0027528165635561626,
+                  0.000664906993934935
+                ],
+                "delta_vs_nominal": -0.001134651292095999,
+                "mean": 0.2357582215774606
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.2368928728695566
+              }
+            },
+            "qualified_common_width_sections": 39,
+            "shape_sections": 39,
+            "width_block_support": {
+              "occupied_blocks": [
+                16,
+                19,
+                17,
+                19
+              ],
+              "side_nm": 8.802833352447243
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.06278614190315472,
+                  0.048427117104858045
+                ],
+                "mean_absolute_error": 0.05025754494018275,
+                "mean_absolute_per_wall_error": 0.35152438786482076,
+                "pair": [
+                  3.801756871442976,
+                  2.075567632081635
+                ],
+                "predicted_minus_measured": [
+                  0.027935361680649695,
+                  0.07257972819971581
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.08174716841741292,
+                "mean_absolute_per_wall_error": 0.3631986158285006,
+                "pair": [
+                  3.9002375942674203,
+                  2.040066156211651
+                ],
+                "predicted_minus_measured": [
+                  0.1264160845050939,
+                  0.03707825232973194
+                ]
+              },
+              "measured": [
+                3.7738215097623264,
+                2.002987903881919
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0022881160733888998,
+                  -0.0001218850884639988
+                ],
+                "delta_vs_nominal": -0.0012431091113197163,
+                "mean": 0.3158196028868879
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3170627119982075
+              }
+            },
+            "qualified_common_width_sections": 39,
+            "shape_sections": 39,
+            "width_block_support": {
+              "occupied_blocks": [
+                16,
+                19,
+                17,
+                19
+              ],
+              "side_nm": 8.802833352447243
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.06300151793693287,
+                  0.04807645945323616
+                ],
+                "mean_absolute_error": 0.04569116343868029,
+                "mean_absolute_per_wall_error": 0.3524683716583436,
+                "pair": [
+                  3.7957948933425563,
+                  2.07239684717905
+                ],
+                "predicted_minus_measured": [
+                  0.02197338358022982,
+                  0.06940894329713077
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.07804408076169045,
+                "mean_absolute_per_wall_error": 0.3631043444761466,
+                "pair": [
+                  3.895501702008958,
+                  2.0373958731586685
+                ],
+                "predicted_minus_measured": [
+                  0.12168019224663151,
+                  0.034407969276749384
+                ]
+              },
+              "measured": [
+                3.7738215097623264,
+                2.002987903881919
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS4": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.0190587952406958,
+          "force_rms_eV_nm": 5.165912507278978e-07,
+          "iterations": 11
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.0015604037718165513,
+                  -0.0002455114826045641
+                ],
+                "delta_vs_nominal": -0.0008728849785240016,
+                "mean": 0.32576808257618317
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3266409675547072
+              }
+            },
+            "qualified_common_width_sections": 41,
+            "shape_sections": 41,
+            "width_block_support": {
+              "occupied_blocks": [
+                16,
+                17,
+                17,
+                20
+              ],
+              "side_nm": 9.339125672604888
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.043744954734019056,
+                  0.006065904098504577
+                ],
+                "mean_absolute_error": 0.09403643934765049,
+                "mean_absolute_per_wall_error": 0.44549046996657116,
+                "pair": [
+                  4.007658376023027,
+                  2.332447133093062
+                ],
+                "predicted_minus_measured": [
+                  0.14971243435675508,
+                  0.03836044433854591
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.09815068711939956,
+                "mean_absolute_per_wall_error": 0.4431816256345303,
+                "pair": [
+                  4.04764791312451,
+                  2.287487285973955
+                ],
+                "predicted_minus_measured": [
+                  0.18970197145823775,
+                  -0.00659940278056137
+                ]
+              },
+              "measured": [
+                3.857945941666272,
+                2.294086688754516
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.001038890792069415,
+                  1.6665070434721512e-05
+                ],
+                "delta_vs_nominal": -0.00048535519042300357,
+                "mean": 0.35375290073740895
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3542382559278319
+              }
+            },
+            "qualified_common_width_sections": 41,
+            "shape_sections": 41,
+            "width_block_support": {
+              "occupied_blocks": [
+                16,
+                17,
+                17,
+                20
+              ],
+              "side_nm": 9.339125672604888
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.04543337443453479,
+                  0.0055573975124309696
+                ],
+                "mean_absolute_error": 0.09783252682429278,
+                "mean_absolute_per_wall_error": 0.44430724132325183,
+                "pair": [
+                  4.012595831353657,
+                  2.3351018527157166
+                ],
+                "predicted_minus_measured": [
+                  0.15464988968738513,
+                  0.04101516396120042
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.1009425411034588,
+                "mean_absolute_per_wall_error": 0.4419136448620269,
+                "pair": [
+                  4.054702566515398,
+                  2.2889582313967245
+                ],
+                "predicted_minus_measured": [
+                  0.19675662484912593,
+                  -0.00512845735779166
+                ]
+              },
+              "measured": [
+                3.857945941666272,
+                2.294086688754516
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS6": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.018804062151970585,
+          "force_rms_eV_nm": 5.298031968357305e-07,
+          "iterations": 13
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.0016232816856057593,
+                  0.005155343974936646
+                ],
+                "delta_vs_nominal": 0.0033511367404356666,
+                "mean": 0.28024159578244767
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.27689045904201204
+              }
+            },
+            "qualified_common_width_sections": 29,
+            "shape_sections": 29,
+            "width_block_support": {
+              "occupied_blocks": [
+                11,
+                14,
+                15,
+                15
+              ],
+              "side_nm": 9.966818880602327
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.00039846058586877613,
+                  0.03684837771369381
+                ],
+                "mean_absolute_error": 0.14275726175711412,
+                "mean_absolute_per_wall_error": 0.35699071687403844,
+                "pair": [
+                  3.7414847499995023,
+                  2.1143676341006508
+                ],
+                "predicted_minus_measured": [
+                  -0.08327879354672207,
+                  0.20223572996750616
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.11372479899827714,
+                "mean_absolute_per_wall_error": 0.35747044295002306,
+                "pair": [
+                  3.7648513343726826,
+                  2.079669292956157
+                ],
+                "predicted_minus_measured": [
+                  -0.059912209173541786,
+                  0.1675373888230125
+                ]
+              },
+              "measured": [
+                3.8247635435462244,
+                1.9121319041331446
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  -0.002414526471277742,
+                  0.0008863024651575423
+                ],
+                "delta_vs_nominal": -0.0008746797751951234,
+                "mean": 0.4114246644474094
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.41229934422260445
+              }
+            },
+            "qualified_common_width_sections": 29,
+            "shape_sections": 29,
+            "width_block_support": {
+              "occupied_blocks": [
+                11,
+                14,
+                15,
+                15
+              ],
+              "side_nm": 9.966818880602327
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  6.646978481925648e-05,
+                  0.04665429159739776
+                ],
+                "mean_absolute_error": 0.13995465750135294,
+                "mean_absolute_per_wall_error": 0.3526747501235798,
+                "pair": [
+                  3.724076056205557,
+                  2.091353731795183
+                ],
+                "predicted_minus_measured": [
+                  -0.10068748734066757,
+                  0.1792218276620383
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.10216791490405941,
+                "mean_absolute_per_wall_error": 0.3369789625883209,
+                "pair": [
+                  3.7572196103390776,
+                  2.0489238007341166
+                ],
+                "predicted_minus_measured": [
+                  -0.0675439332071468,
+                  0.13679189660097202
+                ]
+              },
+              "measured": [
+                3.8247635435462244,
+                1.9121319041331446
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DS9": {
+      "landscape": {
+        "AA_minus_AB_meV_per_cell": 59.11199999999999,
+        "coefficients_meV_per_cell": [
+          29.732,
+          15.62,
+          -3.3419999999999996,
+          -2.484,
+          0.0,
+          0.0
+        ],
+        "saddle_meV_per_cell": 10.000000000000002,
+        "stable_curvature_eV_nm2": 10.239521848987073
+      },
+      "solvers": {
+        "nominal": {
+          "final_energy": 0.01570997691144206,
+          "force_rms_eV_nm": 4.454706649284013e-07,
+          "iterations": 14
+        }
+      },
+      "wall_scores": {
+        "separate_disjoint": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.0021224965426640393,
+                  0.006541901971817534
+                ],
+                "delta_vs_nominal": 0.004258376415896368,
+                "mean": 0.2504495368574466
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.24619116044155026
+              }
+            },
+            "qualified_common_width_sections": 19,
+            "shape_sections": 19,
+            "width_block_support": {
+              "occupied_blocks": [
+                8,
+                9,
+                8,
+                11
+              ],
+              "side_nm": 11.796373214676178
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.005713198152053331,
+                  0.1779361336650292
+                ],
+                "mean_absolute_error": 0.3042477624681834,
+                "mean_absolute_per_wall_error": 0.48495245019916133,
+                "pair": [
+                  4.015954804763422,
+                  3.1517570034483438
+                ],
+                "predicted_minus_measured": [
+                  0.37031818547949635,
+                  0.23817733945687047
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.14718859612850932,
+                "mean_absolute_per_wall_error": 0.4127790146415952,
+                "pair": [
+                  3.826054133042169,
+                  3.0275393424902486
+                ],
+                "predicted_minus_measured": [
+                  0.18041751375824333,
+                  0.11395967849877531
+                ]
+              },
+              "measured": [
+                3.6456366192839256,
+                2.9135796639914733
+              ]
+            }
+          }
+        },
+        "transferred_even": {
+          "nominal": {
+            "profile_error": {
+              "10": {
+                "delta_p05_p95": [
+                  0.0019589231007438087,
+                  0.004703101841363141
+                ],
+                "delta_vs_nominal": 0.003265652585674001,
+                "mean": 0.31928388783950457
+              },
+              "13.2": {
+                "delta_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "delta_vs_nominal": 0.0,
+                "mean": 0.3160182352538305
+              }
+            },
+            "qualified_common_width_sections": 19,
+            "shape_sections": 19,
+            "width_block_support": {
+              "occupied_blocks": [
+                8,
+                9,
+                8,
+                11
+              ],
+              "side_nm": 11.796373214676178
+            },
+            "widths_nm": {
+              "10": {
+                "delta_error_vs_nominal_p05_p95": [
+                  -0.0006548309694133624,
+                  0.177123757915627
+                ],
+                "mean_absolute_error": 0.3043538348944974,
+                "mean_absolute_per_wall_error": 0.48613525543770797,
+                "pair": [
+                  4.010510110553307,
+                  3.1574138425110867
+                ],
+                "predicted_minus_measured": [
+                  0.3648734912693814,
+                  0.24383417851961342
+                ]
+              },
+              "13.2": {
+                "delta_error_vs_nominal_p05_p95": [
+                  0.0,
+                  0.0
+                ],
+                "mean_absolute_error": 0.14777505570834948,
+                "mean_absolute_per_wall_error": 0.41387892279124944,
+                "pair": [
+                  3.821480531562396,
+                  3.0332858631297017
+                ],
+                "predicted_minus_measured": [
+                  0.17584391227847052,
+                  0.11970619913822844
+                ]
+              },
+              "measured": [
+                3.6456366192839256,
+                2.9135796639914733
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

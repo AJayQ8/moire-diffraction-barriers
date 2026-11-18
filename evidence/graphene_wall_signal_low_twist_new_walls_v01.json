@@ -1,0 +1,435 @@
+{
+  "apertures": [
+    {
+      "common_aperture_walls": {
+        "absolute_median_gap_error_nm": 0.6826559289568221,
+        "common_model_pairs": 14,
+        "magnitude_vs_repeatability": "unresolved",
+        "models": {
+          "isolated": {
+            "gap_mae_nm": 1.9006828944018468,
+            "gap_nm_median": 0.026642078824456128,
+            "mean_cross_ring_errors": [
+              0.6214787115088567,
+              0.7764839966178168
+            ],
+            "qualified_gap_pairs": 14
+          },
+          "periodic": {
+            "gap_mae_nm": 1.3868919975598537,
+            "gap_nm_median": 2.4874162529056316,
+            "mean_cross_ring_errors": [
+              0.5910863358273716,
+              0.7665612323460589
+            ],
+            "qualified_gap_pairs": 14
+          }
+        },
+        "observed_gap_nm_median": 1.8047603239488095,
+        "observed_gap_on_common_pairs_nm_median": 1.8047603239488095,
+        "observed_widths_nm_median": [
+          7.281743607694436,
+          5.56351623059365
+        ],
+        "opposite_gap_med_abs_difference_nm": 2.064167375764496,
+        "opposite_triplet_pairs": 6,
+        "paired_widths": 14,
+        "positive_gaps": 12,
+        "profile_errors_all_geometry_chords": {
+          "isolated": [
+            0.6214787115088567,
+            0.7764839966178168
+          ],
+          "periodic": [
+            0.5910863358273716,
+            0.7665612323460589
+          ]
+        },
+        "source_ring_fitted_isolated_mean_cross_ring_errors": [
+          0.6277926733406842,
+          0.787901036069338
+        ],
+        "spacing_nm_median": 16.800643789284642,
+        "wall_candidates": 14
+      },
+      "full_field": {
+        "absolute_median_gap_error_nm": 0.6826559289568221,
+        "common_model_pairs": 14,
+        "magnitude_vs_repeatability": "unresolved",
+        "models": {
+          "isolated": {
+            "gap_mae_nm": 1.9006828944018468,
+            "gap_nm_median": 0.026642078824456128,
+            "mean_cross_ring_errors": [
+              0.6214787115088567,
+              0.7764839966178168
+            ],
+            "qualified_gap_pairs": 14
+          },
+          "periodic": {
+            "gap_mae_nm": 1.3868919975598537,
+            "gap_nm_median": 2.4874162529056316,
+            "mean_cross_ring_errors": [
+              0.5910863358273716,
+              0.7665612323460589
+            ],
+            "qualified_gap_pairs": 14
+          }
+        },
+        "observed_gap_nm_median": 1.8047603239488095,
+        "observed_gap_on_common_pairs_nm_median": 1.8047603239488095,
+        "observed_widths_nm_median": [
+          7.281743607694436,
+          5.56351623059365
+        ],
+        "opposite_gap_med_abs_difference_nm": 2.064167375764496,
+        "opposite_triplet_pairs": 6,
+        "paired_widths": 14,
+        "positive_gaps": 12,
+        "profile_errors_all_geometry_chords": {
+          "isolated": [
+            0.6170922598530948,
+            0.7795501971545605
+          ],
+          "periodic": [
+            0.6095326614551104,
+            0.7688026778224977
+          ]
+        },
+        "source_ring_fitted_isolated_mean_cross_ring_errors": [
+          0.6277926733406842,
+          0.787901036069338
+        ],
+        "spacing_nm_median": 16.800643789284642,
+        "wall_candidates": 22
+      },
+      "new_wall_positions": {
+        "paired_widths": 0,
+        "wall_candidates": 0
+      },
+      "unmatched_to_original_chords": {
+        "1.5": {
+          "absolute_median_gap_error_nm": 0.3624908171055772,
+          "common_model_pairs": 12,
+          "magnitude_vs_repeatability": "unresolved",
+          "models": {
+            "isolated": {
+              "gap_mae_nm": 2.1513788025256577,
+              "gap_nm_median": 0.026642078824456128,
+              "mean_cross_ring_errors": [
+                0.6241128737249926,
+                0.7773251672681732
+              ],
+              "qualified_gap_pairs": 12
+            },
+            "periodic": {
+              "gap_mae_nm": 1.2295653113720846,
+              "gap_nm_median": 2.464270110021419,
+              "mean_cross_ring_errors": [
+                0.5913614381684843,
+                0.7737830996058048
+              ],
+              "qualified_gap_pairs": 12
+            }
+          },
+          "observed_gap_nm_median": 2.101779292915842,
+          "observed_gap_on_common_pairs_nm_median": 2.101779292915842,
+          "observed_widths_nm_median": [
+            7.688719909898122,
+            5.4307376158215295
+          ],
+          "opposite_gap_med_abs_difference_nm": 1.8450518806242897,
+          "opposite_triplet_pairs": 5,
+          "paired_widths": 12,
+          "positive_gaps": 11,
+          "profile_errors_all_geometry_chords": {
+            "isolated": [
+              0.6182341120172002,
+              0.7803615195984488
+            ],
+            "periodic": [
+              0.611542355422552,
+              0.7733599427259891
+            ]
+          },
+          "source_ring_fitted_isolated_mean_cross_ring_errors": [
+            0.6342878648557649,
+            0.7913593649780354
+          ],
+          "spacing_nm_median": 16.800643789284642,
+          "wall_candidates": 20
+        },
+        "3.0": {
+          "absolute_median_gap_error_nm": 0.3624908171055772,
+          "common_model_pairs": 12,
+          "magnitude_vs_repeatability": "unresolved",
+          "models": {
+            "isolated": {
+              "gap_mae_nm": 2.1513788025256577,
+              "gap_nm_median": 0.026642078824456128,
+              "mean_cross_ring_errors": [
+                0.6241128737249926,
+                0.7773251672681732
+              ],
+              "qualified_gap_pairs": 12
+            },
+            "periodic": {
+              "gap_mae_nm": 1.2295653113720846,
+              "gap_nm_median": 2.464270110021419,
+              "mean_cross_ring_errors": [
+                0.5913614381684843,
+                0.7737830996058048
+              ],
+              "qualified_gap_pairs": 12
+            }
+          },
+          "observed_gap_nm_median": 2.101779292915842,
+          "observed_gap_on_common_pairs_nm_median": 2.101779292915842,
+          "observed_widths_nm_median": [
+            7.688719909898122,
+            5.4307376158215295
+          ],
+          "opposite_gap_med_abs_difference_nm": 1.8450518806242897,
+          "opposite_triplet_pairs": 5,
+          "paired_widths": 12,
+          "positive_gaps": 11,
+          "profile_errors_all_geometry_chords": {
+            "isolated": [
+              0.6198046251765931,
+              0.7812294496518465
+            ],
+            "periodic": [
+              0.6028369597354082,
+              0.7735695826964486
+            ]
+          },
+          "source_ring_fitted_isolated_mean_cross_ring_errors": [
+            0.6342878648557649,
+            0.7913593649780354
+          ],
+          "spacing_nm_median": 16.800643789284642,
+          "wall_candidates": 19
+        }
+      }
+    },
+    {
+      "common_aperture_walls": {
+        "absolute_median_gap_error_nm": 0.5961287458493114,
+        "common_model_pairs": 14,
+        "magnitude_vs_repeatability": "unresolved",
+        "models": {
+          "isolated": {
+            "gap_mae_nm": 2.015746142355808,
+            "gap_nm_median": 0.026642078824456128,
+            "mean_cross_ring_errors": [
+              0.6037274690238764,
+              0.7346644373774023
+            ],
+            "qualified_gap_pairs": 14
+          },
+          "periodic": {
+            "gap_mae_nm": 1.2733720230417647,
+            "gap_nm_median": 2.4874162529056316,
+            "mean_cross_ring_errors": [
+              0.5655621711124088,
+              0.7239528973226016
+            ],
+            "qualified_gap_pairs": 14
+          }
+        },
+        "observed_gap_nm_median": 1.8912875070563202,
+        "observed_gap_on_common_pairs_nm_median": 1.8912875070563202,
+        "observed_widths_nm_median": [
+          7.714750206178062,
+          5.521939736355329
+        ],
+        "opposite_gap_med_abs_difference_nm": 0.7417759035363378,
+        "opposite_triplet_pairs": 3,
+        "paired_widths": 14,
+        "positive_gaps": 12,
+        "profile_errors_all_geometry_chords": {
+          "isolated": [
+            0.6037274690238764,
+            0.7346644373774023
+          ],
+          "periodic": [
+            0.5655621711124088,
+            0.7239528973226016
+          ]
+        },
+        "source_ring_fitted_isolated_mean_cross_ring_errors": [
+          0.6099149067170417,
+          0.7482812400496984
+        ],
+        "spacing_nm_median": 16.800643789284642,
+        "wall_candidates": 14
+      },
+      "full_field": {
+        "absolute_median_gap_error_nm": 0.007474280539329747,
+        "common_model_pairs": 17,
+        "magnitude_vs_repeatability": "unresolved",
+        "models": {
+          "isolated": {
+            "gap_mae_nm": 2.1501275965890083,
+            "gap_nm_median": 0.026506798991892566,
+            "mean_cross_ring_errors": [
+              0.5984780357929929,
+              0.7393846558759161
+            ],
+            "qualified_gap_pairs": 17
+          },
+          "periodic": {
+            "gap_mae_nm": 1.1697172619211305,
+            "gap_nm_median": 2.4822780182184196,
+            "mean_cross_ring_errors": [
+              0.5633492678219865,
+              0.729567748937562
+            ],
+            "qualified_gap_pairs": 17
+          }
+        },
+        "observed_gap_nm_median": 2.47480373767909,
+        "observed_gap_on_common_pairs_nm_median": 2.47480373767909,
+        "observed_widths_nm_median": [
+          7.801695613257203,
+          5.6834842949349955
+        ],
+        "opposite_gap_med_abs_difference_nm": 0.7417759035363378,
+        "opposite_triplet_pairs": 3,
+        "paired_widths": 17,
+        "positive_gaps": 15,
+        "profile_errors_all_geometry_chords": {
+          "isolated": [
+            0.5970512209394664,
+            0.7362668502466726
+          ],
+          "periodic": [
+            0.5789404570113132,
+            0.7239812410486984
+          ]
+        },
+        "source_ring_fitted_isolated_mean_cross_ring_errors": [
+          0.6084778688569263,
+          0.7527854249194311
+        ],
+        "spacing_nm_median": 16.85898884263063,
+        "wall_candidates": 22
+      },
+      "new_wall_positions": {
+        "paired_widths": 0,
+        "wall_candidates": 0
+      },
+      "unmatched_to_original_chords": {
+        "1.5": {
+          "absolute_median_gap_error_nm": 0.25586437381538296,
+          "common_model_pairs": 15,
+          "magnitude_vs_repeatability": "unresolved",
+          "models": {
+            "isolated": {
+              "gap_mae_nm": 2.362354045722318,
+              "gap_nm_median": 0.026506798991892566,
+              "mean_cross_ring_errors": [
+                0.6009610659758611,
+                0.7394128619369541
+              ],
+              "qualified_gap_pairs": 15
+            },
+            "periodic": {
+              "gap_mae_nm": 1.0425233913523466,
+              "gap_nm_median": 2.4359857324499945,
+              "mean_cross_ring_errors": [
+                0.5645997663398126,
+                0.7348020235070827
+              ],
+              "qualified_gap_pairs": 15
+            }
+          },
+          "observed_gap_nm_median": 2.6918501062653775,
+          "observed_gap_on_common_pairs_nm_median": 2.6918501062653775,
+          "observed_widths_nm_median": [
+            7.85278289013917,
+            5.6834842949349955
+          ],
+          "opposite_gap_med_abs_difference_nm": 0.3963136738033204,
+          "opposite_triplet_pairs": 2,
+          "paired_widths": 15,
+          "positive_gaps": 14,
+          "profile_errors_all_geometry_chords": {
+            "isolated": [
+              0.5987708120912649,
+              0.7359762242295269
+            ],
+            "periodic": [
+              0.5814374498186156,
+              0.7273482961869525
+            ]
+          },
+          "source_ring_fitted_isolated_mean_cross_ring_errors": [
+            0.6142441082086542,
+            0.7547492800212827
+          ],
+          "spacing_nm_median": 16.85898884263063,
+          "wall_candidates": 20
+        },
+        "3.0": {
+          "absolute_median_gap_error_nm": 0.25586437381538296,
+          "common_model_pairs": 15,
+          "magnitude_vs_repeatability": "unresolved",
+          "models": {
+            "isolated": {
+              "gap_mae_nm": 2.362354045722318,
+              "gap_nm_median": 0.026506798991892566,
+              "mean_cross_ring_errors": [
+                0.6009610659758611,
+                0.7394128619369541
+              ],
+              "qualified_gap_pairs": 15
+            },
+            "periodic": {
+              "gap_mae_nm": 1.0425233913523466,
+              "gap_nm_median": 2.4359857324499945,
+              "mean_cross_ring_errors": [
+                0.5645997663398126,
+                0.7348020235070827
+              ],
+              "qualified_gap_pairs": 15
+            }
+          },
+          "observed_gap_nm_median": 2.6918501062653775,
+          "observed_gap_on_common_pairs_nm_median": 2.6918501062653775,
+          "observed_widths_nm_median": [
+            7.85278289013917,
+            5.6834842949349955
+          ],
+          "opposite_gap_med_abs_difference_nm": 0.3963136738033204,
+          "opposite_triplet_pairs": 2,
+          "paired_widths": 15,
+          "positive_gaps": 14,
+          "profile_errors_all_geometry_chords": {
+            "isolated": [
+              0.6005201681188979,
+              0.7370597457278341
+            ],
+            "periodic": [
+              0.5712439506654402,
+              0.7278427768410708
+            ]
+          },
+          "source_ring_fitted_isolated_mean_cross_ring_errors": [
+            0.6142441082086542,
+            0.7547492800212827
+          ],
+          "spacing_nm_median": 16.85898884263063,
+          "wall_candidates": 19
+        }
+      }
+    }
+  ],
+  "inputs_sha256": {
+    "graphene_wall_signal_author_apertures_v01.json": "fc1db56ac86e2206fcf46ef95ce4579cd97872dde27a42132e560f80d0330232",
+    "graphene_wall_signal_low_twist_coverage_protocol_v01.json": "40d84fea720e4af5dc2f35c5c435531a65e1400bea1addc7d415c4c0061ad766",
+    "graphene_wall_signal_low_twist_coverage_v01.json": "f523aff236b58d3e5516fdb047ca77b8ad349b95cbbf8e5f0cd48f2101256c1a",
+    "summarize_graphene_low_twist_coverage.py": "5a88b853fcf4592892fa497388833e6dbd1c77ba0203756647ed68507989e2a1"
+  },
+  "scope": "The frozen new-position set uses centers at least 5 nm outside the old rectangle. The retrospective chord audit compares geometrically matched observations. New chords can fall inside the rectangle because the larger image includes the stacking centers that qualify their geometry."
+}

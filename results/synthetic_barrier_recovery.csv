@@ -1,0 +1,7 @@
+nominal_spacing_nm,synthetic_condition,model,median_absolute_relative_barrier_error_percent,within_20_percent_fraction,realizations
+8.5,nominal,isolated,85.30634106400005,0.0,36
+8.5,nominal,periodic,4.595633005508648,1.0,36
+8.5,variable_probe,isolated,41.02401105167959,0.3611111111111111,36
+8.5,variable_probe,periodic,10.095088597135572,0.8611111111111112,36
+8.5,variable_probe_and_landscape,isolated,49.656101010449404,0.2777777777777778,36
+8.5,variable_probe_and_landscape,periodic,11.456796064516967,0.75,36
