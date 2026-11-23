@@ -1,12 +1,14 @@
 # Interlayer relaxation and diffraction-based sliding-barrier inference in twisted bilayer MoS₂
 
-**Release:** v021 (2026-11-18)  
-**Repository:** https://github.com/AJayQ8/moire-diffraction-barriers  
-**Version DOI:** https://doi.org/10.5281/zenodo.24334588
+**Release:** v022 (2026-11-23)
+
+**Repository:** https://github.com/AJayQ8/moire-diffraction-barriers
+
+**Version DOI:** https://doi.org/10.5281/zenodo.24456343
 
 This release contains the continuum relaxation implementation, archived analysis
-and replay code, checksummed result records, representative fitted wall
-measurements, and standalone v021 figures with generation scripts.
+and replay code, checksummed result records, the fitted wall measurements,
+and scripts to reproduce the numerical comparisons and figures for all 14 maps.
 
 ## Scientific scope and saved results
 
@@ -14,6 +16,10 @@ The periodic model implements the published continuum mechanics for twisted
 bilayer MoS₂ and compares its diffraction-derived wall-width predictions with
 an isolated-wall model.
 
+- Across all ten maps with closely spaced walls (272 matched wall segments), the
+  mean absolute error in the map-averaged first-minus-second-order width
+  difference is **1.366 nm** for isolated walls and **0.183 nm** for the relaxed
+  network. These ten comprise the six maps below and DS5, DS7, DS8 and DS11.
 - On 168 matched wall segments in six closer-spaced maps (DS3, DS4, DS6, DS9,
   DS10, DS12), the mean map-level absolute error in the first-minus-second
   fitted-width difference is **1.342 nm** for the isolated wall and **0.156 nm**
@@ -51,14 +57,17 @@ Use Python 3.12 for the pinned NumPy 1.26.4 environment. From the repository roo
     shasum -a 256 -c SHA256SUMS
     (cd evidence && shasum -a 256 -c SHA256SUMS)
     python3 analysis/export_release_tables.py
-    sh analysis/rebuild_v021_figures.sh
+    python3 analysis/summarize_mos2_spacing_and_weighting.py
+    python3 analysis/summarize_mos2_additional_widths.py --tex additional-map-widths.tex
+    sh analysis/rebuild_figures.sh
 
-The commands reproduce numerical tables and figures from saved records; they
-do not run physical simulations. One figure command recomputes the spatial-block
-summary from saved map records using the archived seed. The main v021 figures are in
-manuscript/figures/; that directory contains figure source and images only.
-The archived table-generation source is in manuscript/tables/. The standalone
-CSV exporter writes directly from saved evidence.
+The commands use the archived fits to reproduce the comparisons, the supplementary
+table of four additional maps and all 11 main and supplementary figures. The
+current figures and their source are in `manuscript/current_figures/`. The
+[width-analysis instructions](analysis/width-analysis.md) also describe how to
+check the original diffraction image against the 14 published scan archives.
+The older figures remain available under `manuscript/figures/` and can be
+rebuilt with `sh analysis/rebuild_v021_figures.sh`.
 
 SHA256SUMS checks the complete release tree. The file
 replay/ARCHIVED_INPUT_HASHES.json links replay inputs and scripts to saved
@@ -80,7 +89,7 @@ processed scan ZIPs and pinned author reader, which are not bundled:
    https://doi.org/10.5281/zenodo.7865970, and place the original DS*.zip
    files in a directory.
 2. Download the pinned pyInterferometry release from
-   https://doi.org/10.5281/zenodo.7863859. Keep the downloaded archive named
+   https://doi.org/10.5281/zenodo.7863860. Keep the downloaded archive named
    release.zip and extract it in the same directory; use the extracted src/
    directory. The replay checks the archive MD5 and source commit.
 3. Install the reader dependencies alongside requirements.txt: gekko==1.3.0,

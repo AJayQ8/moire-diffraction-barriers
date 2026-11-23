@@ -1,0 +1,447 @@
+{
+  "investigation": "Can public diffraction evidence distinguish the archived and 30 degree alternative crystal orientations in MoS2 scans DS13 or DS14?",
+  "date": "2026-11-21",
+  "sources": {
+    "publication_figure": "https://www.nature.com/articles/s41467-023-38504-7/figures/1",
+    "author_figure_source": "https://arxiv.org/src/2212.07006v2",
+    "figure_source_member": "Fig1.pdf, PDF image xref 123, left homobilayer diffraction panel in the preprint. The same central-beam shadow and full bright-spot arrangement appear in the final article Fig. 1b.",
+    "fig1_pdf_sha256": "4c3196b58ca48463eac71ff943d887103d67883d9c9c25ec351e31ce8e3091db",
+    "author_disksets": "https://zenodo.org/records/7865970",
+    "checked_zip_md5": {
+      "DS13": "e11b546c7d968121a8da16c6be21c133",
+      "DS14": "f62cfd7ec915ac1d9bfffc97538e2b02"
+    },
+    "additional_code_search": "https://github.com/bediakolab/pyInterferometry"
+  },
+  "method": [
+    "Use the 434 x 432 source RGB raster before overlaid figure labels, with x rightward and y downward. The source image is fully opaque. Use the 12 MoS2 spots nearest radii 55 and 96 image pixels and the five unobscured bright first-ring hBN spots at radius about 70. Exclude the hBN spot crossed by the beam stop.",
+    "At each green-channel level 115, 135 or 155 on the 8-bit RGB image, take the green-intensity weighted centroid of each connected spot. Output coordinates for 135 are given below.",
+    "Read saved _xvec and _yvec coordinates and the _in_use mask in DS1 through DS14 diskset.pkl. Twelve in-use peaks make the two MoS2 rings. Begin from each of the six assignments of the first ring and both handedness conventions. For each assignment, match the twelve MoS2 peaks and fit an affine transformation including translation by ordinary least squares. Apply it to all remaining stored peak centers.",
+    "Assign the five hBN source centers one-to-one to distinct unused archive peaks using minimum total Euclidean distance (linear_sum_assignment). Score their root mean square Euclidean separation and take its lowest value among the twelve conventions. The MoS2 RMS quoted alongside is from that same assignment.",
+    "The comparison is a provenance check using different sets of diffraction spots. Source intensity levels and spot centers carry no fitted wall-model inputs. Absolute scan-to-crystal rotation is not obtained from this calculation."
+  ],
+  "native_coordinates_at_level_135": {
+    "MoS2_xy": [
+      [
+        230.03494704343726,
+        137.98490630761975
+      ],
+      [
+        174.4784705882353,
+        141.86137254901962
+      ],
+      [
+        149.28118541968956,
+        191.0085740667458
+      ],
+      [
+        179.55168784301932,
+        236.56067212991505
+      ],
+      [
+        235.0846357082083,
+        232.73995790604988
+      ],
+      [
+        260.37981224361,
+        183.53423792994636
+      ],
+      [
+        199.3921521279807,
+        91.96839722306068
+      ],
+      [
+        118.68972223910534,
+        145.35060475293258
+      ],
+      [
+        124.26988809147306,
+        240.40229290840531
+      ],
+      [
+        209.97996237345836,
+        282.4892047660286
+      ],
+      [
+        290.7406079027356,
+        229.06398176291793
+      ],
+      [
+        285.67325376042874,
+        133.9933317093965
+      ]
+    ],
+    "hBN_xy": [
+      [
+        250.00503454882698,
+        134.08134770999368
+      ],
+      [
+        135.75414153598715,
+        176.27780458383594
+      ],
+      [
+        159.5554710308812,
+        241.1654262099593
+      ],
+      [
+        228.457265404331,
+        252.43812114237892
+      ],
+      [
+        273.76668144301607,
+        198.85113883435713
+      ]
+    ]
+  },
+  "source_image_pixel_residuals": {
+    "115": {
+      "DS1": {
+        "MoS2_rms_px": 1.028,
+        "hBN_rms_px": 2.751
+      },
+      "DS2": {
+        "MoS2_rms_px": 0.994,
+        "hBN_rms_px": 2.617
+      },
+      "DS3": {
+        "MoS2_rms_px": 0.316,
+        "hBN_rms_px": 0.597
+      },
+      "DS4": {
+        "MoS2_rms_px": 0.609,
+        "hBN_rms_px": 0.599
+      },
+      "DS5": {
+        "MoS2_rms_px": 0.276,
+        "hBN_rms_px": 0.328
+      },
+      "DS6": {
+        "MoS2_rms_px": 0.23,
+        "hBN_rms_px": 0.668
+      },
+      "DS7": {
+        "MoS2_rms_px": 0.3,
+        "hBN_rms_px": 0.587
+      },
+      "DS8": {
+        "MoS2_rms_px": 0.314,
+        "hBN_rms_px": 0.786
+      },
+      "DS9": {
+        "MoS2_rms_px": 0.524,
+        "hBN_rms_px": 0.814
+      },
+      "DS10": {
+        "MoS2_rms_px": 0.566,
+        "hBN_rms_px": 0.658
+      },
+      "DS11": {
+        "MoS2_rms_px": 0.562,
+        "hBN_rms_px": 0.476
+      },
+      "DS12": {
+        "MoS2_rms_px": 0.264,
+        "hBN_rms_px": 0.832
+      },
+      "DS13": {
+        "MoS2_rms_px": 0.534,
+        "hBN_rms_px": 10.158
+      },
+      "DS14": {
+        "MoS2_rms_px": 0.441,
+        "hBN_rms_px": 10.015
+      }
+    },
+    "135": {
+      "DS1": {
+        "MoS2_rms_px": 1.042,
+        "hBN_rms_px": 2.751
+      },
+      "DS2": {
+        "MoS2_rms_px": 0.995,
+        "hBN_rms_px": 2.616
+      },
+      "DS3": {
+        "MoS2_rms_px": 0.312,
+        "hBN_rms_px": 0.549
+      },
+      "DS4": {
+        "MoS2_rms_px": 0.605,
+        "hBN_rms_px": 0.609
+      },
+      "DS5": {
+        "MoS2_rms_px": 0.278,
+        "hBN_rms_px": 0.255
+      },
+      "DS6": {
+        "MoS2_rms_px": 0.217,
+        "hBN_rms_px": 0.647
+      },
+      "DS7": {
+        "MoS2_rms_px": 0.296,
+        "hBN_rms_px": 0.553
+      },
+      "DS8": {
+        "MoS2_rms_px": 0.306,
+        "hBN_rms_px": 0.776
+      },
+      "DS9": {
+        "MoS2_rms_px": 0.514,
+        "hBN_rms_px": 0.825
+      },
+      "DS10": {
+        "MoS2_rms_px": 0.564,
+        "hBN_rms_px": 0.666
+      },
+      "DS11": {
+        "MoS2_rms_px": 0.563,
+        "hBN_rms_px": 0.455
+      },
+      "DS12": {
+        "MoS2_rms_px": 0.263,
+        "hBN_rms_px": 0.821
+      },
+      "DS13": {
+        "MoS2_rms_px": 0.53,
+        "hBN_rms_px": 10.159
+      },
+      "DS14": {
+        "MoS2_rms_px": 0.444,
+        "hBN_rms_px": 10.017
+      }
+    },
+    "155": {
+      "DS1": {
+        "MoS2_rms_px": 1.033,
+        "hBN_rms_px": 2.804
+      },
+      "DS2": {
+        "MoS2_rms_px": 0.987,
+        "hBN_rms_px": 2.672
+      },
+      "DS3": {
+        "MoS2_rms_px": 0.371,
+        "hBN_rms_px": 0.6
+      },
+      "DS4": {
+        "MoS2_rms_px": 0.623,
+        "hBN_rms_px": 0.694
+      },
+      "DS5": {
+        "MoS2_rms_px": 0.324,
+        "hBN_rms_px": 0.334
+      },
+      "DS6": {
+        "MoS2_rms_px": 0.26,
+        "hBN_rms_px": 0.717
+      },
+      "DS7": {
+        "MoS2_rms_px": 0.348,
+        "hBN_rms_px": 0.596
+      },
+      "DS8": {
+        "MoS2_rms_px": 0.341,
+        "hBN_rms_px": 0.854
+      },
+      "DS9": {
+        "MoS2_rms_px": 0.536,
+        "hBN_rms_px": 0.914
+      },
+      "DS10": {
+        "MoS2_rms_px": 0.574,
+        "hBN_rms_px": 0.776
+      },
+      "DS11": {
+        "MoS2_rms_px": 0.604,
+        "hBN_rms_px": 0.483
+      },
+      "DS12": {
+        "MoS2_rms_px": 0.299,
+        "hBN_rms_px": 0.892
+      },
+      "DS13": {
+        "MoS2_rms_px": 0.547,
+        "hBN_rms_px": 10.109
+      },
+      "DS14": {
+        "MoS2_rms_px": 0.458,
+        "hBN_rms_px": 9.969
+      }
+    }
+  },
+  "individual_hBN_residuals_at_level_135_px": {
+    "DS13": [
+      9.827,
+      10.591,
+      10.377,
+      10.057,
+      9.925
+    ],
+    "DS14": [
+      9.7,
+      10.501,
+      10.412,
+      9.741,
+      9.7
+    ]
+  },
+  "archive_inspection": {
+    "unused_disks_with_nonzero_real_space_intensity": {
+      "DS13": "0 of 297",
+      "DS14": "0 of 280"
+    },
+    "recorded_camera_to_scan_correction_deg_in_both": -11.3,
+    "scan_specific_independent_calibration_found": false,
+    "sole_raw_DM4_in_paper_deposit": "DS31, different material region"
+  },
+  "interpretation": "The source panel shows a strong recognizable hBN diffraction pattern, but it differs from the DS13/14 archived spot lists. The five-spot check gives subpixel agreement for the ten DS3 to DS12 controls. This rules out assigning the image as an independent angular reference for DS14 on the strength of the archive index. It does not identify the source acquisition uniquely or establish the true orientation of either target scan.",
+  "native_coordinates_at_level_115": {
+    "MoS2_xy": [
+      [
+        230.08922969675845,
+        138.02947213508384
+      ],
+      [
+        174.48114231938612,
+        141.67844216012742
+      ],
+      [
+        149.32385627331632,
+        191.06267425878656
+      ],
+      [
+        179.51893780573025,
+        236.55730258560448
+      ],
+      [
+        235.0761800477103,
+        232.7650463415588
+      ],
+      [
+        260.3387791741472,
+        183.59780969479354
+      ],
+      [
+        199.41839892561018,
+        91.9347483358636
+      ],
+      [
+        118.6128098216354,
+        145.44657748436416
+      ],
+      [
+        124.16752621626267,
+        240.41659503753365
+      ],
+      [
+        209.86999285203717,
+        282.4485775553967
+      ],
+      [
+        290.7332173707951,
+        229.04027241369144
+      ],
+      [
+        285.694691945897,
+        133.99623148607986
+      ]
+    ],
+    "hBN_xy": [
+      [
+        250.0306124487961,
+        134.10888200619442
+      ],
+      [
+        135.77503448007926,
+        176.36999553215875
+      ],
+      [
+        159.58790693965432,
+        241.10440381970056
+      ],
+      [
+        228.401453794444,
+        252.38817121567993
+      ],
+      [
+        273.74582083154735,
+        198.94370624374912
+      ]
+    ]
+  },
+  "native_coordinates_at_level_155": {
+    "MoS2_xy": [
+      [
+        229.99569332199064,
+        138.011378136963
+      ],
+      [
+        174.52316530763528,
+        141.6194866567828
+      ],
+      [
+        149.3602909248806,
+        191.0562852800695
+      ],
+      [
+        179.48029545756114,
+        236.43659604582245
+      ],
+      [
+        235.01143406710835,
+        232.66061124171833
+      ],
+      [
+        260.41714363586806,
+        183.49291360043608
+      ],
+      [
+        199.2399454895965,
+        91.88642558000399
+      ],
+      [
+        118.72230587927197,
+        145.35727379861203
+      ],
+      [
+        124.16494444624405,
+        240.45366201289235
+      ],
+      [
+        210.10740382369625,
+        282.4205732207801
+      ],
+      [
+        290.8507201374207,
+        228.8176532769556
+      ],
+      [
+        285.5309640278194,
+        133.85501314432133
+      ]
+    ],
+    "hBN_xy": [
+      [
+        250.1493431715431,
+        134.0610765162501
+      ],
+      [
+        135.65811220464266,
+        176.34954943731572
+      ],
+      [
+        159.50336065401066,
+        241.20536861844462
+      ],
+      [
+        228.42210591793398,
+        252.40284421183586
+      ],
+      [
+        273.73861131119986,
+        198.7851264924803
+      ]
+    ]
+  }
+}

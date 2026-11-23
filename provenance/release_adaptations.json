@@ -24,6 +24,14 @@
     {
       "change": "Changed the default scan-archive directory from an AJ-specific temporary path to a portable package-relative data/processed_mos2 location.",
       "file": "replay/observe_bilayers.py"
+    },
+    {
+      "file": "manuscript/current_figures/",
+      "change": "Figure sources and PDFs for all 14 parallel-stacked maps. The current and earlier plot scripts have separate output directories. Shared plotting support uses the same portable replay defaults as the preceding release."
+    },
+    {
+      "file": "analysis/rebuild_figures.sh",
+      "change": "Runs the five plotting commands for the 11 figures used in the article and its supplement."
     }
   ]
 }

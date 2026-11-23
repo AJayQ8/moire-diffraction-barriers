@@ -34,7 +34,7 @@ and hashes.
 ## External analysis software
 
 The replay code can load the pinned author release of pyInterferometry:
-https://doi.org/10.5281/zenodo.7863859, source commit
+https://doi.org/10.5281/zenodo.7863860, source commit
 85f21dd9134b600000e517ad1b22acc725571376. That software is not included in
 this release. Obtain it from its source record and follow its own license and
 attribution terms. This release does not make or imply a license claim over
